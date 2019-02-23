@@ -6,11 +6,11 @@ License: MIT
 Section: net
 Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
 Architecture: brcm63xx-tch
-Installed-Size: 24509
+Installed-Size: 24512
 Filename: ahcpd_0.53-2_brcm63xx-tch.ipk
-Size: 25382
-MD5Sum: bc77e65085be8085c514cce12b7f5af7
-SHA256sum: 23748ab72bffaf5cd6e64f42577c346291029c74c9a899be6dd197bc3a134edc
+Size: 25327
+MD5Sum: cde7f8bc55e1fadb47936c944af72027
+SHA256sum: 6af6130abf9d073b6ab84131d1bbd125c1f5549bc7661d05285d3bee358b3a53
 Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
  Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
  networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
@@ -24,11 +24,11 @@ License: GPL-3.0+
 Section: net
 Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
 Architecture: brcm63xx-tch
-Installed-Size: 4062
+Installed-Size: 4061
 Filename: bird4-uci_0.2_brcm63xx-tch.ipk
-Size: 4879
-MD5Sum: 8606f18d22db6ba809e864db85089a39
-SHA256sum: fe21a88587c95f5a66d1e359a9a38ca8f0a12130f15cfdbfc34960a44224d45e
+Size: 4880
+MD5Sum: 20ad885193382aba101c68d78e8d5bd2
+SHA256sum: 45784bd105bf5c07a09716cf8a46e041ed132ff5cbcc318e7f5fa11d64a46202
 Description:  bird4 UCI integration module
 
 Package: bird4
@@ -38,11 +38,11 @@ Source: feeds/routing/bird
 License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 213047
+Installed-Size: 213046
 Filename: bird4_1.4.5-2_brcm63xx-tch.ipk
-Size: 214002
-MD5Sum: c427e392189db204d461ce13722e2ed6
-SHA256sum: ab7f4c77a8d7fbd9b190056cbfbbfed679c00fd8215c7a14ff8abb4e4c176e71
+Size: 214041
+MD5Sum: 9352df1dbeea65f1d2892faf00e3aefa
+SHA256sum: d32813e33b4230d74f64c74ad83177581fb8e3ccc0c1767d13ae3820a66dbe08
 Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
  with support of modern routing protocols, easy to use configuration
  interface and powerful route filtering language. It is lightweight and
@@ -69,8 +69,8 @@ Architecture: brcm63xx-tch
 Installed-Size: 4205
 Filename: bird6-uci_0.2_brcm63xx-tch.ipk
 Size: 5025
-MD5Sum: ef58f44c3672a200d59c79227bcd27f9
-SHA256sum: fa23cd45ee3fa206351e4705fd35e31b084eb78d759508bded793d0eaa71e321
+MD5Sum: fe5b90bedbd41a3d7e070d5aae0f3c1a
+SHA256sum: e78a843165373f05e303c940f0f4153bf17889b4ebcce5c37f740e374b2313ea
 Description:  bird6 UCI integration module
 
 Package: bird6
@@ -80,11 +80,11 @@ Source: feeds/routing/bird
 License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 238607
+Installed-Size: 238609
 Filename: bird6_1.4.5-2_brcm63xx-tch.ipk
-Size: 239581
-MD5Sum: 4a6647169da27fb70e54b56f7a978975
-SHA256sum: a1061e003aa20c280cb632abe3d8424f8347cc419331ed83ded7bbe9e68a45ec
+Size: 239595
+MD5Sum: bebdba499a0e4e6fee8a025969a43ab6
+SHA256sum: aacbff8fc4dbb6da29b4a21d96d722a7a672e5acfa3a81dd5c93012e14b31ece
 Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
  with support of modern routing protocols, easy to use configuration
  interface and powerful route filtering language. It is lightweight and
@@ -108,11 +108,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Axel Neumann <neumann@cgws.de>
 Architecture: brcm63xx-tch
-Installed-Size: 162864
+Installed-Size: 162867
 Filename: bmx6_r2015080701-4_brcm63xx-tch.ipk
-Size: 163671
-MD5Sum: c7f4b211622a7b53477d48c21d6c5f11
-SHA256sum: e21dafb0a09e86a6f1c703145f1f56a2ee69ec469c1748958036a50a64b76dfa
+Size: 163670
+MD5Sum: 9dd1430226a2dcb33d4d1ee9db1b3bce
+SHA256sum: 33200dab461d7cc9111239e92a3d25e176f80200670ff68cfe4e111bdc0f8248
 Description:  BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6
 
 Package: bmx7
@@ -123,11 +123,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Axel Neumann <neumann@cgws.de>
 Architecture: brcm63xx-tch
-Installed-Size: 190055
+Installed-Size: 190053
 Filename: bmx7_r2016072001-4_brcm63xx-tch.ipk
-Size: 190635
-MD5Sum: df1f570912373d2749fe8c93776ea9d0
-SHA256sum: 1c84639d40e9f392e896f0e1cd23e0fbf6c830ae9c6884e5491aa8b364c0a124
+Size: 190645
+MD5Sum: 0d21e937afe5656e3a67b4637d59ad29
+SHA256sum: 7361e05327f3fec5689dffe186c7cfc84efacd49069ae36d5bf9ef2ebc7d4667
 Description:  BMX7 routing daemon supporting securely-entrusted IPv6 (and IPv4in6) routing
 
 Package: cjdns
@@ -138,11 +138,11 @@ License: GPL-3.0
 Section: net
 Maintainer: Lars Gierth <larsg@systemli.org>
 Architecture: brcm63xx-tch
-Installed-Size: 329051
+Installed-Size: 329056
 Filename: cjdns_0.17-2_brcm63xx-tch.ipk
-Size: 329434
-MD5Sum: fce56e0a49f2896829dfc9345218a22b
-SHA256sum: e2c170f06179db72cbc2b4f1bcf1e4f51f8f5b5c980f514047de516ed8960131
+Size: 329400
+MD5Sum: 54cef76a80b640046d62a413b78fe395
+SHA256sum: f45d5d1c9e1383ee92d19c6eb94eba4186a45118d8725a3d01fb66e05874b0c0
 Description:  Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
 
 Package: luci-app-bird4
@@ -155,9 +155,9 @@ Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4245
 Filename: luci-app-bird4_0.2_brcm63xx-tch.ipk
-Size: 5002
-MD5Sum: 5acbd52a1934d257249c9f5c43dae7dc
-SHA256sum: 46c863b288a4095046aba955067fe5830e07dfab0066a683bb3adef3d6281913
+Size: 5003
+MD5Sum: b4fe004e7e59bf45aad82a4c2b8f9d6f
+SHA256sum: 64efe790d5158a5d54b570d9cc4520e15296f0ba932b19deb7d37297b6e1d5d3
 Description:  bird4 application for LuCI
 
 Package: luci-app-bird6
@@ -168,11 +168,11 @@ License: GPL-3.0+
 Section: luci
 Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
 Architecture: brcm63xx-tch
-Installed-Size: 4396
+Installed-Size: 4392
 Filename: luci-app-bird6_0.2_brcm63xx-tch.ipk
-Size: 5145
-MD5Sum: c006d24cb0cccdc9681f014ac71f411f
-SHA256sum: 724e37d9879da31406245cecf5d8573e86e38430802ff960d61ed990955c0980
+Size: 5147
+MD5Sum: f085a8827f9a0e0f404d269db12c03f0
+SHA256sum: 6014f25ec0c30c8a690cc87a072778fe8208ef75b1a07f8f0e5191562dd182e3
 Description:  bird6 application for LuCI
 
 Package: luci-app-bmx6
@@ -183,11 +183,11 @@ License: GPL-2.0+
 Section: luci
 Maintainer: Pau Escrich <p4u@dabax.net>
 Architecture: brcm63xx-tch
-Installed-Size: 81176
+Installed-Size: 81175
 Filename: luci-app-bmx6_3_brcm63xx-tch.ipk
-Size: 82033
-MD5Sum: 85bbba4839e4327689d4a97707525a09
-SHA256sum: 366ceb85da29f98603be75a3b09fee5a2711800e666830e8c5cf8e65fed72676
+Size: 82029
+MD5Sum: fd2dc7d0b34bf814676d34ff4e882d37
+SHA256sum: 892b2fa155073c5c769419b20caf6d49185a0b95d220e9cf5253cd84c749b11d
 Description:  bmx6 web application (status and configuration) for LuCi web interface
 
 Package: luci-app-bmx7
@@ -198,11 +198,11 @@ License: GPL-2.0+
 Section: luci
 Maintainer: Roger Pueyo Centelles <roger.pueyo@guifi.net>
 Architecture: brcm63xx-tch
-Installed-Size: 14141
+Installed-Size: 14142
 Filename: luci-app-bmx7_0.0-alpha_brcm63xx-tch.ipk
-Size: 14933
-MD5Sum: 6ff1cec9dd55dff00f8444d8f39f5804
-SHA256sum: 2d58585a79ecf9b5d20f0567ddab3cfade174ea47c0f1bd21fbf8f58f554f0e6
+Size: 14935
+MD5Sum: 115b613a232114c08b534bcf9e54cf95
+SHA256sum: 137164259a21e7447b989577c4a522542745919f60c23b7edc0ee1a4a94d71fa
 Description:  LuCI application for web-based configuration and visualization of the BMX7 routing daemon
 
 Package: luci-app-cjdns
@@ -215,9 +215,9 @@ Maintainer: Lars Gierth <larsg@systemli.org>
 Architecture: brcm63xx-tch
 Installed-Size: 5650
 Filename: luci-app-cjdns_1.3-5_brcm63xx-tch.ipk
-Size: 6533
-MD5Sum: b677e89e9d9a06593499d9d4dc98951d
-SHA256sum: 4ff2735dcb496dc1da607df01d7f0f574b8990097f903cf44d907ba89b5453a9
+Size: 6537
+MD5Sum: 56875de781a29c7290f266250a03bd66
+SHA256sum: 46fe49c014fdfc5bc941da060c2e063004c49a9b107df18d78d15064e6f3b65c
 Description:  This package allows you to configure and inspect cjdns networking using LuCI.
  
  Cjdns implements an encrypted IPv6 network using public-key cryptography
@@ -233,11 +233,11 @@ License: GPL-2.0
 Section: luci
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 56974
+Installed-Size: 56977
 Filename: luci-app-hnet_2016-05-17-9ab71adbf0a7ad2a0964e48641b19b016b37df16-1_brcm63xx-tch.ipk
-Size: 57802
-MD5Sum: b982348b5510c1e59cf726ab865b8135
-SHA256sum: 38c9427d3671f6821a1d68a3ecbf44fbb6d924af7a43d2024098357271ff3e75
+Size: 57809
+MD5Sum: cf5ef575aa5cddbf9d1f54eca0a6e87a
+SHA256sum: 92cbb3881ad858964cdd923b4ad32855a5a1ac165662e53496ccb4541196aa09
 Description:  HNCP Homenet configuration and visualization
 
 Package: miniupnpd
@@ -248,11 +248,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Markus Stenberg <fingon@iki.fi>
 Architecture: brcm63xx-tch
-Installed-Size: 66294
+Installed-Size: 66291
 Filename: miniupnpd_2.0-1_brcm63xx-tch.ipk
-Size: 67206
-MD5Sum: 57742cccc9ae200feaa9fefc27c10e31
-SHA256sum: e2865b8b557be73805d268169838810a319a8c970601e525d66e093585171547
+Size: 67264
+MD5Sum: a94e7483d9f0269746725311a2e41de4
+SHA256sum: 85e782e59bd8d0ce01f0e65d785a08ebcab992f60e0e7068551cca29b2b67218
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
 Package: olsrd-mod-jsoninfo
@@ -263,11 +263,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
-Installed-Size: 28169
+Installed-Size: 28167
 Filename: olsrd-mod-jsoninfo_0.9.0.3-1_brcm63xx-tch.ipk
-Size: 28827
-MD5Sum: 97ed09a0b0901a7adc19a9d579ec791d
-SHA256sum: 2c15402aef841493f73a25575fc6db5efdc6da34c83c0597f496cca24a067c79
+Size: 28873
+MD5Sum: 207998d4f3c06a73062a365b285d02ad
+SHA256sum: 984d2386fdfcf240f00e091a94d22dcce611e6c836a250d3c115a9c9e0bc0b7e
 Description:  Small informative plugin with JSON output
 
 Package: olsrd-mod-nameservice
@@ -278,11 +278,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
-Installed-Size: 11848
+Installed-Size: 11850
 Filename: olsrd-mod-nameservice_0.9.0.3-1_brcm63xx-tch.ipk
-Size: 12513
-MD5Sum: ae749a92d4c1c27157731bad946829bc
-SHA256sum: 35d9a14afb6e7f997c9533854e66316de429d03849b2efaad13dc2cccd1a6d17
+Size: 12512
+MD5Sum: b13580dcb3c5fa894686e2f6dbd93f07
+SHA256sum: a5e78ac496b445f4853255c2e242d7fa6a44d79a642e5cb53ef6d7f370d4a800
 Description:  Lightweight hostname resolver plugin
 
 Package: olsrd-mod-txtinfo
@@ -295,9 +295,9 @@ Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
 Installed-Size: 8061
 Filename: olsrd-mod-txtinfo_0.9.0.3-1_brcm63xx-tch.ipk
-Size: 8847
-MD5Sum: bdc1814aa97f3b91a072b0186ff010ac
-SHA256sum: d8c9acecd5ab9c7ec72ccf8c55241c6d713ef2211a7652f4c2835e214f45f58c
+Size: 8849
+MD5Sum: bdecf099e7aac2ec3494276586ed44d8
+SHA256sum: c716b43dc4e7c8cb2fb18bcc2b5097cad4fb0b51bc8b55528cb75c43b909e90f
 Description:  Small informative web server plugin
 
 Package: olsrd
@@ -308,10 +308,10 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Saverio Proto <zioproto@gmail.com>
 Architecture: brcm63xx-tch
-Installed-Size: 146234
+Installed-Size: 146229
 Filename: olsrd_0.9.0.3-1_brcm63xx-tch.ipk
-Size: 146940
-MD5Sum: 59acf9cd17e1f29e01e3f63e3c7311e8
-SHA256sum: cc62255d211eb7d23a520c4acbbb84b49528f05b2709bc7558a1c5c2e8703570
+Size: 146945
+MD5Sum: dd5b597d5da0b4c8d5746bb7d175c063
+SHA256sum: 4e095cfa1bb1af4b1bb85ccef6ad2a1459ea470081b824644ff4362671c0d695
 Description:  OLSR (Optimized Link State Routing) daemon
 

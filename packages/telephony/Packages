@@ -9,9 +9,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 8162
 Filename: asterisk18-app-alarmreceiver_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 8972
-MD5Sum: a9fe7fa24a51aa721e9c1d12a360075d
-SHA256sum: 643a470bdaf15a38a4b9750172e362ff4972cc94cac0121f2f43d82504685c65
+Size: 8978
+MD5Sum: 13ff033dd0be680d11b06cff450dc79d
+SHA256sum: dde43688fa5572c0cbeee5c0b759430b294102940cb8020adb3a13a473d394b9
 Description:  This package provides support for 'Central Station Alarm receiver for Ademco Contact ID' in Asterisk.
 
 Package: asterisk18-app-authenticate
@@ -25,9 +25,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 3229
 Filename: asterisk18-app-authenticate_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 4025
-MD5Sum: 5298016b6cdbafa560dc7ca05f926244
-SHA256sum: 9f0c181de3ebb0e285a483a3771bc23573f041e8635750d1767cf57a50e596db
+Size: 4023
+MD5Sum: 95a2da373f89dd09f3cf8adaf983a60c
+SHA256sum: ca081d6530d736a83c70c72276d6e3de07a0e827c75e0672f898aa62bcd4abd0
 Description:  This package provides support for 'Execute arbitrary authenticate commands' in Asterisk.
 
 Package: asterisk18-app-chanisavail
@@ -39,11 +39,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 2828
+Installed-Size: 2827
 Filename: asterisk18-app-chanisavail_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3657
-MD5Sum: 7ce2a97aebaebed224d93e2268e12438
-SHA256sum: edcc90b85f3dd57fb2133fa08ef1174adb444218785bbd1efc45cf9aa3327dcf
+Size: 3658
+MD5Sum: 84de795824cec1d304759d4c3c526637
+SHA256sum: 8882a6b280665033c5341b68690b3553bc8573329d4ef718b41335591d956b8c
 Description:  This package provides support for 'support for checking if a channel is available' in Asterisk.
 
 Package: asterisk18-app-chanspy
@@ -55,11 +55,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 13317
+Installed-Size: 13315
 Filename: asterisk18-app-chanspy_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 14138
-MD5Sum: ff983c14fa23044814baccf2c4ee5f51
-SHA256sum: f0b7989c5d8e30ed45402f0f69dc127550b18fd13641741e8e3fb57bc8b544fb
+Size: 14123
+MD5Sum: f29456e12aba0e8700315753dcdf95e7
+SHA256sum: 92b3dfd8e23fea56a2689f658791cc4ab9d0ba5a9f54a9a0ed4ced6841d0c18f
 Description:  This package provides support for 'support for listening in on any channel' in Asterisk.
 
 Package: asterisk18-app-directed_pickup
@@ -71,11 +71,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 3749
+Installed-Size: 3747
 Filename: asterisk18-app-directed_pickup_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 4531
-MD5Sum: 4cd08d8d35ff375adcbf77e50d93f8be
-SHA256sum: a569908737db06953edfe6b02cebdcfd70d1f93ae1c83130a74aa22ec26d7acf
+Size: 4524
+MD5Sum: 86869fc4d445a1ae7cbf5c2ba6048a54
+SHA256sum: 00810f9cb841e04742ae79b72adf0b35f8caa3b96296636822bcc81583b0243c
 Description:  This package provides support for 'support for directed call pickup' in Asterisk.
 
 Package: asterisk18-app-disa
@@ -89,9 +89,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 5296
 Filename: asterisk18-app-disa_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 6086
-MD5Sum: ad7d98bb147d6451b1aa63e144ac4530
-SHA256sum: 880d2271356c5134c3aa9bf9528daa317e49fe7513b201389fa8561111b0e476
+Size: 6085
+MD5Sum: 68c08a950000d9d13bf0177a3a69a492
+SHA256sum: 2d86a18b76cd1ce95d20879e9262a8f69b37ccf39e08ae38de6fa960dd2dc3fe
 Description:  This package provides support for 'Direct Inward System Access' in Asterisk.
 
 Package: asterisk18-app-exec
@@ -103,11 +103,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 3036
+Installed-Size: 3035
 Filename: asterisk18-app-exec_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3848
-MD5Sum: 213f5b8d3987ef7625d8eec765873217
-SHA256sum: 101129b920e312739cef34fe58696b356bb0de1c71b544502103c2b2de6e7f9c
+Size: 3851
+MD5Sum: c819042b9d0289c9c7ce961b3a2d8eb5
+SHA256sum: bde463873ca544394489840641014dd7cb4fc90202d23cf488aa3eee4ccb6c48
 Description:  This package provides support for 'support for application execution' in Asterisk.
 
 Package: asterisk18-app-minivm
@@ -119,11 +119,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 40568
+Installed-Size: 40566
 Filename: asterisk18-app-minivm_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 41461
-MD5Sum: 63a3059483cdb9b0102f3dd5995ec6ae
-SHA256sum: a192b6ab6deb62325b65ec1971d01234cd2ef9ca8d51495ba6ebe678d4d2d466
+Size: 41457
+MD5Sum: 0e93de59de6fbf61216063190020296f
+SHA256sum: 8ec7cd65679b0aa81612ab9d6fee43a47d3a7fd6a465a3c48e2ef0540749b69f
 Description:  This package provides support for 'a voicemail system in small building blocks working together based on the Comedian Mail voicemail' in Asterisk.
 
 Package: asterisk18-app-mixmonitor
@@ -135,11 +135,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 7837
+Installed-Size: 7834
 Filename: asterisk18-app-mixmonitor_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 8664
-MD5Sum: c918c7e0808796c2e65744db11f7271b
-SHA256sum: bae07b6734e6987a1f3646ca6e78fc946de8c169a74f4efa739a5eed222b5ef2
+Size: 8666
+MD5Sum: 7d2f08389ca669bc09a1c73fd0d2e8ec
+SHA256sum: 014529dbf1f642f6077c52ee693865d6fb6ca459aa3dd7f9920d88aface82a73
 Description:  This package provides support for 'record a call and mix the audio during the recording' in Asterisk.
 
 Package: asterisk18-app-originate
@@ -151,11 +151,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 3113
+Installed-Size: 3111
 Filename: asterisk18-app-originate_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3963
-MD5Sum: 7657f9415d7cdc9c89a0c5b70716f76a
-SHA256sum: 99150ed7bcf6b76a657a09582070e2acc24955f2a007ad863c9c760dc7c67a81
+Size: 3957
+MD5Sum: e4366e43ce64e632e74ff50d438e68b7
+SHA256sum: 2d98b67936d3059994cfd914e4fd71fbcf3f26c4e75e4a4361b529d2a9f8b0ee
 Description:  This package provides support for 'originating an outbound call and connecting it to a specified extension or application' in Asterisk.
 
 Package: asterisk18-app-playtones
@@ -167,11 +167,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 1923
+Installed-Size: 1921
 Filename: asterisk18-app-playtones_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 2732
-MD5Sum: cf1c0aa34fe07c84c897b6ea52af5533
-SHA256sum: 0a0874131cd91ed2a54113b82b4d00d21e4f404dc286a5122890592a8399f09e
+Size: 2728
+MD5Sum: bc366110bfeaf33808d7569b7b26ba8a
+SHA256sum: 4d2e78780553af670305ab658a911dc0b13821e63c6337cac279cecd3250cbff
 Description:  This package provides support for 'play a tone list' in Asterisk.
 
 Package: asterisk18-app-read
@@ -183,11 +183,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 3739
+Installed-Size: 3746
 Filename: asterisk18-app-read_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 4533
-MD5Sum: c8c1f7eef098aebc5cb470918dbe0851
-SHA256sum: e9f8674687ce4d551c63e657045ae748f7e57d071d804e843e8da533f75c14d7
+Size: 4540
+MD5Sum: fbd675848a96c8b907549e5e198242d1
+SHA256sum: 965d824cb0c46becf9b2987c78ccbda8c33b67e3fc0966bccd1b4c5a1c6fc463
 Description:  This package provides support for 'a trivial application to read a variable' in Asterisk.
 
 Package: asterisk18-app-readexten
@@ -199,11 +199,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 3964
+Installed-Size: 3962
 Filename: asterisk18-app-readexten_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 4768
-MD5Sum: b56154910ee01e4f94ff8c5a86f407f3
-SHA256sum: 8d67e469f07ce0b3b60879a08c102c8f4fc38e8ce7efd4aafa9cead8cbdfa018
+Size: 4770
+MD5Sum: d2f237ce8e550f684ed7ee8fb8c02f09
+SHA256sum: bb0f8bd61ea837879149d0bb6b7ffec139bf47fa2f464fbf148fa96dd787a432
 Description:  This package provides support for 'a trivial application to read an extension into a variable' in Asterisk.
 
 Package: asterisk18-app-record
@@ -215,11 +215,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 4859
+Installed-Size: 4860
 Filename: asterisk18-app-record_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 5634
-MD5Sum: 7c88dbce7eed22cab60c56636aabb7ee
-SHA256sum: 0d1d701f6590c4c6d61e66bf71248d234b1442b026e918693e31581f39ba0747
+Size: 5644
+MD5Sum: 0c05ca0859b2dd92aa9d751bf8c98f32
+SHA256sum: c25e6b05e35d7bc8c10b86b7a32447b42dc4344c3e7d03adc10adf33fcee23f8
 Description:  This package provides support for 'to record a sound file' in Asterisk.
 
 Package: asterisk18-app-sayunixtime
@@ -231,11 +231,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 1973
+Installed-Size: 1971
 Filename: asterisk18-app-sayunixtime_1.8.32.3-5_brcm63xx-tch.ipk
 Size: 2789
-MD5Sum: 1d00f8bc1b6256678405e2ba0feafb60
-SHA256sum: 42c14f4434cf4bfa3f314bc72f644d3973e5766f23d72a39bd7106cd2f1c265f
+MD5Sum: e0a09082bcf905ec7362d43242083064
+SHA256sum: ee50dc1f5069fc7d3eb0a66d621a7a7d47a71273e7f273b79f4fb1f2de54a0b3
 Description:  This package provides support for 'an application to say Unix time' in Asterisk.
 
 Package: asterisk18-app-senddtmf
@@ -247,11 +247,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 2506
+Installed-Size: 2509
 Filename: asterisk18-app-senddtmf_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3322
-MD5Sum: 0fc4fc05abffb2e9bf348f1a93299461
-SHA256sum: caeb964c6484234ba9aacb1ef96acadbafc3c3a5573078b43ecb4f4d2369fa28
+Size: 3332
+MD5Sum: 07c63e390d38d087156269a398f89394
+SHA256sum: c5d23927c6856af359e470d64bfc9dad3dca6fb64dcaf6696764921b3e6edb93
 Description:  This package provides support for 'Sends arbitrary DTMF digits' in Asterisk.
 
 Package: asterisk18-app-setcallerid
@@ -265,9 +265,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 1920
 Filename: asterisk18-app-setcallerid_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 2725
-MD5Sum: c3db84ab3aa2d90fb0b3ec582977354a
-SHA256sum: 157ba0b824a966939bc5bb76d3aa7acc2ab9b4ce93810fac26adb8c8137a8ebe
+Size: 2733
+MD5Sum: f53a5d3b354192196ddd9d6a6d4df037
+SHA256sum: 72b580c0e1eb61580653421d642ff278d744abb5d7782bbcf3861c058dd3c194
 Description:  This package provides support for 'Support for setting callerid' in Asterisk.
 
 Package: asterisk18-app-sms
@@ -279,11 +279,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 29703
+Installed-Size: 29699
 Filename: asterisk18-app-sms_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 30487
-MD5Sum: 4827c96be1843fe8659657135197874e
-SHA256sum: ed9a881e1ab0be9c3aba1ecefc85830b5069a943e2cf4efe42e10d840e4af654
+Size: 30491
+MD5Sum: ef9d98cfa643b78bf02799ce6b49130c
+SHA256sum: bf8eec95a198005475a267e562337074a8fd698b08b7a5953c0c8870a393245f
 Description:  This package provides support for 'SMS support (ETSI ES 201 912 protocol 1)' in Asterisk.
 
 Package: asterisk18-app-stack
@@ -297,9 +297,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 12341
 Filename: asterisk18-app-stack_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 13166
-MD5Sum: 69c7c0a471e5c3dc77319e8169d4a2b4
-SHA256sum: 31fa01df42c6e3d98338637b9470d8769f31cd64b6029a4e43dc6758fdd8f3ea
+Size: 13175
+MD5Sum: 3090eb7589a1eaa850091a91ffc2f15d
+SHA256sum: bf54bbd7e94b73ae86b9d29cc55dd6978c23cea1e91c939aedeec565af2f9d67
 Description:  This package provides support for ' stack applications Gosub Return etc.' in Asterisk.
 
 Package: asterisk18-app-system
@@ -311,11 +311,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 2647
+Installed-Size: 2646
 Filename: asterisk18-app-system_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3469
-MD5Sum: f1d7175b6f71757352cb27ddac25f370
-SHA256sum: b778c27726da05daff9b21451e021b4a1941443f0e6a4dd04b71f0b943b0c644
+Size: 3471
+MD5Sum: 3673627cf6372a023189ee6e229296f9
+SHA256sum: f36100b679026358c8712020b2a554c653c95b6de11c405cdcf2652730adc021
 Description:  This package provides support for 'support for executing system commands' in Asterisk.
 
 Package: asterisk18-app-talkdetect
@@ -329,9 +329,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 3992
 Filename: asterisk18-app-talkdetect_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 4778
-MD5Sum: 5027c018659e67d9f9450679702853b8
-SHA256sum: f7716cc17e6a56936e8895027df124ff97753db309eb029ae60ef57f273f4c34
+Size: 4777
+MD5Sum: 6f6483ee1343a4005e1d6ab524e4a10a
+SHA256sum: 5e90ffb06c225d22cbf078ca3328fd46ee94c1d30c83caba17741b0639827b33
 Description:  This package provides support for 'for file playback with audio detect' in Asterisk.
 
 Package: asterisk18-app-verbose
@@ -345,9 +345,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 2572
 Filename: asterisk18-app-verbose_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3382
-MD5Sum: 845232c105a5be85391c3fc402cf6f20
-SHA256sum: 3a378223c92e6b90701c26dd401d2c39738c4cda8d594c6d4eb2f7d62aee64ab
+Size: 3379
+MD5Sum: 73d4739db558bdbae67eae03aaf428cf
+SHA256sum: 03e3e6060b122ef098a092f95b9ba83cf9d0ae527b010d5f0f6f52afafaa36e9
 Description:  This package provides support for 'Verbose logging application' in Asterisk.
 
 Package: asterisk18-app-waituntil
@@ -359,11 +359,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 2239
+Installed-Size: 2238
 Filename: asterisk18-app-waituntil_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3063
-MD5Sum: c969eec598b3a9f575cd7a525d705700
-SHA256sum: ef4347bf489db9486d9b7196f2656e17e3723d9c89ccfe0cf45ff7ecd78417e5
+Size: 3058
+MD5Sum: baff3378f08af7b83748fffc24c0943c
+SHA256sum: b1dc975d96001492b501ad86c8e30df4b20a773d7738ad7eb093d3dcf8cf0a15
 Description:  This package provides support for 'support sleeping until the given epoch' in Asterisk.
 
 Package: asterisk18-app-while
@@ -375,11 +375,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 4518
+Installed-Size: 4520
 Filename: asterisk18-app-while_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 5296
-MD5Sum: 42b20913ca4c33aef8167ed83159f800
-SHA256sum: 43434cd92949a49c95586dba5d28c2e52c2488abeb1c223ffabf3262a571c99f
+Size: 5310
+MD5Sum: c30bdb55644abf726738c1bf8bb277b8
+SHA256sum: 3232ebd0796a5c1a2e3c2b4056101a681ba42553528ba3e20f019d63c40d3020
 Description:  This package provides support for 'a while loop implementation' in Asterisk.
 
 Package: asterisk18-cdr-csv
@@ -391,11 +391,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 5365
+Installed-Size: 5364
 Filename: asterisk18-cdr-csv_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 6157
-MD5Sum: dad44878b2fc9c0dbd1c9fb60802f796
-SHA256sum: 6660db3ab77c3ab8246e901af0ec44bd79543ba485ae3326664056f104e78d8b
+Size: 6164
+MD5Sum: 7f2abd6720a4a6acc8eb9099b5dc9119
+SHA256sum: b501e44573b9dc62b437a274dd99c142f1eab6d9e17375061964613d2ac2f8b6
 Description:  This package provides support for 'Call Detail Record with CSV support' in Asterisk.
 
 Package: asterisk18-cdr
@@ -407,11 +407,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 21005
+Installed-Size: 21004
 Filename: asterisk18-cdr_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 21799
-MD5Sum: c3078b876b851a1bd6cf727a210b4065
-SHA256sum: 665e747998ac5b17282049e3a4cf486706e86ebb9146a39d67b6f65a21476a4d
+Size: 21780
+MD5Sum: 29c65ad7c2fd8110c538e03ac9377a1f
+SHA256sum: 23de0485336476d1b0eed18c19ec24988687feeed736f1c728b0e981bbbc9942
 Description:  This package provides support for 'Call Detail Record' in Asterisk.
 
 Package: asterisk18-chan-agent
@@ -423,11 +423,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 26535
+Installed-Size: 26536
 Filename: asterisk18-chan-agent_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 27259
-MD5Sum: 1a56b1a6eeded773cf86528e3fb0f17f
-SHA256sum: 0e8980f59a429718025c58748fa36fba79491fd8acb46cb03827dedc39454e00
+Size: 27300
+MD5Sum: 9a7223c1cae212a613975f28529c0bbc
+SHA256sum: b9d934b90e8b0b6e9ab850c75f7fc681743e7880ed306a6ca5460d0bc0974525
 Description:  This package provides support for 'An implementation of agents proxy channel' in Asterisk.
 
 Package: asterisk18-chan-gtalk
@@ -439,11 +439,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 76652
+Installed-Size: 76651
 Filename: asterisk18-chan-gtalk_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 77393
-MD5Sum: d07d8f7328f1ae4142a546205ab86951
-SHA256sum: 71a7ca5a912309f5f2da08cfb6a250169358b65dfc601f6d3ec18ac40d07f50a
+Size: 77417
+MD5Sum: 1193ba113c176fb7312f5231d1750009
+SHA256sum: 7ca305105b3256c867753dda1a546eb93573a6da57aa0635aaf984556219878f
 Description:  This package provides support for 'An implementation of chan_gtalk and res_jabber for GTalk support' in Asterisk.
 
 Package: asterisk18-chan-iax2
@@ -455,11 +455,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 180636
+Installed-Size: 180638
 Filename: asterisk18-chan-iax2_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 180928
-MD5Sum: 035e3384aff568a2666d3702ab5e3737
-SHA256sum: dd78614fa432004204129f71f983a71de1bee0f5925639651cfaf039d5c26dbd
+Size: 180935
+MD5Sum: 7fa21130aacc8a109dc8fedfab1a670e
+SHA256sum: 123f9914ceb67cc6e9b7b30c0b70bf01b8e2dc8aabf0e4aaadc81adcd844112e
 Description:  This package provides support for 'An implementation of IAX2 channel' in Asterisk.
 
 Package: asterisk18-chan-local
@@ -471,11 +471,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 12073
+Installed-Size: 12072
 Filename: asterisk18-chan-local_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 12866
-MD5Sum: 5a78fea9d14b5ed14871a03ae16c9d52
-SHA256sum: 86fda96af8e95f807aa4cf65d3d59677f4e3a944ee3f41cee1b984abd6f70f6d
+Size: 12872
+MD5Sum: 2c065df59ff1acf830c3a98c151e44d0
+SHA256sum: 8c4c82e52d571d217a0092f95c4e99eb429231d85d3200e0b08a216ef29002b5
 Description:  This package provides support for 'An implementation of local proxy channel' in Asterisk.
 
 Package: asterisk18-chan-mgcp
@@ -487,11 +487,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 59088
+Installed-Size: 59087
 Filename: asterisk18-chan-mgcp_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 59834
-MD5Sum: 2f6d3effe02231e83420fcce015719f7
-SHA256sum: dc59cbb43e63f31af78c5ee2b8025efdb4acd5bf6dd5ac9bd441114ce0569b56
+Size: 59829
+MD5Sum: 7ce6acafc4a7f03fe6821c58cd5126b4
+SHA256sum: 220ccf47508c393a4b597e12ca60b48282cb6a74e19e06aa2da6fecfed24f1f7
 Description:  This package provides support for 'the channel chan_mgcp' in Asterisk.
 
 Package: asterisk18-chan-ooh323
@@ -503,11 +503,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 368375
+Installed-Size: 368370
 Filename: asterisk18-chan-ooh323_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 368370
-MD5Sum: 69ee800f6b8fe1e9808b3fa8553d180a
-SHA256sum: fd62bf54d07f54fb3116119a51a3c0aac350236bc02b6f624b9cfb83e99da687
+Size: 368360
+MD5Sum: 1654bb074125331d2ab0cb79dffcef67
+SHA256sum: 9522c388a6d78b132f50f810f833ede8df0991c7bb66dca39bf49df3b8997200
 Description:  This package provides support for 'the channel chan_ooh323' in Asterisk.
 
 Package: asterisk18-chan-sccp-b
@@ -520,11 +520,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 447227
+Installed-Size: 447230
 Filename: asterisk18-chan-sccp-b_v4.2-r6139-4_brcm63xx-tch.ipk
-Size: 444456
-MD5Sum: d21c26583549572d45c2a00ef2f1c202
-SHA256sum: fa917d3007ed1ce4d22c7b1343a0e003d9daba7b3b228399bd13dc259ce37378
+Size: 444431
+MD5Sum: 901f1ea833193ff9a68ee916475af056
+SHA256sum: dbbee9750f325531f27dd9766ece85758fd695545d19bc892fe95b3dc95c7c98
 Description:  SCCP channel provider for asterisk. It delivers extended functionality for SCCP phones over chan_skinny delivered
  by asterisk by default.
 
@@ -537,11 +537,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 69768
+Installed-Size: 69772
 Filename: asterisk18-chan-skinny_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 70513
-MD5Sum: 8353375cb0630b97174e9aadc5f14a1f
-SHA256sum: 0bee9bdfe9d0561c70d0cf504ceb674a88cb77ce46d9fab4be254f4e0c849c08
+Size: 70525
+MD5Sum: eff2ab08af79ba37a6230766ad2a63e3
+SHA256sum: e7ea9208c4c64cc8859c8fffdbc062b66a685dbcb3cfadbdc521273ae8ade53c
 Description:  This package provides support for 'the channel chan_skinny' in Asterisk.
 
 Package: asterisk18-codec-a-mu
@@ -555,9 +555,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 2097
 Filename: asterisk18-codec-a-mu_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 2917
-MD5Sum: 6ff1775d439cd9c27694f41fb6e2c4cd
-SHA256sum: 744f747dcb482858f2e1cb0f8a12b8e6b43498ab00f5c11682ae68a371065d18
+Size: 2924
+MD5Sum: de2ac0a4896a2c0b56635387cb982557
+SHA256sum: 8acd5df7841ed92615a8a01450870ec0d91f5063de3aee8f4a969956c7b4dc82
 Description:  This package provides support for 'translation between alaw and ulaw codecs' in Asterisk.
 
 Package: asterisk18-codec-alaw
@@ -569,11 +569,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 2332
+Installed-Size: 2333
 Filename: asterisk18-codec-alaw_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3157
-MD5Sum: 109eeb8e80848950361cf988d918e6e8
-SHA256sum: 5b041e1a8229077524345eba37c60e8d752694c76c0744ebec5c7887c404cf87
+Size: 3161
+MD5Sum: f383ead1fd58f4eefda0fce0cb68bd9c
+SHA256sum: f6d73b662d34f3ba86d8471ada594d48090f5d0872b6b96cd1e768db526c745a
 Description:  This package provides support for 'translation between signed linear and alaw codecs' in Asterisk.
 
 Package: asterisk18-codec-g722
@@ -585,11 +585,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 8441
+Installed-Size: 8444
 Filename: asterisk18-codec-g722_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 9305
-MD5Sum: 0325eea08763b2b05953bbca9bce8f3d
-SHA256sum: 858e5efecfac26019ac02d18fd344a8ffd82f80a507d467748f5cc0da344c7e4
+Size: 9307
+MD5Sum: 7a7d40abb42302ab12b577ca80715213
+SHA256sum: a7b00e71f04abcedc379724bbc183d0bb4ecc6a012e8f983b49d07a4e9f865bc
 Description:  This package provides support for 'a high bit rate 48/56/64Kbps ITU standard codec' in Asterisk.
 
 Package: asterisk18-codec-g726
@@ -601,11 +601,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 4515
+Installed-Size: 4516
 Filename: asterisk18-codec-g726_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 5308
-MD5Sum: be7e6e04430eddc107517af6ceab1a24
-SHA256sum: d47999f4a5e1f0506a7e1a209da3367302a8b97862219f45511c6ac9a17cfadb
+Size: 5315
+MD5Sum: 49190344c9fab686c118c286c319de13
+SHA256sum: be39cfff84ed2bc88003b34354eb07943ef97473c25abbece3bf4351b619c53c
 Description:  This package provides support for 'translation between signed linear and ITU G.726-32kbps codecs' in Asterisk.
 
 Package: asterisk18-codec-g729
@@ -617,11 +617,11 @@ LicenseFiles: README.md
 Section: net
 Maintainer: Alex Samorukov <samm@os2.kiev.ua>
 Architecture: brcm63xx-tch
-Installed-Size: 4096
+Installed-Size: 4099
 Filename: asterisk18-codec-g729_1.3-2_brcm63xx-tch.ipk
-Size: 4848
-MD5Sum: 20b7f5a470d075203b97bbf8212f5b1a
-SHA256sum: 47e54a9a075aef9f729d4d6bb48fd2dc2926afda0423f4972f825f6639bcaa86
+Size: 4857
+MD5Sum: 22b2b38484c955d499838f2e393cf978
+SHA256sum: 250497e81508f6282946045b522f8ce28e137f0672a77f5984c2eae713f9b29e
 Description:  Asterisk G.729 codec based on bcg729 implementation.
 
 Package: asterisk18-curl
@@ -633,11 +633,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 8334
+Installed-Size: 8337
 Filename: asterisk18-curl_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 9134
-MD5Sum: e1c45dc373494c8298b118be40d0a023
-SHA256sum: 8eda98844a82d8e16a49ca6ef23241b6a7740c05395f815a3c2c1956030a5023
+Size: 9137
+MD5Sum: 28252f25994d49c1503f7fc313f31b12
+SHA256sum: 85599c9c132a5c4f471aa8e3e55bfe76ffbe3e44394b2231ba940fd5eb5ac676
 Description:  This package provides support for 'CURL support' in Asterisk.
 
 Package: asterisk18-format-g726
@@ -649,11 +649,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 3120
+Installed-Size: 3121
 Filename: asterisk18-format-g726_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3913
-MD5Sum: 81e2ead8010795132dcbcd92dc099bfd
-SHA256sum: 95f9c6771bf5bb2b3ce9184b9f7169d3add474e571ead42bb7bdf4e4b1566ef1
+Size: 3915
+MD5Sum: 0fd01434b88e980990321d0e56efe9bf
+SHA256sum: 6f8ac9582773c578ca525e1001b7407a08681b6f6ae7bb66a2533fa9ae03ec11
 Description:  This package provides support for 'support for headerless G.726 16/24/32/40kbps data format' in Asterisk.
 
 Package: asterisk18-format-g729
@@ -665,11 +665,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 2781
+Installed-Size: 2782
 Filename: asterisk18-format-g729_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3601
-MD5Sum: 9d8e64e2ca8e6a3e6b42be0fd9427cce
-SHA256sum: 8a1753a87859a645c7ac016d71082a49f394fdc70856f948ef99b26660a2f605
+Size: 3603
+MD5Sum: d48ec47dd2e8179d8ce249b052ca48b9
+SHA256sum: e1e24dfd8a1d3a7e986b60df5060979a4c201cfbeaed653e35d7cdde4a007087
 Description:  This package provides support for 'support for raw headerless G729 data' in Asterisk.
 
 Package: asterisk18-format-sln16
@@ -681,11 +681,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 2739
+Installed-Size: 2738
 Filename: asterisk18-format-sln16_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3557
-MD5Sum: 73e4ddf65ad1b88a98d80becfb0a1dc4
-SHA256sum: 94e66d5dc81c0725513f31f4495abbeeef84d372187b35547b57c9aef1a28306
+Size: 3556
+MD5Sum: 06c85df90d8f702d58714f079a8f8930
+SHA256sum: 531151b0c5037b8a9f2bfa28c5c3351a8d277aad127dc8f291dfffe3a7dcdb99
 Description:  This package provides support for 'support for raw slinear 16 format' in Asterisk.
 
 Package: asterisk18-format-sln
@@ -697,11 +697,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 2726
+Installed-Size: 2729
 Filename: asterisk18-format-sln_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3537
-MD5Sum: f3d49f4fca39e0a238973ac27c03839a
-SHA256sum: fcfbca234e9fb1e6f7f77f4342c84bb359cfd3ad3eae8778926cbbf6d75603be
+Size: 3542
+MD5Sum: 4d5d879f00ea60c3971aa278866adaad
+SHA256sum: f78869336bf2fbb234914e3de05724f47b4691ba209cde4a07e1152d7ab2c551
 Description:  This package provides support for 'support for raw slinear format' in Asterisk.
 
 Package: asterisk18-func-base64
@@ -713,11 +713,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 2417
+Installed-Size: 2416
 Filename: asterisk18-func-base64_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3226
-MD5Sum: 3f414b98f1f974ecd32619874c3df7ee
-SHA256sum: d09a767cb2ebbc4178162072f8fde050a00c71b8b43a38470b55099743e063d7
+Size: 3229
+MD5Sum: 841753c6d31b4d3223232c62d745f887
+SHA256sum: 8849940af50bb9f47ff72141561764ffeee35d8fee990f991ea4ade8ca5c2eef
 Description:  This package provides support for 'support of base64 function' in Asterisk.
 
 Package: asterisk18-func-blacklist
@@ -731,9 +731,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 2172
 Filename: asterisk18-func-blacklist_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 2998
-MD5Sum: ece6005b6ef267cc42e5d143e2d255b7
-SHA256sum: d8b344e2241484c1f6988721a1f9c1921c18b21c10dd96fe5ff42abaa0ac3967
+Size: 2995
+MD5Sum: 4e67930b3dc6c49b284f3947177560d9
+SHA256sum: f0af876a995ed256b2ecc9602826690e3c49d4f555447865a6668cd540b4c74d
 Description:  This package provides support for 'looking up the callerid number and see if it is blacklisted' in Asterisk.
 
 Package: asterisk18-func-channel
@@ -745,11 +745,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 9026
+Installed-Size: 9029
 Filename: asterisk18-func-channel_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 9828
-MD5Sum: 46491a26f2b9382156f0939c9bd2010d
-SHA256sum: f90b216aa2dac142b25fe78bbb45383b7b046546921485fc7d83fc570daa36c9
+Size: 9836
+MD5Sum: 61cb6461f2d595b94a030b22bd34da85
+SHA256sum: 706b3d8f1ca7de5346883937dcf64383bf647faf07962ec661b01d7ed8404f1e
 Description:  This package provides support for 'Channel info dialplan function' in Asterisk.
 
 Package: asterisk18-func-cut
@@ -761,11 +761,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 3750
+Installed-Size: 3751
 Filename: asterisk18-func-cut_1.8.32.3-5_brcm63xx-tch.ipk
 Size: 4518
-MD5Sum: 758b413f834a3ad9be144bb3866e981f
-SHA256sum: 32ddbd301eafa11410cc42669cb748811bc7be13f2df924f31c1f5aa8fdcffa2
+MD5Sum: f2ee2b1484854cefa898884ce674a280
+SHA256sum: 3bdebdd533c234c95ff544e59709aa391e7b138c284c0f6eff87c24b0abde628
 Description:  This package provides support for 'CUT function' in Asterisk.
 
 Package: asterisk18-func-db
@@ -777,11 +777,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 4774
+Installed-Size: 4773
 Filename: asterisk18-func-db_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 5559
-MD5Sum: 79bfbb4486759aca243329cfd6cb27a7
-SHA256sum: 40c5fd81a15422d40d09d21adf8b3efd9c45642274830116b8668c9ef9031941
+Size: 5554
+MD5Sum: 59e13a4f7c6fb87f5d61ba01f8b16407
+SHA256sum: 1e0ebd1d9be222280f047f50d1927e46d4dbf35b28b5f2fc156b67a6380426e3
 Description:  This package provides support for 'functions for interaction with the database' in Asterisk.
 
 Package: asterisk18-func-devstate
@@ -793,11 +793,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 3746
+Installed-Size: 3747
 Filename: asterisk18-func-devstate_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 4542
-MD5Sum: 792a53a424fa49e1c7ba6107a82e38e2
-SHA256sum: 29c38882ce096e22d980c91f5cb6fc72a7d43b27fc5ea5ddefeab092cb122ea1
+Size: 4546
+MD5Sum: 511b281c24733c3d125bcb8719f6c97a
+SHA256sum: 58e1ad51076d167ec5d2155bbba9e3846d00a9594ac266996371e11559a72dd5
 Description:  This package provides support for 'functions for manually controlled blinky lights' in Asterisk.
 
 Package: asterisk18-func-enum
@@ -809,11 +809,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 4704
+Installed-Size: 4703
 Filename: asterisk18-func-enum_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 5508
-MD5Sum: 1ea9bc22683b28003ac7b5e7b288a671
-SHA256sum: 4f88e63da4191233d4530f9c857e3669ed729fdae11b7b5ed126ce4b7ad73f0e
+Size: 5502
+MD5Sum: 79bf1c08416eb02d38663d4cb02ee7fa
+SHA256sum: 0c783c44ddb7fca71e1db242eb566cc064097c495d29167905113a2dfc511be8
 Description:  This package provides support for 'ENUM' in Asterisk.
 
 Package: asterisk18-func-env
@@ -825,11 +825,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 14034
+Installed-Size: 14033
 Filename: asterisk18-func-env_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 14787
-MD5Sum: f2391d6989ead6d4373947fb37d10db7
-SHA256sum: d0f53b007a97b9c70340fe089f97e8e8243c010039b4921390af566534390345
+Size: 14793
+MD5Sum: f44de682f67d9f1da9b8967ecbe1f08e
+SHA256sum: 33937f3f59b318747642114814940c3bcd559a9aaeff0c5de5485c4718486eca
 Description:  This package provides support for 'Environment dialplan functions' in Asterisk.
 
 Package: asterisk18-func-extstate
@@ -841,11 +841,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 2027
+Installed-Size: 2026
 Filename: asterisk18-func-extstate_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 2858
-MD5Sum: 59121f453bb6f10dee9e8af8b69a9fed
-SHA256sum: 12a514a37857c69393605b4716febc1973e8793bef55108f6d68a5032fc92ebf
+Size: 2854
+MD5Sum: b28b65bf3877b6b530671096771e18ed
+SHA256sum: 7e9c5bece0e133773eea36bd281d7f629a481ca4e3000be187f9cc6e244d68b9
 Description:  This package provides support for 'retrieving the state of a hinted extension for dialplan control' in Asterisk.
 
 Package: asterisk18-func-global
@@ -857,11 +857,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 3672
+Installed-Size: 3681
 Filename: asterisk18-func-global_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 4450
-MD5Sum: d6b9d32ec031a31570bf084e57036b3b
-SHA256sum: 69b0810ab201883cc74a1f2e05b967519dafda6a445e8c254f1e2aef4eacff24
+Size: 4459
+MD5Sum: 0f0726775ff0a3fa12e12a57f410df7c
+SHA256sum: de91ec02bfba93a5e89d44fcf1d9d41bfd1a8f2c32015c81cfa2f4d0b99a4cd4
 Description:  This package provides support for 'global variable dialplan functions' in Asterisk.
 
 Package: asterisk18-func-groupcount
@@ -873,11 +873,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 3005
+Installed-Size: 3004
 Filename: asterisk18-func-groupcount_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 3842
-MD5Sum: 2c16925b00daf2bde0107bba88e16e7a
-SHA256sum: 4c197c6c650df74c741b1483287b086732b6080456c2b76062707a1237fbc590
+Size: 3839
+MD5Sum: e2fd499f273dfe718171a4c4916d6c63
+SHA256sum: 76547e599c41cbcba5dfe2cde824f3fbe458cd994366d573647441a3a8d7fc7d
 Description:  This package provides support for 'for counting number of channels in the specified group' in Asterisk.
 
 Package: asterisk18-func-math
@@ -889,11 +889,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 4398
+Installed-Size: 4397
 Filename: asterisk18-func-math_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 5164
-MD5Sum: 9a1c5cdbada7fb19a89c8f1db9383643
-SHA256sum: 996c8eac916882397d67ec9e2ce582696fecc177bbade517b749ef45fae603db
+Size: 5162
+MD5Sum: 00444afd05d4a5c0314963ad1684e05f
+SHA256sum: 1c433d58e83f2c225488a4b1a477ee32c8a0ce2456d4a55f66ec7d4a911044c1
 Description:  This package provides support for 'Math functions' in Asterisk.
 
 Package: asterisk18-func-module
@@ -907,9 +907,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 1654
 Filename: asterisk18-func-module_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 2462
-MD5Sum: 85ce1bf1da4bd07be8674d1439dcfec3
-SHA256sum: 096ae06a132ad51ef8d9720d38876e74efc26b6f0d994c56d738062a0676fcb1
+Size: 2467
+MD5Sum: f38758b37f694644d68d4f37f471ceb7
+SHA256sum: 52f48349c96d33e5b341a5c744e651d9e1bdf1b06a6ee01fb349d488ebff2b0e
 Description:  This package provides support for 'Simple module check function' in Asterisk.
 
 Package: asterisk18-func-shell
@@ -923,9 +923,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 2067
 Filename: asterisk18-func-shell_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 2871
-MD5Sum: 57a743904144ef2bc08ff28de44c9e92
-SHA256sum: 697436f12dc37e80eb1a349f0889a075f15f0ae073feae7bcf22ea0f60efce7a
+Size: 2874
+MD5Sum: 648ebd25f3ecc54edf984e3aa78c2daf
+SHA256sum: 2e6035bb703c38cd51c02d66f1c5ec5ad3d9a85f3611b1baf953168b781fa772
 Description:  This package provides support for 'support for shell execution' in Asterisk.
 
 Package: asterisk18-func-uri
@@ -939,9 +939,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 1744
 Filename: asterisk18-func-uri_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 2554
-MD5Sum: 3e84fb228183691921d94335fc089644
-SHA256sum: 6a15470363471b6cc60d8c6466a38f350146ec95ff5c68d78a54eefcd821bc80
+Size: 2560
+MD5Sum: 4b478f38f457693eb0c11778d3e9f5f2
+SHA256sum: c08ed6c02f35a880d1443c676e27df1fe0c63ddc4aa028cb2c589d248cbfc729
 Description:  This package provides support for 'Encodes and decodes URI-safe strings' in Asterisk.
 
 Package: asterisk18-func-vmcount
@@ -955,9 +955,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 1893
 Filename: asterisk18-func-vmcount_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 2701
-MD5Sum: 67bc8b8d8b7b6eb570c6bc2610d15089
-SHA256sum: 90109099325c6bdbf43d9d28f1efd864a1d2b5f75bda6b38ce0095953f8e5290
+Size: 2697
+MD5Sum: adc78c3267eedb853ed628840ea4c729
+SHA256sum: 8867724f68b202ef9032667fdc007b2ea1452af40924c0f76c07a0b772bb130c
 Description:  This package provides support for 'a vmcount dialplan function' in Asterisk.
 
 Package: asterisk18-mysql
@@ -971,9 +971,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 26374
 Filename: asterisk18-mysql_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 27094
-MD5Sum: a83657719f0b4da977caa3cafaa268ec
-SHA256sum: 3434df4a631324e1cb1ebae81f57657037b872bfe8973ae94d8b56c959989604
+Size: 27110
+MD5Sum: 212caceb2de91cdf021b1279aaa97dda
+SHA256sum: 8664bb2a5d6a9e98cf6624cf7ab3b91c5ef2bec29a293e22d110ef2969dfe2d9
 Description:  This package provides support for 'MySQL support' in Asterisk.
 
 Package: asterisk18-odbc
@@ -985,11 +985,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 77900
+Installed-Size: 77904
 Filename: asterisk18-odbc_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 78477
-MD5Sum: 8d12437f6da1bad7e168346f853ffb7b
-SHA256sum: e210699fbba89a160bd4aff9358e3dcdd7e8961b5d21b74d904ffdc051c32d78
+Size: 78598
+MD5Sum: 00eb0559147f4257c582e4ff39923b95
+SHA256sum: 143e80ef09abe9f94346156d72c039857dc425afb497231568c5d966b13f966b
 Description:  This package provides support for 'ODBC support' in Asterisk.
 
 Package: asterisk18-pbx-ael
@@ -1001,11 +1001,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 8539
+Installed-Size: 8543
 Filename: asterisk18-pbx-ael_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 9372
-MD5Sum: 5224ab26df6ce4aae93bd125577f59dc
-SHA256sum: c52fa7e10a26421c37c443797a133e7d02570ff7fb33e785b508d655fc1438e9
+Size: 9375
+MD5Sum: 1222f00d8e3df9279d7edbaf4fedde6c
+SHA256sum: 36068aaf3cd3ec733cd098aea7ce9e404a1a80282a44ae149290ee48abc0fd47
 Description:  This package provides support for 'support for symbolic Asterisk Extension Logic' in Asterisk.
 
 Package: asterisk18-pbx-dundi
@@ -1017,11 +1017,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 66916
+Installed-Size: 66918
 Filename: asterisk18-pbx-dundi_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 67673
-MD5Sum: e077091a03ec695db029c8032e1f917b
-SHA256sum: 2ac547fcc8d0b9bad7801b5a25546ee83f8649f62d6c7d25dd3fcf0c76f9b57b
+Size: 67681
+MD5Sum: 30f77a2e73665cce5ccb811f90cd7952
+SHA256sum: e2529f4cb3897223d22ab8889e73942df725f743a60872ffba8d6c50ee5d1ffd
 Description:  This package provides support for 'provides Dundi Lookup service for Asterisk' in Asterisk.
 
 Package: asterisk18-pbx-lua
@@ -1033,11 +1033,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 13993
+Installed-Size: 13994
 Filename: asterisk18-pbx-lua_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 14824
-MD5Sum: 65b9f9fbc7dec67c9511119a4f647a68
-SHA256sum: 22c62fd98876f0300a2b893b3091d9525fc13c0902d648cfa9f58563a2ad4dee
+Size: 14767
+MD5Sum: c782e31cd02144d0a4ac2aa28b0a114f
+SHA256sum: ec0190db488eacd3d8c02dfe03213e4695a12f1aadc99fd883fee59a5d5b4467
 Description:  This package provides support for 'provides Lua resources for Asterisk' in Asterisk.
 
 Package: asterisk18-pbx-spool
@@ -1049,11 +1049,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 10059
+Installed-Size: 10060
 Filename: asterisk18-pbx-spool_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 10867
-MD5Sum: 6c3ac0aab3e958c08dbd0b42a5cb9639
-SHA256sum: 0f264a35f9855b40346ab9e1f61510e60f3997fca3458d096f4ff0f2fc338c76
+Size: 10863
+MD5Sum: 5902276f91f02e9ae205db8617141328
+SHA256sum: 8bd731a08da98ea3562f2735834b8c7b1fe6c3d1dbe0c78e984b00ee8d0bafab
 Description:  This package provides support for 'Outgoing call spool support' in Asterisk.
 
 Package: asterisk18-pgsql
@@ -1065,11 +1065,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 45304
+Installed-Size: 45306
 Filename: asterisk18-pgsql_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 46153
-MD5Sum: a490913aeb035fa56e13809cc5ebde66
-SHA256sum: cfedc216334aea69e0799e918714cb2e7ff9f3f24e6a028d0413bda29533037b
+Size: 46165
+MD5Sum: c2678ceb6e7e0023b94dc1bc1bdbac91
+SHA256sum: b9bcaf5ed46a96dbdb7bf25b97d3c3a50d4979edaaef8d10b2790484adc6bbed
 Description:  This package provides support for 'PostgreSQL support' in Asterisk.
 
 Package: asterisk18-res-ael-share
@@ -1083,9 +1083,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 55960
 Filename: asterisk18-res-ael-share_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 56857
-MD5Sum: 3f7323c5da03de8be82f32e99912e5cb
-SHA256sum: dfe225fb4d97b87305908228add65509e037e2f2c6b67fb97afb0a0958b29abf
+Size: 56791
+MD5Sum: fc2a48e08ae4d61bba81b2bae0bf10d3
+SHA256sum: 69cafa1fd39674fceccd4126d0687214c0baf53dd9a588d74a84644734de79e0
 Description:  This package provides support for 'support for shareable AEL code mainly between internal and external modules' in Asterisk.
 
 Package: asterisk18-res-agi
@@ -1097,11 +1097,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 28990
+Installed-Size: 28991
 Filename: asterisk18-res-agi_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 29572
-MD5Sum: 06c71067f1fe0a6b535473d4777794d3
-SHA256sum: 7ec1df96609a44bb5480d4268e064a8f6a88bf1e7e8d7db32940bbea6523527a
+Size: 29586
+MD5Sum: 39f10aebdfd4cc83ebadaa5e1c26f195
+SHA256sum: d48c1213b5bb2fed9a46f2b27b666cb1beb6991cf3c6ef1b88f32ba915e3888e
 Description:  This package provides support for 'support for the Asterisk Gateway Interface extension' in Asterisk.
 
 Package: asterisk18-res-clioriginate
@@ -1115,9 +1115,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 3332
 Filename: asterisk18-res-clioriginate_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 4111
-MD5Sum: 1e9efd6b81842fc131f9fc0ae27dfd2e
-SHA256sum: 18f95e44e278061f8be35be4c57cea452f9d2e008c1f9b152e850f3433561609
+Size: 4108
+MD5Sum: 860f3c3d5efb1d7d5c85c40cab5e79f7
+SHA256sum: 95c0d18e88d28bec906d0c7baa4b81b05fce112cf048d8c5fd853d81f329ba8e
 Description:  This package provides support for 'Originate calls via the CLI' in Asterisk.
 
 Package: asterisk18-res-crypto
@@ -1132,8 +1132,8 @@ Architecture: brcm63xx-tch
 Installed-Size: 6892
 Filename: asterisk18-res-crypto_1.8.32.3-5_brcm63xx-tch.ipk
 Size: 7740
-MD5Sum: 61b3c589999e8bf105a586a8e6f02e5f
-SHA256sum: 37416bebad725f82ef4ef5dcd4c37b09c712712a02efeb11b009939a27602f2d
+MD5Sum: a61383264c2b940a8e882931177c5bdf
+SHA256sum: b5cebb3881262fd71d0b968205fcbcac2f263b5b139e07417c63ddf455af7bff
 Description:  This package provides support for 'Cryptographic Signature capability' in Asterisk.
 
 Package: asterisk18-res-fax-spandsp
@@ -1145,11 +1145,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 7854
+Installed-Size: 7857
 Filename: asterisk18-res-fax-spandsp_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 8725
-MD5Sum: dd1f8c28274e1590653b2f1e080d938c
-SHA256sum: 6c20baf339542cd6dfe55cdc4cad5c97d51574623dbf9a43522059c3f3ed5368
+Size: 8720
+MD5Sum: 7790edc67a75d361390e48e7362b9fb2
+SHA256sum: cbeb793810890b4b6556fb7bfbab5041c5fd85e6e4d012be11ad485081ccf6b7
 Description:  This package provides support for 'Spandsp T.38 and G.711 FAX Resource' in Asterisk.
 
 Package: asterisk18-res-fax
@@ -1161,11 +1161,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 32478
+Installed-Size: 32482
 Filename: asterisk18-res-fax_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 33266
-MD5Sum: ff8af572fb21daedf4fc4cc884943b4b
-SHA256sum: 835028731e724a90666bfb86380dc00f9c339f729ef83f79dc26bfb881d7d7f6
+Size: 33272
+MD5Sum: 507c58e40df089a350a03033f006b5d1
+SHA256sum: f155a6129f83e2b921daa84cb64b689ed6f36b7bad232f23796541ad50451b4f
 Description:  This package provides support for 'Generic FAX resource for FAX technology resource modules' in Asterisk.
 
 Package: asterisk18-res-monitor
@@ -1177,11 +1177,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 7961
+Installed-Size: 7960
 Filename: asterisk18-res-monitor_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 8821
-MD5Sum: 7814d1b6be4e5e621401e834b7602029
-SHA256sum: e3b20ba410a3763f1cc19e5e571ea82e60c6799c1952234ebc41efb79d48ee97
+Size: 8812
+MD5Sum: 8316bdd1604015c15077536cd0567d98
+SHA256sum: 453c86976797a69f225796f3e1ee6ccf610da4eb64b748e6db0d34d7cca153e7
 Description:  This package provides support for 'Cryptographic Signature capability' in Asterisk.
 
 Package: asterisk18-res-musiconhold
@@ -1193,11 +1193,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 19438
+Installed-Size: 19437
 Filename: asterisk18-res-musiconhold_1.8.32.3-5_brcm63xx-tch.ipk
 Size: 20262
-MD5Sum: 06f098fbf4689636f413906208a31047
-SHA256sum: 20ee8c7e63c596cee6ebfe01c0bac70377d9cfe537bdfc9b22b834e1682061ad
+MD5Sum: 13d75ed180506aad3ba3c29e45736f47
+SHA256sum: da1183a3a9ad557c9e1d6153fec5c90b019ec8ab5acb1ad34b00dfb61ab9198b
 Description:  This package provides support for 'Music On Hold support' in Asterisk.
 
 Package: asterisk18-res-phoneprov
@@ -1209,11 +1209,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 14588
+Installed-Size: 14584
 Filename: asterisk18-res-phoneprov_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 15416
-MD5Sum: c9ef5b297ab066be1ff8cc04b756ed50
-SHA256sum: 09616d47720d4dbe833047bec6d028792db2f93ff858c2ba6d203aab3b1ac6c1
+Size: 15408
+MD5Sum: 4de232b195d30659f50ad9126c87347e
+SHA256sum: a944c30bdc40dd6db3cab75cfd089ccefb79055b63b9560cfb3085aa1eeee7b6
 Description:  This package provides support for 'Phone provisioning application for the asterisk internal http server' in Asterisk.
 
 Package: asterisk18-res-pktccops
@@ -1227,9 +1227,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 18865
 Filename: asterisk18-res-pktccops_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 19738
-MD5Sum: a17a6e9ab037bac23a9189880a985850
-SHA256sum: ea9491ec0001c788b6b529dabc55df112440daceca5a683ed82f123fd0f8b5c2
+Size: 19735
+MD5Sum: c226d82d4b5af4b0ff0d1741f9c3071c
+SHA256sum: 3b46ebb87ef40f624fd0b6b3e40258181f41bc0857c8d125e9f2ee5de7169387
 Description:  This package provides support for 'simple client/server model for supporting policy control over QoS signaling protocols' in Asterisk.
 
 Package: asterisk18-res-smdi
@@ -1241,11 +1241,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 23548
+Installed-Size: 23547
 Filename: asterisk18-res-smdi_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 24381
-MD5Sum: 2d3f61f6c08ed069abf8e81073aec862
-SHA256sum: 95869040054cfb9acf2e7d17dec863c156e6e5b116c07690d52034e95a9febf2
+Size: 24333
+MD5Sum: 459eb827db72e786be78d665810b55be
+SHA256sum: 1f8ae0a8cd9bcab857b495952651732d8dff6e243cd268e02fee686b83025335
 Description:  This package provides support for 'Simple Message Desk Interface capability' in Asterisk.
 
 Package: asterisk18-res-srtp
@@ -1260,8 +1260,8 @@ Architecture: brcm63xx-tch
 Installed-Size: 6252
 Filename: asterisk18-res-srtp_1.8.32.3-5_brcm63xx-tch.ipk
 Size: 7077
-MD5Sum: 70bab3f0f4f24a48756ebce89d5b3bef
-SHA256sum: 7301b8d31a083a7c42bc05d2b5d16216e49d94f03c5bfdf3a10569dfcfb4d5d2
+MD5Sum: f91d7ebe94158c53fb3730f0aa81eda9
+SHA256sum: 9b803c12e2f1f14d90a8340587e05b668f848600a4a61c0628c87b337b6fc32c
 Description:  This package provides support for 'Secure RTP' in Asterisk.
 
 Package: asterisk18-res-timing-pthread
@@ -1275,9 +1275,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 4754
 Filename: asterisk18-res-timing-pthread_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 5515
-MD5Sum: 547c6620e7937537645d5a39413a4bb0
-SHA256sum: acec333bca0a8aab4d49984c5aec5e2f4e9a6cc6fb41a257facb2ad506a1f909
+Size: 5514
+MD5Sum: 94cf2cf47896e2f50241e7b73a54a6cb
+SHA256sum: 442bf0b37bec7e23e2deadc12e235a51e94c5b47a5cf6391eacf6939d86473d0
 Description:  This package provides support for '' in Asterisk.
 
 Package: asterisk18-res-timing-timerfd
@@ -1291,9 +1291,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 4214
 Filename: asterisk18-res-timing-timerfd_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 4986
-MD5Sum: 69390d2609ccfa6a6d1c9da598d59ebd
-SHA256sum: 8d90b4f6c3b9cb12d60208932a588f2bc137d2d00aae6182b5ef648e69e29f92
+Size: 4992
+MD5Sum: 9b0bb8b76b29ab59a352a6af4f289a6c
+SHA256sum: 6197e8c0b754fae666a6afb5fca664b709d12caaf5d7e88c92289e4d1311e6ca
 Description:  This package provides support for '' in Asterisk.
 
 Package: asterisk18-sounds
@@ -1305,11 +1305,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 1394396
+Installed-Size: 1394397
 Filename: asterisk18-sounds_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 1395507
-MD5Sum: 2aa4b95709f5d1662ff3aed9a14dc42b
-SHA256sum: fecccfb4079c5acb610ef28072ba294bb21e9c0c57dbef1cb7781c318d7b98a9
+Size: 1395506
+MD5Sum: d1914e64cfd5a333b1414efaf0bd043c
+SHA256sum: 59ca562167ebadad229ad0d7ecdd1fa10aae23881af09b9ced39c158f7416650
 Description:  This package provides sound-files for Asterisk-1.8.x.
 
 Package: asterisk18-voicemail
@@ -1321,11 +1321,11 @@ LicenseFiles: COPYING LICENSE
 Section: net
 Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
-Installed-Size: 637476
+Installed-Size: 637477
 Filename: asterisk18-voicemail_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 638160
-MD5Sum: 9f4a2db6559eff41b1c85cf2c4717225
-SHA256sum: 343d01f537172ddec63cd7b2932941cacda823663b1f7e473a342a77ba75dbe9
+Size: 638163
+MD5Sum: beb5fc38c6b8b8de1f0dc724b5ea04ee
+SHA256sum: 516bb8f30869727e3ae95aacf346d56798ee2001c4850ba615c8d000b19cdf0f
 Description:  This package provides support for 'voicemail related modules' in Asterisk.
 
 Package: asterisk18
@@ -1339,9 +1339,9 @@ Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Architecture: brcm63xx-tch
 Installed-Size: 1340984
 Filename: asterisk18_1.8.32.3-5_brcm63xx-tch.ipk
-Size: 1340010
-MD5Sum: 2120e2b07d1f0e06694fac921792bc5d
-SHA256sum: d155b9e945bffb36511f6840cf6144dc4c96084d46f3bb561d428a2863ea4a4a
+Size: 1340089
+MD5Sum: ac6154c2a24d68d7c93fbdbd1be7718f
+SHA256sum: 61752e49084b52c88987a5996dd33004421a39fc4b90d35ef80fb8bb433dbde5
 Description:  Asterisk is a complete PBX in software. It provides all of the features
  you would expect from a PBX and more. Asterisk does voice over IP in three
  protocols, and can interoperate with almost all standards-based telephony
@@ -1358,9 +1358,9 @@ Maintainer: Alex Samorukov <samm@os2.kiev.ua>
 Architecture: brcm63xx-tch
 Installed-Size: 35744
 Filename: bcg729_1.0.0-1_brcm63xx-tch.ipk
-Size: 36716
-MD5Sum: 06f0b7e3dd735fcfe1543cb24029883f
-SHA256sum: d9d99d2f8ecc769636a14d465c080bdec770ef7180535de95d1175700b582096
+Size: 36715
+MD5Sum: b17a508c134f652dfc5748a85bd177fc
+SHA256sum: 57318eac07d6b92300a49b0fc0bcbce455af14e232a023b9744442c0dc73171b
 Description:  Bcg729 is a software G729A encoder and decoder library written in C, developed
  by Belledonne Communications, the company supporting the Linphone project.
  It was written from scratch and is NOT a derivative work of ITU reference
@@ -1375,11 +1375,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 21953
+Installed-Size: 21949
 Filename: libiksemel_1.4-2_brcm63xx-tch.ipk
 Size: 22740
-MD5Sum: d385b86164a09baf981ac667a0bb8306
-SHA256sum: 33f83229fbfd5bf398eed80df9087fe6bbd49ac27da5574c4ea32d0df9b35044
+MD5Sum: 96896734e5b563181813c524a8793e7d
+SHA256sum: 2225b654f944841d9f4334468af391461fadbd6ceb731803efcebe10ed624119
 Description:  Iksemel is an XML parser library mainly designed for Jabber applications.
  It provides SAX, DOM, and special Jabber stream APIs. Library is coded
  in ANSI C except the network code (which is POSIX compatible), thus
@@ -1394,11 +1394,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Nicolas Thill <nico@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 52381
+Installed-Size: 52384
 Filename: libortp_0.23.0-1_brcm63xx-tch.ipk
-Size: 52894
-MD5Sum: ddc80093385e1b846d211c123e0c60cd
-SHA256sum: 3c615677ed1d654b9821bbb50ed1c9760b3a87d9a36dabeab8726b886589d1df
+Size: 52907
+MD5Sum: c1c7dd5f50703aeda1717812ef1b2b76
+SHA256sum: 4cb0e3635e6d1a7be8f1737a234592a4abfb0fd9d340cba707ffcf150d8f6634
 Description:  Real-time Transport Protocol (RTP) library
 
 Package: libosip2
@@ -1409,15 +1409,15 @@ License: LGPL-2.1+
 LicenseFiles: COPYING
 Section: libs
 Architecture: brcm63xx-tch
-Installed-Size: 69320
+Installed-Size: 69326
 Filename: libosip2_4.1.0-2_brcm63xx-tch.ipk
-Size: 69896
-MD5Sum: 759a7f38ca9209431a8bcd173ab621b8
-SHA256sum: 16fbf60fcb4cc80b98adbc1d31fe23b6e556107646a1179da6f8defe2242d6c5
+Size: 69886
+MD5Sum: 8f1d7968a01678217c00414b53171621
+SHA256sum: 1c4d3e4bc8bc6de9f94fe042768ad67d90a0169b005352e8e645efc274c6cabd
 Description:  GNU oSIP library, a Session Initiation Protocol (SIP) implementation.
 
 Package: libpj
-Version: 2.7.1-1
+Version: 2.7.2-1
 Depends: libc, libopenssl, libuuid, libstdcpp, libpthread, librt
 Source: feeds/telephony/libs/pjproject
 License: GPL-2.0
@@ -1425,15 +1425,15 @@ LicenseFiles: COPYING
 Section: lib
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 66956
-Filename: libpj_2.7.1-1_brcm63xx-tch.ipk
-Size: 67301
-MD5Sum: b4e54ac120b155623d409c57c52de6be
-SHA256sum: 9b4c777dcd9f9d93eeefa36fc1870544cd9c66cb3dd2ca6ad619ec8dd729b9cb
+Installed-Size: 66959
+Filename: libpj_2.7.2-1_brcm63xx-tch.ipk
+Size: 67308
+MD5Sum: e7619f33bf84d3cb0b3d8473c65df5cc
+SHA256sum: c3ca185af678b466c8d0070575ca01a38aa23d0436323a0b8d48b80aa8e8f415
 Description:  libpj library
 
 Package: libpjlib-util
-Version: 2.7.1-1
+Version: 2.7.2-1
 Depends: libc, libopenssl, libuuid, libstdcpp, libpthread, libpj, librt
 Source: feeds/telephony/libs/pjproject
 License: GPL-2.0
@@ -1441,15 +1441,15 @@ LicenseFiles: COPYING
 Section: lib
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 76406
-Filename: libpjlib-util_2.7.1-1_brcm63xx-tch.ipk
-Size: 76867
-MD5Sum: bb0e0bf9008cb20c3beeea4ac2aa2938
-SHA256sum: 3f01ed9eafd839d10ec5106e45c9b7d245d476519bba8a9235b1060c132f2cfe
+Installed-Size: 76405
+Filename: libpjlib-util_2.7.2-1_brcm63xx-tch.ipk
+Size: 76861
+MD5Sum: 1dbdb56bb2bc4bda8d7dc29f4f3eda45
+SHA256sum: c72fb490fe213eab203a7034d81e04ee8c6569a17926846ffeae7fd21bb556a5
 Description:  libpjlib-util library
 
 Package: libpjmedia
-Version: 2.7.1-1
+Version: 2.7.2-1
 Depends: libc, libopenssl, libuuid, libstdcpp, libpthread, libpj, libpjlib-util, libpjnath, librt, libsrtp
 Source: feeds/telephony/libs/pjproject
 License: GPL-2.0
@@ -1457,15 +1457,15 @@ LicenseFiles: COPYING
 Section: lib
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 123814
-Filename: libpjmedia_2.7.1-1_brcm63xx-tch.ipk
-Size: 123586
-MD5Sum: a803150d81b83106ce44c0e82b43a188
-SHA256sum: f7807f5d792edb3a5409c6ea225172017ee38f17973bea8c2754b08d19ca54b7
+Installed-Size: 123855
+Filename: libpjmedia_2.7.2-1_brcm63xx-tch.ipk
+Size: 123623
+MD5Sum: 042d3e20de1bb2a31e3fed111b194eb1
+SHA256sum: 416954ffc33dafdfa594d6063d3e2005d6e25057b959d64338e723884056091d
 Description:  libpjmedia library
 
 Package: libpjnath
-Version: 2.7.1-1
+Version: 2.7.2-1
 Depends: libc, libopenssl, libuuid, libstdcpp, libpthread, libpj, libpjlib-util, librt
 Source: feeds/telephony/libs/pjproject
 License: GPL-2.0
@@ -1473,15 +1473,15 @@ LicenseFiles: COPYING
 Section: lib
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 62348
-Filename: libpjnath_2.7.1-1_brcm63xx-tch.ipk
-Size: 62710
-MD5Sum: d9750c6827740d4e65caeb10ebf20362
-SHA256sum: 4accb723b16d247641f998ec6640b530c53df0d51728ce59731a66d5c5022db8
+Installed-Size: 62347
+Filename: libpjnath_2.7.2-1_brcm63xx-tch.ipk
+Size: 62676
+MD5Sum: ef91bf5b105b4e8445b93ef214d5b2be
+SHA256sum: b4b29ab94aaa47fa5bfeaed6516befca4b7d67e2684d5c0e04727aceb5118ca2
 Description:  libpjnath library
 
 Package: libpjsip-simple
-Version: 2.7.1-1
+Version: 2.7.2-1
 Depends: libc, libopenssl, libuuid, libstdcpp, libpthread, libpj, libpjlib-util, libpjsip, librt
 Source: feeds/telephony/libs/pjproject
 License: GPL-2.0
@@ -1489,15 +1489,15 @@ LicenseFiles: COPYING
 Section: lib
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 26160
-Filename: libpjsip-simple_2.7.1-1_brcm63xx-tch.ipk
-Size: 26795
-MD5Sum: 7e7f228ae4ac538d24ce8ed748c2f4df
-SHA256sum: a9255fd5acc0c0b2db84dea657bc46e6c8a6aa347f385714f353be7a844abf44
+Installed-Size: 26162
+Filename: libpjsip-simple_2.7.2-1_brcm63xx-tch.ipk
+Size: 26853
+MD5Sum: ab6e4af96481cb1834780add33856fd6
+SHA256sum: 857568a0480da2754cb997d55c20efad50afefa1c56d10afcf585c174e3c5ee6
 Description:  libpjsip-simple library
 
 Package: libpjsip-ua
-Version: 2.7.1-1
+Version: 2.7.2-1
 Depends: libc, libopenssl, libuuid, libstdcpp, libpthread, libpj, libpjlib-util, libpjmedia, libpjsip-simple, libpjsip, librt
 Source: feeds/telephony/libs/pjproject
 License: GPL-2.0
@@ -1505,15 +1505,15 @@ LicenseFiles: COPYING
 Section: lib
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 37886
-Filename: libpjsip-ua_2.7.1-1_brcm63xx-tch.ipk
+Installed-Size: 37889
+Filename: libpjsip-ua_2.7.2-1_brcm63xx-tch.ipk
 Size: 38537
-MD5Sum: eb54cc238d891b525808d8d46877d71f
-SHA256sum: 7fbfa76dd97dd7cc4adc1c65591427a1fbdb4def32adcca691eee45157c60e83
+MD5Sum: 6ab1279c50464fd7d0112aa321d05171
+SHA256sum: aff20e5379190dd9853112d8a345fefd959da676a6719c6e1578faf1c50b0ef5
 Description:  libpjsip-ua library
 
 Package: libpjsip
-Version: 2.7.1-1
+Version: 2.7.2-1
 Depends: libc, libopenssl, libuuid, libstdcpp, libpthread, libpj, libpjlib-util, librt, libsrtp
 Source: feeds/telephony/libs/pjproject
 License: GPL-2.0
@@ -1521,15 +1521,15 @@ LicenseFiles: COPYING
 Section: lib
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 109834
-Filename: libpjsip_2.7.1-1_brcm63xx-tch.ipk
-Size: 109819
-MD5Sum: fbded394425c66edff2f898c5d6f1777
-SHA256sum: cd76f878793a6d476401a983da31fae666001a61ca6435e1df502f3df77ec5f8
+Installed-Size: 109835
+Filename: libpjsip_2.7.2-1_brcm63xx-tch.ipk
+Size: 109809
+MD5Sum: 36b59be772cc8ce13a7e3092c6e31fc0
+SHA256sum: d1ef5a9c529793425dae7f75070c19cb5aeead0c0c1279eba3946d0e7b553ee2
 Description:  libpjsip library
 
 Package: libpjsua2
-Version: 2.7.1-1
+Version: 2.7.2-1
 Depends: libc, libopenssl, libuuid, libstdcpp, libpthread, libpj, libpjlib-util, libpjmedia, libpjnath, libpjsip-simple, libpjsip-ua, libpjsip, librt, libpjsua
 Source: feeds/telephony/libs/pjproject
 License: GPL-2.0
@@ -1537,15 +1537,15 @@ LicenseFiles: COPYING
 Section: lib
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 156958
-Filename: libpjsua2_2.7.1-1_brcm63xx-tch.ipk
-Size: 156907
-MD5Sum: 412923ebd1a2af140d99cda06ec4b56e
-SHA256sum: 8c7f9376e6caf2fc2c3c19203900ff023e903d30c67a68030ac102679a8c158b
+Installed-Size: 156968
+Filename: libpjsua2_2.7.2-1_brcm63xx-tch.ipk
+Size: 156972
+MD5Sum: f360e823a3e65a5a9b9dfb745e9151e5
+SHA256sum: f9a792b00c2b483f1025bb24d2c85c73d41e070be6a1041d38059824e7b7c963
 Description:  libpjsua2 library
 
 Package: libpjsua
-Version: 2.7.1-1
+Version: 2.7.2-1
 Depends: libc, libopenssl, libuuid, libstdcpp, libpthread, libpj, libpjlib-util, libpjmedia, libpjnath, libpjsip-simple, libpjsip-ua, libpjsip, librt
 Source: feeds/telephony/libs/pjproject
 License: GPL-2.0
@@ -1553,11 +1553,11 @@ LicenseFiles: COPYING
 Section: lib
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 112418
-Filename: libpjsua_2.7.1-1_brcm63xx-tch.ipk
-Size: 112246
-MD5Sum: 2a2c1d4fdfa983bb3f4fad42f0c4959e
-SHA256sum: d4bdcdc48ed18d8f20811be2059a0bafe3193adb214ec8b1db4e54996678673d
+Installed-Size: 112417
+Filename: libpjsua_2.7.2-1_brcm63xx-tch.ipk
+Size: 112289
+MD5Sum: 9ead51b8a33a209c38b893b0226f305e
+SHA256sum: 1366276b14fd8af3def5bab43fcbb52dd7613f038ffd955c38c25352d6e3f100
 Description:  libpjsua library
 
 Package: libre
@@ -1569,11 +1569,11 @@ LicenseFiles: docs/COPYING
 Section: libs
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 163747
+Installed-Size: 163749
 Filename: libre_0.5.6-1_brcm63xx-tch.ipk
-Size: 163179
-MD5Sum: 2b2817b1a7fa79b714c9553c3700d300
-SHA256sum: df2475936560c51ffbe0129d96f374b75a899776e8a1f23f0a18781aeb277daf
+Size: 163175
+MD5Sum: d4d8a085444d6bf6afb4dae0230390b0
+SHA256sum: c6cdd28357999a23396f3984c1acccccbbfb1fc04b58bd6f49d748751572d263
 Description:  Generic library for real-time communications with async IO support
 
 Package: librem
@@ -1585,11 +1585,11 @@ LicenseFiles: docs/COPYING
 Section: libs
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 24903
+Installed-Size: 24902
 Filename: librem_0.5.2-1_brcm63xx-tch.ipk
-Size: 25569
-MD5Sum: d2dbdbfb70ebb573963e3aaab68223cc
-SHA256sum: d47c6c10064031b3a30b6eaae3dc896cb5033a778090b312247a0e0f9435b40e
+Size: 25553
+MD5Sum: 5ff221fbffafc759665a7da198baf525
+SHA256sum: c3623fc42c9e4877bf9b627f22920be74161d5641b0342a9e7e1026a05f5bab4
 Description:  Audio and video processing media library
 
 Package: libspandsp
@@ -1601,11 +1601,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 359206
+Installed-Size: 359205
 Filename: libspandsp_0.0.6-2_brcm63xx-tch.ipk
-Size: 357945
-MD5Sum: 9052a8d5985012dfce288b5b3241177f
-SHA256sum: 8032da7154d3d288b09f39750ba7dc49f59ea51495ea8589319e9c7b69b5c6a6
+Size: 357924
+MD5Sum: 1929f65b13b1ae57b76c952e7b2d50f4
+SHA256sum: 0f6063ea85c81deacca335738c26a995e0f96e8e349b4e74299a70d983ea3ddd
 Description:  spandsp library
 
 Package: libsrtp
@@ -1617,11 +1617,11 @@ LicenseFiles: LICENSE
 Section: libs
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: brcm63xx-tch
-Installed-Size: 40633
+Installed-Size: 40631
 Filename: libsrtp_1.4.4-2_brcm63xx-tch.ipk
-Size: 40894
-MD5Sum: 9c535bb9b81def5d8f228415bd0a735c
-SHA256sum: 66ee7ba57dd3d1af4c39e299ab7bb500c519d649dcf9980277b214fb4d8033de
+Size: 40887
+MD5Sum: 26cf1df94d46487c7faf7af1d0621b6e
+SHA256sum: a9661dbba29b0ef15bcd389b1649e485bd30ba5b6c96433474a6b61514df1122
 Description:  Open-source implementation of the Secure Real-time Transport
  Protocol (SRTP) originally authored by Cisco Systems, Inc.
  It is available under a BSD-style license.
