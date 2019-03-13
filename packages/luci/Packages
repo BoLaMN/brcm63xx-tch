@@ -9426,9 +9426,9 @@ Section: luci
 Architecture: brcm63xx-tch
 Installed-Size: 3358
 Filename: luci-lib-jsonc_git-19.072.24519-666ca37-1_brcm63xx-tch.ipk
-Size: 4048
-MD5Sum: f12745af7510220cbd9b3ea7b19c7d07
-SHA256sum: 5c640e0ab05f053f68a9b434875de162353184fedaf1b3f4ea29f8cbf0d37176
+Size: 4042
+MD5Sum: 6cb6ca95bba611f48d1318c71f31f7f3
+SHA256sum: 0946e67e3167068d31f46c5bdc1be32c068c2de61e07483538725dea51c3dad0
 Description:  Lua binding for JSON-C
 
 Package: luci-lib-luaneightbl

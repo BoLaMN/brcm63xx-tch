@@ -213,6 +213,43 @@ MD5Sum: d4cf0eaf6e6bf2de78bfa4b13e56d287
 SHA256sum: e5a8d380883c1ae65b2c8c7863b51a2ffc0d5cafe7cfb64f733d60ab56e45373
 Description:  Ext2 Filesystem debugger
 
+Package: dnsmasq-dhcpv6
+Version: 2.78-7
+Depends: libc, libubus
+Source: package/network/services/dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+Architecture: brcm63xx-tch
+Installed-Size: 159875
+Filename: dnsmasq-dhcpv6_2.78-7_brcm63xx-tch.ipk
+Size: 160654
+MD5Sum: e2e0a77b7b1bac9adf325fba4b4b4bd1
+SHA256sum: a01576b6b5b7ac61c1c9aa92b134bcb7c041c0c29cbf9fbb2ba2d5ca53382086
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a variant with DHCPv6 support
+
+Package: dnsmasq-full
+Version: 2.78-7
+Depends: libc, libubus, libnettle, kmod-ipt-ipset, libnetfilter-conntrack
+Source: package/network/services/dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+Architecture: brcm63xx-tch
+Installed-Size: 185806
+Filename: dnsmasq-full_2.78-7_brcm63xx-tch.ipk
+Size: 186500
+MD5Sum: b29c81cf78c730167f4cd30f02fc819a
+SHA256sum: e8982f93e7ac87e10b806563efd3c202c8b9a525805becf88932d672fdfffddb
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
+ and IPset, Conntrack support & NO_ID enabled by default.
+
 Package: dnsmasq
 Version: 2.78-7
 Depends: libc, libubus
@@ -1541,6 +1578,22 @@ MD5Sum: 4c2ccbd8c7c254cd6539fcf86a8c69f5
 SHA256sum: 83bf259e000726f34f2489acf7f0710ae0bde3d77edd7942626818692ea268b1
 Description:  MII library
 
+Package: kmod-nf-conntrack-netlink
+Version: 3.4.11-1
+Depends: kernel, kmod-nfnetlink, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 9355
+Filename: kmod-nf-conntrack-netlink_3.4.11-1_brcm63xx-tch.ipk
+Size: 10198
+MD5Sum: 72e258b9e896408042a07009c579f28a
+SHA256sum: ff575c3d0dead8fe6e1e03c3c003208a747c0d65a8af31c391d105375cec371b
+Description:  Kernel modules support for a netlink-based connection tracking
+ userspace interface
+
 Package: kmod-nf-conntrack6
 Version: 3.4.11-1
 Depends: kernel, kmod-ipv6, kmod-nf-conntrack
@@ -1762,11 +1815,11 @@ Source: package/kernel/ripdrv
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 19845
+Installed-Size: 19848
 Filename: kmod-ripdrv_3.4.11+2014.01-1_brcm63xx-tch.ipk
-Size: 20633
-MD5Sum: 43b3e9a4a614ae27cad69f418fdb3ed8
-SHA256sum: 67a10b5e4c01e6203e1f7856264cafc31d729daf87e9750019fd720cf4cea805
+Size: 20631
+MD5Sum: 397befdab1f0f11e7247b482007438ca
+SHA256sum: de0104457051ba30e630f043ca2eeae1de77b47be5bc83aedc455eb2408c9ace
 Description:  Kernel module that provides access to the eRIPv2 on Technicolor gateways.
 
 Package: kmod-scsi-core
@@ -1836,11 +1889,11 @@ Source: package/kernel/tomcrypt
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 40350
+Installed-Size: 40355
 Filename: kmod-tomcrypt_3.4.11+1.17-1_brcm63xx-tch.ipk
-Size: 41142
-MD5Sum: ec6497914a4df09a80f0fcf93c9484ee
-SHA256sum: 2d70dfee69c4aea69a255173a42bfe848c1347adb5d3b1c094ec1c5f2b37ca75
+Size: 41139
+MD5Sum: 880841e03f65edc55b4b6ce52ac55ec9
+SHA256sum: 8efbdff03af69e489b20f24bd5b08754abbd97946a91cef6cfc288468defc1ea
 Description:  Kernel module to provide tomcrypt crypto functions
 
 Package: kmod-tommath
@@ -1850,11 +1903,11 @@ Source: package/kernel/tommath
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 23359
+Installed-Size: 23358
 Filename: kmod-tommath_3.4.11+0.42.0-1_brcm63xx-tch.ipk
-Size: 23959
-MD5Sum: 57e89f53c2fb61b8a840bca4c765f031
-SHA256sum: 091080ff58ecf44fa638263d4853dbe68e1d972062b87c57feca8147dec560dd
+Size: 23966
+MD5Sum: 6676721e4017235a5bd464226efa9f5a
+SHA256sum: 96e69c873d99613f38db1bd3639a3492e2abeba88daffdbd85bd9548939fa1cd
 Description:  Kernel module to provide tommath math functions
 
 Package: kmod-tun
@@ -2594,6 +2647,25 @@ MD5Sum: 7e56ac6ebefd84ac1e0c10104bad97b3
 SHA256sum: 53d2e16e0bc915a2bfbb9e58494d145600fbbf09263efa646e9fc3c381c30c08
 Description:  Terminal handling library (Unicode)
 
+Package: libnetfilter-conntrack
+Version: 1.0.4-1
+Depends: libc, libnfnetlink, kmod-nf-conntrack-netlink, libmnl
+Source: package/libs/libnetfilter-conntrack
+License: GPL-2.0+
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 35830
+Filename: libnetfilter-conntrack_1.0.4-1_brcm63xx-tch.ipk
+Size: 36653
+MD5Sum: 2afbf0c4604f6b01cdc7eefd66e2707b
+SHA256sum: 7bbfea52addb5c402452b4e4a23de9f499dd9938051d763851870ec3b8d12d24
+Description:  libnetfilter_conntrack is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking state table. The
+ library libnetfilter_conntrack has been previously known as
+ libnfnetlink_conntrack and libctnetlink. This library is currently
+ used by conntrack-tools among many other applications.
+
 Package: libnettle
 Version: 3.1.1-1
 Depends: libc, libgmp
@@ -2608,6 +2680,24 @@ Size: 264435
 MD5Sum: 7d547a292c5ec402fa5cbb079f0dbedb
 SHA256sum: 6e6a66ef86971c7a62c37b267613cbaa8cb07e8202084d5b34103df2b8e2d2ed
 Description:  GNU crypto library
+
+Package: libnfnetlink
+Version: 1.0.1-1
+Depends: libc
+Source: package/libs/libnfnetlink
+License: GPL-2.0+
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 10545
+Filename: libnfnetlink_1.0.1-1_brcm63xx-tch.ipk
+Size: 11406
+MD5Sum: 299104769c20636b7339b852a8170d65
+SHA256sum: 803664413db283473b84948d8c60d4786b61e9688369b75120fb379bacd4a39a
+Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
+ It provides a generic messaging infrastructure for in-kernel netfilter subsystems
+ (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
+ and/or management tools in userspace.
 
 Package: libnl-tiny
 Version: 0.1-4
@@ -3314,11 +3404,11 @@ License: GPL-2.0
 Section: base
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: brcm63xx-tch
-Installed-Size: 38578
+Installed-Size: 38567
 Filename: procd_2017-07-20-1_brcm63xx-tch.ipk
-Size: 39200
-MD5Sum: 2bf1c081990dee46db9ae23892d11e81
-SHA256sum: 2f1fc1e0851ed25a81319cfeae2f11a4318935ca8fa843ad885f989a5a240d2c
+Size: 39248
+MD5Sum: 87447300a657176bd30b613552982f01
+SHA256sum: 26ddcec62df8f30553b8c87e6e81b452a2ede269386e875fef0a0f4fe3581b76
 Description:  OpenWrt system process manager
 
 Package: px5g
@@ -3656,6 +3746,22 @@ Size: 4139
 MD5Sum: 67e80f5e05bcf54ec6ba724b851589ce
 SHA256sum: d963e70f9f7e8075f9a995f2dfa02f68b9e5997c64ba65bfe35e9612404dfac0
 Description:  Tiny wget replacement using libuclient
+
+Package: udev
+Version: 173-1
+Depends: libc, librt
+Source: package/system/udev
+License: GPL-2.0
+Section: base
+Maintainer: Geoff Levand <geoff@infradead.org>
+Architecture: brcm63xx-tch
+Installed-Size: 204624
+Filename: udev_173-1_brcm63xx-tch.ipk
+Size: 205162
+MD5Sum: 983db478a01b87d2c0731b55fa23a343
+SHA256sum: 8985d4cd79098026cfcf5a93813c6bd9d9fa649aa9d8c9a21a0097afde489a3d
+Description:  udev allows Linux users to have a dynamic /dev directory and it
+ provides the ability to have persistent device names.
 
 Package: uhttpd-mod-ubus
 Version: 2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7

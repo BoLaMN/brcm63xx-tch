@@ -1667,11 +1667,11 @@ LicenseFiles: LICENSE
 Section: kernel
 Maintainer: Bruno Randolf <br1@einfach.org>
 Architecture: brcm63xx-tch
-Installed-Size: 47094
+Installed-Size: 47095
 Filename: kmod-fs-exfat_3.4.11+git-20150301-1_brcm63xx-tch.ipk
-Size: 47664
-MD5Sum: 0382cea8f3a2810f25c0d6b6dddc7fc4
-SHA256sum: 23b931f1ce7c648ddaeb90879a957340a001da58ae79a57b825eb24d0d18a7b6
+Size: 47685
+MD5Sum: 0398c7e8c1af876a84ab05aea51118a3
+SHA256sum: fbf6fac470eb4de7f85460ef718a67372fdf874b6c20c981c7e0a32d324f4410
 Description:  Kernel module for ExFAT Filesytems
 
 Package: kmod-siit
@@ -1682,11 +1682,11 @@ License: GPLv2+
 Section: kernel
 Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: brcm63xx-tch
-Installed-Size: 5220
+Installed-Size: 5224
 Filename: kmod-siit_3.4.11+1.2-1_brcm63xx-tch.ipk
-Size: 6020
-MD5Sum: 0354039dedc4023881ce18433992bffb
-SHA256sum: 22b05e9f116cef1abc409610198a324895d623493dbc89f7050714e59688a5c2
+Size: 6033
+MD5Sum: 5188082ab83873ecb2f8a99a05a232ab
+SHA256sum: c8dfd211503554ed2f32958cffd6c118f4deb63d4c4256ba491333e3ca8c070f
 Description:  Stateless IP ICMP Translation Algorithm
 
 Package: krb5-libs
