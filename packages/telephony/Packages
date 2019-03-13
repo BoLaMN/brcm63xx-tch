@@ -5236,3 +5236,36 @@ Description:  Open-source implementation of the Secure Real-time Transport
  Protocol (SRTP) originally authored by Cisco Systems, Inc.
  It is available under a BSD-style license.
 
+Package: rtpproxy
+Version: 2.0.0-1
+Depends: libc, libpthread, librt
+Source: feeds/telephony/net/rtpproxy
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: net
+Architecture: brcm63xx-tch
+Installed-Size: 41698
+Filename: rtpproxy_2.0.0-1_brcm63xx-tch.ipk
+Size: 42463
+MD5Sum: cdb7c491dd578ea242c86eea39b2590a
+SHA256sum: 9e9f17115b0f842b51590e59576029e8dae97f484dfe9eb9b1323cb3c612fa82
+Description:  RTP (Realtime Transport Protocol) proxy
+
+Package: sipp
+Version: 3.3.990-1
+Depends: libc, libncurses, libpthread, uclibcxx
+Source: feeds/telephony/net/sipp
+License: GPL-2.0+ BSD-3-Clause Zlib
+LicenseFiles: LICENSE.txt
+Section: net
+Architecture: brcm63xx-tch
+Installed-Size: 184553
+Filename: sipp_3.3.990-1_brcm63xx-tch.ipk
+Size: 185056
+MD5Sum: dcb6f7ff54ac06c03016b425195e4225
+SHA256sum: 5e5b8079d23ac872bb69acf2e11ca3ac8ef7be8b9021dec86508b29d4695ded2
+Description:  SIPp is a free Open Source test tool / traffic generator for the SIP
+ protocol. It includes a few basic SipStone user agent scenarios (UAC and
+ UAS) and establishes and releases multiple calls with the INVITE and BYE
+ methods.
+

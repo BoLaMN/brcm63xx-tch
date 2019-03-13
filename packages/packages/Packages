@@ -36,6 +36,21 @@ Description:  Powerful adblock script to block ad/abuse domains.
  Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
  
 
+Package: aircrack-ng
+Version: 1.2-rc1-1
+Depends: libc, libpcap, libpthread, libopenssl, libnl, wireless-tools, ethtool
+Source: feeds/packages/net/aircrack-ng
+License: GPLv2
+Section: net
+Maintainer: Rick Farina <zerochaos@gentoo.org>
+Architecture: brcm63xx-tch
+Installed-Size: 472546
+Filename: aircrack-ng_1.2-rc1-1_brcm63xx-tch.ipk
+Size: 472187
+MD5Sum: 9f1256a00f463d710f9a53ebb042a717
+SHA256sum: 12844a1e7ae2ded670e4e4c9709c95348c2d908a9fab95cbbe93253a82a2b3c0
+Description:  WLAN tools for breaking 802.11 WEP/WPA keys
+
 Package: alsa-lib
 Version: 1.0.28-1
 Depends: libc, kmod-sound-core, libpthread, librt
@@ -52,6 +67,76 @@ MD5Sum: bd110e0f458c5c4eabafa28e1eff88b4
 SHA256sum: b83785db029c4b17e1ae444db6bd002a0ea78c3d731e169f8035ffcb98b5ad7c
 Description:  This is the library package for alsa, needed by some userspace programs.
  You must have enabled the ALSA support in the kernel.
+
+Package: apache-icons
+Version: 2.2.31-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+License: Apache License
+Section: net
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 71434
+Filename: apache-icons_2.2.31-1_brcm63xx-tch.ipk
+Size: 72401
+MD5Sum: 19094b1c62b6f3d4a868bf68cad154bb
+SHA256sum: a6e21222e803a27ae2378fde4c1c4c5e4c08029849d443a9c93a416bf0ad79f6
+Description:  The Apache Web Server is a powerful and flexible HTTP/1.1 compliant
+ web server.  Originally designed as a replacement for the NCSA HTTP
+ Server, it has grown to be the most popular web server on the Internet.
+ .
+ This package contains the icons from Apache.
+
+Package: apache
+Version: 2.2.31-1
+Depends: libc, libapr, libaprutil, libpcre, libopenssl, unixodbc
+Source: feeds/packages/net/apache
+License: Apache License
+Section: net
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 512002
+Filename: apache_2.2.31-1_brcm63xx-tch.ipk
+Size: 510915
+MD5Sum: 6a4a8f8c0a25a2de03af20bf6bd4b313
+SHA256sum: 088daeae37afb40aba9ce5334f22992c07901d13c7a67d2e6bcb6253ad2e2612
+Description:  The Apache Web Server is a powerful and flexible HTTP/1.1 compliant
+ web server.  Originally designed as a replacement for the NCSA HTTP
+ Server, it has grown to be the most popular web server on the Internet.
+ .
+ This package contains the Apache web server and utility programs.
+ .
+ Take care that you don't include apache at the moment into your image
+ please select it only as module because busybox will override
+ /usr/sbin/httpd. It'll be solved soon. If you need to include this
+ package in the image anyway, remove httpd from busybox
+ (Base system --> Configuration --> Networking Utilities --> httpd).
+ Also you should take care for the initscripts, apache's httpd isn't
+ compatible with the one from busybox, so if you want to use apache
+ for running your webif, you'll need to change the parameters in the
+ scripts and configure the rest in /etc/httpd.conf.
+
+Package: apinger
+Version: 0.6.1-c7da72f7ec26eedd7fd8d224c0e10787b204f94e
+Depends: libc
+Source: feeds/packages/net/apinger
+License: GPL-2.0
+Section: net
+Maintainer: Alex Samorukov <samm@os2.kiev.ua>
+Architecture: brcm63xx-tch
+Installed-Size: 31800
+Filename: apinger_0.6.1-c7da72f7ec26eedd7fd8d224c0e10787b204f94e_brcm63xx-tch.ipk
+Size: 32937
+MD5Sum: 48a2fc073e28e0488cbdd74a8c1a476e
+SHA256sum: 265139c29a8c4e3f6fb54fde174524c205e9d8c695c53523509242e8e887a223
+Description:  Alarm Pinger (apinger) is a little tool which monitors various IP devices by
+ simple ICMP echo requests. There are various other tools, that can do this,
+ but most of them are shell or perl scripts, spawning many processes, thus much
+ CPU-expensive, especially when one wants continuous monitoring and fast
+ response on target failure.  Alarm Pinger is a single program written in C, so
+ it doesn't need much CPU power even when monitoring many targets with frequent
+ probes.  Alarm Pinger supports both IPv4 and IPv6. The code have been tested
+ on Linux and FreeBSD.
 
 Package: aria2
 Version: 1.33.0-1
@@ -116,6 +201,37 @@ Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  .
  This package contains an mDNS/DNS-SD daemon.
 
+Package: bandwidthd-pgsql
+Version: 2.0.1-5
+Depends: libc, libgd, libpcap, libpq
+Source: feeds/packages/utils/bandwidthd
+License: GPL-2.0
+Section: utils
+Maintainer: Jean-Michel Lacroix <lacroix@lepine-lacroix.info>
+Architecture: brcm63xx-tch
+Installed-Size: 38453
+Filename: bandwidthd-pgsql_2.0.1-5_brcm63xx-tch.ipk
+Size: 39396
+MD5Sum: 6c386b43c5d96a0508ab23953f9b7fe5
+SHA256sum: 76381d00a3e52cadda36553f261fca985a6c01db81c02baec7dd087cc904ac03
+Description:  A bandwidthd tracking utility.
+ With the ability to store in a postgresql database.
+
+Package: bandwidthd
+Version: 2.0.1-5
+Depends: libc, libgd, libpcap
+Source: feeds/packages/utils/bandwidthd
+License: GPL-2.0
+Section: utils
+Maintainer: Jean-Michel Lacroix <lacroix@lepine-lacroix.info>
+Architecture: brcm63xx-tch
+Installed-Size: 34473
+Filename: bandwidthd_2.0.1-5_brcm63xx-tch.ipk
+Size: 35240
+MD5Sum: 10a48442a37bfb8bdc720d9c1170ec97
+SHA256sum: e8833ec759199689213a9137509fc5725dfb6d8900381829002403e22f0ab402
+Description:  A bandwidthd tracking utility.
+
 Package: bash
 Version: 4.3.39-1
 Depends: libc, libncurses
@@ -177,6 +293,40 @@ Size: 1238601
 MD5Sum: 726f89c24da32bb2b9a3dfeaeed33f79
 SHA256sum: e4b12bfa91f10bdb139adfe452728601ac0de1b2d88d3b79fa6805f357f2de99
 Description:  bind shared libraries
+
+Package: bmon
+Version: 3.5-1
+Depends: libc, libncursesw, libnl, confuse, terminfo
+Source: feeds/packages/net/bmon
+License: MIT
+Section: net
+Maintainer: Baptiste Jonglez <openwrt-pkg@bitsofnetworks.org>
+Architecture: brcm63xx-tch
+Installed-Size: 36041
+Filename: bmon_3.5-1_brcm63xx-tch.ipk
+Size: 36841
+MD5Sum: 92cdd203eebb9d550f3c8be4a5779387
+SHA256sum: 2d70376225b8ca671ac06eba006c6a2bf8d9f8562294d1a7afde2118bdf29b9a
+Description:  bmon is a portable bandwidth monitor
+ and rate estimator running on various
+ operating systems. It supports various
+ input methods for different architectures.
+
+Package: bogofilter
+Version: 1.2.4-4
+Depends: libc, libdb47
+Source: feeds/packages/mail/bogofilter
+License: GPLv2
+LicenseFiles: COPYING
+Section: mail
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 428710
+Filename: bogofilter_1.2.4-4_brcm63xx-tch.ipk
+Size: 428212
+MD5Sum: 14d7fb5fca814ebe0e7e560868f336d6
+SHA256sum: ae5b7a889b7fb75777a1d7a336577d585834c6b1fbf56659fe672147e667f346
+Description:  Bogofilter is a fast Bayesian spam filter
 
 Package: boost-atomic
 Version: 1_58_0-4
@@ -620,6 +770,23 @@ Description:  Btrfs is a new copy on write filesystem for Linux aimed at impleme
  administration. Initially developed by Oracle, Btrfs is licensed under the
  GPL and open for contribution from anyone.
 
+Package: bwm-ng
+Version: 0.6-1
+Depends: libc
+Source: feeds/packages/net/bwm-ng
+License: GPL2-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
+Architecture: brcm63xx-tch
+Installed-Size: 16506
+Filename: bwm-ng_0.6-1_brcm63xx-tch.ipk
+Size: 17313
+MD5Sum: c933106ee50c92c32f18e9837c5fd7ee
+SHA256sum: f47f8540be87426ad912db2119f0e4cc9dd288603de1db421e3a074c28f8fdfc
+Description:  Bandwidth Monitor NG is a small and simple console-based live
+ network and disk io bandwidth monitor.
+
 Package: ccid
 Version: 1.4.18-1
 Depends: libc, libusb-1.0, libpcsclite
@@ -636,6 +803,21 @@ MD5Sum: 24a26236eb6a2f3ac2531433a16d85cf
 SHA256sum: 0d9dee4dac9c2aa05d49537c4ce57a08dc221183707869560a5086d6840dbbbc
 Description:  Generic USB CCID (Chip/Smart Card Interface Devices) driver and ICCD
  (Integrated Circuit(s) Card Devices).
+
+Package: ccrypt
+Version: 1.10-2
+Depends: libc
+Source: feeds/packages/utils/ccrypt
+License: GPLv2+
+Section: utils
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: brcm63xx-tch
+Installed-Size: 27000
+Filename: ccrypt_1.10-2_brcm63xx-tch.ipk
+Size: 27174
+MD5Sum: bf32f9c26e2bf02da8639cbd744e12fc
+SHA256sum: 66fb6d47c42b8da5e33f6972914bebbfc31d9ba92dd580cc4347916a62674780
+Description:  ccrypt is a utility for encrypting and decrypting files and streams
 
 Package: certtool
 Version: 3.4.15-1
@@ -817,6 +999,1522 @@ Description:  libConfuse is a configuration file parser library, licensed under 
  and quick to integrate with your code. libConfuse was called libcfg
  before, but was changed to not confuse with other similar libraries.
 
+Package: coreutils-base64
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 21733
+Filename: coreutils-base64_8.23-1_brcm63xx-tch.ipk
+Size: 22520
+MD5Sum: 1590673ccc1e94736687d7239da43efb
+SHA256sum: afd66413d59929d6dbd2cb00159c2ba11c94360d263d1b7dcef480e71c35e2b3
+Description:  Full version of standard GNU base64 utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-basename
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 18297
+Filename: coreutils-basename_8.23-1_brcm63xx-tch.ipk
+Size: 19061
+MD5Sum: 0c36d24394abd1d9ca38bfe8315d06da
+SHA256sum: 20524e693c5f64d521ae0144308613f99fa83a27a456a5504e76bb367e40d63f
+Description:  Full version of standard GNU basename utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-cat
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 26147
+Filename: coreutils-cat_8.23-1_brcm63xx-tch.ipk
+Size: 26891
+MD5Sum: 91bfd335f9a208ba144c37e731169ed8
+SHA256sum: bed44d075485c03679721969d65844b4f045b3d55a94aedabb3fe66d71ef0ff6
+Description:  Full version of standard GNU cat utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-chcon
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 32473
+Filename: coreutils-chcon_8.23-1_brcm63xx-tch.ipk
+Size: 33290
+MD5Sum: 099764b9344439eaa822d916766b7e67
+SHA256sum: 8d654c0b21fea75378a47ff665faa9c3c5527865ae83b243ef1be583cf1407b1
+Description:  Full version of standard GNU chcon utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-chgrp
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 34615
+Filename: coreutils-chgrp_8.23-1_brcm63xx-tch.ipk
+Size: 35423
+MD5Sum: 29847fcbd5f9ebb98351ac2272d321c3
+SHA256sum: af54606d79eb0abec198bdf73e1be0df6223fd8b9c44be85abdafc99fdee32b2
+Description:  Full version of standard GNU chgrp utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-chmod
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 31589
+Filename: coreutils-chmod_8.23-1_brcm63xx-tch.ipk
+Size: 32255
+MD5Sum: 1ddc08ec103134a9582cf704f038c0e3
+SHA256sum: 7d544d36395fd94af4a71cba16e531660111e3c25fbd688afcdef7b68f900410
+Description:  Full version of standard GNU chmod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-chown
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 35811
+Filename: coreutils-chown_8.23-1_brcm63xx-tch.ipk
+Size: 36540
+MD5Sum: 3933fa04e411ddfe96e94e38a1ed9777
+SHA256sum: 8eaf64def7d32fc0197b3360f71fca4adf3888ec6ee26ff6f2af90372a7483f2
+Description:  Full version of standard GNU chown utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-chroot
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 21460
+Filename: coreutils-chroot_8.23-1_brcm63xx-tch.ipk
+Size: 22219
+MD5Sum: 1c70e93eac7d77760993c5d388ee07b7
+SHA256sum: fd8e906072fb1a04818396e5d85f599d5801fae9fb1b0634651e545aabc155cb
+Description:  Full version of standard GNU chroot utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-cksum
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 19661
+Filename: coreutils-cksum_8.23-1_brcm63xx-tch.ipk
+Size: 20426
+MD5Sum: 56dcc93380831a6f3cad992f8e757a26
+SHA256sum: 44edb20623580c8baa72fbc5909f3a2c223c203276c539830af8677ec74e6f1d
+Description:  Full version of standard GNU cksum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-comm
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 20424
+Filename: coreutils-comm_8.23-1_brcm63xx-tch.ipk
+Size: 21214
+MD5Sum: 1d7429fa10c90804435babc751198f27
+SHA256sum: b5b060d80c24303d3f9d5442206941766b699d0ec64c0f1367015ace8e80e988
+Description:  Full version of standard GNU comm utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-cp
+Version: 8.23-1
+Depends: libc, coreutils, libacl
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 55070
+Filename: coreutils-cp_8.23-1_brcm63xx-tch.ipk
+Size: 55849
+MD5Sum: 40bde5897d4a6adffe28f3ad09260d37
+SHA256sum: dfa7fff1656592f3495b5bb1c0daba1637f78381c8d3b05a9a45cfd6699d57b1
+Description:  Full version of standard GNU cp utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-csplit
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 69005
+Filename: coreutils-csplit_8.23-1_brcm63xx-tch.ipk
+Size: 69824
+MD5Sum: 76a05697cf8502e83ff88fa8b9e79fa0
+SHA256sum: 3ddbbd1803197de1213db4c646ee0c25ac7c6b71a3093382c6242e422460d2fd
+Description:  Full version of standard GNU csplit utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-cut
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 22169
+Filename: coreutils-cut_8.23-1_brcm63xx-tch.ipk
+Size: 22952
+MD5Sum: 8b39b0daab4665d20892415ba113f0d2
+SHA256sum: f6e67281e617cdde23c963134eb047820684870968cc70c6a6575bc0857ad119
+Description:  Full version of standard GNU cut utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-date
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 37595
+Filename: coreutils-date_8.23-1_brcm63xx-tch.ipk
+Size: 38472
+MD5Sum: 6561044313663194ba9360d6af752cd8
+SHA256sum: 84f86e8168636b6701797ad834cf7a46356abd1dcbdc97ced8a9b6c176a77bfd
+Description:  Full version of standard GNU date utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-dd
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 33314
+Filename: coreutils-dd_8.23-1_brcm63xx-tch.ipk
+Size: 34149
+MD5Sum: 8822b8032e875f7430658cdb50603ad2
+SHA256sum: 0d94af596b9c3b24aac513c84878d61705c8c7c42bc6207c8b86073fe4d06858
+Description:  Full version of standard GNU dd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-dir
+Version: 8.23-1
+Depends: libc, coreutils, libacl
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 68604
+Filename: coreutils-dir_8.23-1_brcm63xx-tch.ipk
+Size: 69365
+MD5Sum: 9f832343bcf0a93bf5ebe414c9ade0c8
+SHA256sum: 87bf8351e27d32ceff692f49d8615c865adecf03ca7491366cfe890a5f70c68c
+Description:  Full version of standard GNU dir utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-dircolors
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 22850
+Filename: coreutils-dircolors_8.23-1_brcm63xx-tch.ipk
+Size: 23570
+MD5Sum: 1bfb8f2f5f6783aeb48d9219bac01a88
+SHA256sum: 6163c8a9dec1a0f7be51133ceb1dfdc9c85155d74f59d19b66aef2e1e7048d39
+Description:  Full version of standard GNU dircolors utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-dirname
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17981
+Filename: coreutils-dirname_8.23-1_brcm63xx-tch.ipk
+Size: 18788
+MD5Sum: c6b65d85d66c52781de949eba8442a19
+SHA256sum: 7d022c17fd3e31bd60b53bf2fd6888a88ab3f4926c8c139a08fb04cb404baeee
+Description:  Full version of standard GNU dirname utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-du
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 105660
+Filename: coreutils-du_8.23-1_brcm63xx-tch.ipk
+Size: 106425
+MD5Sum: 150d1678d8c4585951c5a51efe936ea7
+SHA256sum: a104cf838751e62295036cb23d751dfa9a8e3dacb09b9b7e5a62013796843148
+Description:  Full version of standard GNU du utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-echo
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 13296
+Filename: coreutils-echo_8.23-1_brcm63xx-tch.ipk
+Size: 14080
+MD5Sum: 9a666fdc885182a89dc16c04bf3a7a63
+SHA256sum: 3d3c229b2f7fa886d3a8c7dfdfedbe6978b5602234db13d0b0ba30412b9f2125
+Description:  Full version of standard GNU echo utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-env
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 18257
+Filename: coreutils-env_8.23-1_brcm63xx-tch.ipk
+Size: 19024
+MD5Sum: 597aa5982628577df6151b93a8dec12c
+SHA256sum: 87658a455dcd4e58e8988506d137b62109bbdd8fbd2270d4ac9cbb66234e0139
+Description:  Full version of standard GNU env utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-expand
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 19301
+Filename: coreutils-expand_8.23-1_brcm63xx-tch.ipk
+Size: 20089
+MD5Sum: 60224c8560f6c22e1c07f32e470538b9
+SHA256sum: c763c87b2b035b0375225c22e934ae3422cd9f2a4394af23c68baa7117da1184
+Description:  Full version of standard GNU expand utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-expr
+Version: 8.23-1
+Depends: libc, coreutils, libgmp
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 64407
+Filename: coreutils-expr_8.23-1_brcm63xx-tch.ipk
+Size: 65202
+MD5Sum: d8d6df1d7f1419f4dcb944caee521344
+SHA256sum: 0a0d7837a84be07718c0f8133b2930baf65792c704b06efc7ad90ca1acd59047
+Description:  Full version of standard GNU expr utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-factor
+Version: 8.23-1
+Depends: libc, coreutils, libgmp
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 59626
+Filename: coreutils-factor_8.23-1_brcm63xx-tch.ipk
+Size: 60465
+MD5Sum: cb480bf4539050771f6b4dfce5083e96
+SHA256sum: 207043078c579189a2c14a7f2bbb377b808de46165ba4eeae3da2d58c0f48be1
+Description:  Full version of standard GNU factor utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-false
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 12125
+Filename: coreutils-false_8.23-1_brcm63xx-tch.ipk
+Size: 12950
+MD5Sum: 29f6733417d6706aebb8de35bcbc0b75
+SHA256sum: eabb0ef58345c5f491c051f0428e8391ca91befc31f0321db0904178d229b761
+Description:  Full version of standard GNU false utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-fmt
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 22901
+Filename: coreutils-fmt_8.23-1_brcm63xx-tch.ipk
+Size: 23698
+MD5Sum: 45d4d28f8acaad9cba47b459e7c0ad3d
+SHA256sum: 79b67e2017c1c1f742f9a64debbfb3c56d9d3da5664710a46d5cd2e092ba7a96
+Description:  Full version of standard GNU fmt utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-fold
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 19665
+Filename: coreutils-fold_8.23-1_brcm63xx-tch.ipk
+Size: 20415
+MD5Sum: a8c89168587f97a6cfd47b99aa8bd491
+SHA256sum: 5db85094c74f7285928de0e1734b03bf3a58d53aa36b0d9cf94e5a6cdcca7e69
+Description:  Full version of standard GNU fold utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-groups
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 19020
+Filename: coreutils-groups_8.23-1_brcm63xx-tch.ipk
+Size: 19785
+MD5Sum: 02dabe330a2d7b0c7a22a149e623aed9
+SHA256sum: e1ec8a5f78ceb44224bc7f5c575f7e7858480072233a274499e39cf909a59653
+Description:  Full version of standard GNU groups utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-head
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 23790
+Filename: coreutils-head_8.23-1_brcm63xx-tch.ipk
+Size: 24520
+MD5Sum: 1fd2de0b9a01b6e0a2aefce352130238
+SHA256sum: 3ecea3ceca73b5e36a9ed5555bfef575ba4b6186b7f14e7e37a12a86a6794407
+Description:  Full version of standard GNU head utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-hostid
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17589
+Filename: coreutils-hostid_8.23-1_brcm63xx-tch.ipk
+Size: 18398
+MD5Sum: abfb266c9aa070d5404f9e2db0f0c098
+SHA256sum: a54d741b94a1dc98085a2d5593a1f82f7faed42bf8b02037cef7fb518c4db50c
+Description:  Full version of standard GNU hostid utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-id
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 22168
+Filename: coreutils-id_8.23-1_brcm63xx-tch.ipk
+Size: 22899
+MD5Sum: 9051a694bf35cbfb342fc49ac08e0cb0
+SHA256sum: 7eddf953ca24b56aa806ed97c0f22c50a69fa62bbb8b5863d7d2d10b38d0de31
+Description:  Full version of standard GNU id utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-install
+Version: 8.23-1
+Depends: libc, coreutils, libacl
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 59085
+Filename: coreutils-install_8.23-1_brcm63xx-tch.ipk
+Size: 59820
+MD5Sum: 4543088870708a745f97a1b560132022
+SHA256sum: 842d14c3e37d5211fc28cb23db5ab66a8d9c3870c50773677f916fc8a3aa69ae
+Description:  Full version of standard GNU install utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-join
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 26099
+Filename: coreutils-join_8.23-1_brcm63xx-tch.ipk
+Size: 26846
+MD5Sum: 5f47a8347f31d96674acafc6bcac19a5
+SHA256sum: ac4be9c9637af06ccfff187757b9cb55f9f79d56bf90a8285086b7287ef14b1e
+Description:  Full version of standard GNU join utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-kill
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 19773
+Filename: coreutils-kill_8.23-1_brcm63xx-tch.ipk
+Size: 20553
+MD5Sum: eb49ca54a4ee19d53b7d8152f66c60a6
+SHA256sum: 0e9e32078729e9e8e3b387e627e40c475dcf60b44ca5be8ff9d4519dec630e0b
+Description:  Full version of standard GNU kill utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-link
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17704
+Filename: coreutils-link_8.23-1_brcm63xx-tch.ipk
+Size: 18484
+MD5Sum: a140eea628c22094aa7acd860d8c6d61
+SHA256sum: dab1eebd2e54190be79a85b0c28eb15f4c1291f4761ca519bd99232e7fa6169b
+Description:  Full version of standard GNU link utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-ln
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 30381
+Filename: coreutils-ln_8.23-1_brcm63xx-tch.ipk
+Size: 31078
+MD5Sum: 4256545b73e5d9a9ffa5d91052d3f578
+SHA256sum: 353cb5534c4bdb085bb8d924116ae7a9193a147049b2c75b12b4b82f1a8c46f3
+Description:  Full version of standard GNU ln utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-logname
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17600
+Filename: coreutils-logname_8.23-1_brcm63xx-tch.ipk
+Size: 18428
+MD5Sum: a166717aa1c4c13fb0c9a4b478408cc9
+SHA256sum: d63f091d1bdfa086b4d164e20be07d98286e869f4c35a475e617aef893902762
+Description:  Full version of standard GNU logname utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-ls
+Version: 8.23-1
+Depends: libc, coreutils, libacl
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 68605
+Filename: coreutils-ls_8.23-1_brcm63xx-tch.ipk
+Size: 69392
+MD5Sum: 4752b68da4866593c2fa05f9d3da06cf
+SHA256sum: 54f993441a33131daa59fd532af5c26fee4d0aba89d94a9c4ebf57b20f9a0b00
+Description:  Full version of standard GNU ls utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-md5sum
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 24649
+Filename: coreutils-md5sum_8.23-1_brcm63xx-tch.ipk
+Size: 25359
+MD5Sum: bf4ccc458c4d246a9ecba274efe79901
+SHA256sum: 40d8bd6357e43d66b3d85b1fd3663db49ad6e29adcc03183f29c5b7ba77c030a
+Description:  Full version of standard GNU md5sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-mkdir
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 29151
+Filename: coreutils-mkdir_8.23-1_brcm63xx-tch.ipk
+Size: 29910
+MD5Sum: 7d36f11efdba02f45c98b993cb236b8b
+SHA256sum: b985be8e0f4e65c6dd7dc779ef5837de528852557852a44ffa5be4ac80497836
+Description:  Full version of standard GNU mkdir utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-mkfifo
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 19082
+Filename: coreutils-mkfifo_8.23-1_brcm63xx-tch.ipk
+Size: 19876
+MD5Sum: 08576ccf21fcaf98dd88d44c381cfaa5
+SHA256sum: e377361d5bef572b4c3ca2128a338c6cd5918c73180218ad7f368619c0265705
+Description:  Full version of standard GNU mkfifo utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-mknod
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 20961
+Filename: coreutils-mknod_8.23-1_brcm63xx-tch.ipk
+Size: 21729
+MD5Sum: 7b7efd3391d0347831a0cb4ba2de1f80
+SHA256sum: 7092be2d86f034dd01dd36fbebc439c0d72dbfbbd7b03e7c1ea04bf238566de7
+Description:  Full version of standard GNU mknod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-mktemp
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 22752
+Filename: coreutils-mktemp_8.23-1_brcm63xx-tch.ipk
+Size: 23481
+MD5Sum: d5232deeb5ce2bb1367e8b230b0b0e75
+SHA256sum: 5534128bebd3379331248eabbcc78bd855a5ca85af90562ed3f81768f3afbb7f
+Description:  Full version of standard GNU mktemp utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-mv
+Version: 8.23-1
+Depends: libc, coreutils, libacl
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 55021
+Filename: coreutils-mv_8.23-1_brcm63xx-tch.ipk
+Size: 55762
+MD5Sum: da457c134af0bd33c3ce6f91b5ed519c
+SHA256sum: c8d215eba61c9e2cc470852327f46ef8ffa189824f3f04ebe63103f879ad4f18
+Description:  Full version of standard GNU mv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-nice
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 19127
+Filename: coreutils-nice_8.23-1_brcm63xx-tch.ipk
+Size: 19917
+MD5Sum: 4ee15a367c2e421942937a92f4531ce0
+SHA256sum: 47ba797e084559b7b0e996bc1d2cde4db311436862089898c3ee2ae3787bfac4
+Description:  Full version of standard GNU nice utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-nl
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 64763
+Filename: coreutils-nl_8.23-1_brcm63xx-tch.ipk
+Size: 65479
+MD5Sum: 24ee24bfdb991020141ccffb867c6e41
+SHA256sum: 6a6eae33bb22c2b6d9de4283fd6647cfe30ac97836fb16065711a34a63e8d814
+Description:  Full version of standard GNU nl utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-nohup
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 19189
+Filename: coreutils-nohup_8.23-1_brcm63xx-tch.ipk
+Size: 19916
+MD5Sum: de22631da5e9bcab87d70e41a9e8100d
+SHA256sum: cdf101397635db389874dbfeba44c10a1306a1c11d29b0d2739c61f3aff6ea7e
+Description:  Full version of standard GNU nohup utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-nproc
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 19119
+Filename: coreutils-nproc_8.23-1_brcm63xx-tch.ipk
+Size: 19843
+MD5Sum: 0613db08fad2fb1f7b0ec46f2952c5cb
+SHA256sum: b6eaabb745b1a71babdc4d68be52ebeaf20acd0fbfa809a6dea2c1b73a252a44
+Description:  Full version of standard GNU nproc utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-od
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 38726
+Filename: coreutils-od_8.23-1_brcm63xx-tch.ipk
+Size: 39529
+MD5Sum: 368f29f2ac896debad30a8b1ec0963e2
+SHA256sum: 5dc0228cae2ed5ffed05d06a06358398475b7c1aa92add70c383a4f5dcb48066
+Description:  Full version of standard GNU od utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-paste
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 19420
+Filename: coreutils-paste_8.23-1_brcm63xx-tch.ipk
+Size: 20192
+MD5Sum: 2ffe0d05937963763b60e0765f546197
+SHA256sum: e2e690e20ef064a19301ac85780d4cb0131bf49a9b7600131753e2b8bcf96840
+Description:  Full version of standard GNU paste utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-pathchk
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 18628
+Filename: coreutils-pathchk_8.23-1_brcm63xx-tch.ipk
+Size: 19384
+MD5Sum: 69a04e8f8c5f5ef509664d039a1b65c6
+SHA256sum: 77612d9bbd541d245cc4ede0ced3eb9cb490ed52126aef4370b5899f3a0d04f7
+Description:  Full version of standard GNU pathchk utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-pinky
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 20782
+Filename: coreutils-pinky_8.23-1_brcm63xx-tch.ipk
+Size: 21557
+MD5Sum: e9948a3d30136b4acc2ecf88a40a1818
+SHA256sum: b304dce2be69a8e76b1a0bcdd21109a986b8145b1d70741f07c7533917b6fd57
+Description:  Full version of standard GNU pinky utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-pr
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 37362
+Filename: coreutils-pr_8.23-1_brcm63xx-tch.ipk
+Size: 38259
+MD5Sum: c94a40bf5c6f9639f1eba7cc957cb2f9
+SHA256sum: ccedae657b8e4b704bd4e6babd25a85b39680f01648a67d7b5315ebb5d1f3a5b
+Description:  Full version of standard GNU pr utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-printenv
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17888
+Filename: coreutils-printenv_8.23-1_brcm63xx-tch.ipk
+Size: 18693
+MD5Sum: 9b0dbcc57a9800d8625d5d31e85e0b38
+SHA256sum: 177d38b3ee6d1922f1fc1cee5bf4fce0f4bea4bb03f45d144d52f0d7a6b24253
+Description:  Full version of standard GNU printenv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-printf
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 23536
+Filename: coreutils-printf_8.23-1_brcm63xx-tch.ipk
+Size: 24274
+MD5Sum: b577915b0a2c09fddf234df40c211cfb
+SHA256sum: a2a978d8ac5cf4a325755f9f34db8cfa4fd1d2692d1f5db29eee4f7db8fd66e6
+Description:  Full version of standard GNU printf utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-ptx
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 76729
+Filename: coreutils-ptx_8.23-1_brcm63xx-tch.ipk
+Size: 77454
+MD5Sum: 5ab808929bab74906b8f3d6d587e6009
+SHA256sum: add16a69765a851d18daa071055ebe768c2d816f54bb7327852170a5c13882a8
+Description:  Full version of standard GNU ptx utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-pwd
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 21541
+Filename: coreutils-pwd_8.23-1_brcm63xx-tch.ipk
+Size: 22307
+MD5Sum: 9433ed6f6c3ee1da4e94b3ec793e9035
+SHA256sum: c54d6ba028df46e601349005d006a234328ffaaed5948978dd3c0463c921689b
+Description:  Full version of standard GNU pwd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-readlink
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 24383
+Filename: coreutils-readlink_8.23-1_brcm63xx-tch.ipk
+Size: 25117
+MD5Sum: bffbe95ccecc8c656a7c51169cb832a5
+SHA256sum: a8b1d27e810a57ef0f27b8130b156fb2f8b877aba8a78b7aa1411f08963eaa2c
+Description:  Full version of standard GNU readlink utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-realpath
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 31374
+Filename: coreutils-realpath_8.23-1_brcm63xx-tch.ipk
+Size: 32108
+MD5Sum: 948756562b8359f891b5cba8ba929c86
+SHA256sum: 2198dba3bda58297be29851fc7c9d55e50fedbe229ff4cbe2123afa1ec4dab00
+Description:  Full version of standard GNU realpath utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-rm
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 32984
+Filename: coreutils-rm_8.23-1_brcm63xx-tch.ipk
+Size: 33814
+MD5Sum: c3f7e9ce3e762cfb0c1e7e1eb206765f
+SHA256sum: 9072682dbba859e8d236a9f3ab493c694ee26c1ffe3fbb0308c87394cb71e2a5
+Description:  Full version of standard GNU rm utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-rmdir
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 25412
+Filename: coreutils-rmdir_8.23-1_brcm63xx-tch.ipk
+Size: 26130
+MD5Sum: e76e3cb5e7c2fab24187194c078a7b08
+SHA256sum: c907cee98c2a0528621e4782a3a82f65b666714c8c8e59cdf5bc80b28daa0405
+Description:  Full version of standard GNU rmdir utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-runcon
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 18537
+Filename: coreutils-runcon_8.23-1_brcm63xx-tch.ipk
+Size: 19299
+MD5Sum: f95d80c41a2bf6793931683c6f6452dc
+SHA256sum: 90bbce0f2cf2cb835e967d7331960bc6ed430a2c6734ce9a07e95490ecbe0f95
+Description:  Full version of standard GNU runcon utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-seq
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 27745
+Filename: coreutils-seq_8.23-1_brcm63xx-tch.ipk
+Size: 28548
+MD5Sum: de513e57cb3d5947864add8ccbc43bbc
+SHA256sum: 58565005abefb557de94d0c7a2e3fa5e9b8e346f2aea729663faff81f56bdb26
+Description:  Full version of standard GNU seq utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sha1sum
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 26528
+Filename: coreutils-sha1sum_8.23-1_brcm63xx-tch.ipk
+Size: 27274
+MD5Sum: ba9aec3b171769a056bdb1cd1d089184
+SHA256sum: 22f94762d9b2313443cbe0c70805499a8251d5d53798c297e1fa3aeed1a7cafc
+Description:  Full version of standard GNU sha1sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sha224sum
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 29298
+Filename: coreutils-sha224sum_8.23-1_brcm63xx-tch.ipk
+Size: 30116
+MD5Sum: a1ea2b4ceba3c8fbdb467c2fcac7d00a
+SHA256sum: b79080fb9f31818b10af5e5bd10d77520534e904210502199ec9b9b493697960
+Description:  Full version of standard GNU sha224sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sha256sum
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 29296
+Filename: coreutils-sha256sum_8.23-1_brcm63xx-tch.ipk
+Size: 30119
+MD5Sum: 0e42a2d53a7e1cac22f3c9ba4c55fd52
+SHA256sum: f329574a18c06f4cea9ef9649ecbd568a741d8b0092860268208b487fc481b59
+Description:  Full version of standard GNU sha256sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sha384sum
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 56312
+Filename: coreutils-sha384sum_8.23-1_brcm63xx-tch.ipk
+Size: 57108
+MD5Sum: 3c40c971d843199a94fd6c414267a187
+SHA256sum: c03841cdac9cf01766947acc641282b9a1eb2e7109b04c2ddfbf6a4f3a909e16
+Description:  Full version of standard GNU sha384sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sha512sum
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 56311
+Filename: coreutils-sha512sum_8.23-1_brcm63xx-tch.ipk
+Size: 57097
+MD5Sum: 21435f9ee0f92146c3588edd0be57c31
+SHA256sum: 686a9ac4449fe149256b23e64508fa1f2a3ecbee2f3afa106594af2c5ad284d5
+Description:  Full version of standard GNU sha512sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-shred
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 30945
+Filename: coreutils-shred_8.23-1_brcm63xx-tch.ipk
+Size: 31708
+MD5Sum: fac33df50fedcb18b10402af26584437
+SHA256sum: ab60697a1ab5fa8381f3c39d0272ea93db862cf8c7a5fb8fd7b4d47c9fd0cde7
+Description:  Full version of standard GNU shred utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-shuf
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 28865
+Filename: coreutils-shuf_8.23-1_brcm63xx-tch.ipk
+Size: 29556
+MD5Sum: 94f2ba77c7d7b6eb8a2381a5ac5bd11b
+SHA256sum: e184b52a48e886ba898a68b4080dcd3f5361e42c5d417258d8daeea05ea39e48
+Description:  Full version of standard GNU shuf utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sleep
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 20302
+Filename: coreutils-sleep_8.23-1_brcm63xx-tch.ipk
+Size: 21049
+MD5Sum: 5be13c04a08a66e9a827618a601e3b12
+SHA256sum: deeb6766fae569591faa657c478b122094fa658eaf06f46e953f479b5efdbbb9
+Description:  Full version of standard GNU sleep utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sort
+Version: 8.23-1
+Depends: libc, coreutils, libpthread
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 58672
+Filename: coreutils-sort_8.23-1_brcm63xx-tch.ipk
+Size: 59346
+MD5Sum: 08f2e5748eb177c1cac75d02aff6ea4a
+SHA256sum: 128fd69a13e2ec5873c7a60bf9f8ca71b5e6b88e7b78dba6df09ca184f3ce5f7
+Description:  Full version of standard GNU sort utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-split
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 35734
+Filename: coreutils-split_8.23-1_brcm63xx-tch.ipk
+Size: 36515
+MD5Sum: 5e229f870cb5c5ed44bb32a38736d5a7
+SHA256sum: 4d30019358ea1c57093847fd64f45fc13ae146c840ad25aeef66fffba516a669
+Description:  Full version of standard GNU split utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-stat
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 46932
+Filename: coreutils-stat_8.23-1_brcm63xx-tch.ipk
+Size: 47446
+MD5Sum: 80470a0ba0894c350eadf63fe7227b73
+SHA256sum: 45a6a8678c70d18c82c3f4e5f7b55d8c7b6f366e0307ac5f7a13ee137c945197
+Description:  Full version of standard GNU stat utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-stdbuf
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 34118
+Filename: coreutils-stdbuf_8.23-1_brcm63xx-tch.ipk
+Size: 34964
+MD5Sum: 835559dc0fe148a86d6948f743394427
+SHA256sum: ba13da36fd43d99440802ed16c45324bbb5a6b204051a929d6fca929c1019384
+Description:  Full version of standard GNU stdbuf utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-stty
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 35147
+Filename: coreutils-stty_8.23-1_brcm63xx-tch.ipk
+Size: 35921
+MD5Sum: 8917182837a0ced202988c1a59aeac32
+SHA256sum: ea19da145eb94443fd77896417601b1215e133e306cca36e2fb899851888d7ae
+Description:  Full version of standard GNU stty utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sum
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 23021
+Filename: coreutils-sum_8.23-1_brcm63xx-tch.ipk
+Size: 23759
+MD5Sum: 5fe7a47e0c9e68fd6e31e78480a72158
+SHA256sum: 2988e31669630a8a66ee850955676b26a7fd9abfd0a7ccceea2e2be89866a217
+Description:  Full version of standard GNU sum utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-sync
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17562
+Filename: coreutils-sync_8.23-1_brcm63xx-tch.ipk
+Size: 18391
+MD5Sum: d4a86b33f68c4ea53d52093af25ebc7c
+SHA256sum: bd7095cd8aadd0e2c87365007b0d335768d55a406949105510aeeaead2de4ec6
+Description:  Full version of standard GNU sync utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-tac
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 62654
+Filename: coreutils-tac_8.23-1_brcm63xx-tch.ipk
+Size: 63415
+MD5Sum: f56430483003f4077bff6cb35900e84a
+SHA256sum: 5746acbb42303ba7423f1f11308e4dae43c601814a7f3769f4b3766673d1646a
+Description:  Full version of standard GNU tac utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-tail
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 38576
+Filename: coreutils-tail_8.23-1_brcm63xx-tch.ipk
+Size: 39399
+MD5Sum: 3acdf6fcf347420ac07ae52b175ff399
+SHA256sum: b26f5d7312b867462e678ee64796705fd6989eb9eab7b8132d4ec00840fe8c17
+Description:  Full version of standard GNU tail utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-tee
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 18677
+Filename: coreutils-tee_8.23-1_brcm63xx-tch.ipk
+Size: 19456
+MD5Sum: 1d0b2b562483b3fc79aa4cb7bc4264e6
+SHA256sum: def6d4767c6ef3b56d0b7e21aa5c954facaecbc387448bb4d1593d3da73b4388
+Description:  Full version of standard GNU tee utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-test
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 15352
+Filename: coreutils-test_8.23-1_brcm63xx-tch.ipk
+Size: 16143
+MD5Sum: 57a2ca02fbfca7c1335b3be0efc6701e
+SHA256sum: cd2d01aec06423ce5fb880b16875d862eccf7b91a71caad24330ae046253b7bb
+Description:  Full version of standard GNU test utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-timeout
+Version: 8.23-1
+Depends: libc, coreutils, librt
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 28782
+Filename: coreutils-timeout_8.23-1_brcm63xx-tch.ipk
+Size: 29490
+MD5Sum: de4bb8ec1ea41194c9490ee0fb78ff3c
+SHA256sum: ce2289e8e9d298728c72c84a61184adb966d9e3b702c9081eeb23f6749458a9c
+Description:  Full version of standard GNU timeout utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-touch
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 36255
+Filename: coreutils-touch_8.23-1_brcm63xx-tch.ipk
+Size: 37047
+MD5Sum: 85659a2ee6c2e5193781b7c8e83c045f
+SHA256sum: 00882aa1c2ad3d67a97b30d4599fbc9d2555815d9da640e2a476ff67c79f58fe
+Description:  Full version of standard GNU touch utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-tr
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 25868
+Filename: coreutils-tr_8.23-1_brcm63xx-tch.ipk
+Size: 26611
+MD5Sum: 31b4aa591b620de78d632139465c8040
+SHA256sum: 2bf74cc2c9d39b6e326644160ce164a06f16cd3b327ba3d5a14e362d235162e8
+Description:  Full version of standard GNU tr utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-true
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 12115
+Filename: coreutils-true_8.23-1_brcm63xx-tch.ipk
+Size: 12905
+MD5Sum: 55542db80ffa9cbafdc39c98aa439e3b
+SHA256sum: ba98cbf4278c3fc03b7c05b238910815759697080a80102795d18b232d08a629
+Description:  Full version of standard GNU true utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-truncate
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 27085
+Filename: coreutils-truncate_8.23-1_brcm63xx-tch.ipk
+Size: 27862
+MD5Sum: be8c69a0ec22ba469a0212471659afcc
+SHA256sum: 64ca3a2a5c14048b4465c14b436d243b1762d25c905eb15ff7aa375c7eb4205d
+Description:  Full version of standard GNU truncate utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-tsort
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 21656
+Filename: coreutils-tsort_8.23-1_brcm63xx-tch.ipk
+Size: 22394
+MD5Sum: 73fe76ed164e40b044ef1e1556c30a1a
+SHA256sum: 7ec77b3126e072e239a88925b1bf428d8827068bc110bafffae4e648b7c836d0
+Description:  Full version of standard GNU tsort utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-tty
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17649
+Filename: coreutils-tty_8.23-1_brcm63xx-tch.ipk
+Size: 18467
+MD5Sum: 36aeae292f869acb8dabeb650219b4e5
+SHA256sum: 083883d307abc3496feeefcfe2377de8023bcbe3920da501f259ec3b017433f5
+Description:  Full version of standard GNU tty utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-uname
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 18411
+Filename: coreutils-uname_8.23-1_brcm63xx-tch.ipk
+Size: 19177
+MD5Sum: fb822e941090f2f1311e84c88057596a
+SHA256sum: 6c5690b4bf4d9c6f970ecf1046dbf8a74e781708286bc40f437ec25211fee9bd
+Description:  Full version of standard GNU uname utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-unexpand
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 19788
+Filename: coreutils-unexpand_8.23-1_brcm63xx-tch.ipk
+Size: 20560
+MD5Sum: 479515a56042495c6c6169d7a762d8ab
+SHA256sum: 7057513551fb6107358582b6dc87a1d3076af08cbf5e04700526549f7db2bd49
+Description:  Full version of standard GNU unexpand utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-uniq
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 23638
+Filename: coreutils-uniq_8.23-1_brcm63xx-tch.ipk
+Size: 24369
+MD5Sum: 34934973578a9b012b9d4a9ec99feddf
+SHA256sum: e529109877b6ee85138932b120e820e0fdae671895df8cc0a56a1d51f0081b2b
+Description:  Full version of standard GNU uniq utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-unlink
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17637
+Filename: coreutils-unlink_8.23-1_brcm63xx-tch.ipk
+Size: 18453
+MD5Sum: 794bc916f38ed76f8a3070addc11eb8c
+SHA256sum: 684e4b2786650f7eebd1d1766307feb4bf9320f527284c199eca2e69de318965
+Description:  Full version of standard GNU unlink utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-uptime
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 26242
+Filename: coreutils-uptime_8.23-1_brcm63xx-tch.ipk
+Size: 27002
+MD5Sum: a14b71c5149cd9458a92785a52b5ead3
+SHA256sum: 6fb9561ee99d52ae77728a8cfe31a3d4abd3651d2f900388bd0813323185d927
+Description:  Full version of standard GNU uptime utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-users
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 18561
+Filename: coreutils-users_8.23-1_brcm63xx-tch.ipk
+Size: 19340
+MD5Sum: eeefd3fb8ef2cbace0a1601718909596
+SHA256sum: 3e9f21f4933feb709aa2e9ff1c0c1b0ca49718e26dd64e5c33c5e934f35f6bf5
+Description:  Full version of standard GNU users utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-vdir
+Version: 8.23-1
+Depends: libc, coreutils, libacl
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 68607
+Filename: coreutils-vdir_8.23-1_brcm63xx-tch.ipk
+Size: 69398
+MD5Sum: 9bf99ddd1ba557d7acb70f98a9929bd8
+SHA256sum: 3c1f4d2bc78c998e14388773a84e1bafe3b6340f1284fd22fdde2de230320900
+Description:  Full version of standard GNU vdir utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-wc
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 23084
+Filename: coreutils-wc_8.23-1_brcm63xx-tch.ipk
+Size: 23863
+MD5Sum: 2b7b18ec3449532280639a6b9185b1a9
+SHA256sum: b8b88a0e7671bad5139af1f3c3bb80a17e93a5b60b4aa97b29b836a15579557e
+Description:  Full version of standard GNU wc utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-who
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 29123
+Filename: coreutils-who_8.23-1_brcm63xx-tch.ipk
+Size: 29877
+MD5Sum: 7b7772f101cc76e398deb701d22273a6
+SHA256sum: 55216039766dc8c6f3fd915de5fe07783e6c40b180942641c55f48c725ba902b
+Description:  Full version of standard GNU who utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-whoami
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17699
+Filename: coreutils-whoami_8.23-1_brcm63xx-tch.ipk
+Size: 18519
+MD5Sum: 19646683ce9d623f1ee8bd6ddcc2e6d5
+SHA256sum: f45252d0b26e762813499c3f8a23d5c96c49d6cb4198e505cf3e48e0f57592cd
+Description:  Full version of standard GNU whoami utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils-yes
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17725
+Filename: coreutils-yes_8.23-1_brcm63xx-tch.ipk
+Size: 18538
+MD5Sum: 17003f51cec9a242cc9668d82471ed1f
+SHA256sum: 15ccffabb4c780fc370f4c114773ea4622421094910d32d0e6d9099680f05d5f
+Description:  Full version of standard GNU yes utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils
+Version: 8.23-1
+Depends: libc
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 105
+Filename: coreutils_8.23-1_brcm63xx-tch.ipk
+Size: 879
+MD5Sum: 5fd9e462f9108e3ac56ac1dc839846b7
+SHA256sum: ecc60246f9007c7918335b6f21303b8e3e3a11fd0fc2a4cc7e96c6157850cc13
+Description:  Full versions of standard GNU utilities. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient and
+ smaller.
+
 Package: cshark
 Version: 2015-11-24-e575ab3d35d75a6f70488001fcba45690ebe9b3e
 Depends: libc, libjson-c, libpcap, libuci, libubox, libuclient, libustream-polarssl
@@ -830,6 +2528,21 @@ Size: 8982
 MD5Sum: c01e49575d67275a800a8e7fcef48623
 SHA256sum: 0f0e2e6f0b0045b8d4d80c45fb2889b8f78389c2a1475163389dae6d42872a11
 Description:  CloudShark capture tool
+
+Package: dbus-utils
+Version: 1.9.14-1
+Depends: libc, dbus
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 14604
+Filename: dbus-utils_1.9.14-1_brcm63xx-tch.ipk
+Size: 15223
+MD5Sum: 16e2809e1f407dc53ef6e995a31c2f7f
+SHA256sum: 291a30bb80e1601a464a39af81bbcbcd2d211a70c95af5f3559b55eb9198f8ae
+Description:  Simple interprocess messaging system (utilities)
 
 Package: dbus
 Version: 1.9.14-1
@@ -934,6 +2647,29 @@ Size: 3564
 MD5Sum: 5283847aa3fe2694d1ea5e62b09d0a2c
 SHA256sum: c20a07d13423ad3744e94b1c44bb05322122ddb83d7d6dc5c677164abde2e2c1
 Description:  Dynamic DNS Client scripts extension for direct updates using Bind nsupdate
+
+Package: dhcpcd
+Version: 6.4.3-1
+Depends: libc
+Source: feeds/packages/net/dhcpcd
+License: BSD-2c
+Section: net
+Maintainer: Roy Marples <roy@marples.name>
+Architecture: brcm63xx-tch
+Installed-Size: 121331
+Filename: dhcpcd_6.4.3-1_brcm63xx-tch.ipk
+Size: 122109
+MD5Sum: 41bcfd27b728b5237307914fc5c12084
+SHA256sum: d1f11e9316920d724f85ce4926420f6f403a8ce012cd3188bfce6431fec5de2f
+Description:  DHCPv4, IPv6RS and DHCPv6 client with IPv4LL support
+ dhcpcd is a one stop network management daemon which includes
+ * RFC compliant DHCPv4 and DHCPv6 clients
+ * DHCPv6 Prefix Delegation support
+ * IPv4LL (aka ZeroConf) support
+ * ARP address conflict resolution
+ * Link carrier detection
+ * Wireless SSID profiles
+ * ARP ping profiles
 
 Package: diffutils
 Version: 3.3-1
@@ -1322,6 +3058,23 @@ Description:  You can wake up WOL compliant Computers which have been powered do
  to turn on a computer from another location over a network connection.
  ether-wake also supports WOL passwords.
 
+Package: ethtool
+Version: 3.18-1
+Depends: libc
+Source: feeds/packages/net/ethtool
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Matthias Schiffer <mschiffer@universe-factory.net>
+Architecture: brcm63xx-tch
+Installed-Size: 93354
+Filename: ethtool_3.18-1_brcm63xx-tch.ipk
+Size: 93849
+MD5Sum: a5bc9fc229ee7728f377cfd2279456b6
+SHA256sum: 5ea197aaabbd9eb645a20e83ea14224d894a120b8a296ee5c8e7d00ebf4ece3c
+Description:  ethtool is a small utility for examining and tuning your ethernet-based
+ network interface
+
 Package: f2fs-tools
 Version: 1.4.0-1
 Depends: libc, libuuid, libf2fs
@@ -1336,6 +3089,21 @@ Size: 38584
 MD5Sum: 838af1496cc4fa9fdee8a44cf6b22837
 SHA256sum: 7b679ad8285d352642587dbb8f9b505d3f5d8badae42781cc459e3e3a8e2f60f
 Description:  Tools for Flash-Friendly File System (F2FS)
+
+Package: fakeidentd
+Version: 2.6-1
+Depends: libc
+Source: feeds/packages/net/fakeidentd
+License: GPL-2.0+
+Section: net
+Maintainer: Daniel Gimpelevich <daniel@gimpelevich.san-francisco.ca.us>
+Architecture: brcm63xx-tch
+Installed-Size: 4402
+Filename: fakeidentd_2.6-1_brcm63xx-tch.ipk
+Size: 5135
+MD5Sum: 153538b12ec24f4663d5bfa0044d4e24
+SHA256sum: ce6b2957af07c1cfc49d7fec4ab83113b9798a0a32f2c94d17c5e779e53df584
+Description:  A static secure identd, only one source file.
 
 Package: fcgi
 Version: 2.4.0-1
@@ -1410,6 +3178,62 @@ Description:  FFTW is a collection of fast C routines for computing the
  
  This package contains the single precision library.
 
+Package: file
+Version: 5.25-1
+Depends: libc, libmagic
+Source: feeds/packages/libs/file
+License: BSD-2c
+LicenseFiles: COPYING
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 128367
+Filename: file_5.25-1_brcm63xx-tch.ipk
+Size: 129127
+MD5Sum: 63c6d61fca69641190b71f9cafc148c4
+SHA256sum: bdbba7b4bedad074686e01fb16d0682b756f8b779dd0b44536b99548006ddf66
+Description:  utility
+
+Package: flashrom
+Version: 0.9.8-2
+Depends: libc, libftdi, pciutils, libusb-compat
+Source: feeds/packages/utils/flashrom
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 102720
+Filename: flashrom_0.9.8-2_brcm63xx-tch.ipk
+Size: 103400
+MD5Sum: bf2429f8acbdef7316721fb532367a78
+SHA256sum: b661fc45f6ec6bb483b9eea0658cdda5eec2e8811a4163717cb613af58d78d76
+Description:  flashrom is an utility for identifying, reading, writing, verifying
+ and erasing flash chips. It's often used to flash BIOS/EFI/coreboot
+ /firmware images.
+
+Package: ftdi_eeprom
+Version: 1.2-3
+Depends: libc, confuse, libftdi1
+Source: feeds/packages/libs/libftdi1
+License: LGPL-2.0
+LicenseFiles: COPYING.LIB
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 4768
+Filename: ftdi_eeprom_1.2-3_brcm63xx-tch.ipk
+Size: 5696
+MD5Sum: ec12af86de1edb023438825867824919
+SHA256sum: 7dcc842f213c72eef6e465373efb983ba451a6a6650a63751cec5c037c19eaea
+Description:  ftdi_eeprom is a small tool for reading/erasing/flashing FTDI USB chip
+ eeproms. It uses libftdi to access the chip, so you will need to have
+ the required permissions on the device.
+ 
+ The ftdi_sio module should not be loaded.
+ 
+ You have to unplug and replug your device to get the new values to be
+ read. Otherwise, you will still get the old values.
+
 Package: fwknop
 Version: 2.6.6-4
 Depends: libc, libfko
@@ -1470,6 +3294,40 @@ MD5Sum: 1ec08a57ec337801473bcebb927269e9
 SHA256sum: 05df730c4c6f6fc90fd2ad32c9ec7cefbc295487a48587c1636888a624d5d66a
 Description:  build a native toolchain for compiling on target
 
+Package: git-http
+Version: 2.3.5-1
+Depends: libc, git, libcurl, ca-certificates
+Source: feeds/packages/net/git
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 1940073
+Filename: git-http_2.3.5-1_brcm63xx-tch.ipk
+Size: 1938445
+MD5Sum: a6a1b751e5150d3f58f3cc2f6c0614a3
+SHA256sum: 962beebdf026388e0f99284c92d6c36d1bfc135350a5691c6faddc38559bfe35
+Description:  Git is a free & open source, distributed version control system
+ designed to handle everything from small to very large projects
+ with speed and efficiency.
+ 
+ This package allows git push/fetch over http(s) and ftp(s)
+
+Package: git
+Version: 2.3.5-1
+Depends: libc, libopenssl, libpthread, librt
+Source: feeds/packages/net/git
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 1302664
+Filename: git_2.3.5-1_brcm63xx-tch.ipk
+Size: 1301839
+MD5Sum: 39a08881658646782670c0c0428d6a6b
+SHA256sum: 072c4166640e39e776e79cce4d2d83a848bdc5c3b79fc3659005c8526626b343
+Description:  Git is a free & open source, distributed version control system
+ designed to handle everything from small to very large projects
+ with speed and efficiency.
+
 Package: glib2
 Version: 2.43.4-1
 Depends: libc, zlib, libpthread, libffi, libattr
@@ -1527,6 +3385,71 @@ Description:  GnuTLS is a secure communications library implementing the SSL, TL
  efficient with focus on security and interoperability.
  This package contains the GnuTLS gnutls-cli, gnutls-serv, psktool,
  and srptool utilities.
+
+Package: grep
+Version: 2.21-2
+Depends: libc, libpcre
+Source: feeds/packages/utils/grep
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
+Architecture: brcm63xx-tch
+Installed-Size: 133844
+Filename: grep_2.21-2_brcm63xx-tch.ipk
+Size: 134718
+MD5Sum: b0b31e5db3987e478bb155e241db38d0
+SHA256sum: b98929f432ed5def6d75b0d940905cb21665b122946c7f2ce01c22c461c514c2
+Description:  The grep command searches one or more input files for lines
+ containing a match to a specified pattern. By default, grep
+ prints the matching lines.
+
+Package: halog
+Version: 1.5.18-04
+Depends: libc, haproxy
+Source: feeds/packages/net/haproxy
+License: GPL-2.0
+Section: net
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 17912
+Filename: halog_1.5.18-04_brcm63xx-tch.ipk
+Size: 18700
+MD5Sum: d2f1368688c70d68fbee7d7653d476bb
+SHA256sum: a6770c4e1df6c745bf752d80e29af5d6ba09ebd564a9e20760712e4c82302f0a
+Description:  HAProxy Log Analyzer
+
+Package: haproxy-nossl
+Version: 1.5.18-04
+Depends: libc, libpcre, libltdl, zlib, libpthread
+Source: feeds/packages/net/haproxy
+License: GPL-2.0
+Section: net
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 314323
+Filename: haproxy-nossl_1.5.18-04_brcm63xx-tch.ipk
+Size: 314943
+MD5Sum: b8944b7d151247b3a0a27cb02bcfebe0
+SHA256sum: 14ab749e6d93cfc3d44ad5f6eec7f59307054a895922a9fbdfd55aefa6ae929d
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built without SSL support.
+
+Package: haproxy
+Version: 1.5.18-04
+Depends: libc, libpcre, libltdl, zlib, libpthread, libopenssl
+Source: feeds/packages/net/haproxy
+License: GPL-2.0
+Section: net
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 338734
+Filename: haproxy_1.5.18-04_brcm63xx-tch.ipk
+Size: 339066
+MD5Sum: a434e1c67cedfa02f5a0f9d9fee449ba
+SHA256sum: bec75c47d378849c751c040710243be4721fff2df04b041aa799acdce9446f1a
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built with SSL support.
 
 Package: hd-idle
 Version: 1.04-1
@@ -1613,6 +3536,67 @@ Description:  Htop is an ncursed-based process viewer similar to top, but
  it allows to scroll the list vertically and horizontally to
  see all processes and their full command lines.
 
+Package: ibrcommon
+Version: 1.0.1-1
+Depends: libc, libstdcpp, libpthread, librt, libnl, libopenssl
+Source: feeds/packages/libs/ibrcommon
+License: Apache-2.0
+Section: libs
+Maintainer: Johannes Morgenroth <jm@m-network.de>
+Architecture: brcm63xx-tch
+Installed-Size: 213408
+Filename: ibrcommon_1.0.1-1_brcm63xx-tch.ipk
+Size: 212917
+MD5Sum: 34aad6e7bb2909af1066ef3c2bb8d26b
+SHA256sum: b88b9fa89d2f3630b910e2f10fd96c79cf2a1617609ea4a041c9def3993cc93d
+Description:  A library with common functions for C++.
+
+Package: ibrdtn-tools
+Version: 1.0.1-1
+Depends: libc, ibrdtn, libarchive
+Source: feeds/packages/net/ibrdtn-tools
+License: Apache-2.0
+Section: net
+Maintainer: Johannes Morgenroth <jm@m-network.de>
+Architecture: brcm63xx-tch
+Installed-Size: 115661
+Filename: ibrdtn-tools_1.0.1-1_brcm63xx-tch.ipk
+Size: 116178
+MD5Sum: 373063069f875c9f0fbaf8b146edb0eb
+SHA256sum: 0c366cb21c1077cd8a66650a065b84e13b586ccfbb2063f7a29b6a1454dcf948
+Description:  The IBR-DTN Tools include functionality for sending and receiving files (dtnsend/dtnrecv)
+ and a tools to ping a DTN node (dtnping).
+
+Package: ibrdtn
+Version: 1.0.1-1
+Depends: libc, ibrcommon, zlib
+Source: feeds/packages/libs/ibrdtn
+License: Apache-2.0
+Section: libs
+Maintainer: Johannes Morgenroth <jm@m-network.de>
+Architecture: brcm63xx-tch
+Installed-Size: 249352
+Filename: ibrdtn_1.0.1-1_brcm63xx-tch.ipk
+Size: 248623
+MD5Sum: 10a64299937d7bcc1be6f57e935a37c8
+SHA256sum: 8bb605e17e17196e7989fa68fd7163725b2510919a0ce4ba60b3c9b61d91aee9
+Description:  Base library for IBR-DTN daemon and tools.
+
+Package: ibrdtnd
+Version: 1.0.1-1
+Depends: libc, dtndht, ibrdtn, libsqlite3
+Source: feeds/packages/net/ibrdtnd
+License: Apache-2.0
+Section: net
+Maintainer: Johannes Morgenroth <jm@m-network.de>
+Architecture: brcm63xx-tch
+Installed-Size: 899399
+Filename: ibrdtnd_1.0.1-1_brcm63xx-tch.ipk
+Size: 898077
+MD5Sum: 1f2a44cc62764622d0c8b3ead32a97cc
+SHA256sum: 1118066c457ea82cc1d25d909abc479fce03614605ef7d98add49071ca368395
+Description:  The implementation of the bundle protocol of the IBR (TU Braunschweig).
+
 Package: jansson
 Version: 2.7-1
 Depends: libc
@@ -1667,11 +3651,11 @@ LicenseFiles: LICENSE
 Section: kernel
 Maintainer: Bruno Randolf <br1@einfach.org>
 Architecture: brcm63xx-tch
-Installed-Size: 47095
+Installed-Size: 47094
 Filename: kmod-fs-exfat_3.4.11+git-20150301-1_brcm63xx-tch.ipk
-Size: 47685
-MD5Sum: 0398c7e8c1af876a84ab05aea51118a3
-SHA256sum: fbf6fac470eb4de7f85460ef718a67372fdf874b6c20c981c7e0a32d324f4410
+Size: 47675
+MD5Sum: 66e21ce3bae1ad8c9261b5d49306007d
+SHA256sum: ba4b1086c4b7550d0e462433d50674816531c23d06e8589546a29115dc5c72ef
 Description:  Kernel module for ExFAT Filesytems
 
 Package: kmod-siit
@@ -1682,12 +3666,30 @@ License: GPLv2+
 Section: kernel
 Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: brcm63xx-tch
-Installed-Size: 5224
+Installed-Size: 5216
 Filename: kmod-siit_3.4.11+1.2-1_brcm63xx-tch.ipk
-Size: 6033
-MD5Sum: 5188082ab83873ecb2f8a99a05a232ab
-SHA256sum: c8dfd211503554ed2f32958cffd6c118f4deb63d4c4256ba491333e3ca8c070f
+Size: 6028
+MD5Sum: 714011802e673428d87fd632dc81b548
+SHA256sum: 8608e51d1ac64039980eba33da72e021242fb4dfe1cd72fba2dcacb6a775a4f1
 Description:  Stateless IP ICMP Translation Algorithm
+
+Package: kmod
+Version: 20-1
+Depends: libc, zlib
+Source: feeds/packages/utils/kmod
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: brcm63xx-tch
+Installed-Size: 63816
+Filename: kmod_20-1_brcm63xx-tch.ipk
+Size: 64667
+MD5Sum: f40773860575c13d6376cffeab2707ea
+SHA256sum: c5fc2fca7dd91277958ce0d69a33129e1440033a1790330fb2670730bbc0861b
+Description:  Linux kernel module handling
+ kmod is a set of tools to handle common tasks with Linux kernel modules like
+ insert, remove, list, check properties, resolve dependencies and aliases.
 
 Package: krb5-libs
 Version: 1.14.6-2
@@ -1704,6 +3706,39 @@ Size: 716262
 MD5Sum: 6882a5046a15f4c39b13aa52c401eca1
 SHA256sum: 36666339390c37e2326cb792deedcd011cd23483b74db0f8b37850c1876666bc
 Description:  Kerberos 5 Shared Libraries
+
+Package: less-wide
+Version: 458-1
+Depends: libc, libncursesw
+Source: feeds/packages/utils/less
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
+Architecture: brcm63xx-tch
+Installed-Size: 72146
+Filename: less-wide_458-1_brcm63xx-tch.ipk
+Size: 73161
+MD5Sum: 1b3cd94f7503ec0619b430b75d5498bb
+SHA256sum: 27425e8a5c3c67199df3f78ad197c626f3755ac60adb604861b4f8af0b4559cf
+Description:  Full version of GNU less utility
+ This package contains the Unicode enabled version of less.
+
+Package: less
+Version: 458-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/less
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
+Architecture: brcm63xx-tch
+Installed-Size: 72165
+Filename: less_458-1_brcm63xx-tch.ipk
+Size: 73040
+MD5Sum: 4c638b7f789af524410f569443d71c16
+SHA256sum: a45e3ebc956661c52c547fa92987772f72aec3cdcea9f83f4b579b8dee6594ef
+Description:  Full version of GNU less utility
 
 Package: libacl
 Version: 20140812-1
@@ -2077,6 +4112,70 @@ MD5Sum: 2f1d5c638722525ee1655750f79799ee
 SHA256sum: 30fe60b1d092fb1e4ec64a9d5b89fbf790e0f426658155db48b6b39290bd06a5
 Description:  Berkeley DB library (4.7).
 
+Package: libdbd-mysql
+Version: 0.9.0-1
+Depends: libc, libdbi, libmysqlclient
+Source: feeds/packages/libs/libdbi-drivers
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 9068
+Filename: libdbd-mysql_0.9.0-1_brcm63xx-tch.ipk
+Size: 9762
+MD5Sum: 2522b8f84b59a50025f0302036907ded
+SHA256sum: bc53e3e28712e2f1f4e19de91ef8658438945d2ae0ea5cff5b4ace841a0ab825
+Description:  MySQL database server driver for libdbi
+
+Package: libdbd-pgsql
+Version: 0.9.0-1
+Depends: libc, libdbi, libpq
+Source: feeds/packages/libs/libdbi-drivers
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 11522
+Filename: libdbd-pgsql_0.9.0-1_brcm63xx-tch.ipk
+Size: 11860
+MD5Sum: 4eaf31a422007b2856b8edfdfcad454b
+SHA256sum: d9deff61bdeb7c6fad1353ea678444234993e08434da7e599c8190807c7e24d6
+Description:  PostgreSQL database server driver for libdbi
+
+Package: libdbd-sqlite3
+Version: 0.9.0-1
+Depends: libc, libdbi, libsqlite3
+Source: feeds/packages/libs/libdbi-drivers
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 13064
+Filename: libdbd-sqlite3_0.9.0-1_brcm63xx-tch.ipk
+Size: 13686
+MD5Sum: 6c067450c2573624473545bf5ce09383
+SHA256sum: 0bf8d2fb995466c384c621f3cba42e5458a444613750084501047e22a927de50
+Description:  SQLite3 database driver for libdbi
+
+Package: libdbi
+Version: 0.9.0-4
+Depends: libc
+Source: feeds/packages/libs/libdbi
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 17502
+Filename: libdbi_0.9.0-4_brcm63xx-tch.ipk
+Size: 18209
+MD5Sum: 9c8d6cc172d6357fecbfd7d192fbe5b3
+SHA256sum: 5896a133e71d2110ee2664a6c682a42e925685ef6b5d54f12be8428daab5effc
+Description:  This package provides a database-independent abstraction layer library in C.
+
 Package: libdbus
 Version: 1.9.14-1
 Depends: libc, libpthread
@@ -2091,6 +4190,38 @@ Size: 125258
 MD5Sum: 35e0a675cf2f60059fc2881d3de7063c
 SHA256sum: ca336fe351d3b5403da1bd18568b49267e4cd509e477e4c13de8b80959829f61
 Description:  Simple interprocess messaging system (library)
+
+Package: libdevmapper
+Version: 2.02.119-2
+Depends: libc, kmod-dm, libpthread
+Source: feeds/packages/utils/lvm2
+License: GPL-2.0 LGPL-2.1
+Section: libs
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm63xx-tch
+Installed-Size: 141064
+Filename: libdevmapper_2.02.119-2_brcm63xx-tch.ipk
+Size: 141703
+MD5Sum: 54c178d6cca316569cf9e547465c5309
+SHA256sum: c71d4d23b0c9c5c880c860cc7dc207877a7be7bf32323e7131167bbebd51d14d
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
+
+Package: libdnet
+Version: 1.12-1
+Depends: libc
+Source: feeds/packages/libs/libdnet
+License: BSD
+Section: libs
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 28766
+Filename: libdnet_1.12-1_brcm63xx-tch.ipk
+Size: 28545
+MD5Sum: 2430dfc24f6e19001d17b12a7c65ccef
+SHA256sum: a19d7a1fff8eaa51d82a8c6c0eff49c5ecc8de5cad6c8569e7c530e3619bd00a
+Description:  libdnet is a library of simplified, portable interface to several low-level
+ networking routines.
 
 Package: libev
 Version: 4.19-1
@@ -2342,6 +4473,24 @@ Description:  The FreeType project is a team of volunteers who develop free,
  They specifically target embedded systems and focus on bringing small,
  efficient and ubiquitous products.
 
+Package: libftdi1
+Version: 1.2-3
+Depends: libc, libusb-1.0
+Source: feeds/packages/libs/libftdi1
+License: LGPL-2.0
+LicenseFiles: COPYING.LIB
+Section: libs
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 23047
+Filename: libftdi1_1.2-3_brcm63xx-tch.ipk
+Size: 23875
+MD5Sum: 7e7a738eabd71fad59c2584ec53cc557
+SHA256sum: b6d17909152bccbec79eb002f4abe0a0602eabbb9c507cb128d679b641c9fab1
+Description:  libFTDI - FTDI USB driver with bitbang mode
+ libFTDI is an open source library to talk to FTDI chips: FT232BM, FT245BM, FT2232C, FT2232H, FT4232H, FT2232D and FT245R, including the popular bitbang mode. 
+ The library is linked with your program in userspace, no kernel driver required.
+
 Package: libftdi
 Version: 0.20-3
 Depends: libc, libusb-compat
@@ -2474,6 +4623,21 @@ Description:  Ham Radio Control Libraries is a development effort to provide a c
  
  This package contains the hamlib shared library.
 
+Package: libhavege
+Version: 1.9.1-5
+Depends: libc
+Source: feeds/packages/utils/haveged
+License: GPLv3
+Section: utils
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: brcm63xx-tch
+Installed-Size: 11191
+Filename: libhavege_1.9.1-5_brcm63xx-tch.ipk
+Size: 11692
+MD5Sum: f14c814c358bb5329f04230c6c2274cf
+SHA256sum: 68d7f21419595c500b1a129413f07bef038fb7a562b9e928636715ae2866a77f
+Description:  Library for haveged
+
 Package: libhttp-parser
 Version: 2.3.0-1
 Depends: libc
@@ -2527,6 +4691,22 @@ Size: 128799
 MD5Sum: 917205ec2af2500154e6bdcd19052533
 SHA256sum: 92dbb7c17bb26e575a93bd0897393c10ba739ee13acc9dfd63872db67acfcdc5
 Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libkmod
+Version: 20-1
+Depends: libc, zlib
+Source: feeds/packages/utils/kmod
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: brcm63xx-tch
+Installed-Size: 38384
+Filename: libkmod_20-1_brcm63xx-tch.ipk
+Size: 39286
+MD5Sum: 55ea54948840c1a99c866fb51c06d49b
+SHA256sum: 79ea04e351fc1ccc6eef0f418175dd91e0e2ff4ce99af83a0326fa1e47be678b
+Description:  Linux kernel module handling (library)
 
 Package: liblo
 Version: 0.28-1
@@ -2643,6 +4823,21 @@ MD5Sum: e6a2c8db95619f25d67a3ef03f9a6319
 SHA256sum: a23c313a5b5713d77bd9d44b3499200d3dfaf63e3138674a380886b1a4079de7
 Description:  Intel IoT lowlevel IO library
 
+Package: libmysqlclient-r
+Version: 5.1.73-1
+Depends: libc, uclibcxx, zlib, libpthread
+Source: feeds/packages/utils/mysql
+License: GPL-2.0
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 178280
+Filename: libmysqlclient-r_5.1.73-1_brcm63xx-tch.ipk
+Size: 173214
+MD5Sum: 3259db40db2bd726a28982aeb41e3cce
+SHA256sum: 5cc92fd01fc6adecba44c035736936f875b44c5b7bacec684f0b259daa3b2deb
+Description:  MySQL client library threadsafe
+
 Package: libmysqlclient
 Version: 5.1.73-1
 Depends: libc, uclibcxx, zlib
@@ -2678,6 +4873,23 @@ Description:  libnatpmp is an attempt to make a portable and fully compliant imp
  the NAT-PMP code to any event driven code.
  This package contains the shared library.
 
+Package: libnetfilter-acct
+Version: 1.0.2-1
+Depends: libc, libmnl
+Source: feeds/packages/libs/libnetfilter-acct
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2807
+Filename: libnetfilter-acct_1.0.2-1_brcm63xx-tch.ipk
+Size: 3632
+MD5Sum: 6f99d4a13c3e220a482bb3fa9dc8b0cc
+SHA256sum: d2e1663ebe6b72356789162e44b79d7ed1e9ccb801cb450ea7e5ea80548f327e
+Description:  libnetfilter_acct is a userspace library providing a programming interface
+ (API) to the extended accounting infrastructure.
+
 Package: libnetsnmp
 Version: 5.7.3-9
 Depends: libc, libnl-tiny
@@ -2698,6 +4910,25 @@ Description:  Simple Network Management Protocol (SNMP) is a widely used protoco
  IPv4 and IPv6.
  .
  This package contains shared libraries, needed by other programs.
+
+Package: libnfc
+Version: 1.7.1-1
+Depends: libc, libusb-compat, pcscd, ccid
+Source: feeds/packages/libs/libnfc
+License: LGPL-2.1
+Section: libs
+Maintainer: Sebastian Wendel <packages@sourceindex.de>
+Architecture: brcm63xx-tch
+Installed-Size: 59663
+Filename: libnfc_1.7.1-1_brcm63xx-tch.ipk
+Size: 60316
+MD5Sum: 82ef64d14622a076af354f93ad8ab2fe
+SHA256sum: a32f66cf95bc0c5a2dcf86f9cc5ce726924e8aaea107d009a860350d0c810c8e
+Description:  libnfc is the first libre, platform-independent, low level NFC SDK and Programmers API
+ 
+ * manipulate Jewel Topaz tags using libnfc
+ * manipulate MIFARE Classic and Ultralight tags using libnfc
+ 
 
 Package: libogg
 Version: 1.3.2-2
@@ -2734,6 +4965,21 @@ SHA256sum: bd7dfd98f6cb39c13d415a9ee6567699a9a8769087cfaa36a94c377d3b611364
 Description:  OpenLDAP Software is an open source implementation of the
  Lightweight Directory Access Protocol (LDAP).
  This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: liboping
+Version: 1.6.2-1
+Depends: libc
+Source: feeds/packages/libs/liboping
+License: GPL-2.0
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 7648
+Filename: liboping_1.6.2-1_brcm63xx-tch.ipk
+Size: 8415
+MD5Sum: a14e21e8dd616131b979573d1193b98c
+SHA256sum: bffb1f9e0ce784e75fa108a34b2d94cc8155985121ecc1d27239a716199ee807
+Description:  C library to generate ICMP echo requests.
 
 Package: libopus
 Version: 1.1-1
@@ -2798,6 +5044,20 @@ MD5Sum: f5d5787f2abeb9453a0cc326d6298ccc
 SHA256sum: 40455d7bf767f62a4e03e561967781ab74c02492c81cf49c473717fa4231c7fc
 Description:  Libp11 is a library implementing a small layer on top of PKCS#11 API
  to make using PKCS#11 implementations easier.
+
+Package: libpam
+Version: 1.1.8-4
+Depends: libc
+Source: feeds/packages/libs/libpam
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 198199
+Filename: libpam_1.1.8-4_brcm63xx-tch.ipk
+Size: 198768
+MD5Sum: 65331f3d5e132d9c1f55818ca49d2d87
+SHA256sum: b062ed7b2e0410d509867bf987eb859488dc814ab016de4b0fce37848057b260
+Description:  The Linux-PAM Pluggable Authentication Modules.
 
 Package: libpcre
 Version: 8.39-1
@@ -2958,6 +5218,22 @@ Size: 93120
 MD5Sum: 9627555acd0c6cd4c6bf63262e56ff79
 SHA256sum: 0d1e66ee7dee327dd1c6cd1546e85c32c5a4ada00a07bbcf8b0d74da52d73a4a
 Description:  A general purpose authentication library
+
+Package: libsctp
+Version: 1.0.16-1
+Depends: libc, kmod-sctp
+Source: feeds/packages/net/lksctp-tools
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2771
+Filename: libsctp_1.0.16-1_brcm63xx-tch.ipk
+Size: 3530
+MD5Sum: 1b7d620c743c07b954fb02efe1a2c477
+SHA256sum: 6f2b6d24f5c8548b2f064fb0eb2af0a671a33f324cd36ab098bf1d94d8121ee3
+Description:  SCTP user-land library
 
 Package: libspeex
 Version: 1.2rc1-1
@@ -5925,6 +8201,23 @@ Description:  Hotplug script which makes configuration of multiple WAN interface
  manageable with loadbalancing/failover support for up to 250 physical or logical
  WAN interfaces, connection tracking and an easy to manage traffic ruleset
 
+Package: lvm2
+Version: 2.02.119-2
+Depends: libc, libdevmapper, libblkid, libreadline, libncurses
+Source: feeds/packages/utils/lvm2
+License: GPL-2.0 LGPL-2.1
+Section: utils
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: brcm63xx-tch
+Installed-Size: 594921
+Filename: lvm2_2.02.119-2_brcm63xx-tch.ipk
+Size: 594333
+MD5Sum: 210864ad72e84d0e71e333f663f5ecd9
+SHA256sum: 3bafdcf34046fc59aeb27221c2b886b4079ebc6f03e2bb10ddde481f28b49766
+Description:  LVM2 refers to a new userspace toolset that provide logical volume management
+ facilities on linux. It is reasonably backwards-compatible with the original
+ LVM toolset.
+
 Package: lxc-common
 Version: 1.1.3-1
 Depends: libc, lxc
@@ -6048,6 +8341,87 @@ MD5Sum: e3aae588e0174156ff893692cc9a1ab8
 SHA256sum: cb7824178ff74e3d52f573d89261c7ae9b8bc088d0d30c76bf05608e7eac0bc7
 Description:  Contains: lzmainfo 
 
+Package: mac-telnet-client
+Version: 2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28
+Depends: libc, libubox
+Source: feeds/packages/net/mac-telnet
+License: GPL-2.0+
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 15630
+Filename: mac-telnet-client_2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28_brcm63xx-tch.ipk
+Size: 16417
+MD5Sum: 3fc5215ab35e7789ce94b710028a236b
+SHA256sum: ac8591e7107b0da57b002a7c582add3514b49365b2955be94288da7f231b3314
+Description:  Open source MAC Telnet client and server utilities for connecting to
+ Mikrotik RouterOS routers and Linux machines via MAC address.
+
+Package: mac-telnet-discover
+Version: 2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28
+Depends: libc, libubox
+Source: feeds/packages/net/mac-telnet
+License: GPL-2.0+
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2982
+Filename: mac-telnet-discover_2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28_brcm63xx-tch.ipk
+Size: 3843
+MD5Sum: 52eda5dd3748d2a6f9d5200c5815c8d4
+SHA256sum: 60572ede52708b1569ca1c3abcd1dcdf19b1534a201997e84e3f09720fef42c5
+Description:  Open source MAC Telnet client and server utilities for connecting to
+ Mikrotik RouterOS routers and Linux machines via MAC address.
+
+Package: mac-telnet-ping
+Version: 2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28
+Depends: libc, libubox
+Source: feeds/packages/net/mac-telnet
+License: GPL-2.0+
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 6606
+Filename: mac-telnet-ping_2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28_brcm63xx-tch.ipk
+Size: 7474
+MD5Sum: 567d229fc3b5692712cc25054ff48c0f
+SHA256sum: 1917f5d9e9603d9f6b2037e478b4a7a3de1521367831ec5a9a2dbf6529d407a1
+Description:  Open source MAC Telnet client and server utilities for connecting to
+ Mikrotik RouterOS routers and Linux machines via MAC address.
+
+Package: mac-telnet-server
+Version: 2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28
+Depends: libc, libubox
+Source: feeds/packages/net/mac-telnet
+License: GPL-2.0+
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 12097
+Filename: mac-telnet-server_2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28_brcm63xx-tch.ipk
+Size: 12895
+MD5Sum: 7330b15fd4c5ee3bb572e37a2c3c9c8f
+SHA256sum: b5f828f8c257493299975373381cd5cc4388374256d05146eed1c9a4c3c967ff
+Description:  Open source MAC Telnet client and server utilities for connecting to
+ Mikrotik RouterOS routers and Linux machines via MAC address.
+
+Package: macchanger
+Version: 1.7.0-1
+Depends: libc
+Source: feeds/packages/utils/macchanger
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 214800
+Filename: macchanger_1.7.0-1_brcm63xx-tch.ipk
+Size: 215754
+MD5Sum: 127506e478824c322a8bd2785e6ebf58
+SHA256sum: 2e143680baedffe8a79f650282d0bab946d7cd2bf8a1c59710eb9c1d22395ebf
+Description:  This is a GNU/Linux utility for viewing/manipulating the MAC address
+ of network interfaces.
+
 Package: mailsend-nossl
 Version: 1.17b15-2
 Depends: libc
@@ -6101,6 +8475,21 @@ Description:  GNU Midnight Commander is a visual file manager,
  move and delete files and whole directory trees, search for files
  and run commands in the subshell. Internal viewer and editor are included.
 
+Package: memcached
+Version: 1.4.24-1
+Depends: libc, libevent, libpthread
+Source: feeds/packages/net/memcached
+License: permissive free software license
+Section: net
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 67488
+Filename: memcached_1.4.24-1_brcm63xx-tch.ipk
+Size: 68331
+MD5Sum: df421458101e841c9af840dd6c495ba0
+SHA256sum: 59ac07b9342a86efee46c2d9e9b6e7a8f897fadba3998266c2587552d2e2bafb
+Description:  Free and open source, high-performance, distributed memory object caching system
+
 Package: micropython-lib
 Version: 0.5-20150827-bfbbf85a181d84e2494ea6f15be311734666bf67-1
 Depends: libc, micropython
@@ -6136,6 +8525,22 @@ SHA256sum: aad338198bfddf6c12b8a65a8b49d2aad4c10d297533915cfc217aab0bc00961
 Description:  This package contains Micro Python, a lean and fast implementation of the Python 3.4 programming language
  that is optimised to run on a microcontroller (and low power computers).
 
+Package: minicom
+Version: 2.7-2
+Depends: libc, libncurses
+Source: feeds/packages/utils/minicom
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 101887
+Filename: minicom_2.7-2_brcm63xx-tch.ipk
+Size: 102691
+MD5Sum: 691de93edcdac75af9f92b5fbb5f51d7
+SHA256sum: 10ea70c9b282becbaf79de45364ceec774049380d8d7032d0c38eed14f373109
+Description:  Terminal emulation program
+
 Package: minidlna
 Version: 1.1.4-2
 Depends: libc, libpthread, libexif, libjpeg, libsqlite3, libffmpeg, libid3tag, libflac, libvorbis, libuuid
@@ -6152,6 +8557,20 @@ MD5Sum: 9c7423871c6e9ad0e1bc807358f6dd6f
 SHA256sum: d2819deaf47267c9af0a6e905fa1ce1dcddb97b3808de0613384ee17e5c86331
 Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
  being fully compliant with DLNA/UPnP-AV clients.
+
+Package: miniupnpc
+Version: 1.9-1
+Depends: libc, libminiupnpc
+Source: feeds/packages/net/miniupnpc
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 6996
+Filename: miniupnpc_1.9-1_brcm63xx-tch.ipk
+Size: 7761
+MD5Sum: 859f3f1728b5838653d4a616cee4e891
+SHA256sum: e93e1ae3362c383bfddce6affdd69beb50bf239d6fd2be32d8e6d63982698427
+Description:  Lightweight UPnP client
 
 Package: mjpg-streamer
 Version: r182-7
@@ -6202,6 +8621,22 @@ MD5Sum: 95c5969b152cbb18f46bf0c1cb29d72b
 SHA256sum: 62cda4dbbea3e5c00d5dfb096e1ecdd6efa890b9291ea66391fdae127400397c
 Description:  Utilities to create and check HFS/HFS+ filesystems.
  (mkfs.hfs and mkfs.hfsplus for creating HFS/HFS+ volumes)
+
+Package: mmc-utils
+Version: 2015-03-25-50b68547ad895803128519af71c31b9f14bfc791-1
+Depends: libc
+Source: feeds/packages/utils/mmc-utils
+License: GPL-2.0
+Section: utils
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: brcm63xx-tch
+Installed-Size: 28784
+Filename: mmc-utils_2015-03-25-50b68547ad895803128519af71c31b9f14bfc791-1_brcm63xx-tch.ipk
+Size: 29563
+MD5Sum: e02600c3bc856869e0d59bc97f95722b
+SHA256sum: 1083c3be2cbc1b229924c3c3e019b779faf000f6ed584c760955a412eae91e0a
+Description:  This package contains the userspace mmc utils, the userspace
+ counterpart to the Linux MMC/SD subsystem.
 
 Package: monit-nossl
 Version: 5.14-1
@@ -6280,6 +8715,49 @@ Description:  Mosquitto is an open source (BSD licensed) message broker that imp
  This package also includes some basic support for configuring via UCI
  This package is built WITHOUT SSL support.
 
+Package: msmtp
+Version: 1.6.2-1
+Depends: libc, libopenssl
+Source: feeds/packages/mail/msmtp
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: mail
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 47504
+Filename: msmtp_1.6.2-1_brcm63xx-tch.ipk
+Size: 48569
+MD5Sum: 69c483126e56b045da1ee965be1b0dd8
+SHA256sum: 909a4799d5cf77b567751ebd9bd09c42ee99d98c40b354bec952f602854ec715
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package is built with SSL support.
+
+Package: mtr
+Version: 0.86-1
+Depends: libc, libncurses
+Source: feeds/packages/net/mtr
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: brcm63xx-tch
+Installed-Size: 36193
+Filename: mtr_0.86-1_brcm63xx-tch.ipk
+Size: 37197
+MD5Sum: 7cb3d5a26ee15ffc780ce8f04ad9751f
+SHA256sum: 834945257aec10665c4ec88e4e2194c69dca7f6769f62b11526f863af6b5e239
+Description:  mtr combines the functionality of the 'traceroute' and 'ping' programs
+ in a single network diagnostic tool.
+ As mtr starts, it investigates the network connection between the host
+ mtr runs on and a user-specified destination host. After it
+ determines the address of each network hop between the machines,
+ it sends a sequence ICMP ECHO requests to each one to determine the
+ quality of the link to each machine. As it does this, it prints
+ running statistics about each machine.
+
 Package: mwan3
 Version: 1.6-2
 Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt
@@ -6328,6 +8806,26 @@ MD5Sum: 6629b3b98284c15a54fbc4c90d3157c6
 SHA256sum: 7684814c50c28e5b6931817f70d569ce5377da713c94e8a32fa17b42c160b3c5
 Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
  of the Pico text editor.
+
+Package: natpmpc
+Version: 20140401-1
+Depends: libc, libnatpmp
+Source: feeds/packages/libs/libnatpmp
+License: BSD-3c
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Hauke Mehrtens <hauke@hauke-m.de>
+Architecture: brcm63xx-tch
+Installed-Size: 3390
+Filename: natpmpc_20140401-1_brcm63xx-tch.ipk
+Size: 4319
+MD5Sum: 3de678f3f0632b020a4509830027fb4d
+SHA256sum: c688ab691251753b0a4e84300d2e9573ddb461860cb502812d21c4d8856f74f9
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the natpmp client.
 
 Package: ncat-ssl
 Version: 6.47-2
@@ -6395,6 +8893,20 @@ MD5Sum: 2fe32b87dd307f5903a52ea72eeb6ff6
 SHA256sum: 877538ccec1ffccb066db9c8e38327aed29602d124bb3d8c671e27afbe87d228
 Description:  Utility to compare the results of Nmap scans
 
+Package: netatalk
+Version: 2.2.4-1
+Depends: libc, attr, libdb47, libgcrypt, libopenssl, librpc
+Source: feeds/packages/net/netatalk
+Section: net
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 403093
+Filename: netatalk_2.2.4-1_brcm63xx-tch.ipk
+Size: 402566
+MD5Sum: 56f99691f4ea13be246fc3c2f234e94b
+SHA256sum: b14c5f4eeb9538aaf66cebf320af35ec7f7de288c18a19857708433bf6a591c4
+Description:  netatalk
+
 Package: netcat
 Version: 0.7.1-1
 Depends: libc
@@ -6410,6 +8922,74 @@ MD5Sum: 93bbf303d091b010e3c61b4072deb2fa
 SHA256sum: 1da49fe2b3c480b3bd38f8420002ab5576429ff1376d1ef497a8c0554c35b0a9
 Description:  Netcat is a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol.
  It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts. At the same time, it is a feature-rich network debugging and exploration tool, since it can create almost any kind of connection you would need and has several interesting built-in capabilities.
+
+Package: netperf
+Version: 2.7.0-1
+Depends: libc
+Source: feeds/packages/net/netperf
+License: Custom
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: brcm63xx-tch
+Installed-Size: 172595
+Filename: netperf_2.7.0-1_brcm63xx-tch.ipk
+Size: 173172
+MD5Sum: a81396d871adfa431a6f30750d72c8de
+SHA256sum: 7c5683b971484456e649318c3dfb0038647a7b988da65e02b5a60f746bf8ebd0
+Description:  Network performance measurement tool
+
+Package: nfc-utils
+Version: 1.7.1-1
+Depends: libc, libnfc
+Source: feeds/packages/libs/libnfc
+License: LGPL-2.1
+Section: utils
+Maintainer: Sebastian Wendel <packages@sourceindex.de>
+Architecture: brcm63xx-tch
+Installed-Size: 27293
+Filename: nfc-utils_1.7.1-1_brcm63xx-tch.ipk
+Size: 28227
+MD5Sum: e1e3dc07c3f2c2b64ab3de963a2bb3f3
+SHA256sum: 87e1b883175c76d0c8ea7418054ad6a8d22ec27dd6d16bd1683cafa9a7df8b2f
+Description:  Provide some examples shared functions like print, parity calculation, options parsing
+ 
+ * Emulates a NFC Forum Tag Type 4 v2.0 (or v1.0)
+ * Jewel dump/restore tool
+ * Lists the first target present of each founded device
+ * MIFARE Classic manipulation example
+ * MIFARE Ultralight dump/restore tool
+ * Extract NDEF Message from a NFC Forum Tag Type 3
+ * Relay example using two PN532 devices
+ * Lists each available NFC device
+ 
+
+Package: nfs-kernel-server-utils
+Version: 1.3.2-3
+Depends: libc, nfs-kernel-server
+Source: feeds/packages/net/nfs-kernel-server
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 14387
+Filename: nfs-kernel-server-utils_1.3.2-3_brcm63xx-tch.ipk
+Size: 15100
+MD5Sum: 65971d98058a8052f59c57798644c968
+SHA256sum: 0b5693b3c57773d0c24f06d03da7ab0855fad0ffc8c5850ae92a1e2d5c40bae6
+Description:  NFS server utils
+
+Package: nfs-kernel-server
+Version: 1.3.2-3
+Depends: libc, libwrap, libblkid, libuuid, librpc, kmod-fs-nfsd, kmod-fs-nfs, portmap
+Source: feeds/packages/net/nfs-kernel-server
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 105928
+Filename: nfs-kernel-server_1.3.2-3_brcm63xx-tch.ipk
+Size: 106321
+MD5Sum: 976be477a0bb5d9105bf728d8f8c6e9b
+SHA256sum: b750b97e918c918d3256d9074a666ca28f9294307e3c42707cee40e859af44d7
+Description:  Kernel NFS server support
 
 Package: nfs-utils
 Version: 1.3.2-3
@@ -6488,6 +9068,21 @@ SHA256sum: 0d228d48f1ee69be22a9a480d65909476cfb2f45a7a33c77c89fafb9ac6eec42
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+
+Package: noping
+Version: 1.6.2-1
+Depends: libc, liboping, libncurses
+Source: feeds/packages/libs/liboping
+License: GPL-2.0
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 9132
+Filename: noping_1.6.2-1_brcm63xx-tch.ipk
+Size: 9895
+MD5Sum: 4b8c628917e3f5e66c015c5993e9b1e1
+SHA256sum: 3b4354594974c2660902a2c9b5e41d97fca6c8668e3465c5c76be6e90bc15f19
+Description:  Ncurses application to send ICMP echo request to network hosts
 
 Package: nping
 Version: 6.47-2
@@ -6592,6 +9187,46 @@ MD5Sum: 592ca9bb143fe0610fddcc71cf3269bf
 SHA256sum: 5ea76cb2a9d258a51593c0fa71568811417c0f9ccd7ab90999fd09fdd70ccc28
 Description:  ntfsprogs (ntfs-3g)
 
+Package: ntp-keygen
+Version: 4.2.8p6-1
+Depends: libc, libopenssl, libpthread, libcap, libevent2-core
+Source: feeds/packages/net/ntpd
+License: Unique
+LicenseFiles: COPYRIGHT html/copyright.html
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 86053
+Filename: ntp-keygen_4.2.8p6-1_brcm63xx-tch.ipk
+Size: 86798
+MD5Sum: 5cd5a70209360ff50816f8e4c4bb7baf
+SHA256sum: 25ff597c3d4d18026960900a3fd9277915a3d606bb21eca8d5a55b94236701cc
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/monitor local NTP
+ servers.
+ .
+ This package contains the ntp-keygen.
+
+Package: ntp-utils
+Version: 4.2.8p6-1
+Depends: libc, libopenssl, libpthread, libcap
+Source: feeds/packages/net/ntpd
+License: Unique
+LicenseFiles: COPYRIGHT html/copyright.html
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 273290
+Filename: ntp-utils_4.2.8p6-1_brcm63xx-tch.ipk
+Size: 273626
+MD5Sum: f91cbb65c585aeaaa96ea11b0151fb9f
+SHA256sum: 5f135fadfcf9508aea794eb6b05e68681a728a8ebb610162ea60a00bed74aaeb
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/monitor local NTP
+ servers.
+ .
+ This package contains ntpdc, ntpq and ntptime.
+
 Package: ntpclient
 Version: 2010_365-1
 Depends: libc, librt
@@ -6606,6 +9241,27 @@ Size: 11630
 MD5Sum: 21032b3f1fd1ad9b58f334fe7cde7adf
 SHA256sum: dbb04fdf99e31e94ae2dad71202c63cc173040eafbc20c50f1ceadb7b5f82cc6
 Description:  NTP client for setting system time from NTP servers.
+
+Package: ntpd
+Version: 4.2.8p6-1
+Depends: libc, libopenssl, libpthread, libcap
+Source: feeds/packages/net/ntpd
+License: Unique
+LicenseFiles: COPYRIGHT html/copyright.html
+Section: net
+Require-User: ntp=123:ntp=123
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 282119
+Filename: ntpd_4.2.8p6-1_brcm63xx-tch.ipk
+Size: 282522
+MD5Sum: c2411fc1919dd61c7c279ee06ad73f1c
+SHA256sum: 8c2c668be3500de94ea7f243ff8ca1ac03e3addc39264a057fc17d6367df3184
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/monitor local NTP
+ servers.
+ .
+ This package contains the ntpd server.
 
 Package: ntpdate
 Version: 4.2.8p6-1
@@ -6669,6 +9325,185 @@ Description:  A VPN client compatible with Cisco's AnyConnect SSL VPN and ocserv
  2800, 3800, 7200 Series and Cisco 7301 Routers, as well as the OpenConnect
  VPN server.
 
+Package: openssh-client-utils
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib, openssh-client, openssh-keygen
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 781450
+Filename: openssh-client-utils_7.1p2-1_brcm63xx-tch.ipk
+Size: 779069
+MD5Sum: c08190be377192d3a8a4e138e330d524
+SHA256sum: c42663b061d659983f4d77ffa7b05dd9233df716bb7b0f0f85dd52b70db1a25b
+Description:  OpenSSH client utilities.
+
+Package: openssh-client
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 377815
+Filename: openssh-client_7.1p2-1_brcm63xx-tch.ipk
+Size: 377395
+MD5Sum: 155629bfef090941370fa6a334c27903
+SHA256sum: cd8c98d28a0e67a1ddb8daa907ca3f7d45de0604ead2f41ea8b2b7b3d79672d3
+Description:  OpenSSH client.
+
+Package: openssh-keygen
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 204048
+Filename: openssh-keygen_7.1p2-1_brcm63xx-tch.ipk
+Size: 203886
+MD5Sum: fc68ca5b8212d5b816ae84e177d8d11e
+SHA256sum: 19ffc473c25b3548493c4b05a9d627d22367c802b32dfd89a25f75843af0a276
+Description:  OpenSSH keygen.
+
+Package: openssh-moduli
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib, openssh-keygen
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 9902
+Filename: openssh-moduli_7.1p2-1_brcm63xx-tch.ipk
+Size: 9694
+MD5Sum: ea43e5a63403c444156d5ac2ea90f0f4
+SHA256sum: 30a00060d3ebf5f1ec6884a6a272a4c8dc75180c4b8a6ef03f3f8d50153d411f
+Description:  OpenSSH server moduli file.
+
+Package: openssh-server-pam
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib, libpthread, openssh-keygen, libpam
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Require-User: sshd=22:sshd=22
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 373616
+Filename: openssh-server-pam_7.1p2-1_brcm63xx-tch.ipk
+Size: 373180
+MD5Sum: eb596cb0b9d2f4356ec8ee9b8b416edb
+SHA256sum: e6e8762950ad211720f8f55d7d9077d0ddc92161bb5ed4b66fbdaaabf479e766
+Description:  OpenSSH server (with PAM support).
+
+Package: openssh-server
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib, openssh-keygen
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Require-User: sshd=22:sshd=22
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 361889
+Filename: openssh-server_7.1p2-1_brcm63xx-tch.ipk
+Size: 361880
+MD5Sum: 458bc435bb0c3a3d705cf5653281a18a
+SHA256sum: 3ca48c84310211b09ee99366cf86d99b79b1692f07310cabbe483ebd7fed5583
+Description:  OpenSSH server.
+
+Package: openssh-sftp-avahi-service
+Version: 7.1p2-1
+Depends: libc, openssh-sftp-server, avahi-daemon
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 373
+Filename: openssh-sftp-avahi-service_7.1p2-1_brcm63xx-tch.ipk
+Size: 1221
+MD5Sum: 36b7fb899d0a288f6db3b7380ec0910a
+SHA256sum: e0ae023b2516e6130d981f534c01f5f83eb489dbaef38a5b47467807ce58a47b
+Description:  This package contains the service definition for announcing
+ SFTP support via mDNS/DNS-SD.
+
+Package: openssh-sftp-client
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 57416
+Filename: openssh-sftp-client_7.1p2-1_brcm63xx-tch.ipk
+Size: 58189
+MD5Sum: 2b920de51a2a2205801eb55f32a9cc6b
+SHA256sum: b12614b8003e1d8c25649ec69e116fa65864ceb648a41fa4225b2fe006b187a8
+Description:  OpenSSH SFTP client.
+
+Package: openssh-sftp-server
+Version: 7.1p2-1
+Depends: libc
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 39706
+Filename: openssh-sftp-server_7.1p2-1_brcm63xx-tch.ipk
+Size: 40513
+MD5Sum: 1966de3bcc7543dfbebec7555447b5d8
+SHA256sum: c48547f2c82c359304fc6c6c68ed2d5f4d27e68268cc82329f397b5c08e91d8e
+Description:  OpenSSH SFTP server.
+
+Package: oping
+Version: 1.6.2-1
+Depends: libc, liboping
+Source: feeds/packages/libs/liboping
+License: GPL-2.0
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 7399
+Filename: oping_1.6.2-1_brcm63xx-tch.ipk
+Size: 8175
+MD5Sum: ad7aef983a0936a1f071cbd0cb146924
+SHA256sum: d5478b279aa467bcfbcb6136ddf049239058fa5144a44e8d23276c1f562878a2
+Description:  Send ICMP echo request to network hosts
+
+Package: opus-tools
+Version: 0.1.9-1
+Depends: libc, libogg, libopus
+Source: feeds/packages/utils/opus-tools
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 79679
+Filename: opus-tools_0.1.9-1_brcm63xx-tch.ipk
+Size: 80326
+MD5Sum: b9d7c36073871780d53b51d2a65430d0
+SHA256sum: 3b5ee2e33fb29d249aa0a129cffbdffb34d8ff7707e764b66e630d931fe81000
+Description:  This package provides command-line utilities to encode, inspect, and decode 
+ .opus files.
+
 Package: owfs
 Version: 2.9p5-1
 Depends: libc, libow, libfuse, fuse-utils
@@ -6697,6 +9532,93 @@ Description:  OWFS is a suite of programs that designed to make the 1-wire bus a
  rather than speed.
  
  This package contains the OWFS fuse filesystem.
+
+Package: owftpd
+Version: 2.9p5-1
+Depends: libc, libow, libpthread
+Source: feeds/packages/utils/owfs
+License: GPL-2.0
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 25665
+Filename: owftpd_2.9p5-1_brcm63xx-tch.ipk
+Size: 26771
+MD5Sum: a2181d3c96d5dc7e23930104e9656593
+SHA256sum: 4198631927084aeb019e941bff6592df7251b7377e897c3d50f57b8b3194cc10
+Description:  OWFS is a suite of programs that designed to make the 1-wire bus and its
+ devices easily accessible. The underlying priciple is to create a virtual
+ filesystem, with the unique ID being the directory, and the individual
+ properties of the device are represented as simple files that can be read
+ and written.
+ 
+ Details of the individual slave or master design are hidden behind a
+ consistent interface. The goal is to provide an easy set of tools for a
+ software designer to create monitoring or control applications. There are
+ some performance enhancements in the implementation, including data caching,
+ parallel access to bus masters, and aggregation of device communication.
+ Still the fundemental goal has been ease of use, flexibility and correctness
+ rather than speed.
+ 
+ This package contains the OWFS ftp server.
+
+Package: owhttpd
+Version: 2.9p5-1
+Depends: libc, libow, libpthread
+Source: feeds/packages/utils/owfs
+License: GPL-2.0
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 12709
+Filename: owhttpd_2.9p5-1_brcm63xx-tch.ipk
+Size: 13870
+MD5Sum: a140bb0996366c023932bed05d81a1a6
+SHA256sum: 1e8f77a0f01d4d7f4e33538c484b2653cb9df6d52a9f226d71a116127bf71152
+Description:  OWFS is a suite of programs that designed to make the 1-wire bus and its
+ devices easily accessible. The underlying priciple is to create a virtual
+ filesystem, with the unique ID being the directory, and the individual
+ properties of the device are represented as simple files that can be read
+ and written.
+ 
+ Details of the individual slave or master design are hidden behind a
+ consistent interface. The goal is to provide an easy set of tools for a
+ software designer to create monitoring or control applications. There are
+ some performance enhancements in the implementation, including data caching,
+ parallel access to bus masters, and aggregation of device communication.
+ Still the fundemental goal has been ease of use, flexibility and correctness
+ rather than speed.
+ 
+ This package contains the OWFS http server.
+
+Package: owserver
+Version: 2.9p5-1
+Depends: libc, libow, libpthread
+Source: feeds/packages/utils/owfs
+License: GPL-2.0
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 10192
+Filename: owserver_2.9p5-1_brcm63xx-tch.ipk
+Size: 11370
+MD5Sum: ae4ca1b5f62a90463219f27f0ac6abfd
+SHA256sum: 189c756d85e9240d780e9217788e878e1b66fd4ec58b8d546908740c545bac62
+Description:  OWFS is a suite of programs that designed to make the 1-wire bus and its
+ devices easily accessible. The underlying priciple is to create a virtual
+ filesystem, with the unique ID being the directory, and the individual
+ properties of the device are represented as simple files that can be read
+ and written.
+ 
+ Details of the individual slave or master design are hidden behind a
+ consistent interface. The goal is to provide an easy set of tools for a
+ software designer to create monitoring or control applications. There are
+ some performance enhancements in the implementation, including data caching,
+ parallel access to bus masters, and aggregation of device communication.
+ Still the fundemental goal has been ease of use, flexibility and correctness
+ rather than speed.
+ 
+ This package contains the OWFS network server.
 
 Package: owshell
 Version: 2.9p5-1
@@ -6766,6 +9688,23 @@ SHA256sum: 16c90b34fb7b1c288435a370f878fd28e1dbaba26593d05b8957d936dd2de1cf
 Description:  The Patch package contains a program for modifying or creating files
  by applying a "patch" file typically created by the diff program.
 
+Package: pciutils
+Version: 3.3.1-1
+Depends: libc, libkmod, zlib
+Source: feeds/packages/utils/pciutils
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 293652
+Filename: pciutils_3.3.1-1_brcm63xx-tch.ipk
+Size: 294558
+MD5Sum: 6ae509d9a0ae315070a60abed676d32c
+SHA256sum: 9915ba6f3b601bbc63b68be267475d367e2510f241a67b16a9496c66c078012e
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
 Package: pcscd
 Version: 1.8.13-1
 Depends: libc, libpcsclite
@@ -6785,6 +9724,26 @@ Description:  The purpose of PC/SC Lite is to provide a Windows(R) SCard
  smart cards and smart cards readers.
  .
  This package contains the PC/SC daemon.
+
+Package: pen
+Version: 0.27.5-1
+Depends: libc, libopenssl
+Source: feeds/packages/net/pen
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 48268
+Filename: pen_0.27.5-1_brcm63xx-tch.ipk
+Size: 49175
+MD5Sum: 2b46c88f902227244618c645cab8dca0
+SHA256sum: 2cb2e9edbb0a1fde38a4cf9f85de97a9f33c6aa4821877ddd5c442fd07573da2
+Description:  This is pen, a load balancer for "simple" TCP based protocols
+ such as HTTP or SMTP. It allows several servers to appear as
+ one to the outside and automatically detects servers that are
+ down and distributes clients among the available servers.
+ This gives high availability and scalable performance.
 
 Package: pgsql-cli
 Version: 9.4.4-1
@@ -6832,6 +9791,21 @@ MD5Sum: 5ddf96e764ed2fdc3becdaf342d65e05
 SHA256sum: 9ee66fab702f44a16178f1c10848ced8d94847d9c3812ccdf12110aa878809f8
 Description:  Postgresql driver for ODBC.
 
+Package: picocom
+Version: 1.7-1
+Depends: libc
+Source: feeds/packages/utils/picocom
+License: GPL-2.0+
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 14103
+Filename: picocom_1.7-1_brcm63xx-tch.ipk
+Size: 14817
+MD5Sum: 7abb3062f5c6cc47f5bafcaa40d5495e
+SHA256sum: 2de8231994443be5c5588275f8fc44c502581d938c560fa7401a02ef735e4f01
+Description:  minimal dumb-terminal emulation program
+
 Package: polipo
 Version: 1.1.1-1
 Depends: libc
@@ -6849,6 +9823,24 @@ Description:  Polipo is a small and fast caching web proxy (a web cache, an HTTP
  small group of people, there is nothing that prevents it from being used
  by a larger group.
 
+Package: portmap
+Version: 6.0-4
+Depends: libc, libwrap, librpc
+Source: feeds/packages/net/portmap
+License: BSD-4c
+LicenseFiles: portmap.man
+Section: net
+Require-User: rpc=65533:rpc=65533
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 6813
+Filename: portmap_6.0-4_brcm63xx-tch.ipk
+Size: 7612
+MD5Sum: 9e24cd993d27a27876e03cafd1a6545f
+SHA256sum: 84b7e041788df4a48cd1f156a853de043763cda8091b00a3a76223a6276149ce
+Description:  Portmap is a server that converts RPC (Remote Procedure Call) program
+ numbers into DARPA protocol port numbers.
+
 Package: postfix
 Version: 3.0.0-1
 Depends: libc, libopenssl, libsasl2, libopenldap, libpcre
@@ -6864,6 +9856,20 @@ Size: 3627861
 MD5Sum: 66e8c52bbcaad9874f56bbd32dc7a14d
 SHA256sum: 8c67259832013f07e97e91a8980a71c6a625a7896338f463d6d9223a8b82d879
 Description:  Postfix is Wietse Venema's mailer that started life as an alternative to the widely-used Sendmail program. Postfix attempts to be fast, easy to administer, and secure, while at the same time being sendmail compatible enough to not upset existing users. Thus, the outside has a sendmail-ish flavor, but the inside is completely different.
+
+Package: pptpd
+Version: 1.4.0-2
+Depends: libc, kmod-ppp, kmod-gre, kmod-mppe, ppp
+Source: feeds/packages/net/pptpd
+Section: net
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 29025
+Filename: pptpd_1.4.0-2_brcm63xx-tch.ipk
+Size: 29779
+MD5Sum: b2c9e0279066462bdd68db985d3962dd
+SHA256sum: 55dd86cedf1b732618266d83d5882231a8c56fd1eafc80e1dcd42559d999f6cb
+Description:  PopTop pptp server
 
 Package: privoxy
 Version: 3.0.24-1
@@ -7644,6 +10650,61 @@ MD5Sum: 8e4585ff1b7fe311c4cea53133e0b411
 SHA256sum: 2021cf0f74c3226787a4ab0dbe85939a6eca653ecef043d9b0dc779961f6090b
 Description:  This package contains the (almost) full Python install.
  It's python-light + all other packages.
+
+Package: redsocks
+Version: 0.4-1
+Depends: libc, libevent2
+Source: feeds/packages/net/redsocks
+License: Apache-2.0
+Section: net
+Maintainer: Johannes Morgenroth <jm@m-network.de>
+Architecture: brcm63xx-tch
+Installed-Size: 32985
+Filename: redsocks_0.4-1_brcm63xx-tch.ipk
+Size: 34115
+MD5Sum: 4d63ef565f6caeff0ddbcb554f5b4195
+SHA256sum: dfdfd5acff2e4bc4fba421391f8491f74f91c18e246cdcac0853029518f61012
+Description:  Redsocks is a daemon running on the local system, that will transparently
+ tunnel any TCP connection via a remote SOCKS4, SOCKS5 or HTTP proxy server. It
+ uses the system firewall's redirection facility to intercept TCP connections,
+ thus the redirection is system-wide, with fine-grained control, and does
+ not depend on LD_PRELOAD libraries.
+ 
+ Redsocks supports tunneling TCP connections and UDP packets. It has
+ authentication support for both, SOCKS and HTTP proxies.
+ 
+ Also included is a small DNS server returning answers with the "truncated" flag
+ set for any UDP query, forcing the resolver to use TCP.
+
+Package: remserial
+Version: 1.4-1
+Depends: libc
+Source: feeds/packages/net/remserial
+License: GPL-2.0+
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 5468
+Filename: remserial_1.4-1_brcm63xx-tch.ipk
+Size: 6201
+MD5Sum: 4e35070cd3846da13c02403cc1538816
+SHA256sum: 17bab7b0977c8cf303e5502a1bb1a25948e33fca42bb70b9bfbb0f7cd521ab69
+Description:  Bridge TCP/IP port with a device
+
+Package: rng-tools
+Version: 5-1
+Depends: libc
+Source: feeds/packages/utils/rng-tools
+License: GPLv2
+Section: utils
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: brcm63xx-tch
+Installed-Size: 42637
+Filename: rng-tools_5-1_brcm63xx-tch.ipk
+Size: 42114
+MD5Sum: 2b655312383c4ac58bff6f9debc0087a
+SHA256sum: b629f1eca3380ada4cc274f92d29dffffcb17a25be1698744c26fbf8430e5188
+Description:  Daemon for adding entropy to kernel entropy pool
 
 Package: rpcd-mod-lxc
 Version: 20141012
@@ -8756,6 +11817,86 @@ Description:  Ruby is the interpreted scripting language for quick and easy
  straight-forward, and extensible.
  
 
+Package: screen
+Version: 4.3.1-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/screen
+License: GPL-3.0+
+Section: utils
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 222825
+Filename: screen_4.3.1-1_brcm63xx-tch.ipk
+Size: 223291
+MD5Sum: 11357a658f36aff7cf3fd700c726b0b7
+SHA256sum: 35679b107d61456e8d8c202aa736b7c58a7ddd0f317550703bf8f93e3d737258
+Description:  Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.
+
+Package: sctp-tools
+Version: 1.0.16-1
+Depends: libc, libsctp
+Source: feeds/packages/net/lksctp-tools
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 34668
+Filename: sctp-tools_1.0.16-1_brcm63xx-tch.ipk
+Size: 35460
+MD5Sum: 6d9efd662ff00b34b21454a8f0eb1e2e
+SHA256sum: 90391ade443d04ace57d86fa75eaed642de3e798b569ce1db53cc96b2f7ceac2
+Description:  SCTP user-land tools
+
+Package: sctp
+Version: 1.0.16-1
+Depends: libc, libsctp, sctp-tools
+Source: feeds/packages/net/lksctp-tools
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 106
+Filename: sctp_1.0.16-1_brcm63xx-tch.ipk
+Size: 844
+MD5Sum: 8756c39940e9a58210ca2ee686e9fbb0
+SHA256sum: ff0a85b46bd9eab466f78f71c3839039c8352a13edeb9ca60318e7486f91c5bf
+Description:  SCTP user-land (meta)
+
+Package: ser2net
+Version: 2.10.0-2
+Depends: libc
+Source: feeds/packages/net/ser2net
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 32317
+Filename: ser2net_2.10.0-2_brcm63xx-tch.ipk
+Size: 33143
+MD5Sum: 7d39316149545fca27964d087698b5c0
+SHA256sum: 85fdd2b2a4585ee1496eb6368a9a0402a5fec545d70d1e0c8b6f583dfc371ff4
+Description:  This project provides a proxy that allows telnet/tcp connections to be made to
+ serial ports on a machine.
+
+Package: serialconsole
+Version: 0.95-1
+Depends: libc
+Source: feeds/packages/utils/serialconsole
+Section: utils
+Maintainer: Stefan Bethke <stb@lassitu.de>
+Architecture: brcm63xx-tch
+Installed-Size: 2138
+Filename: serialconsole_0.95-1_brcm63xx-tch.ipk
+Size: 2918
+MD5Sum: f7bc8a582e3f089c49609b4939c19dda
+SHA256sum: 008cc5bdd26ff7f31d46bccf643c7014f993bf470e5b04143460fa29ca15f4ca
+Description:  serialconsole (sc) is a minimal terminal program allowing to use one machine
+ to access the serial console of another machine.
+
 Package: shadow-chage
 Version: 4.2.1-4
 Depends: libc, shadow-common
@@ -9018,6 +12159,61 @@ MD5Sum: 7ef209d0f71e3c5097936bee63bff95f
 SHA256sum: 7a847e47499f106d03889dfb7588f471f668f3e16ef650d960d1d36ed942cbbb
 Description:  Simple, fast, extensible JSON encoder/decoder for Python
 
+Package: smartd
+Version: 6.3-1
+Depends: libc, uclibcxx
+Source: feeds/packages/utils/smartmontools
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 172671
+Filename: smartd_6.3-1_brcm63xx-tch.ipk
+Size: 173493
+MD5Sum: 352e2ff03defebd43bda2ea7295ea48d
+SHA256sum: 4e0564399a2643299b83bc5f2eea5adb4e284a4e4f9fc2b6a3d05fe5bbb28193
+Description:  smartmontools contains utility programs (smartd) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: smartmontools
+Version: 6.3-1
+Depends: libc, uclibcxx
+Source: feeds/packages/utils/smartmontools
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 191058
+Filename: smartmontools_6.3-1_brcm63xx-tch.ipk
+Size: 191776
+MD5Sum: 1fb2e7758d13182c80b8dc4e462f7ece
+SHA256sum: d885992e0ea9111d7cd5018aa8eed24be493f7f652499a893316df32cfabbf4e
+Description:  smartmontools contains utility programs (smartctl) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: smstools3
+Version: 3.1.15-1
+Depends: libc, libiconv-full, iconv
+Source: feeds/packages/utils/smstools3
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Gérald Kerma <dreagle@doukki.net>
+Architecture: brcm63xx-tch
+Installed-Size: 97736
+Filename: smstools3_3.1.15-1_brcm63xx-tch.ipk
+Size: 98517
+MD5Sum: 94d0cf257bb0d70f96d510e11fb6ec2b
+SHA256sum: ecc769bb8d7ee864e7321ebc13f2564c9dc1959e1d4b9494935b7c0a51422847
+Description:  The SMS Server Tools 3 is a SMS Gateway software which can send and receive
+ short messages through GSM modems and mobile phones.
+
 Package: snmp-mibs
 Version: 5.7.3-9
 Depends: libc
@@ -9087,6 +12283,79 @@ Description:  Simple Network Management Protocol (SNMP) is a widely used protoco
  .
  This package contains the SNMP agent, dynamically linked.
 
+Package: snmptrapd
+Version: 5.7.3-9
+Depends: libc, libnetsnmp
+Source: feeds/packages/net/net-snmp
+License: MIT BSD-3-Clause-Clear
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: brcm63xx-tch
+Installed-Size: 20943
+Filename: snmptrapd_5.7.3-9_brcm63xx-tch.ipk
+Size: 21861
+MD5Sum: cfa4f0dd5b5e29f701c9b65a2b86ffc1
+SHA256sum: 5d5ac399da88069f08dda8f1ba9f95c6bc625a02a10ff6b97a3ddf9a456c0081
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP notification receiver.
+
+Package: socat
+Version: 1.7.3.0-1
+Depends: libc, libpthread, librt, libopenssl
+Source: feeds/packages/net/socat
+License: GPL-2.0 OpenSSL
+LicenseFiles: COPYING COPYING.OpenSSL
+Section: net
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 107885
+Filename: socat_1.7.3.0-1_brcm63xx-tch.ipk
+Size: 108694
+MD5Sum: d5c0f7b53f5abb465567fa2d8e1c522c
+SHA256sum: 2bd71763ada6125a1fe062a997fc9fa82385d6daea87cb34ee8f2180dfd64e20
+Description:  SoCat (for SOcket CAT) establishes two bidirectional byte streams and
+ transfers data between them.
+ Data channels may be files, pipes, devices (terminal or modem, etc.), or
+ sockets (Unix, IPv4, IPv6, raw, UDP, TCP, SSL). It provides forking,
+ logging and tracing, different modes for interprocess communication and
+ many more options.
+
+Package: sockread
+Version: 1.0-1
+Depends: libc
+Source: feeds/packages/utils/sockread
+License: CC0-1.0
+Section: utils
+Maintainer: Moritz Warning <moritzwarning@web.de>
+Architecture: brcm63xx-tch
+Installed-Size: 1658
+Filename: sockread_1.0-1_brcm63xx-tch.ipk
+Size: 2441
+MD5Sum: bcc3fd486c6addc984e7ce4170f91652
+SHA256sum: 399cc743ac6b79adbd96989208f112a55cd9d7074123f06b5f2406b27ea44689
+Description:  sockread writes and reads data from a Unix domain socket
+ represented as a special file on the file system.
+
+Package: spi-tools
+Version: 1-cc6a41fdcec60610703ba6db488c621c64952898
+Depends: libc
+Source: feeds/packages/utils/spi-tools
+License: GPL-2.0
+Section: utils
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 4072
+Filename: spi-tools_1-cc6a41fdcec60610703ba6db488c621c64952898_brcm63xx-tch.ipk
+Size: 4812
+MD5Sum: 5615dbbfb404b4c31487dffaaf1854b9
+SHA256sum: c1ad44f4b88804a2338ad556bddf56adaadc65808a1cbcd4d3e54fcf95045a78
+Description:  Command line SPI tools
+
 Package: sqlite3-cli
 Version: 3081101-1
 Depends: libc, libsqlite3, libncurses, libreadline
@@ -9106,6 +12375,38 @@ Description:  SQLite is a small C library that implements a self-contained, embe
  that can evaluate queries interactively and display the results in multiple
  formats.
 
+Package: squid-mod-cachemgr
+Version: 3.5.27-1
+Depends: libc, squid
+Source: feeds/packages/net/squid
+License: GPL-2.0
+Section: net
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: brcm63xx-tch
+Installed-Size: 25395
+Filename: squid-mod-cachemgr_3.5.27-1_brcm63xx-tch.ipk
+Size: 26106
+MD5Sum: 96c5c4025504ad8c24a649d1cb2b5b94
+SHA256sum: 5026e0f058ffffb7e497e767f0676ff5600ce3ba407db4895e639c2683e1736f
+Description:  Web based proxy manager and reporting tool
+
+Package: squid
+Version: 3.5.27-1
+Depends: libc, libopenssl, libpthread, librt, libltdl, libstdcpp
+Source: feeds/packages/net/squid
+License: GPL-2.0
+Section: net
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: brcm63xx-tch
+Installed-Size: 2107323
+Filename: squid_3.5.27-1_brcm63xx-tch.ipk
+Size: 2105055
+MD5Sum: 49d47876124e49b2c1f521f93a3ff2be
+SHA256sum: 36490d64692ac91c3c4cb0f632c125020a521b40317663d0d2186d7c606de5a6
+Description:  Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more.
+ It reduces bandwidth and improves response times by caching and reusing
+ frequently-requested web pages.
+
 Package: sshfs
 Version: 2.10-1
 Depends: libc, libfuse, fuse-utils, glib2, libpthread
@@ -9120,6 +12421,93 @@ Size: 32585
 MD5Sum: 17d6b9eb55b0b7694faae77eb6cd6130
 SHA256sum: 9ab6aa48056ab961d2b5ee447a49af2c737a5e07fd34593e07b9525b32daa5f5
 Description:  Mount remote system over sftp.
+
+Package: sshtunnel
+Version: 3-3
+Depends: libc, openssh-client
+Source: feeds/packages/net/sshtunnel
+License: GPL-2.0+
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 3265
+Filename: sshtunnel_3-3_brcm63xx-tch.ipk
+Size: 4122
+MD5Sum: 006b18cb8ca235eba0bc261c663c0917
+SHA256sum: 29513beb159a9c0e9c7cabd450b3d8a1108f4c14e136633bf7e99eb356c367e6
+Description:  Creates openssh ssh(1) Local and Remote tunnels configured in UCI file. Can be used to allow remote connections, possibly over NATed connections or without public IP/DNS
+
+Package: ssmtp
+Version: 2.64-1.1
+Depends: libc, libopenssl
+Source: feeds/packages/mail/ssmtp
+License: GPL-2.0+
+Section: mail
+Maintainer: Dirk Brenken <dibdot@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 12193
+Filename: ssmtp_2.64-1.1_brcm63xx-tch.ipk
+Size: 13193
+MD5Sum: ad0a6bc291bc8682967c928e78ba8c5e
+SHA256sum: 47d7bc700e2ceee729585599f72e0ba05c8db70caaeb79724f15a53342579754
+Description:  A secure, effective and simple way of getting mail off a system to your
+ mail hub. It contains no suid-binaries or other dangerous things - no
+ mail spool to poke around in, and no daemons running in the background.
+ Mail is simply forwarded to the configured mailhost. Extremely easy
+ configuration.
+
+Package: sstp-client
+Version: 1.0.9-1
+Depends: libc, libevent2, libopenssl, ppp
+Source: feeds/packages/net/sstp-client
+License: GPLv2
+Section: net
+Maintainer: Federico Di Marco <fededim@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 28046
+Filename: sstp-client_1.0.9-1_brcm63xx-tch.ipk
+Size: 28936
+MD5Sum: 9f91dd9b6aba90201b9410e1432f3849
+SHA256sum: 6d5677580c29235a66ad4b3b196835a226bba6aa1a8c088edad0ee3d74294f95
+Description:  It can be used instead of PPTP or L2TP, and is only available with Windows Vista/7 connecting to a Windows 2008 Server. The advantage of SSTP  compared to PPTP and L2TP is that it cannot be easily blocked by firewalls since the traffic is transmitted over HTTPS on port 443.
+ Windows Vista/7 uses SSTP whenever PPTP or L2TP cannot be established. For further information on SSTP check out wikipedia's article on Secure Socket Tunneling Protocol.
+
+Package: stm32flash
+Version: 0.4-1
+Depends: libc
+Source: feeds/packages/utils/stm32flash
+License: GPL-2.0+
+LicenseFiles: gpl-2.0.txt
+Section: utils
+Maintainer: Christian Pointner <equinox@spreadspace.org>
+Architecture: brcm63xx-tch
+Installed-Size: 16824
+Filename: stm32flash_0.4-1_brcm63xx-tch.ipk
+Size: 17687
+MD5Sum: 6d334a0ca7ca635bfd1bfa3cf95d231f
+SHA256sum: b38e6a2360a4b70e3f3e3aa202788c91a60c37c5b3dbdf5aa17dbab622a1b0e9
+Description:  This tool can be used to burn firmware images to STM32 ARM processors
+ using the built-in serial bootloader.
+
+Package: stunnel
+Version: 5.20-1
+Depends: libc, libopenssl, zlib
+Source: feeds/packages/net/stunnel
+License: GPL-2.0+
+LicenseFiles: COPYING COPYRIGHT.GPL
+Section: net
+Maintainer: Michael Haas <haas@computerlinguist.org>
+Architecture: brcm63xx-tch
+Installed-Size: 67402
+Filename: stunnel_5.20-1_brcm63xx-tch.ipk
+Size: 68070
+MD5Sum: e8f13c8aeb999c74bea52a04c2b2e067
+SHA256sum: 254df840841a8ea08b29fe0814baeeac9e3bf065c8e4bf6b4002350bd93e8b64
+Description:  Stunnel is a program that allows you to encrypt arbitrary TCP
+ connections inside SSL (Secure Sockets Layer) available on both Unix
+ and Windows. Stunnel can allow you to secure non-SSL aware daemons and
+ protocols (like POP, IMAP, LDAP, etc) by having Stunnel provide the
+ encryption, requiring no changes to the daemon's code.
 
 Package: tar
 Version: 1.28-2
@@ -9169,6 +12557,43 @@ Size: 30820
 MD5Sum: 91fbdb03da9d5c730ec8ebf626f981eb
 SHA256sum: f96d7c8255c39b7007502d6d4ace75f4876a7ab94c27f502241c04e909a6c4df
 Description:  Tinyproxy is a lightweight HTTP and HTTPS proxy
+
+Package: tmux
+Version: 1.9a-1
+Depends: libc, libncurses, libevent2, libpthread, librt
+Source: feeds/packages/utils/tmux
+License: ISC
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 146425
+Filename: tmux_1.9a-1_brcm63xx-tch.ipk
+Size: 146852
+MD5Sum: 8bd67440ba1bb3fb6eea082c1fadfa43
+SHA256sum: 0e89e97b5f9c080c98262ae110f0fd65df0c9f239dca4ffb93b5051015f1c9ee
+Description:  tmux is a modern, BSD-licensed alternative to GNU screen.
+
+Package: tor
+Version: 0.2.9.11-1
+Depends: libc, libevent2, libopenssl, libpthread, librt, zlib, libcap
+Source: feeds/packages/net/tor
+LicenseFiles: LICENSE
+Section: net
+Require-User: tor=52:tor=52
+Maintainer: Hauke Mehrtens <hauke@hauke-m.de>
+Architecture: brcm63xx-tch
+Installed-Size: 1035481
+Filename: tor_0.2.9.11-1_brcm63xx-tch.ipk
+Size: 1034673
+MD5Sum: 30e75ada546089434a07783f34524af0
+SHA256sum: 0ab44feee4630c14dcb462c8eae67b328ff1f61a2f3786812b509e1caaa66eb7
+Description:  Tor is a toolset for a wide range of organizations and people that want to
+ improve their safety and security on the Internet. Using Tor can help you
+ anonymize web browsing and publishing, instant messaging, IRC, SSH, and
+ more. Tor also provides a platform on which software developers can build
+ new applications with built-in anonymity, safety, and privacy features.
+ This package contains the tor daemon.
 
 Package: transmission-daemon-openssl
 Version: 2.94-2
@@ -9243,6 +12668,214 @@ Description:  udproxy makes it possible to convert UDP IPTV streams into HTTP
  home and do not want to rent multiple decoders from their
  provider but just use their own streaming client (for example
  popcornhour/mediatomb/vlc).
+
+Package: ulogd-mod-dbi
+Version: 2.0.4-1
+Depends: libc, ulogd, libdbi
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 6873
+Filename: ulogd-mod-dbi_2.0.4-1_brcm63xx-tch.ipk
+Size: 7685
+MD5Sum: 13161248511383bcc524bf671526208c
+SHA256sum: 19272b5b69f0566706386d262bc21259bd2ace4ea3e03589844f9df6752e58b8
+Description:  Output plugin for logging to a database using libdbi
+
+Package: ulogd-mod-extra
+Version: 2.0.4-1
+Depends: libc, ulogd
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 21599
+Filename: ulogd-mod-extra_2.0.4-1_brcm63xx-tch.ipk
+Size: 22342
+MD5Sum: edc45d9f4c8b5321d14aacb819620d51
+SHA256sum: 6953a9b9b77088d283dc32547ab398173ae09ab05634c8c095b9d0c1bac16536
+Description:  Extra plugins
+
+Package: ulogd-mod-json
+Version: 2.0.4-1
+Depends: libc, ulogd, jansson
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2772
+Filename: ulogd-mod-json_2.0.4-1_brcm63xx-tch.ipk
+Size: 3540
+MD5Sum: d2718bdf76e5f87d07904e9ad5587487
+SHA256sum: b0ec25369dbc33e3da94557beeabebc268f32e94da7fd2a5fba8d156e5e4cc74
+Description:  JSON output plugin
+
+Package: ulogd-mod-mysql
+Version: 2.0.4-1
+Depends: libc, ulogd, libmysqlclient
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 6526
+Filename: ulogd-mod-mysql_2.0.4-1_brcm63xx-tch.ipk
+Size: 7346
+MD5Sum: a469220a96ebfe6fd88faef027c73f75
+SHA256sum: 53dce6875d511d7d1f9c4033ca8334a93a796a2a1fd2f4ffcbaa37bbf173be4b
+Description:  Output plugin for logging to a MySQL database
+
+Package: ulogd-mod-nfacct
+Version: 2.0.4-1
+Depends: libc, ulogd, libnetfilter-acct
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2870
+Filename: ulogd-mod-nfacct_2.0.4-1_brcm63xx-tch.ipk
+Size: 3627
+MD5Sum: b8a908f53eec97702c3d6fd5b9f3a5ff
+SHA256sum: 878fee3169510f4cc4f9f098250650588efec847c9f94c41000c9bc482096b77
+Description:  Input plugin for flow-based logging (accounting)
+
+Package: ulogd-mod-nfct
+Version: 2.0.4-1
+Depends: libc, ulogd, libnetfilter-conntrack
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 8437
+Filename: ulogd-mod-nfct_2.0.4-1_brcm63xx-tch.ipk
+Size: 9232
+MD5Sum: a9bee87ec0411a8d53e763e5be8adc7b
+SHA256sum: 8799838b468760261a00799bdd5d6fb7450763013de7949b8b8d405e2170c43c
+Description:  Input plugin for flow-based logging (conntracking)
+
+Package: ulogd-mod-nflog
+Version: 2.0.4-1
+Depends: libc, ulogd, libnetfilter-log
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 4748
+Filename: ulogd-mod-nflog_2.0.4-1_brcm63xx-tch.ipk
+Size: 5511
+MD5Sum: cd96e3489c96695447a87f6678ea9bed
+SHA256sum: 9fd764a177bb1a1a51cd54dc78d6dc5f8cdeca20e046389c6aaee8b1d144240d
+Description:  Input plugin using NFLOG
+
+Package: ulogd-mod-pcap
+Version: 2.0.4-1
+Depends: libc, ulogd, libpcap
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2303
+Filename: ulogd-mod-pcap_2.0.4-1_brcm63xx-tch.ipk
+Size: 3086
+MD5Sum: c3b15b6b773f2288469e0e6eadc24bbb
+SHA256sum: 9dd2700dc4599588400b5b31778973674b1cd1f83f71e1a07df661e54b646a33
+Description:  Output plugin for logging in pcap format
+
+Package: ulogd-mod-pgsql
+Version: 2.0.4-1
+Depends: libc, ulogd, libpq
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 7560
+Filename: ulogd-mod-pgsql_2.0.4-1_brcm63xx-tch.ipk
+Size: 8351
+MD5Sum: 8b04c769d7e41dae5f6673015733ecf7
+SHA256sum: b0aed0ecfd52645bbec33238b7e45539a261ee68080b20e67f6c480240294790
+Description:  Output plugin for logging to a PostgreSQL database
+
+Package: ulogd-mod-sqlite
+Version: 2.0.4-1
+Depends: libc, ulogd, libsqlite3
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 7309
+Filename: ulogd-mod-sqlite_2.0.4-1_brcm63xx-tch.ipk
+Size: 8124
+MD5Sum: 5406e2b85363f8d1f4dfc37e256e4196
+SHA256sum: f26abb535a01a12aa7ca57dd6a1eee6b31291f33b5a4a9796dd7c477f0bdbc48
+Description:  Output plugin for logging to an SQLite database
+
+Package: ulogd-mod-syslog
+Version: 2.0.4-1
+Depends: libc, ulogd
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 1904
+Filename: ulogd-mod-syslog_2.0.4-1_brcm63xx-tch.ipk
+Size: 2671
+MD5Sum: 6dbf307f3708d8314be6be4a37ba6df8
+SHA256sum: e3735fb55ab1b3ba4d16a1344cfcbc98ca4d285edccb19f3b08f17473015e69b
+Description:  Syslog output plugin
+
+Package: ulogd-mod-xml
+Version: 2.0.4-1
+Depends: libc, ulogd, libnetfilter-acct, libnetfilter-conntrack, libnetfilter-log
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2755
+Filename: ulogd-mod-xml_2.0.4-1_brcm63xx-tch.ipk
+Size: 3537
+MD5Sum: 8bd3acfe5314d9c68d224a8612f75cf4
+SHA256sum: c5c58daf70f94bfee858502e8dbae3eb11369b04520c395bb84cb5103263722d
+Description:  XML output plugin
+
+Package: ulogd
+Version: 2.0.4-1
+Depends: libc, libmnl, libnfnetlink, libpthread
+Source: feeds/packages/net/ulogd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 21331
+Filename: ulogd_2.0.4-1_brcm63xx-tch.ipk
+Size: 22144
+MD5Sum: 615fe953dc754a1d15f48409a1656fcd
+SHA256sum: 06d212e8a4ee027f5582f3fd3cc493a64814aa0342e74603f2106a8c04dfeb90
+Description:  Netfilter userspace logging daemon
 
 Package: unixodbc-tools
 Version: 2.3.4-2
@@ -9466,6 +13099,25 @@ MD5Sum: c5f55447125d697872bbe25c429fdb85
 SHA256sum: 1c009efbe1848af7f634965bdc55afb41fe70cf5fce19926493b23944e2a6f0e
 Description:  Allows to configure a periodically reboot, or after loosing internet connectivity. Configured trough UCI /etc/config/system.
 
+Package: wavemon
+Version: 0.7.6-2
+Depends: libc, libncurses, libpthread
+Source: feeds/packages/net/wavemon
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jonathan McCrohan <jmccrohan@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 34693
+Filename: wavemon_0.7.6-2_brcm63xx-tch.ipk
+Size: 35530
+MD5Sum: abbea1b512f22ab7dd683596958eb88d
+SHA256sum: 36a02665e7fe2cf018556417f821cd8045794c2857e55e7f0f19d9a1f01ad63c
+Description:  wavemon is a ncurses-based monitoring application for wireless network
+ devices. It currently works under Linux with devices that are supported
+ by the wireless extensions by Jean Tourrilhes (included in Kernel 2.4
+ and higher), e.g. the Lucent Orinoco cards.
+
 Package: wget
 Version: 1.17.1-1
 Depends: libc, libpcre, libopenssl, librt
@@ -9488,6 +13140,81 @@ Description:  Wget is a network utility to retrieve files from the Web using htt
  archives and home pages or to travel the Web like a WWW robot.
  This package is built with SSL support.
 
+Package: wifidog-tls
+Version: 1.3.0-1
+Depends: libc, iptables-mod-extra, iptables-mod-ipopt, iptables-mod-nat-extra, libpthread, libcyassl
+Source: feeds/packages/net/wifidog
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Michael Haas <haas@computerlinguist.org>
+Architecture: brcm63xx-tch
+Installed-Size: 52507
+Filename: wifidog-tls_1.3.0-1_brcm63xx-tch.ipk
+Size: 53363
+MD5Sum: 06e9dca82b63f0a866ac62d3c8316aae
+SHA256sum: f66d26c78c1113a4c325229d97245f87dc454620a2cc71af875ce1f6c044f3c2
+Description:  The Wifidog project is a complete and embeddable captive
+ portal solution for wireless community groups or individuals
+ who wish to open a free Hotspot while still preventing abuse
+ of their Internet connection.
+ 
+ This variant can talk TLS to the auth server.
+
+Package: wifidog
+Version: 1.3.0-1
+Depends: libc, iptables-mod-extra, iptables-mod-ipopt, iptables-mod-nat-extra, libpthread
+Source: feeds/packages/net/wifidog
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Michael Haas <haas@computerlinguist.org>
+Architecture: brcm63xx-tch
+Installed-Size: 51053
+Filename: wifidog_1.3.0-1_brcm63xx-tch.ipk
+Size: 51973
+MD5Sum: 236697ceeafb7d0d2e05343a3578f8f0
+SHA256sum: 01475e1063c714a3101592638eeb9018162b7593531860978531da98bbed26ab
+Description:  The Wifidog project is a complete and embeddable captive
+ portal solution for wireless community groups or individuals
+ who wish to open a free Hotspot while still preventing abuse
+ of their Internet connection.
+
+Package: wifitoggle
+Version: 1-4
+Depends: libc
+Source: feeds/packages/utils/wifitoggle
+License: GPL-2.0+
+Section: utils
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 1526
+Filename: wifitoggle_1-4_brcm63xx-tch.ipk
+Size: 2384
+MD5Sum: 8e354aa9971b0b3835d95834b25146c5
+SHA256sum: 7fef7b8652273d750a850ee0f787073307bf1179b50feceb05c77dc3391882e3
+Description:  Very versatile script to toggle Wi-Fi with a button. Allows to set
+ timeouts, persist changes after boot, and set LEDs according to the state.
+
+Package: xinetd
+Version: 2.3.15-3
+Depends: libc
+Source: feeds/packages/net/xinetd
+License: xinetd
+LicenseFiles: COPYRIGHT
+Section: net
+Architecture: brcm63xx-tch
+Installed-Size: 63576
+Filename: xinetd_2.3.15-3_brcm63xx-tch.ipk
+Size: 64468
+MD5Sum: 427577f002180b18dc0bb8175dadc6fd
+SHA256sum: 8d0d62cad9462a40e43b19e9775ef387d1ec3e26f271a8cbd0b78b4cf5804228
+Description:  xinetd has access control mechanisms, extensive logging capabilities,
+ the ability to make services available based on time, can place limits
+ on the number of servers that can be started, and has deployable
+ defence mechanisms to protect against port scanners, among other
+ things.
+
 Package: xupnpd
 Version: 2016-07-06-1
 Depends: libc, liblua
@@ -9507,6 +13234,21 @@ Description:  xupnpd - eXtensible UPnP agent
  The program shares UTF8-encoded M3U playlists with links over local area network as content of the directory.
  You can watch HDTV broadcasts (multicast or unicast) and listen Internet Radio in IP network without transcoding and PC.
 
+Package: xxd
+Version: 7.4-2
+Depends: libc
+Source: feeds/packages/utils/vim
+Section: utils
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: brcm63xx-tch
+Installed-Size: 6238
+Filename: xxd_7.4-2_brcm63xx-tch.ipk
+Size: 7044
+MD5Sum: c049bc7e16e9d40d559df1bc19e27111
+SHA256sum: 6fe247d4d9de12e875eccdf0392ff814e4924fceb7849eb944866b8187c48c91
+Description:  xxd creates a hex dump of a given file or standard input, it can also convert
+ a hex dump back to its original binary form.
+
 Package: xz-utils
 Version: 5.2.1-2
 Depends: libc
@@ -9522,6 +13264,42 @@ Size: 843
 MD5Sum: 29d28063efd1ed0fb38bfca049afbfef
 SHA256sum: 47a38cd1a52935a23213c30d6c7d6222c3136d0ebd3e14030604e66f90abcce5
 Description:  XZ Utils (meta)
+
+Package: zabbix-agentd
+Version: 2.4.6-3
+Depends: libc
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 125734
+Filename: zabbix-agentd_2.4.6-3_brcm63xx-tch.ipk
+Size: 126267
+MD5Sum: 0089e7fb240756d77f2f1c3a319fe8a9
+SHA256sum: 76b88b4fa1f85d553622cc291515f82e8845a1ab1019d2ec24023d7582e80e58
+Description:  Zabbix agentd
+
+Package: zabbix-extra-mac80211
+Version: 2.4.6-3
+Depends: libc, zabbix-agentd
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 2275
+Filename: zabbix-extra-mac80211_2.4.6-3_brcm63xx-tch.ipk
+Size: 3225
+MD5Sum: 529941950f77e29890540759f2921b86
+SHA256sum: 7883f5e8808c92063c272e77d138003e4fdf874bc128c2740701339150c0e074
+Description:  An extra package for zabbix-agentd that adds a discovery rule for mac80211 wifi phy and many userparameters.
+ It contains an suid helper to allow zabbix-agentd to still run as zabbix user and not as root.
+ See http://wiki.openwrt.org/doc/howto/zabbix for ready to use zabbix templates.
 
 Package: zile
 Version: 2.3.24-1
@@ -9559,4 +13337,19 @@ Description:  This is InfoZIP's zip program. It produces files that are fully
  compatible with the popular PKZIP program; however, the command line
  options are not identical. In other words, the end result is the same,
  but the methods differ.
+
+Package: zoneinfo-australia-nz
+Version: 2015d-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+License: Public Domain
+Section: utils
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: brcm63xx-tch
+Installed-Size: 6789
+Filename: zoneinfo-australia-nz_2015d-1_brcm63xx-tch.ipk
+Size: 7501
+MD5Sum: d140e41ad7bc2b71d0c2bb5c2950e051
+SHA256sum: 59546f46ab476d20acf7aba35a213f432d23948d283304be393e8aea702132cd
+Description:  Zone Information (Australia-NZ)
 

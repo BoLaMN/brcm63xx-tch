@@ -16,6 +16,24 @@ Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
  networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
  also be used on wired networks.
 
+Package: batctl
+Version: 2016.1-1
+Depends: libc, kmod-batman-adv, libnl-tiny
+Source: feeds/routing/batctl
+License: GPL-2.0
+Section: net
+Maintainer: Marek Lindner <mareklindner@neomailbox.ch>
+Architecture: brcm63xx-tch
+Installed-Size: 27548
+Filename: batctl_2016.1-1_brcm63xx-tch.ipk
+Size: 28404
+MD5Sum: 0ca33a001b5fb6abad64a4f4a9ad8ee1
+SHA256sum: 601cf2f9e909e5063ed86dc2b201d77d5392c2a9dc0176f75488832bea1e46f8
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2016.1 of the user space utility.
+
 Package: bird4-uci
 Version: 0.2
 Depends: libc, bird4, libuci, uci
@@ -254,6 +272,28 @@ Size: 67272
 MD5Sum: 7290c02bdee937704f8da346b74dfdd4
 SHA256sum: 7f8e01a2386eb5e3707d99077369a089c37004005f06cae33cdb0f7def47c50d
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: ndppd
+Version: 0.2.3-1
+Depends: libc, kmod-ipv6, uclibcxx
+Source: feeds/routing/ndppd
+License: GPL-3.0+
+Section: net
+Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
+Architecture: brcm63xx-tch
+Installed-Size: 61174
+Filename: ndppd_0.2.3-1_brcm63xx-tch.ipk
+Size: 62224
+MD5Sum: b5a67d27f516e4519434a8bb040bb0cc
+SHA256sum: 952f60d3926cfbb384096389cddbb437797a90afe52508655537d6406ac0f6f2
+Description:  ndppd, or NDP Proxy Daemon, is a daemon that proxies NDP (Neighbor Discovery
+ Protocol) messages between interfaces.  ndppd currently only supports Neighbor
+ Solicitation Messages and Neighbor Advertisement Messages.
+ 
+ The ndp_proxy provided by Linux doesn't support listing proxies, and only hosts
+ are supported.  No subnets.  ndppd solves this by listening for Neighbor
+ Solicitation messages on an interface, then query the internal interfaces for
+ that target IP before finally sending a Neighbor Advertisement message.
 
 Package: olsrd-mod-jsoninfo
 Version: 0.9.0.3-1

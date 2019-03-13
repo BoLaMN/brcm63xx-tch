@@ -13,6 +13,36 @@ MD5Sum: 650243ed13109c02e4189759953de1ac
 SHA256sum: 952ec8b47c35117ad1d72f61b8c7e7ca774eb7675c6bfc6b328cec893206ece2
 Description:  A free client implementation of CWMP (TR-069) protocol
 
+Package: freenetconfd
+Version: 2015-11-12-9b4dc3f45982ac9ede2db2218f5578f7268528ba
+Depends: libc, libuci, libubox, libubus, libroxml
+Source: feeds/management/freenetconfd
+License: GPL-2.0+
+Section: utils
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 13600
+Filename: freenetconfd_2015-11-12-9b4dc3f45982ac9ede2db2218f5578f7268528ba_brcm63xx-tch.ipk
+Size: 14300
+MD5Sum: 9240e75adb335df8946a125d5d244207
+SHA256sum: 05dbee5706167b8b47a6452993af4bbb0c287c62bef8e4fcc660afad7aea99ea
+Description:  netconf server
+
+Package: freesub
+Version: 2014-12-03-a1a38e80c6642af723d6aa65f64910dcf27cb3da
+Depends: libc, libubox
+Source: feeds/management/freesub
+License: GPL-2.0+
+Section: utils
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 2249
+Filename: freesub_2014-12-03-a1a38e80c6642af723d6aa65f64910dcf27cb3da_brcm63xx-tch.ipk
+Size: 3037
+MD5Sum: 01fef40ff20c69db11f91c9cbf4a765e
+SHA256sum: a2c9d03b1855674b36ebd59fedba62c40cae3ed13ae0471124b50266297f8efe
+Description:  SSH subsystem helper
+
 Package: libfreecwmp
 Version: 2014-06-12-d2fdd97d66fde14859c06228a922066d9e8b669b
 Depends: libc
@@ -58,4 +88,19 @@ Size: 5064
 MD5Sum: 46c9a0a46e666efd103197928c212edd
 SHA256sum: c857ecc60635820203c5ce019a5543cf8f41278948c584916f6b3acca18998da
 Description:  command-line flags module for Unix shell scripts
+
+Package: shtool
+Version: 2.0.8-1
+Depends: libc
+Source: feeds/management/shtool
+License: GPL-2.0+
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 32128
+Filename: shtool_2.0.8-1_brcm63xx-tch.ipk
+Size: 32937
+MD5Sum: d45dae0dbfcd673e186f4c290ad465b2
+SHA256sum: cad92df7acc2c9b1f7efae30abf6b88e32761074a2b348accbcc85ddd1627f8f
+Description:  GNU shtool is a compilation of small but very stable and portable shell
+ scripts into a single shell tool.
 

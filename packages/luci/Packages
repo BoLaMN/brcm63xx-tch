@@ -260,6 +260,19 @@ MD5Sum: 14bdb16024136e35083160fa84d2f938
 SHA256sum: caf14fff8e3aa48126fdc82deea9912ed0e83104f68d1fd68f3f608b22cb2668
 Description:  p910nd - Printer server module
 
+Package: luci-app-pbx-voicemail
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx, asterisk18, msmtp, coreutils-base64
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 4506
+Filename: luci-app-pbx-voicemail_git-19.072.24519-666ca37-1_all.ipk
+Size: 5241
+MD5Sum: 9a321f587109a87808fb614d1b83bd73
+SHA256sum: fd7a6072cb205af1de85c3f86cc605f49733aad1f51c49033251195b9aecf995
+Description:  LuCI PBX Administration Voicemail Support
+
 Package: luci-app-pbx
 Version: git-19.072.24519-666ca37-1
 Depends: libc, asterisk18, asterisk18-app-authenticate, asterisk18-app-disa, asterisk18-app-setcallerid, asterisk18-app-system, asterisk18-chan-gtalk, asterisk18-codec-a-mu, asterisk18-codec-alaw, asterisk18-func-cut, asterisk18-res-clioriginate, asterisk18-func-channel, asterisk18-chan-local, asterisk18-app-record, asterisk18-app-senddtmf, asterisk18-res-crypto
@@ -5703,6 +5716,331 @@ MD5Sum: f1f45e8d8fa8e5400e7c1377729eb211
 SHA256sum: d149d1a805f0f30c659d509d6ebc6041ad7202f4797ee3fde52a6eadb5daeec2
 Description:  Translation for luci-app-pbx - Tiếng Việt (Vietnamese)
 
+Package: luci-i18n-pbx-voicemail-ca
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 1122
+Filename: luci-i18n-pbx-voicemail-ca_git-19.072.24519-666ca37-1_all.ipk
+Size: 1924
+MD5Sum: a5886712ff353f477120b2661c990474
+SHA256sum: 6ab8927d15932872b4855673282cce6984b1453ff865a89c8bf7e9d79398514c
+Description:  Translation for luci-app-pbx-voicemail - Català (Catalan)
+
+Package: luci-i18n-pbx-voicemail-cs
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 560
+Filename: luci-i18n-pbx-voicemail-cs_git-19.072.24519-666ca37-1_all.ipk
+Size: 1372
+MD5Sum: f13f4c29b32c0d59835aff49edd0427c
+SHA256sum: eacdcfa750cc76ad8befddf31b33ddb4a0e1713da9bf30a00c70fc0734606bf1
+Description:  Translation for luci-app-pbx-voicemail - Čeština (Czech)
+
+Package: luci-i18n-pbx-voicemail-de
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 1689
+Filename: luci-i18n-pbx-voicemail-de_git-19.072.24519-666ca37-1_all.ipk
+Size: 2508
+MD5Sum: 70cabdda6b720d84587f285dba3306fe
+SHA256sum: c7660819e760bc99928c56898e53b65b7bf28a3645ed5561445db6d0c4543892
+Description:  Translation for luci-app-pbx-voicemail - Deutsch (German)
+
+Package: luci-i18n-pbx-voicemail-el
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 399
+Filename: luci-i18n-pbx-voicemail-el_git-19.072.24519-666ca37-1_all.ipk
+Size: 1212
+MD5Sum: 02e395bb9ceeb88fdd4561c6527e6019
+SHA256sum: 6da25bfce1f5a0148a28c018ffc9875f96ac4b7915f5aeafcb99647a17334622
+Description:  Translation for luci-app-pbx-voicemail - Ελληνικά (Greek)
+
+Package: luci-i18n-pbx-voicemail-en
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 312
+Filename: luci-i18n-pbx-voicemail-en_git-19.072.24519-666ca37-1_all.ipk
+Size: 1100
+MD5Sum: da426e602ac0627f710f328ade6160cf
+SHA256sum: 31e076d82df80316340112944ef484076355cba6c92031f858ad6c3b7caa1854
+Description:  Translation for luci-app-pbx-voicemail - English
+
+Package: luci-i18n-pbx-voicemail-es
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 1350
+Filename: luci-i18n-pbx-voicemail-es_git-19.072.24519-666ca37-1_all.ipk
+Size: 2170
+MD5Sum: ac327eeccfe2028a5ef9310b45962581
+SHA256sum: ce360077a0948a37bb3924f4b0135f0daf42198c03cb159cfc0ec8afd5d4e8c2
+Description:  Translation for luci-app-pbx-voicemail - Español (Spanish)
+
+Package: luci-i18n-pbx-voicemail-fr
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 327
+Filename: luci-i18n-pbx-voicemail-fr_git-19.072.24519-666ca37-1_all.ipk
+Size: 1128
+MD5Sum: 46e62f1eede7de6c6c1bc10ad54b0279
+SHA256sum: 483ea2c998cf80d52805df8c4b3fb8318de8180d04cb658d222aad81197ef489
+Description:  Translation for luci-app-pbx-voicemail - Français (French)
+
+Package: luci-i18n-pbx-voicemail-he
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 342
+Filename: luci-i18n-pbx-voicemail-he_git-19.072.24519-666ca37-1_all.ipk
+Size: 1162
+MD5Sum: bdf43c0c2c45db3f10bb7c5942813e53
+SHA256sum: 3c2710804c8ed025be245d1ced9f5962e49a188d3687dd62dcd66fc3895db8cc
+Description:  Translation for luci-app-pbx-voicemail - עִבְרִית (Hebrew)
+
+Package: luci-i18n-pbx-voicemail-hu
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 324
+Filename: luci-i18n-pbx-voicemail-hu_git-19.072.24519-666ca37-1_all.ipk
+Size: 1124
+MD5Sum: 61d1ee2ab01e415672797b52580360c5
+SHA256sum: d1a02aa3848fa1b0d34e3a417c618b6e0733fe398910e26972bbd268b3ba3025
+Description:  Translation for luci-app-pbx-voicemail - Magyar (Hungarian)
+
+Package: luci-i18n-pbx-voicemail-it
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 1479
+Filename: luci-i18n-pbx-voicemail-it_git-19.072.24519-666ca37-1_all.ipk
+Size: 2288
+MD5Sum: ac4cbd488ef70c8de2788c95a3399d01
+SHA256sum: 6d3d7ee0e8f095adfd5e306881203974b79247ace120004649546edbcb262029
+Description:  Translation for luci-app-pbx-voicemail - Italiano (Italian)
+
+Package: luci-i18n-pbx-voicemail-ja
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 338
+Filename: luci-i18n-pbx-voicemail-ja_git-19.072.24519-666ca37-1_all.ipk
+Size: 1152
+MD5Sum: d8723c1e608a3d019ec49f546c6c4235
+SHA256sum: 34af8ce666a9166df128dd4b00c3fcfa9e299f399ff7750edcf042d815d7ee81
+Description:  Translation for luci-app-pbx-voicemail - 日本語 (Japanese)
+
+Package: luci-i18n-pbx-voicemail-ms
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 325
+Filename: luci-i18n-pbx-voicemail-ms_git-19.072.24519-666ca37-1_all.ipk
+Size: 1127
+MD5Sum: 63617ed5641a333f0b0ada7161724bf7
+SHA256sum: 85bd4ee90012f966a0fa77431fe8fcdf3a37dbb96b80997c377af9f4d64f5838
+Description:  Translation for luci-app-pbx-voicemail - Bahasa Melayu (Malay)
+
+Package: luci-i18n-pbx-voicemail-no
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 321
+Filename: luci-i18n-pbx-voicemail-no_git-19.072.24519-666ca37-1_all.ipk
+Size: 1116
+MD5Sum: 3a3e9e18374b6d4276d78fafa6aea988
+SHA256sum: 1852d4591d6ca0ae1545077dae38bd9034132d00c48885383b9ba3210c89a310
+Description:  Translation for luci-app-pbx-voicemail - Norsk (Norwegian)
+
+Package: luci-i18n-pbx-voicemail-pl
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 1480
+Filename: luci-i18n-pbx-voicemail-pl_git-19.072.24519-666ca37-1_all.ipk
+Size: 2292
+MD5Sum: dc5b6543712324426b16de7c83cdff76
+SHA256sum: 9a77c3f9874f9f14a8b6c6615c0f04e4183c6d0d7628c6a7121f56c425246a36
+Description:  Translation for luci-app-pbx-voicemail - Polski (Polish)
+
+Package: luci-i18n-pbx-voicemail-pt-br
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 1581
+Filename: luci-i18n-pbx-voicemail-pt-br_git-19.072.24519-666ca37-1_all.ipk
+Size: 2423
+MD5Sum: 189ed108d22dd8dc43db9b0fbc95d16a
+SHA256sum: 4c348d437364656e948bcd8d75d0ee1b0df83d97a896ca5b8f5ee9fd0c7a6d3d
+Description:  Translation for luci-app-pbx-voicemail - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-pbx-voicemail-pt
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 686
+Filename: luci-i18n-pbx-voicemail-pt_git-19.072.24519-666ca37-1_all.ipk
+Size: 1499
+MD5Sum: 3cae20cf4ebeb81283e6b015422487e9
+SHA256sum: 7084684c064d91dbbecf3d531dd990c574fa0b02bba4bfb173779c492272447e
+Description:  Translation for luci-app-pbx-voicemail - Português (Portuguese)
+
+Package: luci-i18n-pbx-voicemail-ro
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 329
+Filename: luci-i18n-pbx-voicemail-ro_git-19.072.24519-666ca37-1_all.ipk
+Size: 1139
+MD5Sum: 57a8ae338c9d74296c3d02d1bd3ed3d9
+SHA256sum: 497edb4e9f73962328a8bef093593a292fe198ebef23bbc7147170b1c03587a4
+Description:  Translation for luci-app-pbx-voicemail - Română (Romanian)
+
+Package: luci-i18n-pbx-voicemail-ru
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 1718
+Filename: luci-i18n-pbx-voicemail-ru_git-19.072.24519-666ca37-1_all.ipk
+Size: 2564
+MD5Sum: 49ed6aab3ae72ee98f92031cd99ee52f
+SHA256sum: f4bc314acca105215a54d47f6cc24a9125dbd1290b73724631dfcbc9ac931a3c
+Description:  Translation for luci-app-pbx-voicemail - Русский (Russian)
+
+Package: luci-i18n-pbx-voicemail-sk
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 327
+Filename: luci-i18n-pbx-voicemail-sk_git-19.072.24519-666ca37-1_all.ipk
+Size: 1128
+MD5Sum: 8d8d8425336aa74d6f0246c88925d775
+SHA256sum: a49e7ab8b995d1956016f8b20c259329d9158af45587077b00dc2116e65f93bf
+Description:  Translation for luci-app-pbx-voicemail - Slovenčina (Slovak)
+
+Package: luci-i18n-pbx-voicemail-sv
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 323
+Filename: luci-i18n-pbx-voicemail-sv_git-19.072.24519-666ca37-1_all.ipk
+Size: 1119
+MD5Sum: 8bf96186753227f6d7ebd3fb0c56f199
+SHA256sum: a18945745645adae2a4e96fe7c8c0643c58669b5fb16a8fb9567f110611de527
+Description:  Translation for luci-app-pbx-voicemail - Svenska (Swedish)
+
+Package: luci-i18n-pbx-voicemail-tr
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 329
+Filename: luci-i18n-pbx-voicemail-tr_git-19.072.24519-666ca37-1_all.ipk
+Size: 1126
+MD5Sum: 481ba01a268547848d3b602e9a75aaed
+SHA256sum: 1d9eac726e76d1a5d4e82076e488b564fe1cacc371caa4a84c98edc17a39daff
+Description:  Translation for luci-app-pbx-voicemail - Türkçe (Turkish)
+
+Package: luci-i18n-pbx-voicemail-uk
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 350
+Filename: luci-i18n-pbx-voicemail-uk_git-19.072.24519-666ca37-1_all.ipk
+Size: 1180
+MD5Sum: a5b7335a1c28a4d5af2a2b5d686775f8
+SHA256sum: 88286a0bfafba0b987931f3e4ee6179ed0ef6ba33d9eaa96440a1cc5b4ba10bc
+Description:  Translation for luci-app-pbx-voicemail - украї́нська (Ukrainian)
+
+Package: luci-i18n-pbx-voicemail-vi
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 339
+Filename: luci-i18n-pbx-voicemail-vi_git-19.072.24519-666ca37-1_all.ipk
+Size: 1155
+MD5Sum: f14c34f3cd59138be4bf2e8cd6de4b41
+SHA256sum: 6ebc843da13d5bb16c735538063e45187fbf780963576a8f61ea6f1169198e09
+Description:  Translation for luci-app-pbx-voicemail - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-pbx-voicemail-zh-cn
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 1462
+Filename: luci-i18n-pbx-voicemail-zh-cn_git-19.072.24519-666ca37-1_all.ipk
+Size: 2286
+MD5Sum: dc0c828c845609888f9a3a28a20f9494
+SHA256sum: bb26bd53733edab733f16566262742eab14bc3325e5c86c1550b78ba9a1900b2
+Description:  Translation for luci-app-pbx-voicemail - 中文 (Chinese)
+
+Package: luci-i18n-pbx-voicemail-zh-tw
+Version: git-19.072.24519-666ca37-1
+Depends: libc, luci-app-pbx-voicemail
+Source: feeds/luci/applications/luci-app-pbx-voicemail
+Section: luci
+Architecture: all
+Installed-Size: 1496
+Filename: luci-i18n-pbx-voicemail-zh-tw_git-19.072.24519-666ca37-1_all.ipk
+Size: 2333
+MD5Sum: 4b832ca01c404ec1338cd66af9bc578b
+SHA256sum: c91af4a397767638afed3cc990fce1b564ee31961fd1128ed5bcafdff80f94f0
+Description:  Translation for luci-app-pbx-voicemail - 臺灣華語 (Taiwanese)
+
 Package: luci-i18n-pbx-zh-cn
 Version: git-19.072.24519-666ca37-1
 Depends: libc, luci-app-pbx
@@ -9398,11 +9736,11 @@ Depends: libc, liblua, libnl-tiny
 Source: feeds/luci/libs/luci-lib-ip
 Section: luci
 Architecture: brcm63xx-tch
-Installed-Size: 13898
+Installed-Size: 13899
 Filename: luci-lib-ip_git-19.072.24519-666ca37-1_brcm63xx-tch.ipk
-Size: 14606
-MD5Sum: 668bc7eb1a3e48347fca164c02832eb3
-SHA256sum: 2015fdfc265e86b09e3a7daf69f7501d46f2d3e2d449537b3a75c88ad71f39e8
+Size: 14611
+MD5Sum: 36c6d9df217b7722d7d4a1f31765eb83
+SHA256sum: f1271b873deb96f566955c16eba250b36686293396234c82a2da1d9df301abff
 Description:  Lua library for IP calculation and routing information
 
 Package: luci-lib-json
@@ -9437,11 +9775,11 @@ Depends: libc, liblua
 Source: feeds/luci/libs/luci-lib-luaneightbl
 Section: luci
 Architecture: brcm63xx-tch
-Installed-Size: 2249
+Installed-Size: 2247
 Filename: luci-lib-luaneightbl_git-19.072.24519-666ca37-1_brcm63xx-tch.ipk
-Size: 2971
-MD5Sum: f2147d84336b97d586f4f8e3a0ed2ac7
-SHA256sum: 439e78dc7919fe9eb99a1ff7fb4fce03f1eefe1462750969f0acbe5fd4ae69f9
+Size: 2966
+MD5Sum: 2c526ee1991c458245221707368ea527
+SHA256sum: 99e45315f792cb9b6fb704c83114d79a670278b46ff23c90e4172421d0001de6
 Description:  neightbl - Lua lib for IPv6 neighbors
 
 Package: luci-lib-nixio
@@ -9450,11 +9788,11 @@ Depends: libc, liblua
 Source: feeds/luci/libs/luci-lib-nixio
 Section: luci
 Architecture: brcm63xx-tch
-Installed-Size: 30870
+Installed-Size: 30868
 Filename: luci-lib-nixio_git-19.072.24519-666ca37-1_brcm63xx-tch.ipk
-Size: 31384
-MD5Sum: 13bf2c5e63d13c635564705eb16fa90f
-SHA256sum: 25b91acd322a16c7dd8d28964c7c50aa9dc13e3797e8a349b8ad82bfbbd5d461
+Size: 31373
+MD5Sum: 1bcf07467147b5f33a8bd5f7e49d1ad8
+SHA256sum: 2c4d3a67d4ecba0e38dcafe9b35b889b2c5230be6ac1c2dbc4bf09bcb694c27f
 Description:  NIXIO POSIX library
 
 Package: luci-lib-px5g
@@ -9463,11 +9801,11 @@ Depends: libc, liblua
 Source: feeds/luci/libs/luci-lib-px5g
 Section: luci
 Architecture: brcm63xx-tch
-Installed-Size: 35363
+Installed-Size: 35361
 Filename: luci-lib-px5g_git-19.072.24519-666ca37-1_brcm63xx-tch.ipk
-Size: 35979
-MD5Sum: 1f3aa8068edd04bcc8b5ca1e35213309
-SHA256sum: 096ab1992ca0e9b12deea2c14d90558e16aae670df8cc659a425cf8b04588c89
+Size: 35982
+MD5Sum: d15d910c4fcfd80cb1b7557321e19d0b
+SHA256sum: a42127bf8a3124b9b142a7365f71fbaaa0b4391c15ecb41f2bf4ba8523ca3f29
 Description:  RSA/X.509 Key Generator (required for LuCId SSL support)
 
 Package: luci-mod-admin-full
