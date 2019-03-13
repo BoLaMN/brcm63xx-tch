@@ -6,11 +6,11 @@ License: GPL-2.0+
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 28703
+Installed-Size: 28692
 Filename: freecwmp_2014-06-12-8f3c163fc85337e63bfa64da3c02f10d1fe3b169_brcm63xx-tch.ipk
-Size: 29577
-MD5Sum: 09a4a0c5b71ed588518562ea7214534e
-SHA256sum: 7042edc28d3ab29e02176c90f21becb68ca11ca72905d3b38187e1cc13a65f5d
+Size: 29567
+MD5Sum: 650243ed13109c02e4189759953de1ac
+SHA256sum: 952ec8b47c35117ad1d72f61b8c7e7ca774eb7675c6bfc6b328cec893206ece2
 Description:  A free client implementation of CWMP (TR-069) protocol
 
 Package: libfreecwmp
@@ -21,11 +21,11 @@ License: GPL-2.0+
 Section: libs
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 2130
+Installed-Size: 2125
 Filename: libfreecwmp_2014-06-12-d2fdd97d66fde14859c06228a922066d9e8b669b_brcm63xx-tch.ipk
-Size: 2886
-MD5Sum: b1313da4bf90b0e1feb248aacec9279c
-SHA256sum: 0e3a1112af77852c749d83668758f2832e700f6f6864d6e1365ee943a8997158
+Size: 2887
+MD5Sum: 03bae57c3bdde9045544322484fa2497
+SHA256sum: 4da08129e3c78eb0b1a46544215fcfa37e9be61773ce1f29cccb1cb9ae73c266
 Description:  CWMP library
 
 Package: libmicroxml
@@ -37,11 +37,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 27280
+Installed-Size: 27279
 Filename: libmicroxml_2012-06-11-72965423184f24cc0b963d91c2d1863cdb01b6aa_brcm63xx-tch.ipk
-Size: 27766
-MD5Sum: 6d582cb06d6d5bbf5e33b4162e36c3d0
-SHA256sum: 806ccfa9f55aa89d43b4e7c74751837f44e045c5e8fde9687c80931d7ff54d24
+Size: 27916
+MD5Sum: ba1cd917cc0fb573178f2fa4eb14df28
+SHA256sum: 20bb5d90cd0e934cb6e5c23df447a1e4b441decbd80ea9e45ef61e274b06efe8
 Description:  A micro sized XML library
 
 Package: shflags
@@ -54,8 +54,8 @@ Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 4296
 Filename: shflags_2012-06-11-c12b30cebb92b49c5edb6df255c0952c65b4ddc6_brcm63xx-tch.ipk
-Size: 5061
-MD5Sum: 4c8c207b951914ff57f6bd06fc60dc9f
-SHA256sum: 03ecbfd955d0f1d8a575e9e97a1357e73dc30e0c3c049579daed506ade305e05
+Size: 5064
+MD5Sum: 46c9a0a46e666efd103197928c212edd
+SHA256sum: c857ecc60635820203c5ce019a5543cf8f41278948c584916f6b3acca18998da
 Description:  command-line flags module for Unix shell scripts
 
