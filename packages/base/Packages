@@ -470,6 +470,19 @@ MD5Sum: 18fe4a91e9c21562c3b2b6c5ed238eb2
 SHA256sum: 9142b6af8a350ab93293485b3b2b790ef29bcf3477de6f18a67ce2491b3f1ac7
 Description:  An open source implementation of the client CWMP (TR-069) protocol
 
+Package: failsafe
+Version: 0.1
+Depends: libc, utelnetd
+Source: package/system/failsafe
+Section: system
+Architecture: brcm63xx-tch
+Installed-Size: 8096
+Filename: failsafe_0.1_brcm63xx-tch.ipk
+Size: 8777
+MD5Sum: e0b47ee2345399bde37ed5717cef1574
+SHA256sum: b9fbf97b83e4920c2ce5ffba0583e20c6768e2ba850f0c292127e0675997d81d
+Description:  failsafe script files
+
 Package: fconfig
 Version: 20080329-1
 Depends: libc
@@ -564,11 +577,11 @@ License: LGPLv2.1 GPLv2
 LicenseFiles: COPYING.LIB COPYING
 Section: utils
 Architecture: brcm63xx-tch
-Installed-Size: 13568
+Installed-Size: 13572
 Filename: fuse-utils_2.9.3-2_brcm63xx-tch.ipk
-Size: 14326
-MD5Sum: cd64869abadc057fa1f12224f9a33f11
-SHA256sum: c1e6d273ced624889765ed8922dfcce1daffc2196061b54efbc1c48de98c6401
+Size: 14262
+MD5Sum: fec987b3e9c3947a1510a0faa7e649ff
+SHA256sum: abde3cc195db9eac5dc5d7a520caee7ada8b84312e80fbae7e9145f4ba6907a0
 Description:  FUSE (Filesystem in UserSpacE)
  This package contains the FUSE utilities.
  - fusermount
@@ -692,9 +705,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 196565
 Filename: hostapd-mini_2016-06-15-2_brcm63xx-tch.ipk
-Size: 197326
-MD5Sum: bf9d632bbdf8f377e0e527654e86a1f4
-SHA256sum: f0d19dacd2b3892c81c37313503eb9bc3b1ebbab6c62abcb9f68097040e84410
+Size: 197336
+MD5Sum: fe90b8029f4b37aecaa4fab916308506
+SHA256sum: 4745e6455cf782cc38db91d70ff311248a9b2f2f17a28636bf4de01f4357fe9f
 Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator (WPA-PSK only).
 
 Package: hostapd-utils
@@ -722,11 +735,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 346059
+Installed-Size: 346058
 Filename: hostapd_2016-06-15-2_brcm63xx-tch.ipk
-Size: 346560
-MD5Sum: 379fc5ede12862214d7e3f51d423afeb
-SHA256sum: a7579c8df43dcc519b93b1d9ad7bf62c5d4dc1a707b5719fbaa1713383eee3fd
+Size: 346557
+MD5Sum: ab7dd13ccb6d84730a94e21f026f0105
+SHA256sum: 0321710edd05763661e2e7f2ca0b161c91a131adcf16be0d884725b1d1b2de61
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator.
 
@@ -786,9 +799,9 @@ Section: net
 Architecture: brcm63xx-tch
 Installed-Size: 213
 Filename: ip6tables_1.6.1-1_brcm63xx-tch.ipk
-Size: 919
-MD5Sum: 7b949fd473a3d279f393472c7b227c3d
-SHA256sum: 435fb2db3a8e34fb4fe9c07d263657290b9b9a350cd748ea34edfce83a3bd965
+Size: 915
+MD5Sum: 7451488a26788f344195bf19563784f6
+SHA256sum: 43dbcedda21fda92abeedf89b977ea5f9ef6ee090e1f0c1033a364f3269e0504
 Description:  IPv6 firewall administration tool
 
 Package: ip
@@ -850,11 +863,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: brcm63xx-tch
-Installed-Size: 78824
+Installed-Size: 78819
 Filename: ipset_6.32-1_brcm63xx-tch.ipk
-Size: 78890
-MD5Sum: 788e1adaefca3f4a653485e548eedbb4
-SHA256sum: db54a6ca40e2cb09ad54cd5c4604e4d3ab08faa925065a9bebfad73bc43ec5db
+Size: 78896
+MD5Sum: 6a8304092e27d2632c22464324f95fe3
+SHA256sum: 60ff7cadbac6c556cb4314e1d15be08cca213e0d15a92f1da5a7275dec79db39
 Description:  IPset administration utility
 
 Package: iptables-mod-conntrack-extra
@@ -864,11 +877,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 9578
+Installed-Size: 9582
 Filename: iptables-mod-conntrack-extra_1.6.1-1_brcm63xx-tch.ipk
-Size: 10354
-MD5Sum: d96b84a96edc2382d71629970ab15fcc
-SHA256sum: 41a4e8e0d1b640d7a33f9477543f0f01b92aece2ae126514125e5a4a718f67ae
+Size: 10355
+MD5Sum: 613711c08b692aa972dbd464b16aeafc
+SHA256sum: e25e8e70bbfcef9270944e701609944c89dbe185039f68aee9d8547af8830541
 Description:  Extra iptables extensions for connection tracking.
  
  Matches:
@@ -889,11 +902,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 12019
+Installed-Size: 12020
 Filename: iptables-mod-extra_1.6.1-1_brcm63xx-tch.ipk
-Size: 12795
-MD5Sum: 972dde235036eb36add4dcca2443b533
-SHA256sum: 8662f9c551a664d3a8dd8954c5e73f14426927eec72f61360754d2e5d305c217
+Size: 12792
+MD5Sum: 0be30fbc5ff76263cf957aa97daeeabd
+SHA256sum: 36a48f64f5621d737e36d0acc43df4a67cfd083b70ab0d22b85fa464166d97cc
 Description:  Other extra iptables extensions.
  
  Matches:
@@ -914,9 +927,9 @@ Section: net
 Architecture: brcm63xx-tch
 Installed-Size: 10568
 Filename: iptables-mod-ipopt_1.6.1-1_brcm63xx-tch.ipk
-Size: 11342
-MD5Sum: 4727418ff711a670aaf7b4e7a3cc6185
-SHA256sum: a215f9a1cef81daa940a43b7262b954b0e2270a9756655d2c4ebf797103197cf
+Size: 11345
+MD5Sum: 31c20e4b78da7e1d61d55b509fefa858
+SHA256sum: 40c5dd11e1ab6d17ac03cbadfed470a3262fa594d3d9f65806c8b354a7453094
 Description:  iptables extensions for matching/changing IP packet options.
  
  Matches:
@@ -942,11 +955,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 6349
+Installed-Size: 6350
 Filename: iptables-mod-ipsec_1.6.1-1_brcm63xx-tch.ipk
-Size: 7083
-MD5Sum: 0388c94ffed46da95ececececd1e92d4
-SHA256sum: 2cc00fba70d4e6dfd6db089c05293cc9294d99a5da81f583c0aef18f77c086b1
+Size: 7074
+MD5Sum: 1c6757cecb2ed331d006b9ed25cbb10b
+SHA256sum: 5dbecb6b791109562c351c9d81c50c8f1c894cca520675b1ac560e8a282796aa
 Description:  iptables extensions for matching ipsec traffic.
  
  Matches:
@@ -962,11 +975,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 2295
+Installed-Size: 2298
 Filename: iptables-mod-nat-extra_1.6.1-1_brcm63xx-tch.ipk
-Size: 3061
-MD5Sum: 6338b45e203993b8f1d2f061b25f80dd
-SHA256sum: ab709c64ba5f0b436708dcf19567cac247c8980330eaf5c853f124bff5e82d8a
+Size: 3058
+MD5Sum: 482a6446501b61fa2d75c9e50fff0d43
+SHA256sum: e5eb6d008df7897e5184e65159022daeb9fd9a081687974ac09b436909b6582e
 Description:  iptables extensions for extra NAT targets.
  
  Targets:
@@ -980,11 +993,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 2489
+Installed-Size: 2488
 Filename: iptables-mod-nfqueue_1.6.1-1_brcm63xx-tch.ipk
-Size: 3285
-MD5Sum: 1abaaa744bc87f16f19e049c7fe9f23d
-SHA256sum: fdc0cbec59776162707bd997495683cb0e19702cf9d419fbb3a9528fce838b82
+Size: 3281
+MD5Sum: a6dd4cf1de29e4b2f915e1c57638e297
+SHA256sum: 7e26549f4b163c9ff0184b0deae2e556f4626676e968d64f5116d1029658112c
 Description:  iptables extension for user-space queuing via NFNETLINK.
  
  Includes:
@@ -998,11 +1011,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 33675
+Installed-Size: 33683
 Filename: iptables_1.6.1-1_brcm63xx-tch.ipk
-Size: 34529
-MD5Sum: e0cca29d9536543388f81ad9d9a664fb
-SHA256sum: 407f543efc78a06d0ec81c50e6745ca58431c066ec5e852c1649020339fc00ea
+Size: 34549
+MD5Sum: 58c892ae8ae12d6af2e5c78e4401ee6a
+SHA256sum: feaab6648179d1987c7e5a8e2e2ae27e8ca7f32e8e50a0d7ee1f5a02ed20cc94
 Description:  IP firewall administration tool.
  
  Matches:
@@ -1158,11 +1171,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 184
+Installed-Size: 185
 Filename: kmod-8021q_3.4.11-1_brcm63xx-tch.ipk
-Size: 952
-MD5Sum: 1dc68752aa63e9246444793e0445982d
-SHA256sum: de4dfc2048c7c4313d494969b7470a03f77d1471399ddd512f2747e7683bf00b
+Size: 948
+MD5Sum: d4e116d51b25deabfc7dd6e8268b5a44
+SHA256sum: b7db763f9c7e2e4f1a1f75f49a0d6d79423445861bbef82556b1dcd2b19a8d3e
 Description:  Kernel module for 802.1Q VLAN support
 
 Package: kmod-JumboFrames
@@ -1173,11 +1186,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-JumboFrames_3.4.11-1_brcm63xx-tch.ipk
-Size: 816
-MD5Sum: 882686b98f28b07f60f69e96149531c0
-SHA256sum: a0d5cdf8d6837fd26964d30c6313cfb0bbdded5923697f2f4ba4da864c2a7cb3
+Size: 817
+MD5Sum: f9f8e67eaf1735651c0d315a31c3f5af
+SHA256sum: 6791f350424127094c2f75babbfa94b1e378344d26394881d23591c5ff3517be
 Description:  Broadcom BPM Jumbo Frames
 
 Package: kmod-arptables
@@ -1190,9 +1203,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 8491
 Filename: kmod-arptables_3.4.11-1_brcm63xx-tch.ipk
-Size: 9320
-MD5Sum: 5a923ca2d218e527d9bc3b6ab1ca71fc
-SHA256sum: c01f57367265aed279741b8b8f846c313fe744cbea2479dddfae5db0d8fb4119
+Size: 9325
+MD5Sum: 2a0f689036010df628df76188762febb
+SHA256sum: 231513c5a6fdab7cc5bf6ea04f0b29cd159f32f91efc8bd36436df09028d8f6f
 Description:  Kernel modules for ARP firewalling
 
 Package: kmod-atm
@@ -1203,11 +1216,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 5305
+Installed-Size: 5301
 Filename: kmod-atm_3.4.11-1_brcm63xx-tch.ipk
-Size: 6081
-MD5Sum: 45d40c484efbe40727add1d401e6bacd
-SHA256sum: 901e7c47cf4b1345e46ed7fb775020c8f91ffc9f102a9b2cb264f619bd1cd385
+Size: 6085
+MD5Sum: e4e4799ec490162ab52e7d09065e7434
+SHA256sum: d5d1334f3186132a6184d8dfca97596657e77ee0cc0e399c552b14303f3ee74a
 Description:  Kernel modules for ATM support
 
 Package: kmod-atmtcp
@@ -1221,8 +1234,8 @@ Architecture: brcm63xx-tch
 Installed-Size: 4288
 Filename: kmod-atmtcp_3.4.11-1_brcm63xx-tch.ipk
 Size: 5059
-MD5Sum: 928212e8e6403ea085a52ced52b96860
-SHA256sum: 4fea3b0905bd57134a5c7c22ffe4355b0e418662e73cc2f6f6f1d63722e5ebc0
+MD5Sum: 584975bb3e1cd71fb9cb02b15de31732
+SHA256sum: c84b1dfabed44584909cfb87235994d1add7a03b7596010c31b9b79ff6b3a6ce
 Description:  Kernel module for ATM over TCP support
 
 Package: kmod-bcm63xx-tch-adsl
@@ -1235,9 +1248,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-bcm63xx-tch-adsl_3.4.11-1_brcm63xx-tch.ipk
-Size: 798
-MD5Sum: 59897c87fcb50a03a01fa3f41112abf3
-SHA256sum: f37ea1022c6c2b97c955d3619b6701d8c65f89f145e56bb6e91a409a5dc28e4e
+Size: 800
+MD5Sum: 837a0765126664575912b38c4bb260cc
+SHA256sum: 55c75db668444aef14359cf4dd585bf6606ccb0a6e20aa02ee5b6f3c34373696
 Description:  Broadcom ADSL driver
 
 Package: kmod-bcm63xx-tch-arl
@@ -1250,9 +1263,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-bcm63xx-tch-arl_3.4.11-1_brcm63xx-tch.ipk
-Size: 813
-MD5Sum: 4e117c33dbb9b3b5e952b2cfeb405035
-SHA256sum: 6bc2205a1340068010c41a10bc571dd1eb47b661456a80316d0f6fea4d909635
+Size: 811
+MD5Sum: 2dfecb96b18fb4c198484f4ac6678daf
+SHA256sum: d7fe9d37bd6abbd50334f38b066107b24f202659f81c5f563d894191ea734243
 Description:  Broadcom ARL Table Management driver
 
 Package: kmod-bcm63xx-tch-bcmtm
@@ -1263,11 +1276,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-bcm63xx-tch-bcmtm_3.4.11-1_brcm63xx-tch.ipk
-Size: 809
-MD5Sum: d3eb0766e6bdfe4e12b9d49b92350ca0
-SHA256sum: 6a63176c086c1c7ce6b90d720d018a65fa0012599e6c0c59cc36bb6b0bacfb96
+Size: 808
+MD5Sum: 71386ed2815840bde2e01b97d50667a7
+SHA256sum: 9f946f1d1bcabc0940841647538e02e266f906e2d39722fcdd0e08c92337f5ff
 Description:  Broadcom Traffic Manager Driver
 
 Package: kmod-bcm63xx-tch-bpm
@@ -1278,11 +1291,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-bcm63xx-tch-bpm_3.4.11-1_brcm63xx-tch.ipk
-Size: 800
-MD5Sum: 8db03f7eea1d9ec8874ffbbbe98fd1a9
-SHA256sum: f17863d1bf18a9ca67f628a4349a0a106c6a9e3ad4e887cd3e6d9f24fc71f7ad
+Size: 797
+MD5Sum: 8402a3dc14748a6d6c500c0cd20d06bc
+SHA256sum: 0102eaecb4ef771d818fb65a587ff3fa5682d18fd2972e3e86623059ecf2639c
 Description:  Broadcom BPM driver
 
 Package: kmod-bcm63xx-tch-chipinfo
@@ -1293,11 +1306,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-bcm63xx-tch-chipinfo_3.4.11-1_brcm63xx-tch.ipk
-Size: 805
-MD5Sum: 3dc37f09edbe9980ec1edbb48623394b
-SHA256sum: 8acaf8cc0eab25feaeb17b4b88793a2f511f224c8746d56b5a782c969a68f646
+Size: 803
+MD5Sum: 6a65c4f4a58bae549ca8a898cfc01cf9
+SHA256sum: be69660df0582f94383963c9bc76ce29f01c2d62ce01069f3234c7283537a262
 Description:  Broadcom Chip Info driver
 
 Package: kmod-bcm63xx-tch-enet
@@ -1308,11 +1321,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-bcm63xx-tch-enet_3.4.11-1_brcm63xx-tch.ipk
-Size: 813
-MD5Sum: 8412036af38e8f91436fb73241f2e9b6
-SHA256sum: 4fb5317e60aed2126d1765d31741bde07ab3a779bc0b61cef6b387fb37b9d360
+Size: 810
+MD5Sum: fb5cee4b35182a5a4840b64902aacb37
+SHA256sum: b43fd160d976ba65b8fb8ea13264f906b1ce82918f64dde1890988b7c20b4fae
 Description:  Broadcom Ethernet driver
 
 Package: kmod-bcm63xx-tch-ethoam
@@ -1323,11 +1336,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-bcm63xx-tch-ethoam_3.4.11-1_brcm63xx-tch.ipk
-Size: 808
-MD5Sum: 2efc9823d7a3ea4db0fb88c3eac4cfaa
-SHA256sum: 405e962e39997175cc652409c3ec43d0680531c3f8301199f3a0fa0f587d5f6c
+Size: 805
+MD5Sum: 0d23272b33193bac61bfa76845e3c9f8
+SHA256sum: 227a4c2750d1f263e51c52d24405f93e326c18f9ed5311e52302cb72d637781a
 Description:  Broadcom ETHOAM driver
 
 Package: kmod-bcm63xx-tch-otp
@@ -1338,11 +1351,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-bcm63xx-tch-otp_3.4.11-1_brcm63xx-tch.ipk
-Size: 796
-MD5Sum: 2854e79baf45926c0fa678e630ccfdfa
-SHA256sum: cc7725ae47395876befe59eb7f594ade3e5e23a5ac7b0d9c39306e36f537cf74
+Size: 795
+MD5Sum: b8613e3f3f67a96960d9ef77ef52fca2
+SHA256sum: b9e36735520e54074accd571ff8bfeeb96ca6a5364d42794cedf8c214f4bc222
 Description:  Broadcom otp
 
 Package: kmod-bcm63xx-tch-pktflow
@@ -1353,11 +1366,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-bcm63xx-tch-pktflow_3.4.11-1_brcm63xx-tch.ipk
-Size: 807
-MD5Sum: f232e2ab9924479d533c89f204941be9
-SHA256sum: f7fc383cf9e219e7715e1c443afbf4aa7ca6d52a4177289bf35bfb70cb7f6abc
+Size: 806
+MD5Sum: 13ddffe058734f5de47ec350b5a96dda
+SHA256sum: dfb0525dfd3ad43b4c2244cf210582dfa99a5aa5abf7eb5e13efa2ca6da3dafa
 Description:  Broadcom Packet Flow driver
 
 Package: kmod-bcm63xx-tch-pktrunner
@@ -1370,9 +1383,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-bcm63xx-tch-pktrunner_3.4.11-1_brcm63xx-tch.ipk
-Size: 803
-MD5Sum: c41d5f38d45f098caf0814289c852c1e
-SHA256sum: 57ad57670de886ce37f65bc10393f3977961a8bffb597b7a080b7f14fd3608cb
+Size: 804
+MD5Sum: 5ae75a648c5f8211fe364555dff5a266
+SHA256sum: 211147e38f87739c436f537ebc2eceb5e113c9fdbdb23b3ef2f0217c102234d7
 Description:  Broadcom Packet Runner
 
 Package: kmod-bcm63xx-tch-pwrmngt
@@ -1385,9 +1398,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-bcm63xx-tch-pwrmngt_3.4.11-1_brcm63xx-tch.ipk
-Size: 810
-MD5Sum: d2c53b9ad59b3552535cf6796c45515e
-SHA256sum: f648ba3c120985a9af126c56a4146d5697b94627879390b14f04c5cbf4ded87d
+Size: 809
+MD5Sum: e525769d880f4a66fac5de6686efdfc3
+SHA256sum: 166e60a657b86cf98a51942e6b9fd61ee7b02c535707e3dbc45a74fb6acdd6ad
 Description:  Broadcom Power Management driver
 
 Package: kmod-bcm63xx-tch-rdpa-drv
@@ -1400,9 +1413,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-bcm63xx-tch-rdpa-drv_3.4.11-1_brcm63xx-tch.ipk
-Size: 799
-MD5Sum: efa1c0eb385cf769fea1d21b690535f5
-SHA256sum: 03e322e013cd63896259882c0b73a89b8aaa993f02beb29337e4873f6c81d895
+Size: 801
+MD5Sum: c1b004f18db3ba68af58031621652d26
+SHA256sum: c2ddde070c25025a79edd89cdac802fe9588d0a2565f10839752b75e2427d91d
 Description:  Broadcom RDPA driver
 
 Package: kmod-bcm63xx-tch-rdpa-gpl
@@ -1413,11 +1426,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-bcm63xx-tch-rdpa-gpl_3.4.11-1_brcm63xx-tch.ipk
 Size: 806
-MD5Sum: 34a0656523446adfda1b526f10aeb588
-SHA256sum: 4d61ab94b4b47de91885264a2308b92d1a7f089758bf92d362179da3d9921872
+MD5Sum: 9c1202aaff0501d7d1e883cfafaf3297
+SHA256sum: 51a9ac7c60365a94c9565f13a3814231b68c9641d313de4cb9b2a3b4eca73809
 Description:  Broadcom RDPA GPL driver
 
 Package: kmod-bcm63xx-tch-rdpa
@@ -1428,11 +1441,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-bcm63xx-tch-rdpa_3.4.11-1_brcm63xx-tch.ipk
-Size: 807
-MD5Sum: ade1291969bcb6fe25ee4565bad8e59b
-SHA256sum: 2ba6f3ec4cf523141ac7302a48237bac5a1f0e3e246a1a4a043fde7bfc19b83b
+Size: 809
+MD5Sum: fd9c8663ca1e9a6a0483630c83e038dc
+SHA256sum: f49e2a9130ac232eb03a75de9643b1915e1aa80b03f54506be48f130337f79c2
 Description:  Broadcom RDPA driver
 
 Package: kmod-bcm63xx-tch-usb
@@ -1445,9 +1458,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-bcm63xx-tch-usb_3.4.11-1_brcm63xx-tch.ipk
-Size: 801
-MD5Sum: ced9be11aca2ca0210b430a3191c67bf
-SHA256sum: 56054a43ba1a26ad289585db5f915dc0ec54f98976d27561c1986f640be8275d
+Size: 796
+MD5Sum: 8f362fbfc57e870f49cea45f7c1eb295
+SHA256sum: f924a2bf817bf31e307452b6d7bd199263ec07c721a4496c4cdfb5d82eecdb2e
 Description:  Broadcom USB driver
 
 Package: kmod-bcm63xx-tch-vlan
@@ -1460,9 +1473,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-bcm63xx-tch-vlan_3.4.11-1_brcm63xx-tch.ipk
-Size: 798
-MD5Sum: db501d39b4e1712548e24657f64bd64c
-SHA256sum: 6e7fb647e6b202e11e739351c5a3a304387495570dcd8b0b9dc2b928a8b7ef5e
+Size: 800
+MD5Sum: befdce9b32b783bb8414fb22d608fb24
+SHA256sum: 604513d25b166cb158b357256c2290911b60bd8f36f6d879e1a9f751bc188a6c
 Description:  Broadcom VLAN driver
 
 Package: kmod-bcm63xx-tch-wireless
@@ -1475,9 +1488,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-bcm63xx-tch-wireless_3.4.11-1_brcm63xx-tch.ipk
-Size: 814
-MD5Sum: ec4f6ce71e62106ea3bb1f9cc75282d6
-SHA256sum: a4de64629145e2c902b336bda50d44aae4c373894cd5b4a7a96c8f3a4c760f8d
+Size: 812
+MD5Sum: 78da2c432bfede557b8afaaa83c62d15
+SHA256sum: 1c206e603e5cbadcae4ab11fcb7d2514d99747a6ca1c0e42a845f10d72b7e695
 Description:  Broadcom Wireless driver
 
 Package: kmod-bcma
@@ -1488,11 +1501,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 12300
+Installed-Size: 12301
 Filename: kmod-bcma_3.4.11-1_brcm63xx-tch.ipk
-Size: 13089
-MD5Sum: fd1eaa4dd13c8b9cebe06b01930685c4
-SHA256sum: cbd6a9287b7b803a136565d67c4028da313ed7235ee6cf8e8ce66565e9539ea8
+Size: 13092
+MD5Sum: 4152f48fdce85d996e7ffdc27705085e
+SHA256sum: b5e7d34c580175fb56ec3d9868898ef9044fc68a32d6d72fc4f62eecbcec214c
 Description:  Bus driver for Broadcom specific Advanced Microcontroller Bus Architecture
 
 Package: kmod-block2mtd
@@ -1503,11 +1516,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 3508
+Installed-Size: 3505
 Filename: kmod-block2mtd_3.4.11-1_brcm63xx-tch.ipk
-Size: 4196
-MD5Sum: 1adacdf5a64009d956c307681d5089c0
-SHA256sum: 2f594d565158faccbf25ede5dfa0e268f7a6243386daf789c13897763e0d5a8c
+Size: 4195
+MD5Sum: 94eeddd316ce0c611a597f29090db565
+SHA256sum: 2445232b9a23b111900455adcf455f7895a514db0062dbd018fd5eb611dcead7
 Description:  Block device MTD emulation
 
 Package: kmod-bridge
@@ -1520,9 +1533,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 188
 Filename: kmod-bridge_3.4.11-1_brcm63xx-tch.ipk
-Size: 959
-MD5Sum: 4389b53ada6ec59871022cd5271ee939
-SHA256sum: 44d8946c26e24123c5460244601573f3400f490e31dc5a1389b6ba54b53d6583
+Size: 960
+MD5Sum: e905b41967103537715197b816fd9417
+SHA256sum: be5a377305d121bd5dab7e75474542a35626c2b0d00f8d9d8a672657dab1a57b
 Description:  Kernel module for Ethernet bridging.
 
 Package: kmod-crypto-aead
@@ -1533,11 +1546,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 237
+Installed-Size: 235
 Filename: kmod-crypto-aead_3.4.11-1_brcm63xx-tch.ipk
-Size: 1014
-MD5Sum: ee9cc6b9c5ceff24babbdccc64bf3d09
-SHA256sum: 541469f6e1e1f7bfe81bd1036d30424778b3de732c37f196ff9c5d55153f812b
+Size: 1005
+MD5Sum: a28217e2c4eac37e88bf2df9310d01ef
+SHA256sum: 5e0043b36d5fab56fb24aee0469ba4b52501df0b31376c70f02ad95463aace79
 Description:  CryptoAPI AEAD support
 
 Package: kmod-crypto-aes
@@ -1548,11 +1561,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 198
+Installed-Size: 199
 Filename: kmod-crypto-aes_3.4.11-1_brcm63xx-tch.ipk
-Size: 972
-MD5Sum: 69be931f8d261a5ca685cbc29fdbce27
-SHA256sum: 49e51078b4fd2ef0ac486f31b09d635698a773148595153b6a58fb7cb0212600
+Size: 973
+MD5Sum: 0c26221420cbb446208f97193ca7607d
+SHA256sum: 52a99efdf4becee92893d22727ae8d3b0181c2b7398240d140145c7a7e17078c
 Description:  AES cipher CryptoAPI module
 
 Package: kmod-crypto-arc4
@@ -1565,9 +1578,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 190
 Filename: kmod-crypto-arc4_3.4.11-1_brcm63xx-tch.ipk
-Size: 974
-MD5Sum: 110f20de42b8c4c883bfa570d3e3d297
-SHA256sum: f3dedaa0c327ddd330c37ebfa63075d7158d2918ddef1960834b377753888250
+Size: 973
+MD5Sum: 86edd625ad659df27d638e01b7368e0b
+SHA256sum: 9bbbc229e1dd22ae8f4d01251452df2773e441b5faff8d91af2c9b96edb5b93b
 Description:  ARC4 (RC4) cipher CryptoAPI module
 
 Package: kmod-crypto-authenc
@@ -1578,11 +1591,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 194
+Installed-Size: 195
 Filename: kmod-crypto-authenc_3.4.11-1_brcm63xx-tch.ipk
-Size: 981
-MD5Sum: 88795c8d5461c5d1ff03fd8cec7991a4
-SHA256sum: fece5ac778a4879cbdb65adc74b6b2c7c75e8c66aabae6f69165d401a7f07a1b
+Size: 983
+MD5Sum: ee7ef0f8873b8013914310ad5ce9c0a3
+SHA256sum: 3d253bd708a2cb190709a162c8eabc4f8d4a6f735732fc223c009b531b79a496
 Description:  Combined mode wrapper for IPsec
 
 Package: kmod-crypto-cbc
@@ -1595,9 +1608,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 189
 Filename: kmod-crypto-cbc_3.4.11-1_brcm63xx-tch.ipk
-Size: 975
-MD5Sum: 4a54685dda3ae9da2ea3e58911c2a30a
-SHA256sum: 61ef687077ea53ffc413e213d61b66c87d63b0f9b09026cd56fa760e0c3e99f4
+Size: 977
+MD5Sum: d3d2a3d587cab9d76dbaba556d0c3cf0
+SHA256sum: 4b92cddea431ab9db7c60a68db13d3832e56d54fd91ed4c37351b76d27edb2f4
 Description:  Cipher Block Chaining CryptoAPI module
 
 Package: kmod-crypto-core
@@ -1608,11 +1621,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-core_3.4.11-1_brcm63xx-tch.ipk
-Size: 802
-MD5Sum: 3a1a59cc4474146a6e9902f5a15865ba
-SHA256sum: d332f4342f7437d2227f445af81eecc0ca5c09cd225fa2e069eb9519d20161e1
+Size: 796
+MD5Sum: 48fd5239d97121343b465e1c48ee0f30
+SHA256sum: 3957047333299f2d449772d1455f871fa0bdfd4722e99ae0516bb58ad27d4b31
 Description:  Core CryptoAPI modules
 
 Package: kmod-crypto-crc32c
@@ -1623,11 +1636,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1446
+Installed-Size: 1448
 Filename: kmod-crypto-crc32c_3.4.11-1_brcm63xx-tch.ipk
-Size: 2245
-MD5Sum: fd607ae745635f8f29ec96a66def8c07
-SHA256sum: 5db63e76e6c48deb2d1b0064f17d5ddd4afb2e4979f493246882a5f54369d3cd
+Size: 2246
+MD5Sum: de91e12bf4e8a32454a914207d3e2200
+SHA256sum: 018b59fa7026897e1f1fdaf2808081775fd430a62633eb569650e34b007c1e65
 Description:  CRC32c CRC module
 
 Package: kmod-crypto-ctr
@@ -1640,9 +1653,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 2689
 Filename: kmod-crypto-ctr_3.4.11-1_brcm63xx-tch.ipk
-Size: 3479
-MD5Sum: dd9ae6f04d612475acc0c1b5932463c5
-SHA256sum: 2112de483d6a3968cf91a19f4a2eda4d8b9f0ed754cae1b888088dfd491eacb9
+Size: 3480
+MD5Sum: b4d7d906ccd303570799243bc6fd0c7b
+SHA256sum: d4354eba449eaad9fc87bb929f524bc2c7aea5e5567b39dcd5459bbacd3eb6d1
 Description:  Counter Mode CryptoAPI module
 
 Package: kmod-crypto-deflate
@@ -1653,11 +1666,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1702
+Installed-Size: 1703
 Filename: kmod-crypto-deflate_3.4.11-1_brcm63xx-tch.ipk
-Size: 2516
-MD5Sum: 46aa862e51ef545f5b5bac20d4b7c625
-SHA256sum: 713f703cd9874eb8a983ab26ac0c8009fb4db54aacdf6f7ac43af0bdb3eb5c12
+Size: 2524
+MD5Sum: 4b7658f5f47776491cbd72a0122c9a04
+SHA256sum: 98ce54e74275582dc29ec3b3e7f0c7bed635d2e58ca860ab7fdb5f2751d8257b
 Description:  Deflate compression CryptoAPI module
 
 Package: kmod-crypto-des
@@ -1668,11 +1681,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 199
+Installed-Size: 200
 Filename: kmod-crypto-des_3.4.11-1_brcm63xx-tch.ipk
-Size: 977
-MD5Sum: 864022a896864d268c06db41dffbb977
-SHA256sum: 33f017f22ac57e12934cf063b5c4ca5dc87753cf0ea67e0dcf4ae9c8a9e5a4ea
+Size: 980
+MD5Sum: 6f32b5eaf80ce3b05b4dcb1d4009ee7c
+SHA256sum: 84c7cd3c49d9d0bc699267d98fc541a0037d9982419b9c6e7b775c2aebbe7e67
 Description:  DES/3DES cipher CryptoAPI module
 
 Package: kmod-crypto-ecb
@@ -1683,11 +1696,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1857
+Installed-Size: 1858
 Filename: kmod-crypto-ecb_3.4.11-1_brcm63xx-tch.ipk
 Size: 2675
-MD5Sum: 49ee184181952d5572ff8817feb2e66c
-SHA256sum: b9be1a043e86e88b3a00bc399cff262ed3803cf37426355c70746dc8b91f1f7b
+MD5Sum: 9a69611881bc860d2afbd271d4736170
+SHA256sum: 5636881689299415724599ed0f8da796b01b91d318e44d34452004770f87d982
 Description:  Electronic CodeBook CryptoAPI module
 
 Package: kmod-crypto-hash
@@ -1698,11 +1711,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 243
+Installed-Size: 239
 Filename: kmod-crypto-hash_3.4.11-1_brcm63xx-tch.ipk
-Size: 1021
-MD5Sum: 4fcf9146d0645fe0e5305f8d40c37158
-SHA256sum: 15aedf5692914b0551c9b567f715b9b8222b0f5c8fa865fa0728cd5efd986179
+Size: 1009
+MD5Sum: 53b68c120fda7a4afe188153021188c1
+SHA256sum: a795dfbf4776146c3639223680ed3abd2e041f12b09c1e71d560e6bdf742ec37
 Description:  CryptoAPI hash support
 
 Package: kmod-crypto-hmac
@@ -1713,11 +1726,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 191
+Installed-Size: 192
 Filename: kmod-crypto-hmac_3.4.11-1_brcm63xx-tch.ipk
-Size: 972
-MD5Sum: 93b5457ff2517aff43083799230e1453
-SHA256sum: fa7855bb23142e35cd0ce923b2566769ec5b52b6eb6d617b7654628c5d3e0be2
+Size: 973
+MD5Sum: 8a857de1c7563c3c0796a900e4205457
+SHA256sum: 2b610fd0269aefe55d5aeb6d130e5e9556f8b00563346d5d72b9c4690d7ea66c
 Description:  HMAC digest CryptoAPI module
 
 Package: kmod-crypto-iv
@@ -1728,11 +1741,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 199
+Installed-Size: 202
 Filename: kmod-crypto-iv_3.4.11-1_brcm63xx-tch.ipk
-Size: 990
-MD5Sum: 2797e326cbbcdd1f4eb4adddfb490032
-SHA256sum: 89285f14f024a5d39f17c15f95b634afc9e60899c112a67a6ad5b781b93ba876
+Size: 994
+MD5Sum: e301610876dffff6102eeb07cfea5eac
+SHA256sum: ba2032a47f8770c080672831767bf4b941cc55a8757b1a29900c0cfdb831d406
 Description:  CryptoAPI initialization vectors
 
 Package: kmod-crypto-manager
@@ -1743,11 +1756,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-crypto-manager_3.4.11-1_brcm63xx-tch.ipk
-Size: 837
-MD5Sum: 56ec5f72d4a0bce27fdd6a862250f3cd
-SHA256sum: 159cc1bc904d30c2d55f32b3cb6d313f4d4be179a5528139e95a7a90c477f112
+Size: 832
+MD5Sum: f9f09910f59ca070c3a4cccd869be92e
+SHA256sum: d1b6b751c9252a935128cdddfc93f1826f6354a19255e8559182838363c8ae52
 Description:  CryptoAPI algorithm manager
 
 Package: kmod-crypto-md5
@@ -1758,11 +1771,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 189
+Installed-Size: 190
 Filename: kmod-crypto-md5_3.4.11-1_brcm63xx-tch.ipk
-Size: 970
-MD5Sum: 3d5e79918b2ba932acdf7666c0bd4b86
-SHA256sum: dfd761e809b9265356a0e7e3c0f518550d226163aa71d0f76fd218c3f28c2eff
+Size: 968
+MD5Sum: 5fb011c448a3d127fc9287b3d5ee0cc4
+SHA256sum: f4f2b8307d6d528678c0c45715291d003e64ba40bfb6c372bbc554c98c835470
 Description:  MD5 digest CryptoAPI module
 
 Package: kmod-crypto-null
@@ -1775,9 +1788,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 196
 Filename: kmod-crypto-null_3.4.11-1_brcm63xx-tch.ipk
-Size: 970
-MD5Sum: 877a1e98cf29170c659a879068f39973
-SHA256sum: 2f923d2d5286c87b3c56ad3da8a40d7452afb3a8384ccdfce9c84f98a3a907e1
+Size: 969
+MD5Sum: 5d7948f9c3a9d33bf65dfead32f7ac95
+SHA256sum: f6ca900f09232d4f88987cd28b50612b53758f59b3d5fdd57b029a89ed87f2c0
 Description:  Null CryptoAPI module
 
 Package: kmod-crypto-pcompress
@@ -1788,11 +1801,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 198
+Installed-Size: 197
 Filename: kmod-crypto-pcompress_3.4.11-1_brcm63xx-tch.ipk
-Size: 991
-MD5Sum: 5df7144261a071453c3b138604087021
-SHA256sum: a48a8be990a9838f3cbe9c7777d49e875ce1b193d1599221dfcc8fb63502ea9b
+Size: 984
+MD5Sum: d877b1c0aaa69fb418d4dfe889b91ddc
+SHA256sum: 72671a98791aa7c3355bb02ed5730252a4abcfbe1c996a032ab54cb0315878f1
 Description:  CryptoAPI Partial (de)compression operations
 
 Package: kmod-crypto-rng
@@ -1803,11 +1816,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 194
+Installed-Size: 196
 Filename: kmod-crypto-rng_3.4.11-1_brcm63xx-tch.ipk
 Size: 973
-MD5Sum: 268f5848a465762a37e1430f772a7c0b
-SHA256sum: 9f7182f38bc089b08e5e0f18aef32742acc309cfc2139154278a9b9449151e18
+MD5Sum: 2590f121c07d6bd2435a2c6eaa425fd6
+SHA256sum: dfce1a8e40d3bc33b535014d64d2b80e1c9b855615afbc9e89791c5e8fee1723
 Description:  CryptoAPI random number generation
 
 Package: kmod-crypto-seqiv
@@ -1818,11 +1831,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2502
+Installed-Size: 2505
 Filename: kmod-crypto-seqiv_3.4.11-1_brcm63xx-tch.ipk
-Size: 3297
-MD5Sum: 3cebdd3295aa0e15625a1cc6e8017739
-SHA256sum: 56031797efad94ef93744f415712829708e3f847b6174e3c808ba93eda057590
+Size: 3299
+MD5Sum: 5c5522274d0d43e114a1395b02a81669
+SHA256sum: 05a4d55339ea8e698d33363df325dca26d76033a5a02571e55e6350d796a1a51
 Description:  CryptoAPI Sequence Number IV Generator
 
 Package: kmod-crypto-sha1
@@ -1835,9 +1848,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 201
 Filename: kmod-crypto-sha1_3.4.11-1_brcm63xx-tch.ipk
-Size: 985
-MD5Sum: c0e85229abe85e9e85b5858932c57520
-SHA256sum: 6fe11c53ac6bccb5f0ddea4042d48e5d1e6fe16ad40de11b8d761aefa42b6219
+Size: 982
+MD5Sum: 5ae019643cf6366ca9dc3becb08be4aa
+SHA256sum: a1fb1421922316c454bc63c5022e3f3a132a4e6c4da0e8e7b50e38e0050bd669
 Description:  SHA1 digest CryptoAPI module
 
 Package: kmod-crypto-user
@@ -1848,11 +1861,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 9509
+Installed-Size: 9513
 Filename: kmod-crypto-user_3.4.11-1_brcm63xx-tch.ipk
-Size: 10302
-MD5Sum: a80f5e252108f50ebfb5b29defe0873b
-SHA256sum: 29c10f6b90e1da93a7d72aa881059aa568934b15de1b02fdb7bad9009950e730
+Size: 10304
+MD5Sum: 22122802fc8606dfed3d145dfcaab6be
+SHA256sum: 1329f3913691273c9693e45c22f65d95252019e7680f98786e195e06cec27305
 Description:  CryptoAPI userspace interface
 
 Package: kmod-crypto-wq
@@ -1863,11 +1876,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 193
+Installed-Size: 194
 Filename: kmod-crypto-wq_3.4.11-1_brcm63xx-tch.ipk
-Size: 970
-MD5Sum: 677a5448d5939fef1dc015e4d32a4de5
-SHA256sum: 0a8c837e5de4dec0e7ca3e60d37faf8c28c4503a9e466704902bf74c755d811f
+Size: 971
+MD5Sum: 326a4fd74c08f4e87a69eec22c655fea
+SHA256sum: 8fd032813308e92bcd211f3eef9060a9f1c4bb2e10503230d96c23bceb447660
 Description:  CryptoAPI work queue handling
 
 Package: kmod-dm
@@ -1878,11 +1891,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 62334
+Installed-Size: 62335
 Filename: kmod-dm_3.4.11-1_brcm63xx-tch.ipk
-Size: 63137
-MD5Sum: 7c3c6dbfbe00ddf3d58eab1a7439379d
-SHA256sum: b34921d3f3fef57c179d151cd518c41143b5109503433e0043b3d854d45ef019
+Size: 63146
+MD5Sum: 000f214f5b79b0630f475f08ddc8b754
+SHA256sum: c3a32ed1bad0d3147f285443f298fe069664e612e8d3680d9d19451b7dd1ab7c
 Description:  Kernel module necessary for LVM2 support
 
 Package: kmod-dnsresolver
@@ -1893,11 +1906,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-dnsresolver_3.4.11-1_brcm63xx-tch.ipk
-Size: 801
-MD5Sum: 5856f2268b609c3dfdb492d9767cb9db
-SHA256sum: 2e50e6d789ee36dfcfc2a98df2fa560b9a8dc701abefbe009b03671db5cb3598
+Size: 792
+MD5Sum: a73ab7506d7509f68da4477c9aae1dca
+SHA256sum: 4d26bab2d7bc910c2e3e40a3e590070be3ef4644e1d1d8ad5649d0bb81fe95be
 Description:  In-kernel DNS Resolver
 
 Package: kmod-ebtables-ipv4
@@ -1908,11 +1921,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 3666
+Installed-Size: 3661
 Filename: kmod-ebtables-ipv4_3.4.11-1_brcm63xx-tch.ipk
-Size: 4505
-MD5Sum: f7883ab61d96e0d6abf5a7003999fefd
-SHA256sum: 13f5dfd678676ad3e292d0f71447aaf34e70e5b541be52f05c26eb74470d0ec6
+Size: 4504
+MD5Sum: 47e7b9e2fb87f32a8b7280da2545c48e
+SHA256sum: 70a5b6c1ae9322a39effc3be6c47b7cbed691a3148c490d56d580a1909498eab
 Description:  This option adds the IPv4 support to ebtables, which allows basic
  IPv4 header field filtering, ARP filtering as well as SNAT, DNAT targets.
 
@@ -1924,11 +1937,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 5838
+Installed-Size: 5837
 Filename: kmod-ebtables-watchers_3.4.11-1_brcm63xx-tch.ipk
-Size: 6651
-MD5Sum: 87ade78bed971a2570ba9c4594d8bb40
-SHA256sum: 878568138ed95ad451e604c347cf1a36f1932a79f215cd2d4e10465bedbd11d9
+Size: 6650
+MD5Sum: 5a0a2026dbdb358ac4998c8e690f0bf9
+SHA256sum: ad39046f2c1565eb23bd12502df435725021aa94597383af8604181cc13f6de8
 Description:  This option adds the log watchers, that you can use in any rule
  in any ebtables table.
 
@@ -1940,11 +1953,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 5733
+Installed-Size: 5732
 Filename: kmod-ebtables_3.4.11-1_brcm63xx-tch.ipk
-Size: 6630
-MD5Sum: 2b72f7f343d1319eafae3a56dcf1cbba
-SHA256sum: c0509d4d1aa07e383559aab2facfb0b6a720e8f2fd3c8ecacbf6b7570f379d60
+Size: 6628
+MD5Sum: 2a28db68601bf8f70ab338e6d880c841
+SHA256sum: 78dfca3985a762958b7d289c5cdd30e15f3ce7c3d6a4741d9715baa6cb57e48a
 Description:  ebtables is a general, extensible frame/packet identification
  framework. It provides you to do Ethernet
  filtering/NAT/brouting on the Ethernet bridge.
@@ -1957,11 +1970,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1770
+Installed-Size: 1768
 Filename: kmod-eeprom-93cx6_3.4.11-1_brcm63xx-tch.ipk
-Size: 2579
-MD5Sum: 6414344f99c1a47d4c1c44b2d2b254f4
-SHA256sum: 839daa6d802d8b4f5cc80add3ccced6443a0b5c75fc88731cfb0b721dffebe1c
+Size: 2573
+MD5Sum: 54f146da81f190db332ddf8f9950eb98
+SHA256sum: 4e1ef8d961548e42096002098068bd79441da28ee1da0a0f4c2ed1cbad5a8d71
 Description:  Kernel module for EEPROM 93CX6 support
 
 Package: kmod-fs-autofs4
@@ -1974,9 +1987,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 14331
 Filename: kmod-fs-autofs4_3.4.11-1_brcm63xx-tch.ipk
-Size: 15101
-MD5Sum: eb6995739af1634de896e8dbdb704018
-SHA256sum: 6fa8d7553c2147b764e2014f6dd58556f9486dc06791d545ba86201cfdaf7368
+Size: 15103
+MD5Sum: 80844e0c12c041453708488c3ad0dccc
+SHA256sum: 152fbaf59eb054e745e3aba4378a550f3cd1fdcf5f2c4b00c1e8fc518391f3fa
 Description:  Kernel module for AutoFS4 support
 
 Package: kmod-fs-exportfs
@@ -1987,11 +2000,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 105
 Filename: kmod-fs-exportfs_3.4.11-1_brcm63xx-tch.ipk
-Size: 818
-MD5Sum: 99645bf1b6ed0e199012e70c60e4726b
-SHA256sum: 3516ec5cd511a5fd87762eba0c2a4dd0b6cf61dc2465d7739a690857972543c5
+Size: 817
+MD5Sum: d7705c1bcc4a1c787d14024db56e28b9
+SHA256sum: f532edf2acf6b5c03b5f2b9934818297f1fd5f4ff99915b4b82513ec8e77f011
 Description:  Kernel module for exportfs. Needed for some other modules.
 
 Package: kmod-fs-ext4
@@ -2002,11 +2015,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 179832
+Installed-Size: 179833
 Filename: kmod-fs-ext4_3.4.11-1_brcm63xx-tch.ipk
-Size: 180245
-MD5Sum: 1aea88e728ea6cfc13fe2910eb6f93d6
-SHA256sum: a877cf064c15fff8995d5c4af72cc1a2568195d2cb706010ae6cca3ad05b9e81
+Size: 180261
+MD5Sum: a6d70a02f9602c30f0e41d0ab3377c7f
+SHA256sum: 1d939c91f98799da66cc657558200a71d20acf8bb94658072ccc6b36a1e65854
 Description:  Kernel module for EXT4 filesystem support
 
 Package: kmod-fs-nfs-common
@@ -2017,11 +2030,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-fs-nfs-common_3.4.11-1_brcm63xx-tch.ipk
-Size: 809
-MD5Sum: b1c90b4874ac117d435a13aa64474886
-SHA256sum: f86dd685cdcf6f562ce102a9c4792aed19927dd89fd329be5c9aa38157027beb
+Size: 803
+MD5Sum: 9c0ff3b344f11e63185d13cccbc0a7f1
+SHA256sum: 1cc46b9924c2813bb4e88975f5d4e56a97160628e1660379afbc44652c721af1
 Description:  Common NFS filesystem modules
 
 Package: kmod-fs-nfs
@@ -2032,11 +2045,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-fs-nfs_3.4.11-1_brcm63xx-tch.ipk
-Size: 824
-MD5Sum: a2e260605818640c229ddec6515d696d
-SHA256sum: e0dcf856a455be2a1b62acafd8ead9cef33205a4eb7a2c2ebced4158e5043c83
+Size: 822
+MD5Sum: 7277208b6c22f0a0c3ee16a6478cc4cc
+SHA256sum: f48c9794010e245358e493ff8a5756f21cbab0a85a975f3d342ca6ca0feafe4e
 Description:  Kernel module for NFS support
 
 Package: kmod-fs-nfsd
@@ -2047,11 +2060,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-fs-nfsd_3.4.11-1_brcm63xx-tch.ipk
-Size: 831
-MD5Sum: 256a0144df5b19524944eb5ffef21098
-SHA256sum: d03e533c5a1d81cd29c5b4593bcb8f97dbba3de86a46471c235e3b9e1dc1d621
+Size: 827
+MD5Sum: 35e6636c5806671d5bc9cbaff6c9b9a1
+SHA256sum: a77e4767f75884a3a7c40624f5025b6941c2a1ca068dd9eb6986abfd32464aed
 Description:  Kernel module for NFS kernel server support
 
 Package: kmod-fs-vfat
@@ -2064,9 +2077,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 189
 Filename: kmod-fs-vfat_3.4.11-1_brcm63xx-tch.ipk
-Size: 971
-MD5Sum: ac07fd62635264d59a8e63a62a681752
-SHA256sum: e622a7b6d300c42cbdf78423e69e13628bf2ee4e50d6a6cd7c291190a852ca8e
+Size: 972
+MD5Sum: 6a0aad22ace0b4472a1c3cf72cff756f
+SHA256sum: 755b39710c7cb8131d09e9c3f0ff68a5602b61fb174cca8d3505bff7e0fd36d2
 Description:  Kernel module for VFAT filesystem support
 
 Package: kmod-fuse
@@ -2079,9 +2092,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 185
 Filename: kmod-fuse_3.4.11-1_brcm63xx-tch.ipk
-Size: 951
-MD5Sum: b8e9435d4b9df98e58903924bfc675cb
-SHA256sum: 494b362f9f30614f2f8b33dc8265be6945bcca621f6b43b652727ed8e1b0d2c1
+Size: 956
+MD5Sum: 1a68725ec677eb0208a686b5d20dc10b
+SHA256sum: 1eb7e8fba02c979a1934faf09f0c1b278a45254ab6b9b17e1d009fd6e29bdd29
 Description:  Kernel module for userspace filesystem support
 
 Package: kmod-gre
@@ -2092,11 +2105,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 11700
+Installed-Size: 11695
 Filename: kmod-gre_3.4.11-1_brcm63xx-tch.ipk
 Size: 12507
-MD5Sum: 6adabf06e6e58b2b250bf6512713dbbb
-SHA256sum: d7a70461de08ad619bb8695670cf09359b0fcb3887578d7d404aab1efa7d2837
+MD5Sum: 2b6c18df31e96b504aa6f66d377b818f
+SHA256sum: f2c41460b63174cc64841990d32ad9c8383805a739a58643eff9f6cd3ac1ab33
 Description:  Generic Routing Encapsulation support
 
 Package: kmod-i2c-algo-bit
@@ -2107,11 +2120,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 3418
+Installed-Size: 3417
 Filename: kmod-i2c-algo-bit_3.4.11-1_brcm63xx-tch.ipk
-Size: 4196
-MD5Sum: 1291e3cc9952bba77e97356a9b811109
-SHA256sum: 0d6e87d74ff93a7fdc7176f9b0497fb6a68700542e2801688d9c8ed557d5b51d
+Size: 4202
+MD5Sum: 119a8f0c53955c910504948eb2ea85de
+SHA256sum: fa0a2bfc5166f4a42b1a4568e0e8b6e43745fd4696bdf1bff5564a4eb9ca5160
 Description:  Kernel modules for I2C bit-banging interfaces
 
 Package: kmod-i2c-algo-pca
@@ -2122,11 +2135,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 3868
+Installed-Size: 3865
 Filename: kmod-i2c-algo-pca_3.4.11-1_brcm63xx-tch.ipk
-Size: 4645
-MD5Sum: 690fd6b4fb9c6c1bdd413c8ca371f5c0
-SHA256sum: 4a71d2b76bb6bdf3612259fbf53a3b45954f2c7896555e3c3ae761f40d775bfd
+Size: 4641
+MD5Sum: 5f1ea44fdc74e4299f8c7350d26fabb6
+SHA256sum: 8522ad8a5056c03a07ab34e91d1afa16e22a4c44b0a64661c59f44e248a3aa6c
 Description:  Kernel modules for I2C PCA 9564 interfaces
 
 Package: kmod-i2c-algo-pcf
@@ -2137,11 +2150,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 3187
+Installed-Size: 3185
 Filename: kmod-i2c-algo-pcf_3.4.11-1_brcm63xx-tch.ipk
-Size: 3968
-MD5Sum: 95ca945a3eec48510a1c44b00e4a402a
-SHA256sum: ba261aac42e3e84e37ca01e966dd26668c0c84b4689ae199d3bf3248b6acaa40
+Size: 3965
+MD5Sum: ef999f1629aec69a2d969d8beff655e0
+SHA256sum: 0e8accddecb15afaf0e3a8735e8764c524ea715636fa23e86bd6e53f2151df87
 Description:  Kernel modules for I2C PCF 8584 interfaces
 
 Package: kmod-i2c-core
@@ -2152,11 +2165,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 13415
+Installed-Size: 13414
 Filename: kmod-i2c-core_3.4.11-1_brcm63xx-tch.ipk
-Size: 14187
-MD5Sum: 0ed02e85f3628baa020c0cbc79562a7c
-SHA256sum: e3fe6046d531b656569008e36715f4c52decc4c64a17596d408a604c652ab796
+Size: 14190
+MD5Sum: d3913a12105d23eadca27c788f390618
+SHA256sum: aebffa4c71e070a0a14e95d5c649f45e57a3a9e77c37357001ab1ebed0ad868a
 Description:  Kernel modules for I2C support
 
 Package: kmod-i2c-gpio
@@ -2167,11 +2180,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2267
+Installed-Size: 2266
 Filename: kmod-i2c-gpio_3.4.11-1_brcm63xx-tch.ipk
-Size: 3095
-MD5Sum: 22d95d6e6ffe3705d990e603b8ded394
-SHA256sum: 8d7ddd40953b3f53153f91238f6e5683e33e908e874b29afafb2a12f27a3f1ed
+Size: 3092
+MD5Sum: f21dff6857d6cdf17ca0c8b2ef921230
+SHA256sum: 5ec586ed2f1b87a8f11ed5534cbb0deb496dc30ab745a3d18167dcdb9ccbd5ee
 Description:  Kernel modules for a very simple bitbanging I2C driver utilizing the
  arch-neutral GPIO API to control the SCL and SDA lines.
 
@@ -2183,11 +2196,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2315
+Installed-Size: 2313
 Filename: kmod-i2c-mux-gpio_3.4.11-1_brcm63xx-tch.ipk
-Size: 3103
-MD5Sum: ec3868fbe62417a7659608f668c52d37
-SHA256sum: d8b84abdc422c5eeb3d48ebb5dbcbd3e69d52c9dc192e72268f2bc43ea50d060
+Size: 3101
+MD5Sum: 60d0e0d281d9aaa13859ad1c213fe142
+SHA256sum: a1edfec2a5bcb318b17e332e97f9a089191cbd8188aef0d1a69c6bdf947701be
 Description:  Kernel modules for GENERIC_GPIO I2C bus mux/switching devices
 
 Package: kmod-i2c-mux-pca9541
@@ -2198,11 +2211,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2523
+Installed-Size: 2520
 Filename: kmod-i2c-mux-pca9541_3.4.11-1_brcm63xx-tch.ipk
-Size: 3306
-MD5Sum: 00b3732dca369c5557e65287cb2f3c8e
-SHA256sum: ae1095f2f16f2daf00ea8dd59344ad6e547541e08774b7e920e248cdb8233a94
+Size: 3304
+MD5Sum: e964e8bbdc1a456fd48ce693dda1e2c2
+SHA256sum: 8cb212ec8ba8a50307484cbadfcb21e441d27d1f5d946d5a53ed52573ac64d70
 Description:  Kernel modules for PCA9541 I2C bus mux/switching devices
 
 Package: kmod-i2c-mux-pca954x
@@ -2213,11 +2226,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2399
+Installed-Size: 2396
 Filename: kmod-i2c-mux-pca954x_3.4.11-1_brcm63xx-tch.ipk
-Size: 3183
-MD5Sum: 8d5ce1c6c743ddbd7ac688e0d49846f1
-SHA256sum: 84da97cdf2e89f3618fb2a6a8b1570358191458a0a9a7c171b211a029bb20d79
+Size: 3181
+MD5Sum: 5dc3f326e21ceca4a011f1a623fcd146
+SHA256sum: f94197f7c7ef5f192e58e4cacfcfa9b4f26eeeca85a8a5985bde29f894c0ea72
 Description:  Kernel modules for PCA954x I2C bus mux/switching devices
 
 Package: kmod-i2c-mux
@@ -2228,11 +2241,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1700
+Installed-Size: 1694
 Filename: kmod-i2c-mux_3.4.11-1_brcm63xx-tch.ipk
-Size: 2514
-MD5Sum: d8eadf714bc7ecf352b694145765fe10
-SHA256sum: fb9ee9287a055c9aa71a4854d8dd0da82eeacdc6fae2d2fa701128ae65759158
+Size: 2501
+MD5Sum: d4d95ca200932cf9b3f0b325c8ef66cd
+SHA256sum: 0240bf4b7e4509f772e28ff8e0bc1f4c8af1219da64c45d4ad57f844b720e279
 Description:  Kernel modules for I2C bus multiplexing support
 
 Package: kmod-i2c-tiny-usb
@@ -2243,11 +2256,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2649
+Installed-Size: 2645
 Filename: kmod-i2c-tiny-usb_3.4.11-1_brcm63xx-tch.ipk
 Size: 3485
-MD5Sum: 3612defdd15282f2acaca832d6e5f13a
-SHA256sum: dd5ad88e35082227abe689d64ddf612f214a1c4e9a29e8d6bd6ff3cac1131617
+MD5Sum: accdb695bc9b2b404aca3a1dd03b0690
+SHA256sum: a8182406fb06075a4bfefc3d44bed955f74919ef2e799a2ae57d7742cb342ee3
 Description:  Kernel module for the I2C Tiny USB adaptor developed
  by Till Harbaum (http://www.harbaum.org/till/i2c_tiny_usb)
 
@@ -2259,11 +2272,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-igb_3.4.11-1_brcm63xx-tch.ipk
-Size: 855
-MD5Sum: 75223dfd54f6c25d0caf02bcf4aa8150
-SHA256sum: ebc655b2f5b672a20f23961e380123d3dda0a001fc0827e1e44875679a4d5942
+Size: 856
+MD5Sum: d88bf2476cc617e27338b415f919887d
+SHA256sum: 992e1d350c04fb3438ea1195aa160ffef2e9e68de6fc6059a19dd70f444372cc
 Description:  Kernel modules for Intel(R) 82575/82576 PCI-Express Gigabit Ethernet adapters.
 
 Package: kmod-input-core
@@ -2274,11 +2287,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 14289
+Installed-Size: 14290
 Filename: kmod-input-core_3.4.11-1_brcm63xx-tch.ipk
-Size: 14990
-MD5Sum: dd9952eb320f4f936a16a57833fa2897
-SHA256sum: b56f3c867636cef8e1b829dcf761569c13c38441420dc41c0283b823c77e493a
+Size: 14988
+MD5Sum: 7e0f107062e6001ae5771dabf13adf7c
+SHA256sum: dda04a8ace1d552d0fd4d534c956280fa79bb87cc26c760199973ac6168959d7
 Description:  Kernel modules for support of input device
 
 Package: kmod-ip6-tunnel
@@ -2289,11 +2302,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 192
+Installed-Size: 193
 Filename: kmod-ip6-tunnel_3.4.11-1_brcm63xx-tch.ipk
-Size: 975
-MD5Sum: 02bc0c52c3654bea42e17fbb78cfe9b3
-SHA256sum: c837aaf5b1a5070957061ddeb1d8e9a6528b0f4b20b4e43873a7dec4bbd873cd
+Size: 985
+MD5Sum: f85010c3a33bcb0d8ab4d93615ab7a81
+SHA256sum: 1436f2f9d50546173629fc39ebe7ca1f1c54b53341ba4b79f727f06f86def21a
 Description:  Kernel modules for IPv6-in-IPv6 and IPv4-in-IPv6 tunnelling
 
 Package: kmod-ip6tables
@@ -2304,11 +2317,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 8787
+Installed-Size: 8789
 Filename: kmod-ip6tables_3.4.11-1_brcm63xx-tch.ipk
-Size: 9619
-MD5Sum: 688214d088680b3297ea4e7cd7488959
-SHA256sum: 7ea2b7bdd1a4a5d5ec6aeed4186bbd81f463072f980caf574615b1956297420c
+Size: 9623
+MD5Sum: f4af3f72fc9e6b5ffe8c40e84c79dfc5
+SHA256sum: b3ad7abd2a535cb3e7dcb17d3058085d4c5fdfae1e76d5cc0e8486c7a57c0c3c
 Description:  Netfilter IPv6 firewalling support
 
 Package: kmod-ipip
@@ -2319,11 +2332,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 6201
+Installed-Size: 6203
 Filename: kmod-ipip_3.4.11-1_brcm63xx-tch.ipk
-Size: 7038
-MD5Sum: b2adc45d3fde407702fea70564cd7e12
-SHA256sum: 36eac53e5d673aa9579f122e9739f10941f43f77e1d3f5779c00d00b6c136d26
+Size: 7042
+MD5Sum: e49028ab20c2b791272e5400272ad636
+SHA256sum: 3d2e28f2a9521b3c59e9f686f0990fc3e51b8b4bbba3f6a7e8f710d724ba35a7
 Description:  Kernel modules for IP-in-IP encapsulation
 
 Package: kmod-ipoa
@@ -2334,11 +2347,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 7070
+Installed-Size: 7072
 Filename: kmod-ipoa_3.4.11-1_brcm63xx-tch.ipk
-Size: 7878
-MD5Sum: 59d2c38254e201b73207b80ef4d4ce90
-SHA256sum: aa435cf0c75a98dea874e5ea6665847adaf32c510686d48784b65d65e88e5c2c
+Size: 7879
+MD5Sum: 14b294cd3274e3b44c0c5b9f99287684
+SHA256sum: d797265480b9c52cea73468be05adda204d4fde31bda6a2ff13c7d74c901be29
 Description:  Kernel modules for IPoA (IP over ATM) support
 
 Package: kmod-ipt-conntrack-extra
@@ -2349,11 +2362,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 10640
+Installed-Size: 10642
 Filename: kmod-ipt-conntrack-extra_3.4.11-1_brcm63xx-tch.ipk
-Size: 11518
-MD5Sum: ecd86e36f13e87757e46abc6eddad98f
-SHA256sum: 12dc3793aeb15ba77eb33891241f31f29fa9863494df43928bd5e62bbad342c9
+Size: 11526
+MD5Sum: 9dfa2edb6d7bdd7af38f11b1d22e8665
+SHA256sum: 990df294ec24710d0887c1d174723a2783cf40117c074aa0f496cc9625968136
 Description:  Netfilter (IPv4) extra kernel modules for connection tracking
  Includes:
  - connbytes
@@ -2372,9 +2385,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 5119
 Filename: kmod-ipt-conntrack_3.4.11-1_brcm63xx-tch.ipk
-Size: 5954
-MD5Sum: c863a0e28b54b394b086bdf2f2bbd26e
-SHA256sum: 35945753eb8631c2ae7fcfc3981b3f3fe787850842b399de6665fe6830906853
+Size: 5960
+MD5Sum: f42054f4605dc351c281fba999e43686
+SHA256sum: 7725dcc680439b63765551ee73d1efbac8d71e0e398109fea11f714f01acfadb
 Description:  Netfilter (IPv4) kernel modules for connection tracking
  Includes:
  - conntrack
@@ -2391,11 +2404,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 17000
+Installed-Size: 17002
 Filename: kmod-ipt-core_3.4.11-1_brcm63xx-tch.ipk
-Size: 17876
-MD5Sum: 8aa4fb3c17620054286c770221519c53
-SHA256sum: 02c549ddc2e33805693c42acb54ebbd6337945a33d168f98dfb5739a28d7b6a1
+Size: 17895
+MD5Sum: 117d5be92d967d143ef43f6127f8b67e
+SHA256sum: 731518566c25af822523a24887d407ff6a973a7d09eefb34f6573ebca0387268
 Description:  Netfilter core kernel modules
  Includes:
  - comment
@@ -2414,11 +2427,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 5073
+Installed-Size: 5077
 Filename: kmod-ipt-extra_3.4.11-1_brcm63xx-tch.ipk
-Size: 5925
-MD5Sum: dfadce14808064e092415d579ff36b86
-SHA256sum: 97c64e79f5761131d19e28a39338dfd6e68d77bee46dbb082075605e672d013b
+Size: 5932
+MD5Sum: 91c6f2bec267053545e320b65c6e1c76
+SHA256sum: a3b410f83965835b88b7af39af600d939fd8b2c91b347c2309bcf9d5efb14fbe
 Description:  Other Netfilter (IPv4) kernel modules
  Includes:
  - addrtype
@@ -2435,11 +2448,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 7891
+Installed-Size: 7889
 Filename: kmod-ipt-ipopt_3.4.11-1_brcm63xx-tch.ipk
-Size: 8826
-MD5Sum: 07b0f264df368e6e818a523304888f77
-SHA256sum: 2c14c62d4315e74150907071e99c53fe193806e2833aea385052d508b478ae75
+Size: 8823
+MD5Sum: 709ae879bbf0f0f0c27f5419af8dd7a5
+SHA256sum: 24082358d7158fe2fd15ba164b414d4caee3078a6d140caadfc06af090425d14
 Description:  Netfilter (IPv4) modules for matching/changing IP packet options
  Includes:
  - CLASSIFY
@@ -2462,11 +2475,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 3250
+Installed-Size: 3252
 Filename: kmod-ipt-ipsec_3.4.11-1_brcm63xx-tch.ipk
-Size: 4080
-MD5Sum: e5f48e6f8a3ee323a3c61d847add1c68
-SHA256sum: acb02bab0ad6a2e0b2f996a933fc0ed78ea92500f932728e99ab082d632fd0ec
+Size: 4090
+MD5Sum: 7be07af7764f4f201d83dced134342a3
+SHA256sum: 95e60f361715812a4127dfcbb1dfc57c581aaf8b73f5c8e4f7d6c1fa79405806
 Description:  Netfilter (IPv4) modules for matching IPSec packets
  Includes:
  - ah
@@ -2481,11 +2494,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 95226
+Installed-Size: 95230
 Filename: kmod-ipt-ipset_3.4.11-1_brcm63xx-tch.ipk
-Size: 95778
-MD5Sum: a6976c753172c155c4c94ab11f6b3c07
-SHA256sum: 1d499723851f2366d0ce4e8bf8ea7f66fc682e3d5326f998cda0ec54ee20ade1
+Size: 95781
+MD5Sum: c5673eda406c0dfe9de03781b43b9d48
+SHA256sum: c772068d70d52796e760bc86aae526a2c25e7aeebdd4b4dc94e3b027438d5ec9
 Description:  IPset netfilter modules
 
 Package: kmod-ipt-nat
@@ -2496,11 +2509,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1873
+Installed-Size: 1871
 Filename: kmod-ipt-nat_3.4.11-1_brcm63xx-tch.ipk
-Size: 2724
-MD5Sum: ddd7faa3da03b746d5919cee571103e4
-SHA256sum: a4faebe06cbeadd38510d21e80f49715c4591776c6f612135214edf13ce21f6c
+Size: 2717
+MD5Sum: c9196bac07c4f27b5c1e6f939f79ca79
+SHA256sum: 5660cef21efed6fd66d9e56ce15d9aa9ee26eab4d087fbfe8ec9a03cb782fd19
 Description:  Netfilter (IPv4) kernel modules for basic NAT targets
  Includes:
  - MASQUERADE
@@ -2515,9 +2528,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-ipt-nathelper-rtsp-bcm63xx-tch_3.4.11-1_brcm63xx-tch.ipk
-Size: 825
-MD5Sum: a64616eeab4dcc41b04cfc2796cb6974
-SHA256sum: f9743e96b21269256b9f93aef7ea3f8df8abd5001283f8f17c7a792110c69f70
+Size: 829
+MD5Sum: 3dfc4a29488eb33888f0843f7bd47f76
+SHA256sum: 405f02033aadd83b79c5448a0a916934061658bd1cffc65b292fd676ca076b9f
 Description:  Broadcom kernel RTSP ALG
 
 Package: kmod-ipt-nfqueue
@@ -2530,9 +2543,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 1859
 Filename: kmod-ipt-nfqueue_3.4.11-1_brcm63xx-tch.ipk
-Size: 2703
-MD5Sum: f221f7d3e9ae3b5d6bed6dfcf829e465
-SHA256sum: ab127cd73c94ee22d511e03568c74c45073d706c0000153b8ebb5d032b216a8e
+Size: 2704
+MD5Sum: c3291f69d60eec12f3d682c7b919507c
+SHA256sum: cc6cba6d1916728bfe95a1b25a977a8835497181d4fa42e2304b0a50dd06566f
 Description:  Netfilter module for user-space packet queuing
  Includes:
  - NFQUEUE
@@ -2547,9 +2560,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 189
 Filename: kmod-iptunnel4_3.4.11-1_brcm63xx-tch.ipk
-Size: 953
-MD5Sum: 630f332a06aecc78c1fe6821599aa49e
-SHA256sum: 3cb8a34032688792f09fe2bc8ff820f583af5f46818c2201af66af53c43faaf6
+Size: 951
+MD5Sum: cad6f7118ce89a825fbbe9593752aa96
+SHA256sum: 50aff1736ab595f93efbde1e86102d42707b417df8d346759dc984ffc3fd7245
 Description:  Kernel modules for IPv4 tunneling
 
 Package: kmod-iptunnel6
@@ -2562,9 +2575,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 189
 Filename: kmod-iptunnel6_3.4.11-1_brcm63xx-tch.ipk
-Size: 960
-MD5Sum: 692bf03ae21f3e0327cd3a3aa8fc4afb
-SHA256sum: 9bf173617ec833ffaff6b2583b5d4c98fe5cca44dff71399dc5ac3514e0c5caf
+Size: 963
+MD5Sum: 88dfb50b0aa53dee9a4454807df268f6
+SHA256sum: f24f431e7000085e90d5783b32265a9ce42d5ed51fbc944eb70f0c78bc9374aa
 Description:  Kernel modules for IPv6 tunneling
 
 Package: kmod-iptunnel
@@ -2577,9 +2590,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-iptunnel_3.4.11-1_brcm63xx-tch.ipk
-Size: 812
-MD5Sum: 471c1b9d82713198952ef396ec05e61c
-SHA256sum: 1853f7db8431d8bf5d59826eb2d3a2e22a8b691857c024414c6fbc1437dbb170
+Size: 809
+MD5Sum: 5ea23aecd88ce8d9a0fa057ba895edc5
+SHA256sum: a99ba1dacebb5587069af3e702da3e7247f14207efd0a123c2fb0e3eb3c3a6b1
 Description:  Kernel module for generic IP tunnel support
 
 Package: kmod-ipv6
@@ -2590,11 +2603,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 184
+Installed-Size: 185
 Filename: kmod-ipv6_3.4.11-1_brcm63xx-tch.ipk
-Size: 944
-MD5Sum: 8afc54b7992aa2870c7bba2074d565d8
-SHA256sum: 34c154c9db91001aa108c4c6307f6d7dad5e6bdb55c3ea96ea6fafbe454ebc63
+Size: 940
+MD5Sum: 8bfc623e1a216ad1f2e0b452a5b9cf62
+SHA256sum: c691cf959458c63e80387526851270eaf4e6300ffac4863eab15d35500aaa156
 Description:  Kernel modules for IPv6 support
 
 Package: kmod-l2tp
@@ -2607,9 +2620,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 13624
 Filename: kmod-l2tp_3.4.11-1_brcm63xx-tch.ipk
-Size: 14404
-MD5Sum: 706ca9a4f8a1de2a3388789888fad21d
-SHA256sum: 5a282d062cd732413d8eecd7720672d01b2b106e1c676e9e3e72582e0c0773b0
+Size: 14405
+MD5Sum: 1839d625ad9877426eaffb837d6b4ae3
+SHA256sum: b50d8eba02d1ab0f57687f3992600de0991edf96eb90eab669d04ebb53895e2d
 Description:  Kernel modules for L2TP V3 Support
 
 Package: kmod-leds-gpio
@@ -2622,9 +2635,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 2518
 Filename: kmod-leds-gpio_3.4.11-1_brcm63xx-tch.ipk
-Size: 3280
-MD5Sum: 64f1f1680b2791bd35b2f0ac8e0be469
-SHA256sum: 2762a3d04609d1b0ddc15dcfd1a8a70a0c65908d683dc894e60e628b8db74cb2
+Size: 3287
+MD5Sum: 002930eea8f91af248abe8bc377a260b
+SHA256sum: f9fda17b719ddcc2b32351f003cbf4479bcc43c2b1537a634938d3d59072e05f
 Description:  Kernel module for LEDs on GPIO lines
 
 Package: kmod-ledtrig-default-on
@@ -2637,9 +2650,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 1169
 Filename: kmod-ledtrig-default-on_3.4.11-1_brcm63xx-tch.ipk
-Size: 1985
-MD5Sum: 7c6062919bdba9adac5f68716d11b7cc
-SHA256sum: 1498c89a7c042b5bc865dbe17ddd79ce115c68836976958c121169eec19ba567
+Size: 1989
+MD5Sum: 723b4ac1f5f85b5ec38653fbf7136285
+SHA256sum: d0f63e761ffff9f4a64abc40a491ab177bc741727d714f38f7fec57b67c37a62
 Description:  Kernel module that allows LEDs to be initialised in the ON state
 
 Package: kmod-ledtrig-netdev
@@ -2650,11 +2663,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 4320
+Installed-Size: 4318
 Filename: kmod-ledtrig-netdev_3.4.11-1_brcm63xx-tch.ipk
 Size: 5096
-MD5Sum: 2d17c9132b6a635400bf60c578f5fb38
-SHA256sum: 6c27bbc768a4d0b8f1f73188bfe515f66c9aeff9e6ee4077933e2091790e544b
+MD5Sum: 9ee1cf8b0a611f9112ddd27acc0c9b02
+SHA256sum: 174173e813a2a0fa226faf5a99ac4b24dae3265f10ab31056603cf7ac7b00afc
 Description:  Kernel module to drive LEDs based on network activity
 
 Package: kmod-ledtrig-timer
@@ -2665,11 +2678,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1787
+Installed-Size: 1785
 Filename: kmod-ledtrig-timer_3.4.11-1_brcm63xx-tch.ipk
-Size: 2584
-MD5Sum: 1049fdf5111120ed3cfc6a4150680503
-SHA256sum: 021e05be22c64fa55283c75a64de7c981b791710ddd769609cd0d2bf4b6a39e5
+Size: 2579
+MD5Sum: d3da829273ccf9a417e892ad308b208b
+SHA256sum: 940b3fc38d83b14211c517a49d25db42e9227148ea07436eba683216ff20a9d1
 Description:  Kernel module that allows LEDs to be controlled by a programmable timer
  via sysfs
 
@@ -2681,11 +2694,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1213
+Installed-Size: 1216
 Filename: kmod-lib-cordic_3.4.11-1_brcm63xx-tch.ipk
-Size: 2002
-MD5Sum: aea621b4a428dbcc5978230af1b7909c
-SHA256sum: 82f7389b01b614abb4394060e7e7f4e49fd76a908b9843b9fa81e3a3b9459492
+Size: 2010
+MD5Sum: 587ad05a1d430a8d0b5b4f5b0077a384
+SHA256sum: 41c876d16ed526db5e1a12258a25ccb00ac9134392468be490febb614dcb8fcc
 Description:  Kernel module for Cordic function support
 
 Package: kmod-lib-crc-ccitt
@@ -2698,9 +2711,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 190
 Filename: kmod-lib-crc-ccitt_3.4.11-1_brcm63xx-tch.ipk
-Size: 959
-MD5Sum: e2873d76722b2b2084bcbae76b05d883
-SHA256sum: 08781fd17b70eea1394711b7b64512555081555e5c5f4e10e8807a63502b4368
+Size: 960
+MD5Sum: c40b27fab51cada77f3db040c1fc4ea6
+SHA256sum: 073b89662a4eafcee1b0a4e87d633f4a356e52e5be0e69446d1cbcd1e618496c
 Description:  Kernel module for CRC-CCITT support
 
 Package: kmod-lib-crc-itu-t
@@ -2711,11 +2724,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1547
+Installed-Size: 1543
 Filename: kmod-lib-crc-itu-t_3.4.11-1_brcm63xx-tch.ipk
-Size: 2340
-MD5Sum: 8d70debbc51171df2d12a5f49e0fd829
-SHA256sum: 4aa8b125f256868ff0f87eac1bdece976c700cf869205c65b9672aa971c2c5ec
+Size: 2338
+MD5Sum: 980a5ec0c7d4b2fb3b12740f51668d9b
+SHA256sum: 74476754622eb30b6bb0507d2f4e54cc92f20e8ff6e8a1a588563a1c68fd80a9
 Description:  Kernel module for CRC ITU-T V.41 support
 
 Package: kmod-lib-crc16
@@ -2728,9 +2741,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 1477
 Filename: kmod-lib-crc16_3.4.11-1_brcm63xx-tch.ipk
-Size: 2263
-MD5Sum: e3b656f2844ef7b58c557ab153663365
-SHA256sum: 184d88854361228e4c1a1426e47e6ecd7f02b50f0c39b61098dcd58feae2fdd4
+Size: 2270
+MD5Sum: dca3efc490f44a2f677aed32e32a219e
+SHA256sum: 2715633f859a6e8665ecef2cd03aa891d159edc054b9d65537d68901f7773949
 Description:  Kernel module for CRC16 support
 
 Package: kmod-lib-crc32c
@@ -2741,11 +2754,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1425
+Installed-Size: 1426
 Filename: kmod-lib-crc32c_3.4.11-1_brcm63xx-tch.ipk
-Size: 2228
-MD5Sum: 4d94a99790751ea95cb1eeeb5462f32b
-SHA256sum: 3e6b62be0242bc89073e6fca36771d78f5c8a379c6c103217454de9048ecfc6f
+Size: 2229
+MD5Sum: 0fddd9e11c4a2ea52643be625411ef09
+SHA256sum: dee5bb346ed35d5685eed51b2ba874db5b0ad9f880e66925e4e6542b553ef017
 Description:  Kernel module for CRC32 support
 
 Package: kmod-lib-crc7
@@ -2756,11 +2769,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1188
+Installed-Size: 1187
 Filename: kmod-lib-crc7_3.4.11-1_brcm63xx-tch.ipk
-Size: 1978
-MD5Sum: 600df4849d94c480d2d5cd857a449b28
-SHA256sum: c497d045452febc6a4d2cb20db775458e97d3833f04f55292b819b802aa771bf
+Size: 1980
+MD5Sum: c9508dc8f2df17b326609921b3844c1c
+SHA256sum: 07f9ac39a9ad8fd15f6395afe7f9311d7aa1793acd8d3182e343413961a0a52c
 Description:  Kernel module for CRC7 support
 
 Package: kmod-lib-crc8
@@ -2771,11 +2784,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1145
+Installed-Size: 1144
 Filename: kmod-lib-crc8_3.4.11-1_brcm63xx-tch.ipk
-Size: 1932
-MD5Sum: 57d4afaf8868b3e2747251c60876fb1e
-SHA256sum: 43dcf849b93e37a09982f548632ae8fc16d9222c8e5320ab7e6e31d7e34211a2
+Size: 1934
+MD5Sum: 0e42f2986273929f8c5715aaebe31645
+SHA256sum: c8468a8b6cbd9238260a8932485a75e43025ca6d32af17ca4c5b4e22886f1655
 Description:  Kernel module for CRC8 support
 
 Package: kmod-lib-zlib
@@ -2788,9 +2801,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 200
 Filename: kmod-lib-zlib_3.4.11-1_brcm63xx-tch.ipk
-Size: 960
-MD5Sum: 7c81492f7abc4dffc276b1e2476cde09
-SHA256sum: 5cccc4b7f145876bfbc82e66a5cbc35254fbd446d8109800bdca38a4685901f5
+Size: 958
+MD5Sum: 78ff819f6973bcbb2eaa7e687e927c99
+SHA256sum: 0fefbf8487bbe9446835a70f27bfcaf8d47842271db47ad98e25580485e3417b
 Description:  Zlib support
 
 Package: kmod-libphy
@@ -2801,11 +2814,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 8940
+Installed-Size: 8943
 Filename: kmod-libphy_3.4.11-1_brcm63xx-tch.ipk
-Size: 9727
-MD5Sum: c51114fa6bd87c0ec06d7f6e4d6962da
-SHA256sum: 674e2ef694d8e8a1095b22d065ac885489bbc4592145cb9c089441415d6c6b26
+Size: 9736
+MD5Sum: d8a502d340cae695d841530770310760
+SHA256sum: 7213288145d413916abbc72195db1218e3fe9d02733c7fa3d587200b9dc79bb3
 Description:  PHY library
 
 Package: kmod-llc
@@ -2816,11 +2829,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 193
+Installed-Size: 194
 Filename: kmod-llc_3.4.11-1_brcm63xx-tch.ipk
-Size: 968
-MD5Sum: 0b43d4ed45543bce47baf09ff4678b26
-SHA256sum: 9f6d33d1514a7ed567427a37b59b95f4f6c13741476e0f9a48eb280c1f0369a4
+Size: 967
+MD5Sum: 329f39e5ca3838b8de6fdeac8ba841a0
+SHA256sum: 446333bc78433584dd862db50992d1ff860e5d76ab97f97cb7e0bf4a0b470c00
 Description:  Kernel module for ANSI/IEEE 802.2 LLC support.
 
 Package: kmod-mii
@@ -2833,9 +2846,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 2898
 Filename: kmod-mii_3.4.11-1_brcm63xx-tch.ipk
-Size: 3644
-MD5Sum: 04f4ae92c624b8ce2083585ac0602aa5
-SHA256sum: 14897477206eb0159e15c35fd4139bae54f341ceb4c87316d0a734f6ab42aa2f
+Size: 3642
+MD5Sum: 3a6257f33fc5fb3b4492075cdf425c46
+SHA256sum: 1e98bfdb373a984aef3d1708fd75b464f8f375441e16deb34b2ba98da86a0d17
 Description:  MII library
 
 Package: kmod-mmc-spi
@@ -2846,11 +2859,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 6543
+Installed-Size: 6545
 Filename: kmod-mmc-spi_3.4.11-1_brcm63xx-tch.ipk
-Size: 7383
-MD5Sum: a8878c2c30cb0434ac3b73b80721cf93
-SHA256sum: 11dd36f736c1b65c8e70431b172acd73913f6e7a870957f99e26b7b5008aba01
+Size: 7387
+MD5Sum: 7f8f1e4b44a583c4999da9df5c2200af
+SHA256sum: 0158b8c556c3ef7006a656d74b71096bc103ae2b4a6fd3d2f5cd2c183705fb32
 Description:  Kernel support for MMC/SD over SPI
 
 Package: kmod-mmc
@@ -2861,11 +2874,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 49712
+Installed-Size: 49717
 Filename: kmod-mmc_3.4.11-1_brcm63xx-tch.ipk
-Size: 50437
-MD5Sum: 1f4c12dbd88f75c299ed0cb61826949d
-SHA256sum: f9361dac228ebeb8788b10c078606a91efd956439c435e450c9205061dc89d08
+Size: 50457
+MD5Sum: ed0b6ded0a54a068f8f84803bd745abd
+SHA256sum: 24b3f493f6e4d2170caf8e1748cde004180f550ad90e2f2030a6911e8695f794
 Description:  Kernel support for MMC/SD cards
 
 Package: kmod-mppe
@@ -2876,11 +2889,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 4364
+Installed-Size: 4365
 Filename: kmod-mppe_3.4.11-1_brcm63xx-tch.ipk
-Size: 5167
-MD5Sum: 7fc627f15d6c9ddd0a40e99eeea2dce5
-SHA256sum: 564f74ecf077521fc09c4543c82ebae57648c31e6ca7713b64d0f3e58be00c88
+Size: 5175
+MD5Sum: 9b053619e127b199fdbe06b09d434324
+SHA256sum: a0670d65166fccd0f7168e940c9b852a80cfcb13d8d6c84ed519bb30e4dec90a
 Description:  Kernel modules for Microsoft PPP compression/encryption
 
 Package: kmod-nf-conntrack-netlink
@@ -2891,11 +2904,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 9355
+Installed-Size: 9354
 Filename: kmod-nf-conntrack-netlink_3.4.11-1_brcm63xx-tch.ipk
-Size: 10196
-MD5Sum: aad5bb3684b9d1acaf15037aef4f0110
-SHA256sum: 32c5b655aa4f4c6c170e6b9232469807c54ab3e94ec57a2b88b467993903ea79
+Size: 10198
+MD5Sum: e56bb9fa2572ce0fa1078bdfb4728dd7
+SHA256sum: 75d1d72d65e64af99582ea8885538f02fbdfc98089d0789c54e748269b37150a
 Description:  Kernel modules support for a netlink-based connection tracking
  userspace interface
 
@@ -2909,9 +2922,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 8563
 Filename: kmod-nf-conntrack6_3.4.11-1_brcm63xx-tch.ipk
-Size: 9387
-MD5Sum: ea683c9fab2bd00aefa7e82dd10cd7ef
-SHA256sum: 2410ac8fe23d769480036f08be6ca986f7a5ff915769929a8fb8a850dce609aa
+Size: 9392
+MD5Sum: eb5d0380a63f23e0623561aa3053cf1a
+SHA256sum: 64138ca2e82c34c39715a60dd28de4b1ee00bd906dda1b7c5fbf0f0652b52446
 Description:  Netfilter IPv6 connection tracking
 
 Package: kmod-nf-conntrack
@@ -2922,11 +2935,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 32383
+Installed-Size: 32386
 Filename: kmod-nf-conntrack_3.4.11-1_brcm63xx-tch.ipk
-Size: 33104
-MD5Sum: c6af2babdb52d2b3176331c77ba2930f
-SHA256sum: e839dc1c220113ac1d8ba7bf72cb251e55efef0ee4734eac0f6aa964c3032b76
+Size: 33102
+MD5Sum: f3e85928ae0756db7e5cee797556171a
+SHA256sum: 25342ee1c45d6438c3498a523d4b1b17f3461a739bdc0bb6c2fb74bed3d0f385
 Description:  Netfilter connection tracking
 
 Package: kmod-nf-ipt6
@@ -2937,11 +2950,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 8362
+Installed-Size: 8361
 Filename: kmod-nf-ipt6_3.4.11-1_brcm63xx-tch.ipk
-Size: 9144
-MD5Sum: 1659f0f215b7152d3e85ceec710958f3
-SHA256sum: 907ae985680573e55606e3e6cf7b0f4d9ad58cd58a62567e53ad8ac7c086096b
+Size: 9143
+MD5Sum: 06964f958d55e96290a98089c61d0eb7
+SHA256sum: e7e2fc7f2a0ebb5d77aacfb3f2a31fc9b005dc1c7239ae24e93d2b3498294424
 Description:  Ip6tables core
 
 Package: kmod-nf-ipt
@@ -2952,11 +2965,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 7856
+Installed-Size: 7853
 Filename: kmod-nf-ipt_3.4.11-1_brcm63xx-tch.ipk
-Size: 8614
-MD5Sum: de80915546aa325305674259810c503a
-SHA256sum: eeec8c8157e8b3f497d86439742fe27b59e7e3e2df4cfa13068538f0a6e5bbea
+Size: 8618
+MD5Sum: 38ef7505460e5a4dc0e784e89082a22e
+SHA256sum: 1422b8aafbdca1cc00588e0aad362a02b20e7046c218229d708ead01e64cafbf
 Description:  Iptables core
 
 Package: kmod-nf-nat
@@ -2967,11 +2980,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 8756
+Installed-Size: 8755
 Filename: kmod-nf-nat_3.4.11-1_brcm63xx-tch.ipk
-Size: 9559
-MD5Sum: 6a754f5a3a40aa174a784123a1010829
-SHA256sum: 295cd09289912cdc365a7866941b0853ed537bec9001b0e46d383f650f90bf5b
+Size: 9557
+MD5Sum: 5303d9d340c9aed558db1c40ba3e8768
+SHA256sum: 4ce71b37c7ebb386b989d43b22d68d2a850e74788d3ff55de72e2e16a73a56cc
 Description:  Netfilter NAT
 
 Package: kmod-nf-nathelper
@@ -2982,11 +2995,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 4093
+Installed-Size: 4095
 Filename: kmod-nf-nathelper_3.4.11-1_brcm63xx-tch.ipk
-Size: 4905
-MD5Sum: 6151e0360fdeb71fb427ec6d441d7640
-SHA256sum: a4c34c12784dcbdb974d5e59258cd6c37ca80f05353c25418b427cfc4c038fe9
+Size: 4901
+MD5Sum: a30671cd5deeefb78958c36fe34ca01e
+SHA256sum: cc182a5742f6fae61ec388d4790f9dd3d0ecb37709485155f288b48a8226fffb
 Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
  Includes:
  - ftp
@@ -3001,11 +3014,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 5794
+Installed-Size: 5793
 Filename: kmod-nfnetlink-log_3.4.11-1_brcm63xx-tch.ipk
-Size: 6612
-MD5Sum: 8ba3a62476efe9543b43d6c607efeacf
-SHA256sum: ac8bda6718a5bffc544102ff9b4cc266d13852779ca9841c11c7f189be1358ef
+Size: 6613
+MD5Sum: 1ab73ab5810e8abd9cdaa20aa267e18c
+SHA256sum: bee2e453ce83c7b79490fd2ff11d0f9e20648d3401703040976ae5bb4f1b56ab
 Description:  Kernel modules support for logging packets via NFNETLINK
  Includes:
  - NFLOG
@@ -3018,11 +3031,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 6291
+Installed-Size: 6292
 Filename: kmod-nfnetlink-queue_3.4.11-1_brcm63xx-tch.ipk
 Size: 7158
-MD5Sum: a6099d5cc935745a5cce5156f1907e05
-SHA256sum: b024b96eab8bd9b3aa36296d987ead06d0eb089100b63bae0c8261e19c055bf7
+MD5Sum: eb44798109275407653f0b86d35059c5
+SHA256sum: c7eda6d87bd40c5c618374590cb25f001b67d85ef029d42894256ac57bd97b96
 Description:  Kernel modules support for queueing packets via NFNETLINK
  Includes:
  - NFQUEUE
@@ -3035,11 +3048,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2744
+Installed-Size: 2745
 Filename: kmod-nfnetlink_3.4.11-1_brcm63xx-tch.ipk
-Size: 3527
-MD5Sum: 01f710f737fe9279541d7e2ab4a12af4
-SHA256sum: 8622e9dc7f07a57eeef62fe17a93940b9c9edc82aef036fcdac6a2d3e3fe6aac
+Size: 3525
+MD5Sum: 48bc0c6844402b887eb7a9150023df37
+SHA256sum: 27f51454c7c617dca835321aaf26a9cf19cc0f9baf62478e5dfe5166d32c5168
 Description:  Kernel modules support for a netlink-based userspace interface
 
 Package: kmod-nls-base
@@ -3050,11 +3063,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-nls-base_3.4.11-1_brcm63xx-tch.ipk
-Size: 818
-MD5Sum: f9a57f1dce1a24b8f03af52c01d72c63
-SHA256sum: 610ec9d7dc7efb1e602a367d6b633401dca971088c4a42b8fe1a9d390dc51e4e
+Size: 813
+MD5Sum: 18d60773ddd36688d297bb7f96959869
+SHA256sum: 0933753683b998bd4c40aadc56e8a9ef06e36f217c624555c54611f1d783a595
 Description:  Kernel module for NLS (Native Language Support)
 
 Package: kmod-nls-cp437
@@ -3067,9 +3080,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 192
 Filename: kmod-nls-cp437_3.4.11-1_brcm63xx-tch.ipk
-Size: 989
-MD5Sum: d222fd9dd8d440788c84723d136ac332
-SHA256sum: 830933d06285f6a068901f2c7228397ee067c2850891022a383846241c8deff7
+Size: 984
+MD5Sum: c486f6cf569c3d3eec37678908d0926e
+SHA256sum: 7a8329b3368781e821d52fd4591c4c113294a0eb1528fa590c8459ad0cbfd000
 Description:  Kernel module for NLS Codepage 437 (United States, Canada)
 
 Package: kmod-nls-iso8859-1
@@ -3080,11 +3093,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 198
+Installed-Size: 197
 Filename: kmod-nls-iso8859-1_3.4.11-1_brcm63xx-tch.ipk
-Size: 984
-MD5Sum: 7ada68ac929ed7ca25ba016fe94b8db4
-SHA256sum: 599cab790d067f94a3214827359af0ff00a2a5e13cb818aa8e1f8c498e3687e0
+Size: 982
+MD5Sum: 8471b481a8f57c454744e7ee1695bbe9
+SHA256sum: 7900d778d798db44968dd7fe95c9a2864062cb07ff132ec40f4a010420be6469
 Description:  Kernel module for NLS ISO 8859-1 (Latin 1)
 
 Package: kmod-nls-utf8
@@ -3095,11 +3108,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1260
+Installed-Size: 1261
 Filename: kmod-nls-utf8_3.4.11-1_brcm63xx-tch.ipk
-Size: 2062
-MD5Sum: 056c182d58bbb9abec31b35049d5647b
-SHA256sum: 3497c80e2ad220aee1bc5a59b7bee7d68944f24c35f2217485bdd35a8b2d72a7
+Size: 2059
+MD5Sum: c951a9f05f17fd730d6b4237f3c0a882
+SHA256sum: b291dfd96f7c9898d0e8da635e9719680a3cfe02fc02ecbcc918d7b9196f4d08
 Description:  Kernel module for NLS UTF-8
 
 Package: kmod-ppp
@@ -3110,11 +3123,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 188
+Installed-Size: 189
 Filename: kmod-ppp_3.4.11-1_brcm63xx-tch.ipk
-Size: 966
-MD5Sum: 5e5da54525912c7e7b04bcc3d7c5f501
-SHA256sum: 9b1c906efccfdd67193c2ab3be35b23f8836d8296f7ba3cfbdf974a60a03677b
+Size: 968
+MD5Sum: d3abbcddb17ef490b3c9ed7a7b89d2c1
+SHA256sum: 606d6e847201f5006397f48becc30fc7d5e903834071a418917913cc844a6003
 Description:  Kernel modules for PPP support
 
 Package: kmod-pppoa
@@ -3125,11 +3138,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2758
+Installed-Size: 2759
 Filename: kmod-pppoa_3.4.11-1_brcm63xx-tch.ipk
-Size: 3532
-MD5Sum: fc84da02e964ecf3ba4bbb3d4f4a2fe3
-SHA256sum: a8a3aaf55336c4f6f23de44a74a1bc2e6ad6d9591dc19bf886e73d4501978ed5
+Size: 3533
+MD5Sum: 3bf9ca82641e53154e94340fb840293f
+SHA256sum: 5ef810b8497ca15d0d5f54a58fe61c12c707b0ba50af875d524ee453b8e95aa8
 Description:  Kernel modules for PPPoA (PPP over ATM) support
 
 Package: kmod-pppoe
@@ -3140,11 +3153,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 182
+Installed-Size: 181
 Filename: kmod-pppoe_3.4.11-1_brcm63xx-tch.ipk
 Size: 959
-MD5Sum: 0e26b2b062a26393b9a262c13f457090
-SHA256sum: 4c80a1d213414cb759ab383f08a4763be9b03c507df69ab18e568144896f8e57
+MD5Sum: 1da68b4c4da951d35006a43636d7102a
+SHA256sum: bb7a3cad420bc77542c441692acbf5748d5ef08ba790cde4909e3fe89a8b5a85
 Description:  Kernel module for PPPoE (PPP over Ethernet) support
 
 Package: kmod-pppol2tp
@@ -3155,11 +3168,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 9512
+Installed-Size: 9513
 Filename: kmod-pppol2tp_3.4.11-1_brcm63xx-tch.ipk
-Size: 10338
-MD5Sum: 08d74e921af896e5d9b603de9a04256c
-SHA256sum: 1023b3325b0637cf4f26bcda1a2837560428b0d7345cf26d16b9a234630e8a13
+Size: 10339
+MD5Sum: 99a38f4cfef47031030e9f465acb7b3c
+SHA256sum: 14c3b4573bbbe6758caac93f8baa5c2b4d2432d20273c62343b6bb055b9e635d
 Description:  Kernel modules for PPPoL2TP (PPP over L2TP) support
 
 Package: kmod-pppox
@@ -3170,11 +3183,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-pppox_3.4.11-1_brcm63xx-tch.ipk
-Size: 817
-MD5Sum: 4b9160b8b3deae5ab48e45b71d7f48d8
-SHA256sum: f425891f1449ffb5cbdb7c1dd2e742ee2969d9d4c097edaf13a5c9adde0a6104
+Size: 814
+MD5Sum: b22395445d481e4ed63b1f40ac2fdc41
+SHA256sum: 06784e4290a824074d0b420735f225efe414901e313fb8ea04ed1180478b1386
 Description:  Kernel helper module for PPPoE and PPTP support
 
 Package: kmod-pps
@@ -3185,11 +3198,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 5045
+Installed-Size: 5051
 Filename: kmod-pps_3.4.11-1_brcm63xx-tch.ipk
-Size: 5882
-MD5Sum: 0ef49a36563f7cfb3431ade1f4b1d5d9
-SHA256sum: eada95e6f0cdf22e95ff090d6776efdae108019444acd380d3e2b2cbc4f832db
+Size: 5892
+MD5Sum: f7091ff05336453bc0e071272bb63114
+SHA256sum: d231f6a7f86811abc1df4b8acf5f79f3300d518b08279bc5577bb933c57a4c21
 Description:  PPS (Pulse Per Second) is a special pulse provided by some GPS
  antennae. Userland can use it to get a high-precision time
  reference.
@@ -3202,11 +3215,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 5516
+Installed-Size: 5517
 Filename: kmod-pptp_3.4.11-1_brcm63xx-tch.ipk
-Size: 6289
-MD5Sum: 49010bff5c5c4b649bf28eaa951e2a14
-SHA256sum: 6d3f2027df30c4e2bf4a9a8ad9cebddd099ebf5e71bbbc674dadd05e6796ff8d
+Size: 6293
+MD5Sum: bc642f24b44f6b9c3c46102c0f7896f2
+SHA256sum: 403e2bf195073f4f22baa6560d6afd8b0b708ee241a7243fd30a399965d3b1dd
 Description:  PPtP support
 
 Package: kmod-ptp
@@ -3219,9 +3232,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 5559
 Filename: kmod-ptp_3.4.11-1_brcm63xx-tch.ipk
-Size: 6402
-MD5Sum: e865c970e36fe6aa33b198a4a4363afb
-SHA256sum: 0603ab922e6468ad7ed1d08b7b576f8d9c516e29bbf9cfb50c873b652443e659
+Size: 6398
+MD5Sum: 926683e7aab573942d29977f694a8172
+SHA256sum: 20745d91f1900958166246c828d15e785f7368e796328d7665cad96c2a6a5bab
 Description:  The IEEE 1588 standard defines a method to precisely
  synchronize distributed clocks over Ethernet networks.
 
@@ -3232,11 +3245,11 @@ Source: package/kernel/ripdrv
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 19847
+Installed-Size: 19846
 Filename: kmod-ripdrv_3.4.11+2014.01-1_brcm63xx-tch.ipk
-Size: 20631
-MD5Sum: 662c8751ed5bb528811919e15d350deb
-SHA256sum: c85c2758f8e513a03d905ff1ad143bc26345f48f92a24b5c0f1bbce09444b8f3
+Size: 20632
+MD5Sum: fe3ab2a6f32176b097352a60119de358
+SHA256sum: 591416b933d1efaee1a0ed8261bb3644c0847c80d1d99c352f8e463bc757188d
 Description:  Kernel module that provides access to the eRIPv2 on Technicolor gateways.
 
 Package: kmod-sched-core
@@ -3247,11 +3260,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 20342
+Installed-Size: 20338
 Filename: kmod-sched-core_3.4.11-1_brcm63xx-tch.ipk
-Size: 21109
-MD5Sum: 2a86a6c9265770c1099d8c59cad50232
-SHA256sum: a6a06f192956b6e77ede48341e21c8a78ea526f9d9e9b6330827447e9aea9799
+Size: 21114
+MD5Sum: 79f3f157327b376ccb0119e82a46e4ef
+SHA256sum: dc2a08d4714db372a3a7b7920836f7bce601fe10161e540a501d7753e84f304f
 Description:  Core kernel scheduler support for IP traffic
 
 Package: kmod-sched
@@ -3262,11 +3275,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 24724
+Installed-Size: 24733
 Filename: kmod-sched_3.4.11-1_brcm63xx-tch.ipk
-Size: 25528
-MD5Sum: a201bf740274d9fea1461f2318f59da9
-SHA256sum: 9e2001c086b6afa2a80d5c5c82141d28c3371e57e6b8a9d1505bfb680a18953d
+Size: 25543
+MD5Sum: 4942192438efc7210e584ab0264d2ce9
+SHA256sum: f4a32dbd6a84eaa709a426cbcd5b24fb88882bcb53d4cdaea1163639ac5c6a2c
 Description:  Extra kernel schedulers modules for IP traffic
 
 Package: kmod-scsi-core
@@ -3277,11 +3290,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 237
+Installed-Size: 239
 Filename: kmod-scsi-core_3.4.11-1_brcm63xx-tch.ipk
-Size: 998
-MD5Sum: 4566a9644e4f8b0f2a66975a300cc828
-SHA256sum: f366c9af04c4c95c6231023a4878fbf9887e90405783889eec669c14f626f5d0
+Size: 1003
+MD5Sum: 7fff3bb8dbf83bef1f3421df1fbcb8dd
+SHA256sum: e157ce53289a421fa783d9c949da31a6749e0daa86d726ba1b644018d50df20f
 Description:  SCSI device support
 
 Package: kmod-sctp
@@ -3292,11 +3305,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 96260
+Installed-Size: 96262
 Filename: kmod-sctp_3.4.11-1_brcm63xx-tch.ipk
-Size: 96237
-MD5Sum: 90bda46a6ee7a9e1b68155f5d83057ca
-SHA256sum: d4204e12e2c3093d3b507f49cf21ae0def02e186f111748bce1b4564722afc13
+Size: 96236
+MD5Sum: 590c647281e5a8f542f5fdc3035005d5
+SHA256sum: a0bdc8284434608c7a6518f46f8947f7df5ed5eb33db58966a77ce90d1f0bf35
 Description:  Kernel modules for SCTP protocol support
 
 Package: kmod-sit
@@ -3309,9 +3322,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 184
 Filename: kmod-sit_3.4.11-1_brcm63xx-tch.ipk
-Size: 963
-MD5Sum: 00715b89fd2dcecf74aee960a61ffa0a
-SHA256sum: 70f757bea81c0c953530aa5225c0f0cab9eeb79df4c68f25043cab6af9d0ed7f
+Size: 973
+MD5Sum: 7450583b82a96e8f10ef72b7951de26e
+SHA256sum: d5dbc09d40581d04ff7fbcf3218aa7237ff7f30d17d7c584309aca3b9cf7d591
 Description:  Kernel modules for IPv6-in-IPv4 tunnelling
 
 Package: kmod-slhc
@@ -3322,11 +3335,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-slhc_3.4.11-1_brcm63xx-tch.ipk
-Size: 814
-MD5Sum: 7886d58bf2e2af93b38219e03cd7bbb9
-SHA256sum: 6a678145b44dc428368f5b8817edf82e7e7fd7874e5c97e62540ec2fb297ecf4
+Size: 813
+MD5Sum: 65956c46086bebfa168838d0505e5857
+SHA256sum: 6a6094dc160117a3aa8f8edaa5b14fe17c753305347533622d707268af0da0fb
 Description:  Serial Line Header Compression
 
 Package: kmod-sound-core
@@ -3337,11 +3350,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 114106
+Installed-Size: 114107
 Filename: kmod-sound-core_3.4.11-1_brcm63xx-tch.ipk
-Size: 114785
-MD5Sum: 832a407097d23f531a62e4492bc9fc82
-SHA256sum: d0612dc7740e6eb2e459187fa908cb72cc0ca383416b22d5464985079984523c
+Size: 114838
+MD5Sum: 7d8b419d27f257473dd5785a7b6a0b24
+SHA256sum: c12b2ff5d722bc6bd0580d5c0c7bf65e20db55d44fc4c4ee1512863647aebc31
 Description:  Kernel modules for sound support
 
 Package: kmod-spi-bitbang
@@ -3352,11 +3365,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2927
+Installed-Size: 2930
 Filename: kmod-spi-bitbang_3.4.11-1_brcm63xx-tch.ipk
-Size: 3671
-MD5Sum: f247f63397c47cc13ca3f180913d1763
-SHA256sum: b6333addd190f90b0efc925b631274e7c66115ec5f59effb19c523dfa891a8d2
+Size: 3674
+MD5Sum: dc2987f63431d80bd7615a9b6cc3af97
+SHA256sum: e1ecff9831aad4d73eb0da3cefc312b16541f9c691930953b03c77ddbc09ecd3
 Description:  This package contains the SPI bitbanging library
 
 Package: kmod-spi-dev
@@ -3367,11 +3380,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 4466
+Installed-Size: 4468
 Filename: kmod-spi-dev_3.4.11-1_brcm63xx-tch.ipk
-Size: 5242
-MD5Sum: 4a1e63bcbe88692d546cbf5b172b96e7
-SHA256sum: 1cad78c28f6f63c4388eb6d2c26f2df57a8a0a673b81e5effa4dfa111f472699
+Size: 5236
+MD5Sum: a560ca9a632908a51cd72f5ffcfa45d6
+SHA256sum: 7936d781a7a28e00f28ad4323c003171f1dd9fc6ad9a51a45d5c61e012e07428
 Description:  This package contains the user mode SPI device driver
 
 Package: kmod-spi-gpio-custom
@@ -3380,11 +3393,11 @@ Depends: kernel, kmod-spi-bitbang, kmod-spi-gpio, kmod-spi-dev
 Source: package/kernel/spi-gpio-custom
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 2595
+Installed-Size: 2594
 Filename: kmod-spi-gpio-custom_3.4.11-1_brcm63xx-tch.ipk
-Size: 3333
-MD5Sum: 976fa7caa1f667ebacb7b5aaf83feb9f
-SHA256sum: db956915808d61bd42f00d373f9c1c0d818e6d78538174baba8dd20c87183ae9
+Size: 3330
+MD5Sum: ba7b281cd11576b4575ab8e7ad5c6ca4
+SHA256sum: 4d94ac8c03cf0b1a74e76a52e24b1ad2a53176cab5519126287573ccc1057119
 Description:  Kernel module for register a custom spi-gpio platform device.
 
 Package: kmod-spi-gpio-old
@@ -3395,11 +3408,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 105
+Installed-Size: 104
 Filename: kmod-spi-gpio-old_3.4.11-1_brcm63xx-tch.ipk
-Size: 838
-MD5Sum: f02867d47e83883431eebebccf5f8972
-SHA256sum: 0d8f5050dbc065227d2762458c0b25f9104bb5e21d5e2dc539802386d99ba65f
+Size: 835
+MD5Sum: f5dc205c4dee8d7c22d13c502edafaed
+SHA256sum: 47b8489743ecedb4bb8f64fe277142e8ba46914964ed89821fe935777fa84845
 Description:  This package contains the GPIO based bitbanging SPI controller driver
 
 Package: kmod-spi-gpio
@@ -3410,11 +3423,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2890
+Installed-Size: 2895
 Filename: kmod-spi-gpio_3.4.11-1_brcm63xx-tch.ipk
-Size: 3681
-MD5Sum: a8a032474cc469ddb3b5db3b8be1be22
-SHA256sum: e56f02190e1f6539128d891f19a00c923511823407ce6e64378922cab8ab8f28
+Size: 3688
+MD5Sum: 30c9ac4cf13df718103d5ea5eb371eb0
+SHA256sum: d99baa7ac8f83c5ee05e963f793de4cb6b409169da8bbc09b16845b1d76cffbc
 Description:  This package contains the GPIO-based bitbanging SPI Master
 
 Package: kmod-stp
@@ -3427,9 +3440,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 183
 Filename: kmod-stp_3.4.11-1_brcm63xx-tch.ipk
-Size: 966
-MD5Sum: c972569d943ade7094a704243284311e
-SHA256sum: 576923205f497e77a42d3eba09e0eb3fcaf80644cb98f49cdf15568015fd5ee3
+Size: 972
+MD5Sum: b100838805dbea981c51843d3bb8f2b1
+SHA256sum: b8fa9071b4d0c9a9b01388fc81c9c078c0b792c0aac94c34791aa2cace0f7577
 Description:  Kernel module for Ethernet Spanning Tree Protocol support.
 
 Package: kmod-tomcrypt
@@ -3439,11 +3452,11 @@ Source: package/kernel/tomcrypt
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 40354
+Installed-Size: 40355
 Filename: kmod-tomcrypt_3.4.11+1.17-1_brcm63xx-tch.ipk
-Size: 41148
-MD5Sum: 571ef384ab49d7ce6c452b4a62cc6a09
-SHA256sum: 0d664090484081f05e6da1abe22b070d5ed3943467a2ab3460c21f4a43b2de74
+Size: 41135
+MD5Sum: e888d12464f0d48fc7e7b03ddb2561de
+SHA256sum: 2ef932a8afe20e54fae273a12731399791c71f63a3ff6711ccb2e33a42e40b4d
 Description:  Kernel module to provide tomcrypt crypto functions
 
 Package: kmod-tommath
@@ -3453,11 +3466,11 @@ Source: package/kernel/tommath
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 23357
+Installed-Size: 23358
 Filename: kmod-tommath_3.4.11+0.42.0-1_brcm63xx-tch.ipk
-Size: 23968
-MD5Sum: 23384142265dba7ea0b9b483ff99ea30
-SHA256sum: b59a0301c1931c54843a84f5d06e500f1e719122d4dd6bf8838b44f816b2c6cf
+Size: 23959
+MD5Sum: 222ec4bdfe0784c70ab7a87aeca982cb
+SHA256sum: 9eeabf454ecb45db08fee0d6dd8176fb30658aecd2cbb8a23cd8e9a18a952ec4
 Description:  Kernel module to provide tommath math functions
 
 Package: kmod-tun
@@ -3468,11 +3481,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 9267
+Installed-Size: 9268
 Filename: kmod-tun_3.4.11-1_brcm63xx-tch.ipk
-Size: 10053
-MD5Sum: 87980caa839fe15ca8d79e8109c0478f
-SHA256sum: 23a1f6fecb342b1c05895e748277567ffdeb4234f5723d8a4cdb949a27d88e8f
+Size: 10052
+MD5Sum: bffb1bbac597684cd2d2031be9ea485d
+SHA256sum: 354c77a581e3ca64a3c0d55d37c52164d49183b215c40cbb335c1ce5625636d3
 Description:  Kernel support for the TUN/TAP tunneling device
 
 Package: kmod-udptunnel4
@@ -3485,9 +3498,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-udptunnel4_3.4.11-1_brcm63xx-tch.ipk
-Size: 808
-MD5Sum: 11863643a6046ee8e0530cb3d4d18db8
-SHA256sum: 8377b3b6c5cf1cda21f6096f6c23258031759782cbd104de574b88009b90c399
+Size: 801
+MD5Sum: 9f2fdd546e391789b3e52fceb836d9c7
+SHA256sum: 310719cc36ad7b8ac44a959da95cbaba0725ff1fa5d7061838ee4c1e6d577104
 Description:  IPv4 UDP tunneling support
 
 Package: kmod-udptunnel6
@@ -3501,8 +3514,8 @@ Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-udptunnel6_3.4.11-1_brcm63xx-tch.ipk
 Size: 801
-MD5Sum: ec989ad94890ba82358cb0bb051fc7af
-SHA256sum: 4bb63b022d8b92cd17273a2ec808ac1b9114218fa11dd52d6d9d00046ab4b385
+MD5Sum: 2bc4389a3fda4dd4cc3ba94233b7f54a
+SHA256sum: 6f4f57f76f1bb1dddc50fde890e4ebfffd9e6a0e877563f60556302227d80aad
 Description:  IPv6 UDP tunneling support
 
 Package: kmod-usb-acm
@@ -3513,11 +3526,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 9512
+Installed-Size: 9517
 Filename: kmod-usb-acm_3.4.11-1_brcm63xx-tch.ipk
-Size: 10345
-MD5Sum: 8569356cba3ab9cac08655beaf9904df
-SHA256sum: 2d4de915f698207eb38a1f5a853e82b9152b6cd29a6a278d1a1d7adb796ecdd6
+Size: 10355
+MD5Sum: 87c0829cde89c2fbe5b3e0636e1f2121
+SHA256sum: 205953e40d97360f56ff32c11e2fa7edf6790008a854204aec40a6a3049847c9
 Description:  Kernel support for USB ACM devices (modems/isdn controllers)
 
 Package: kmod-usb-core
@@ -3530,9 +3543,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 238
 Filename: kmod-usb-core_3.4.11-1_brcm63xx-tch.ipk
-Size: 1013
-MD5Sum: bf8a64d771ae403221a0cb5636d1453e
-SHA256sum: 377681f2e03c00d30d39696ec350c1251427651f92afa56dd241a4a84c3056a6
+Size: 1012
+MD5Sum: 02c1c3dee94adef3bb7740929c38b9ab
+SHA256sum: d2b2ca68f119dd9840cf9894c76e0dc416a73bd183886ced52de65f59c8ebbc4
 Description:  Kernel support for USB
 
 Package: kmod-usb-net-asix
@@ -3545,9 +3558,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 8179
 Filename: kmod-usb-net-asix_3.4.11-1_brcm63xx-tch.ipk
-Size: 9000
-MD5Sum: e44f7d30166c545599e6849b35863a19
-SHA256sum: 6f09204caaa99f7e7cf60514d684a228e28b1b5578e151b34246ac295cf8a0c7
+Size: 9005
+MD5Sum: 36b77b33b21d83fa8a87913ec30b8378
+SHA256sum: a8740b92c432cf627c6e985a4debc30ef668fdd518eefedef96e0864eda4445f
 Description:  Kernel module for USB-to-Ethernet Asix convertors
 
 Package: kmod-usb-net-cdc-ether
@@ -3558,11 +3571,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 3316
+Installed-Size: 3318
 Filename: kmod-usb-net-cdc-ether_3.4.11-1_brcm63xx-tch.ipk
 Size: 4101
-MD5Sum: 404fcad5d16f50b8ad163674c33e5c08
-SHA256sum: b6d4410449dab620d9344e476a3abf3f5c080ca3f490b80e537d289b88355a01
+MD5Sum: 34685a9479508e2667e1bc00062839bf
+SHA256sum: 5e8368ea158a97340e87b8822ab12accc35fb01adb907c201d187c73d36dba34
 Description:  Kernel support for USB CDC Ethernet devices
 
 Package: kmod-usb-net-cdc-mbim
@@ -3573,11 +3586,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 4314
+Installed-Size: 4316
 Filename: kmod-usb-net-cdc-mbim_3.4.11-1_brcm63xx-tch.ipk
-Size: 5121
-MD5Sum: 4b608ac97136d49b6c3b9d1424adda8e
-SHA256sum: 19cd8263c7c1063fa601dc21be5d522f3eb7cda36c0988b4c4c355b80b39cecb
+Size: 5117
+MD5Sum: e0233ba8506787ff4ac0589e57f79b3b
+SHA256sum: 2bf60a9098634974172f89f2fc81fa4b1ed193897b190ce87159b1f93ec66762
 Description:  Kernel module for Option USB High Speed Mobile Devices
 
 Package: kmod-usb-net-cdc-ncm
@@ -3590,9 +3603,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 9789
 Filename: kmod-usb-net-cdc-ncm_3.4.11-1_brcm63xx-tch.ipk
-Size: 10596
-MD5Sum: 395dc1acf23bfbde8c767a47adb08590
-SHA256sum: 44464effa0024587ed6ad8414836f776b4897961aed502c99f2346851df36b2a
+Size: 10598
+MD5Sum: 0ba20e30bf4b3a3f40fd1a869b395ad8
+SHA256sum: 0b1a477749051d2e1b0759af752ac59bcf0b3b683a9493be38704d10ffc39d69
 Description:  Kernel support for CDC NCM connections
 
 Package: kmod-usb-net-huawei-cdc-ncm
@@ -3605,9 +3618,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 2129
 Filename: kmod-usb-net-huawei-cdc-ncm_3.4.11-1_brcm63xx-tch.ipk
-Size: 2933
-MD5Sum: 2208fcf1546e0fadf909f110a2ee976d
-SHA256sum: 9aa740b08d5435e9e0a9cbc67f723dfa6a21d495702c0ce86509cd86e602cd03
+Size: 2927
+MD5Sum: 074374588ee86fb1cdf7528bf9299991
+SHA256sum: f8d974db89d7b63c448f729e01d7dd5613a6d1f8d4bb34b212fe9e5e0aae8dc9
 Description:  Kernel support for Huawei CDC NCM connections
 
 Package: kmod-usb-net-qmi-wwan
@@ -3620,9 +3633,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 3341
 Filename: kmod-usb-net-qmi-wwan_3.4.11-1_brcm63xx-tch.ipk
-Size: 4150
-MD5Sum: a5fc57770815fdefa959873aa9479fce
-SHA256sum: 4c380bd2db46454a7fdd7c3c2fe43e6663b978669a9c0267b6d47af4301eb7bb
+Size: 4153
+MD5Sum: fcee033b7dbbf9fc9efc8ffca9b21b31
+SHA256sum: 2e049694b4b8f5337364bc79204cc61bf70dc9ad0ac92f634b2c66c62f50ea77
 Description:  QMI WWAN driver for Qualcomm MSM based 3G and LTE modems
 
 Package: kmod-usb-net-rndis
@@ -3633,11 +3646,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 4731
+Installed-Size: 4732
 Filename: kmod-usb-net-rndis_3.4.11-1_brcm63xx-tch.ipk
-Size: 5514
-MD5Sum: ac57b72924e084c59ca8a1b25b73173b
-SHA256sum: 46a3f51543387c3a3e7cb1e3ec8a837b614ebeab73f7a75ad54aaf61249cebdb
+Size: 5513
+MD5Sum: 9552cd5358979cafb4ae6e0559af9734
+SHA256sum: 872e3e1c6b3c3aef1ba8d2ef4a531af5b28fc923a0c2011e75f8b36a00e82816
 Description:  Kernel support for RNDIS connections
 
 Package: kmod-usb-net
@@ -3650,9 +3663,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 9404
 Filename: kmod-usb-net_3.4.11-1_brcm63xx-tch.ipk
-Size: 10206
-MD5Sum: 9042728304362ab0621e7ece5f2e2438
-SHA256sum: 2b23d82d2e216bf68417c14c5269aa3221f43e1894dc9172e6fa27360bb616e2
+Size: 10213
+MD5Sum: f9d8cb45272d342e3698544e57a94b01
+SHA256sum: 1ba67c521a46e3602b70729fafbb6dc5f6563301294d060eecd95754b3340cd0
 Description:  Kernel modules for USB-to-Ethernet convertors
 
 Package: kmod-usb-ohci
@@ -3663,11 +3676,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 250
+Installed-Size: 251
 Filename: kmod-usb-ohci_3.4.11-1_brcm63xx-tch.ipk
-Size: 1033
-MD5Sum: b1d602a97278d1b818b86486df5de64d
-SHA256sum: cc00238aca165b4cb1c894ab302bf40be751270cff2c3bc780f3c3b23c4425d1
+Size: 1037
+MD5Sum: e5cd195fd99efa19fb45e88139507faa
+SHA256sum: e6621cb4160b95c2f12abf69b402d3bd42f6a28cfd8cc0a98ff39956becb2401
 Description:  Kernel support for USB OHCI controllers
 
 Package: kmod-usb-serial-ftdi
@@ -3678,11 +3691,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 16013
+Installed-Size: 16017
 Filename: kmod-usb-serial-ftdi_3.4.11-1_brcm63xx-tch.ipk
-Size: 16481
-MD5Sum: bebe395d5357562ad43924d0d23aa109
-SHA256sum: c36d4956de7f0011f64f8944ee955863950846d7d663aa703c9e797ebb66c35d
+Size: 16513
+MD5Sum: 46c56b1e97dbd9ec05a8e9623701e034
+SHA256sum: 6cadadb6345a21f067b10afbcd2515d866c36630962effec8483a9c3acc780a8
 Description:  Kernel support for FTDI USB-to-Serial converters
 
 Package: kmod-usb-serial-option
@@ -3693,11 +3706,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 9457
+Installed-Size: 9463
 Filename: kmod-usb-serial-option_3.4.11-1_brcm63xx-tch.ipk
-Size: 8444
-MD5Sum: 0102a15e6f8469ea341ea70d48906b07
-SHA256sum: 1eeccc08c1178e18e9663462b93e82c02318d5aeb52b9291a6457bda585579b5
+Size: 8449
+MD5Sum: 1b2229eb48b0cd9d2cdf503eab16a0ea
+SHA256sum: b0650223294cf85757122c3985f6ae7e6cc925505e1ce08454c5175557bc18a7
 Description:  Kernel support for Option HSDPA modems
 
 Package: kmod-usb-serial-qualcomm
@@ -3708,11 +3721,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 3157
+Installed-Size: 3156
 Filename: kmod-usb-serial-qualcomm_3.4.11-1_brcm63xx-tch.ipk
-Size: 3970
-MD5Sum: c1eb3940df7de442f8e0dc37ed3fbc61
-SHA256sum: 3aa740c53196da04dc969daabb51b939d9fc580d93e8168fbf4b09114e7e896e
+Size: 3963
+MD5Sum: 268fb561946298d0a324c04da3d29783
+SHA256sum: 0e62c70dcfaf8df3d2b0cdb8f15aa993a18fbf35e6f5aca5732ba3b47d6f2901
 Description:  Kernel support for Qualcomm USB Serial devices (Gobi)
 
 Package: kmod-usb-serial-wwan
@@ -3725,9 +3738,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 5305
 Filename: kmod-usb-serial-wwan_3.4.11-1_brcm63xx-tch.ipk
-Size: 6093
-MD5Sum: b428070710b6f78b244180322c51eeed
-SHA256sum: b614ce21a0334fa4b77ff163fe802ad0806f6a52d7013db4d45318ee0404d053
+Size: 6092
+MD5Sum: 13d1c3076f9de40d7b3967a20bab16a7
+SHA256sum: 06f167231d2084994185b3c1ee7adf77d1adb8ca8c13d588749515c9a79c4224
 Description:  Kernel support for USB GSM and CDMA modems
 
 Package: kmod-usb-serial
@@ -3738,11 +3751,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 14514
+Installed-Size: 14516
 Filename: kmod-usb-serial_3.4.11-1_brcm63xx-tch.ipk
-Size: 15249
-MD5Sum: 7288459d89ee5954ec3418da1cf94922
-SHA256sum: 039a15f37fff83d896af0870645fafe3ea554c4e6b60637accac7a156dcc970c
+Size: 15270
+MD5Sum: 50b95ed94e2657f1d1e2e298b7eda9d2
+SHA256sum: 6bb311049697ab2e0272a67c130a3388fcba907f1410c1c0e21034755529b9ff
 Description:  Kernel support for USB-to-Serial converters
 
 Package: kmod-usb-storage-extras
@@ -3753,11 +3766,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 31876
+Installed-Size: 31866
 Filename: kmod-usb-storage-extras_3.4.11-1_brcm63xx-tch.ipk
-Size: 32833
-MD5Sum: 102f99f835aa58090bf637228b21c5ae
-SHA256sum: 70a4f45602f01e1efef65c08c408dd8f9fef17d6c1baee4d323eb7ec5a935c0d
+Size: 32814
+MD5Sum: ab1e24bfbbb5a6d61341c20349b9b138
+SHA256sum: 454d6c3f34dcc2fc39ae6e5ca105df02737ee3bb62e0cd31e6903ef6b4ebd216
 Description:  Say Y here if you want to have some more drivers,
  such as for SmartMedia card readers
 
@@ -3769,11 +3782,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 22550
+Installed-Size: 22551
 Filename: kmod-usb-storage_3.4.11-1_brcm63xx-tch.ipk
-Size: 23040
-MD5Sum: ce45bf71af2c43e8505aa704b7ee193e
-SHA256sum: e6709df4ceca626eb4be55ef3abaf7a1df3a7f2963241e1e6d18f98824c388a7
+Size: 23043
+MD5Sum: dd0d312dda439c68e6f4b295054f0be9
+SHA256sum: bab267845918f79a4d91216707285da6fdc5d37ab6fd9a747ea51359cbd8917e
 Description:  Kernel support for USB Mass Storage devices
 
 Package: kmod-usb-wdm
@@ -3784,11 +3797,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 6233
+Installed-Size: 6234
 Filename: kmod-usb-wdm_3.4.11-1_brcm63xx-tch.ipk
-Size: 7074
-MD5Sum: a20cda7bbfe2d71700c3234805bb8534
-SHA256sum: 7b4eb2b12082f79111126f8c94d0f4b282126acc5c1687a084faf11ebaa337dd
+Size: 7078
+MD5Sum: 7f70c065f6d32c847f453ea785aab74f
+SHA256sum: a28c3f2a0d908591866cb6eb21d779c94c955d57b759e40fb80a0615986a0c97
 Description:  USB Wireless Device Management support
 
 Package: kmod-usb2-pci
@@ -3801,9 +3814,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-usb2-pci_3.4.11-1_brcm63xx-tch.ipk
-Size: 833
-MD5Sum: 2c04accf56d37c82c9c8843716cadc91
-SHA256sum: 4dfd9917f3bff7effff398b9eda28e2c0da80b49c54c62febe3d080bd7e09fbc
+Size: 832
+MD5Sum: 363bb9f206bf528a4b22e7a05bb60371
+SHA256sum: 6f58ebe70619ec8f248dd07e9c66639f603dba1d8014d36e493f92344c134fe4
 Description:  Kernel support for PCI USB2 (EHCI) controllers
 
 Package: kmod-usb2
@@ -3814,11 +3827,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 255
+Installed-Size: 257
 Filename: kmod-usb2_3.4.11-1_brcm63xx-tch.ipk
-Size: 1040
-MD5Sum: 15dd0076d68265682cbbe895a3269728
-SHA256sum: a8d7b8ff11c186113c670e8e727958862023f2b09bb6e623bfd6c79798f0552b
+Size: 1037
+MD5Sum: 6669edd6ae9b49c2b3253d907dafdf6c
+SHA256sum: 211593036aff45cd84846090b58eaebcd5ba9c194e1a169527ab2d84e4907d55
 Description:  Kernel support for USB2 (EHCI) controllers
 
 Package: kmod-usb3
@@ -3829,11 +3842,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 40752
+Installed-Size: 40751
 Filename: kmod-usb3_3.4.11-1_brcm63xx-tch.ipk
-Size: 41464
-MD5Sum: c203e945548b483f3281e932edced6eb
-SHA256sum: cf6ed8dffc5314ba9e1127b90595bd6d30db2e7c3dc37cda875132686d78deef
+Size: 41449
+MD5Sum: 73def111f32e856a2aa39fa96e65517c
+SHA256sum: 676155139344944803b1c90205c8559576149cd3e74a8c90ec1256f6e7e2cc9e
 Description:  Kernel support for USB3 (XHCI) controllers
 
 Package: kmod-usbip
@@ -3846,9 +3859,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 105
 Filename: kmod-usbip_3.4.11-1_brcm63xx-tch.ipk
-Size: 807
-MD5Sum: b529c9e2296a3c8889534ed98c7a9962
-SHA256sum: a36d729252547cd26152287e45866d355c347d14e94a878cb10bb84786089b1f
+Size: 808
+MD5Sum: ffeec30d700e3a72dfef96caa3383496
+SHA256sum: 4450e918ae84ed7e1e39d593c9a2d868a63d91a642169d0c239328ad96de7e87
 Description:  USB-over-IP kernel support
 
 Package: kmod-usbmon
@@ -3859,11 +3872,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 11721
+Installed-Size: 11720
 Filename: kmod-usbmon_3.4.11-1_brcm63xx-tch.ipk
 Size: 12542
-MD5Sum: cc4d437a078cbca93e3d2d2cf43d4105
-SHA256sum: b152f267e3f80d59ea6a8e1a2cebc647a59fedfc8988dea56627a9ed7d5d4577
+MD5Sum: ebc92e8fa444a07a96e1c0e213f04b73
+SHA256sum: 5e40d9ed9a0987a385edaa09ddfd22a86f1d95e10751bacddc521bf3f8fe748b
 Description:  Kernel support for USB traffic monitoring
 
 Package: kmod-w1-master-ds2482
@@ -3874,11 +3887,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2685
+Installed-Size: 2683
 Filename: kmod-w1-master-ds2482_3.4.11-1_brcm63xx-tch.ipk
-Size: 3538
-MD5Sum: 5cee169c4f14f8b83b03ff446f066c18
-SHA256sum: 4642d4aea8f4502169dfcfa10f80ddf8fa690c2f7d314d9621e9356e352f660d
+Size: 3542
+MD5Sum: 1038342159a7cfca35fba9751a1ecb62
+SHA256sum: a979a3e87511077707438c509414eb6964b1a31d5294fa1e31fad960ad20ac63
 Description:  Kernel module for the DS2482 i2c 1-wire bus master driver
  NOTE: Init with: echo ds2482 0x18 > /sys/bus/i2c/devices/i2c-0/new_device
  or use owfs
@@ -3893,9 +3906,9 @@ Status: unknown hold not-installed
 Architecture: brcm63xx-tch
 Installed-Size: 4682
 Filename: kmod-w1-master-ds2490_3.4.11-1_brcm63xx-tch.ipk
-Size: 5473
-MD5Sum: 3629ef5661e1418a702e550d4a99df45
-SHA256sum: 2ad9d217982753ec280b4aadce6ab4e29b108aa0a3928ba28d47385eff4c6669
+Size: 5477
+MD5Sum: b26c435b7c2915dbe50e176f062d7bb6
+SHA256sum: 75ed5631f3b3211f8d62ea8275b9ffd07cd35c4388391a0c9934dbc5f1d70fe3
 Description:  Kernel module for the DS2490 usb 1-wire bus master driver
 
 Package: kmod-w1-master-gpio
@@ -3906,11 +3919,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1711
+Installed-Size: 1709
 Filename: kmod-w1-master-gpio_3.4.11-1_brcm63xx-tch.ipk
-Size: 2525
-MD5Sum: 50fbfce02936968d7997a3dcb937f6fb
-SHA256sum: 17ba4afa758b3d159952755b9a935c259c7ca0a6edc415a4b3414bba480fd51f
+Size: 2529
+MD5Sum: 75b3d64569010d34d349d37d15b2f63f
+SHA256sum: cd47dbca61a376b6a2bf4acaabc7a889daac68c0fa9196db793b8075162ec481
 Description:  Kernel module for the GPIO 1-wire bus master driver
 
 Package: kmod-w1-slave-ds2413
@@ -3921,11 +3934,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 104
 Filename: kmod-w1-slave-ds2413_3.4.11-1_brcm63xx-tch.ipk
-Size: 841
-MD5Sum: e287738f4f36071e5a891183717028d6
-SHA256sum: 518fd2295b18b69739a44be4395dc06bba7db9a0b4d5cd06bced41850151c831
+Size: 836
+MD5Sum: eaf08df56cee86316568f6060a54259c
+SHA256sum: 3b726d3b0b511d804f25d1fe81432e122a1e881ae7afa530c487b9148e6ca2da
 Description:  Kernel module for 1-wire DS2413 Dual Channel Addressable Switch support
 
 Package: kmod-w1-slave-ds2431
@@ -3939,8 +3952,8 @@ Architecture: brcm63xx-tch
 Installed-Size: 2299
 Filename: kmod-w1-slave-ds2431_3.4.11-1_brcm63xx-tch.ipk
 Size: 3082
-MD5Sum: 6e07d8271605433c4376faf4bf0fa0ef
-SHA256sum: 76ab1d44bdd184870e931a04b1ab29be6190f1e35bd52c771a5221d711033521
+MD5Sum: a9ccc24fd66ceda9615780c699fa06c8
+SHA256sum: 9825bbd23a0a95aeba301f9b763967ee257af9173274848fd9a8e4a5f71b1f64
 Description:  Kernel module for 1-wire 1kb EEPROM (DS2431)
 
 Package: kmod-w1-slave-ds2433
@@ -3951,11 +3964,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1912
+Installed-Size: 1911
 Filename: kmod-w1-slave-ds2433_3.4.11-1_brcm63xx-tch.ipk
-Size: 2728
-MD5Sum: 962dcc2e581c2c055051f7335dd6b7dd
-SHA256sum: 375177cba14c60682ca4e122bfbcb9532b7188e84ec905d546b3890d4e9a5eec
+Size: 2726
+MD5Sum: 7f7c660defd23096f273b782e4deaaa1
+SHA256sum: b1f6bcc8fe8ce9789c6e1676d062e2be3c909e8ac0bbe7de48379d3b5dec63ad
 Description:  Kernel module for 1-wire 4kb EEPROM (DS2433)
 
 Package: kmod-w1-slave-ds2760
@@ -3966,11 +3979,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2307
+Installed-Size: 2309
 Filename: kmod-w1-slave-ds2760_3.4.11-1_brcm63xx-tch.ipk
-Size: 3093
-MD5Sum: eb17b272b29ab294fdea06b65eabb97f
-SHA256sum: b6953fea6409d611843fa010fbc8baf19e2d09b462ddd8db12db48ec2ded10d1
+Size: 3096
+MD5Sum: b5c7c147907b371a8bba9ef6acac5f2a
+SHA256sum: f0bbbf875f1dc736080aad429b17d13ddc9ade4ee8dd97e2d22f27b502d3483d
 Description:  Kernel module for 1-wire DS2760 battery monitor chip support
 
 Package: kmod-w1-slave-smem
@@ -3981,11 +3994,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 1116
+Installed-Size: 1111
 Filename: kmod-w1-slave-smem_3.4.11-1_brcm63xx-tch.ipk
-Size: 1952
-MD5Sum: 852ad13eb7d5963c31db008cc9ae58f3
-SHA256sum: 1bf6206623e63da04e891de5793200889490c5fab381254b4c8637f531016cd4
+Size: 1946
+MD5Sum: f0f0da8d31b0686a1b9642f7c7550291
+SHA256sum: a501bd9a1636c89d1309e544c47d3d5bf317be2f845f6431942a204d559edba8
 Description:  Kernel module for 1-wire simple 64bit memory rom(ds2401/ds2411/ds1990*)
 
 Package: kmod-w1-slave-therm
@@ -3996,11 +4009,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 2674
+Installed-Size: 2671
 Filename: kmod-w1-slave-therm_3.4.11-1_brcm63xx-tch.ipk
-Size: 3457
-MD5Sum: cb5d7f1c4eb42c3542b5817c507f78d7
-SHA256sum: e3fe4a428e5e26df1da83a0afa07a9c148c597a4249c0f33d5ef61c32c92d058
+Size: 3450
+MD5Sum: 79c7b6f6500c152075ac21527a79aa7e
+SHA256sum: 841804a466fee927189434adf41706ae2b7a26d4bbfc904801d7c2a94519e788
 Description:  Kernel module for 1-wire thermal sensors
 
 Package: kmod-w1
@@ -4011,11 +4024,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: brcm63xx-tch
-Installed-Size: 11605
+Installed-Size: 11609
 Filename: kmod-w1_3.4.11-1_brcm63xx-tch.ipk
-Size: 12343
-MD5Sum: 833fd5bc78872141a018cf768a6261b3
-SHA256sum: 31ea6114810b903c193c146eb3cf0cfbaf07395cbb48698e3926806cbf65c3c8
+Size: 12347
+MD5Sum: e13ead700b2921d2caad5964613a6a63
+SHA256sum: f1b29f0123e92552e330ce1e9e749ed7224c024edc801cac5bb3222b129e7ff9
 Description:  Kernel module for Dallas's 1-wire support
 
 Package: ldconfig
@@ -4233,11 +4246,11 @@ License: LGPLv2.1 GPLv2
 LicenseFiles: COPYING.LIB COPYING
 Section: libs
 Architecture: brcm63xx-tch
-Installed-Size: 74934
+Installed-Size: 74932
 Filename: libfuse_2.9.3-2_brcm63xx-tch.ipk
-Size: 75475
-MD5Sum: 946ea00635aa4db41e83dba58312bb2b
-SHA256sum: 1b2b94012d7e3d0eb0b6cfe6ccbf7be75ab75c8e3eae6101fe497223828feed2
+Size: 75395
+MD5Sum: 9586a0e620365c990d4029fecc08dba2
+SHA256sum: 7ee9b14c2f98ebc49465bc6a04c7ab7caf4b06df08db9b727a46862e16d3f095
 Description:  FUSE (Filesystem in UserSpacE)
  This package contains the FUSE shared libraries, needed by other programs.
  - libfuse
@@ -4342,11 +4355,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: brcm63xx-tch
-Installed-Size: 20856
+Installed-Size: 20850
 Filename: libip4tc_1.6.1-1_brcm63xx-tch.ipk
-Size: 21580
-MD5Sum: c22fbe2e9dd7bec751412cc9d538d794
-SHA256sum: 5da190077219f74c1f4fbf4df98d63be03d849f697caa2be378f3c13af6e1098
+Size: 21587
+MD5Sum: e5a5e64ccbb96f2ecc59110128007c56
+SHA256sum: 75043be8b3e381ff6b5b9b40f042be1df85e1996170e5a03357604d978f6f05e
 Description:  IPv4 firewall - shared libiptc library
 
 Package: libip6tc
@@ -4356,11 +4369,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: brcm63xx-tch
-Installed-Size: 20378
+Installed-Size: 20381
 Filename: libip6tc_1.6.1-1_brcm63xx-tch.ipk
-Size: 21087
-MD5Sum: 83162b783c6378232c8b33a17c9169fb
-SHA256sum: 13dfd48f1276dc320eeb06b49d5f5ba290b33689b57fd0a361a426a095d0dd20
+Size: 21088
+MD5Sum: 97911e690586f83bee51c1926df79fc2
+SHA256sum: 33dba030eb3d4629e3a1b01df11236f12b1da3f8a2bfbc39e3fc493aa4fee71e
 Description:  IPv6 firewall - shared libiptc library
 
 Package: libiwinfo-lua
@@ -5076,11 +5089,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: brcm63xx-tch
-Installed-Size: 47243
+Installed-Size: 47246
 Filename: libxtables_1.6.1-1_brcm63xx-tch.ipk
-Size: 47923
-MD5Sum: 7357c741dd30c5f1390b7c6c61326f22
-SHA256sum: 198d516556a493a8e6d1853bb0a5244165df25dde29eeb982f53ea0ec8b3612b
+Size: 47848
+MD5Sum: fa932b0b0237b71d7d9cd3ddfac0eb36
+SHA256sum: 54afdd3c4913d16603762daad70d6322f898a8ca01d637426c8a5c9e78a17f6d
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: logd
@@ -5262,6 +5275,526 @@ MD5Sum: 5e8700435acaf55f7c10e0ceb366d460
 SHA256sum: dbc70a0e07970df8e46086620faa80e3e68bd0e8529c6466fc5f5ec9ed31a43a
 Description:  contains: mount, umount, findmnt
 
+Package: mtd-utils-doc-loadbios
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 2240
+Filename: mtd-utils-doc-loadbios_1.5.2-2_brcm63xx-tch.ipk
+Size: 2934
+MD5Sum: 91d884554e465a57a7427b851bab4e11
+SHA256sum: 9c260c891f5c83a4ce5244b4b1c44eebc28f19ad9cbf04ca0448c13dfa5096b5
+Description:  doc_loadbios package from mtd-utils
+
+Package: mtd-utils-docfdisk
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 3790
+Filename: mtd-utils-docfdisk_1.5.2-2_brcm63xx-tch.ipk
+Size: 4489
+MD5Sum: 8c5df191234f96d8cd184cebec672b2e
+SHA256sum: a1aa65e763fa386fbabecb9c55cc269196924efdf18d4578dc8e2231a74d17e8
+Description:  docfdisk package from mtd-utils
+
+Package: mtd-utils-flash-erase
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 12410
+Filename: mtd-utils-flash-erase_1.5.2-2_brcm63xx-tch.ipk
+Size: 13121
+MD5Sum: b35cf9f77cc9d0283a58a01060682640
+SHA256sum: 931dc3a9a9744abedab0af8463736ce1885be2b7ff18598d7a3b2ea26a086168
+Description:  flash_erase package from mtd-utils
+
+Package: mtd-utils-flash-eraseall
+Version: 1.5.2-2
+Depends: libc, mtd-utils, mtd-utils-flash-erase
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 294
+Filename: mtd-utils-flash-eraseall_1.5.2-2_brcm63xx-tch.ipk
+Size: 976
+MD5Sum: 965b57d9a0710b50db57274bfa3c2726
+SHA256sum: 720d2c8c1ba2b300d4c048b6f45ce3be9f8cb6c662e063483356167a7d8ada25
+Description:  flash_eraseall package from mtd-utils
+
+Package: mtd-utils-flash-lock
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 1741
+Filename: mtd-utils-flash-lock_1.5.2-2_brcm63xx-tch.ipk
+Size: 2432
+MD5Sum: a3b8eec9ec899e0e430db69dabef9389
+SHA256sum: b3305bc8b19a93cd9d40adbda0d8a4432e1681eb284ce7a76338d17717529c11
+Description:  flash_lock package from mtd-utils
+
+Package: mtd-utils-flash-otp-dump
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 1534
+Filename: mtd-utils-flash-otp-dump_1.5.2-2_brcm63xx-tch.ipk
+Size: 2228
+MD5Sum: ec6352fe2c04ee2447c189914366a51c
+SHA256sum: d839a66c185845a05db5df0a12c3dcd739a1b054330ccbe2ccf0775baebdcc34
+Description:  flash_otp_dump package from mtd-utils
+
+Package: mtd-utils-flash-otp-lock
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 2008
+Filename: mtd-utils-flash-otp-lock_1.5.2-2_brcm63xx-tch.ipk
+Size: 2704
+MD5Sum: 4b638b62de452d40f38e976535e0f17e
+SHA256sum: 2995849b3095889e0b0c7a86f6ddf21ee61e06d760bebdbcc68df7ef335ec72e
+Description:  flash_otp_lock package from mtd-utils
+
+Package: mtd-utils-flash-otp-write
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 2048
+Filename: mtd-utils-flash-otp-write_1.5.2-2_brcm63xx-tch.ipk
+Size: 2744
+MD5Sum: 6a6ee9ad076fd635b985461b3f200a96
+SHA256sum: 6187a0ecb7d123729bb98d2899da7b0106dee56218a9aaf93f766a0e11fdddc9
+Description:  flash_otp_write package from mtd-utils
+
+Package: mtd-utils-flash-unlock
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 1742
+Filename: mtd-utils-flash-unlock_1.5.2-2_brcm63xx-tch.ipk
+Size: 2442
+MD5Sum: cf84a0b393e328c8a7ae7840ff057d11
+SHA256sum: e02619d149afe105ae59eb21f106742f2d95d21e92f3bfb8cba8d25480257622
+Description:  flash_unlock package from mtd-utils
+
+Package: mtd-utils-flashcp
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 3525
+Filename: mtd-utils-flashcp_1.5.2-2_brcm63xx-tch.ipk
+Size: 4220
+MD5Sum: f5e9d3044bfe80cbe1a4e3e21e98e4d4
+SHA256sum: 873c5619471a24386ad0ff2db92b46fe68a3578611a0b4c51daf331f1977ab65
+Description:  flashcp package from mtd-utils
+
+Package: mtd-utils-ftl-check
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 2563
+Filename: mtd-utils-ftl-check_1.5.2-2_brcm63xx-tch.ipk
+Size: 3252
+MD5Sum: 28ed064d7b5b037c3310b65f8c06e28d
+SHA256sum: e0418590b38d78e26257e03a42348fbfcecb3ffc69a03a51823a93d61daf450a
+Description:  ftl_check package from mtd-utils
+
+Package: mtd-utils-ftl-format
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 3567
+Filename: mtd-utils-ftl-format_1.5.2-2_brcm63xx-tch.ipk
+Size: 4271
+MD5Sum: 8afa4406f4963a17cfb79289ef7d4e15
+SHA256sum: 7363013269be5d91a20520d4238fa8fc59da9b39beadd07e95d0ba2fead85d7f
+Description:  ftl_format package from mtd-utils
+
+Package: mtd-utils-jffs2dump
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 7466
+Filename: mtd-utils-jffs2dump_1.5.2-2_brcm63xx-tch.ipk
+Size: 8189
+MD5Sum: 3793a579e207f152d8324c4e569f18d3
+SHA256sum: c688c1e6dc204e5f131ca62709f38e9de715bca98f636afa97793826a1facbed
+Description:  jffs2dump package from mtd-utils
+
+Package: mtd-utils-jffs2reader
+Version: 1.5.2-2
+Depends: libc, mtd-utils, zlib
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 5341
+Filename: mtd-utils-jffs2reader_1.5.2-2_brcm63xx-tch.ipk
+Size: 5996
+MD5Sum: 0b50fd7eeed332ec7d60ac0acc79450f
+SHA256sum: 531bf61bd5dc663180cc91cd383470e56ccf75803bb0aa4d5166071254be82c3
+Description:  jffs2reader package from mtd-utils
+
+Package: mtd-utils-mkfs.jffs2
+Version: 1.5.2-2
+Depends: libc, mtd-utils, zlib
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 18357
+Filename: mtd-utils-mkfs.jffs2_1.5.2-2_brcm63xx-tch.ipk
+Size: 19073
+MD5Sum: f84bcedd13d902531731a3b1de29609d
+SHA256sum: b9fec86955ec32d829689baa4df40a74e171cca3cd69641c21e9bb4b141d8279
+Description:  mkfs.jffs2 package from mtd-utils
+
+Package: mtd-utils-mkfs.ubifs
+Version: 1.5.2-2
+Depends: libc, mtd-utils, libuuid, liblzo, zlib
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 32869
+Filename: mtd-utils-mkfs.ubifs_1.5.2-2_brcm63xx-tch.ipk
+Size: 33635
+MD5Sum: e07c84374a11615db5e2cde6685b4a05
+SHA256sum: 06a040da2e42ac9286c8017c2eff461a493cd2705ae2085b1894bc6c8c9d8be2
+Description:  mkfs.ubifs package from mtd-utils
+
+Package: mtd-utils-mtd-debug
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 3472
+Filename: mtd-utils-mtd-debug_1.5.2-2_brcm63xx-tch.ipk
+Size: 4169
+MD5Sum: 4ff0ed778b101e45d6103cfdae04ca6d
+SHA256sum: aa0320765df199f1470f2e7fa14f37acd40fe0166b3d8c86b530c08f115be32c
+Description:  mtd_debug package from mtd-utils
+
+Package: mtd-utils-mtdinfo
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 11457
+Filename: mtd-utils-mtdinfo_1.5.2-2_brcm63xx-tch.ipk
+Size: 12165
+MD5Sum: ec0394701235fc656420e4410443d774
+SHA256sum: 6c545bb9d9ecbe4a4b469fe063ff7836f6d84c9a4508f94b6d1d345b03437b34
+Description:  mtdinfo package from mtd-utils
+
+Package: mtd-utils-nanddump
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 12558
+Filename: mtd-utils-nanddump_1.5.2-2_brcm63xx-tch.ipk
+Size: 13267
+MD5Sum: 1c87534320face78266b524c2fcdc25b
+SHA256sum: f43ba8bcef0c2d1f124b7ddccf3d804eb0cc80d00af2a382f09b165c0b91e7ce
+Description:  nanddump package from mtd-utils
+
+Package: mtd-utils-nandtest
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 3672
+Filename: mtd-utils-nandtest_1.5.2-2_brcm63xx-tch.ipk
+Size: 4367
+MD5Sum: 52197ae52c5c2f14c5e94aabbc65b259
+SHA256sum: ff19fb1d2d5f68ebfd147ce8d1103e217b53a372f3b94d7fc90e7ed88327df3a
+Description:  nandtest package from mtd-utils
+
+Package: mtd-utils-nandwrite
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 13868
+Filename: mtd-utils-nandwrite_1.5.2-2_brcm63xx-tch.ipk
+Size: 14528
+MD5Sum: 0c413f8b5087ccd801e0b737cee8760d
+SHA256sum: c92514c85b1c937a10dbcd882cc078edd98bba65d887b2cf2ff02cb803122a06
+Description:  nandwrite package from mtd-utils
+
+Package: mtd-utils-nftl-format
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 4289
+Filename: mtd-utils-nftl-format_1.5.2-2_brcm63xx-tch.ipk
+Size: 4958
+MD5Sum: c57f5f3e48953383241b72f6667602c3
+SHA256sum: 7e7ce170f4ae45201448826ff450193d44081d6e70a99d151ab7fbc0f5359b63
+Description:  nftl_format package from mtd-utils
+
+Package: mtd-utils-nftldump
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 3107
+Filename: mtd-utils-nftldump_1.5.2-2_brcm63xx-tch.ipk
+Size: 3776
+MD5Sum: ad99e4694a5831b5e1d2f4acecef7f79
+SHA256sum: 84ecd5d62ae7702dd6be73ffa404cd214163ca5b1a4db3e914a3635d6229af89
+Description:  nftldump package from mtd-utils
+
+Package: mtd-utils-recv-image
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 10421
+Filename: mtd-utils-recv-image_1.5.2-2_brcm63xx-tch.ipk
+Size: 11144
+MD5Sum: 58f7cc09c5b50aaaed8f62a040f1d236
+SHA256sum: 456385e93e6606d4b454de06439093ad5d32326bb19d3ae298c958790088e4c0
+Description:  recv_image package from mtd-utils
+
+Package: mtd-utils-rfddump
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 3142
+Filename: mtd-utils-rfddump_1.5.2-2_brcm63xx-tch.ipk
+Size: 3843
+MD5Sum: 884ac16a01439e02bfb33bf02249ce10
+SHA256sum: 409d6380e8eedf1099b76beac7e7737da6c8f5b78319908c8685a18d879292ad
+Description:  rfddump package from mtd-utils
+
+Package: mtd-utils-rfdformat
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 2024
+Filename: mtd-utils-rfdformat_1.5.2-2_brcm63xx-tch.ipk
+Size: 2720
+MD5Sum: 6e1769f4eee2355dddf90a6e1fb7f541
+SHA256sum: 626eb523c86d7824cdfc0ef3d66cff8e874d59d4a7c6d0893cf4e7cd435b5cf8
+Description:  rfdformat package from mtd-utils
+
+Package: mtd-utils-serve-image
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 7082
+Filename: mtd-utils-serve-image_1.5.2-2_brcm63xx-tch.ipk
+Size: 7787
+MD5Sum: 3b9b9c0347696eaec7095c31d9142f19
+SHA256sum: 84663f81cd61da43274795eec0d43601825926aedeb66870734d9f337b2cd926
+Description:  serve_image package from mtd-utils
+
+Package: mtd-utils-sumtool
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 8391
+Filename: mtd-utils-sumtool_1.5.2-2_brcm63xx-tch.ipk
+Size: 9122
+MD5Sum: 47a84262457229c4d2faa5f08cd5b67e
+SHA256sum: 2ea7a5f2f3c91ec8b1b2aca7363ce57b9764bec846256d3d1d63363fc2a16353
+Description:  sumtool package from mtd-utils
+
+Package: mtd-utils-ubiattach
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 7414
+Filename: mtd-utils-ubiattach_1.5.2-2_brcm63xx-tch.ipk
+Size: 8141
+MD5Sum: 9a4aa2fc2202574d692ec4dcded8b414
+SHA256sum: d696fcf847177f0fcd2e4e661a2a346fd4ac1dea6009a7fc67685c582c7d7b24
+Description:  ubiattach package from mtd-utils
+
+Package: mtd-utils-ubicrc32
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 3026
+Filename: mtd-utils-ubicrc32_1.5.2-2_brcm63xx-tch.ipk
+Size: 3717
+MD5Sum: fcba6e93ca3875a39db4bcf411105ea9
+SHA256sum: 4a535513ab702bbf990c2626474eeb1c48af8acd22e1e1655cf7dd66ba156f51
+Description:  ubicrc32 package from mtd-utils
+
+Package: mtd-utils-ubidetach
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 5895
+Filename: mtd-utils-ubidetach_1.5.2-2_brcm63xx-tch.ipk
+Size: 6586
+MD5Sum: b7150cdfcfa71ec7f7199d73e4823a2a
+SHA256sum: 9eff7ee7992c01aa195e6286ca977a1e69338800960d8d1cee4952dbe3a3142e
+Description:  ubidetach package from mtd-utils
+
+Package: mtd-utils-ubiformat
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 23789
+Filename: mtd-utils-ubiformat_1.5.2-2_brcm63xx-tch.ipk
+Size: 24432
+MD5Sum: 92af23890b7bfd8d5ef118078943b006
+SHA256sum: 9712ce0e03ca7d83351f1c2b80bff2e846a76e1825af89556a388a7d0e140383
+Description:  ubiformat package from mtd-utils
+
+Package: mtd-utils-ubimkvol
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 9025
+Filename: mtd-utils-ubimkvol_1.5.2-2_brcm63xx-tch.ipk
+Size: 9724
+MD5Sum: 0f775df9e0768539b4e53b1bd02c7428
+SHA256sum: f84e8dbccf665bf16088345b9791c44c42c1b458ca859c851e8e29c66bf19d44
+Description:  ubimkvol package from mtd-utils
+
+Package: mtd-utils-ubinfo
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 9827
+Filename: mtd-utils-ubinfo_1.5.2-2_brcm63xx-tch.ipk
+Size: 10517
+MD5Sum: 04d8a5b4e2dd070375e77ceddb26d19e
+SHA256sum: e2a472c68f8d98f7f171dd202b6f10164653e4110540c4a6e80807749dad45a5
+Description:  ubinfo package from mtd-utils
+
+Package: mtd-utils-ubinize
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 13655
+Filename: mtd-utils-ubinize_1.5.2-2_brcm63xx-tch.ipk
+Size: 14340
+MD5Sum: a511e88ac0538d598aac59e01b0ad629
+SHA256sum: 9e9bf43558691c8229fbdb6c5133f8c2f1938becb2bdbd853149c3a1b00fe83f
+Description:  ubinize package from mtd-utils
+
+Package: mtd-utils-ubirename
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 7050
+Filename: mtd-utils-ubirename_1.5.2-2_brcm63xx-tch.ipk
+Size: 7769
+MD5Sum: 81da649943a6469c3e3cda35c7178f1f
+SHA256sum: afe0481f8a13bde79d3de39fc57961d4be243bc2b85268c91627f8020df76cfb
+Description:  ubirename package from mtd-utils
+
+Package: mtd-utils-ubirmvol
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 7544
+Filename: mtd-utils-ubirmvol_1.5.2-2_brcm63xx-tch.ipk
+Size: 8268
+MD5Sum: 7910b25d961338b0a27d8979aedc7ff8
+SHA256sum: 40d30c70ec3e6d7f3d24594608e5c276c4453ce74e47a764310f465d8f7e7fa7
+Description:  ubirmvol package from mtd-utils
+
+Package: mtd-utils-ubirsvol
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 8235
+Filename: mtd-utils-ubirsvol_1.5.2-2_brcm63xx-tch.ipk
+Size: 8930
+MD5Sum: b1dd812ae92c701f52dad1d4695be69c
+SHA256sum: 50d1ed1683986c6d914a63ed4b07c30953df778a02c0a1410a385e95fc03394f
+Description:  ubirsvol package from mtd-utils
+
+Package: mtd-utils-ubiupdatevol
+Version: 1.5.2-2
+Depends: libc, mtd-utils
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 7625
+Filename: mtd-utils-ubiupdatevol_1.5.2-2_brcm63xx-tch.ipk
+Size: 8357
+MD5Sum: bbf945acf7bb97d4b332583bed5622a1
+SHA256sum: 5901cf8d1d9806378c9b1c9cfeaef319bf6f3777b61e980012226b06bf6c5f6a
+Description:  ubiupdatevol package from mtd-utils
+
+Package: mtd-utils
+Version: 1.5.2-2
+Depends: libc
+Source: package/system/mtd-utils
+Section: utils
+Architecture: brcm63xx-tch
+Installed-Size: 105
+Filename: mtd-utils_1.5.2-2_brcm63xx-tch.ipk
+Size: 789
+MD5Sum: 115f4c6ef741164441e5da3a8f6c6ef9
+SHA256sum: a3795f236fdcf3846c18daa368312ac101eba8397e703357fd3c1d922ee46720
+Description:  Utilities for manipulating memory technology devices.
+
 Package: mtd
 Version: 21
 Depends: libc, libubox
@@ -5269,11 +5802,11 @@ Source: package/system/mtd
 License: GPL-2.0+
 Section: utils
 Architecture: brcm63xx-tch
-Installed-Size: 15205
+Installed-Size: 15204
 Filename: mtd_21_brcm63xx-tch.ipk
-Size: 15962
-MD5Sum: 4b2f8718394665f567d7817dbc2704e1
-SHA256sum: bf3cf2ef71ced15ad11d6542c6b03899106fe821597375d89479a3c8f12c4955
+Size: 15959
+MD5Sum: 18fe6843499f2b79b6ccf1b7b2a09f71
+SHA256sum: a181cf330a12d037ffa22f6a696c12404b2a6885850827c4de288d0ab1638e89
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -5623,11 +6156,11 @@ License: GPL-2.0
 Section: base
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: brcm63xx-tch
-Installed-Size: 38566
+Installed-Size: 38577
 Filename: procd_2017-07-20-1_brcm63xx-tch.ipk
-Size: 39172
-MD5Sum: e42b3c94994eb7066c7ae069cc5e367b
-SHA256sum: 5f2c8bb6f9848745b6326874e58f69af3143aa482bce024455f40df6bb5b5105
+Size: 39251
+MD5Sum: 84ec01aa0146bfd88cdff28fb686f51b
+SHA256sum: 8b2e65de591f6a30629b94a73e3b3059d481fb25477973623b2a3948e2972fba
 Description:  OpenWrt system process manager
 
 Package: px5g
@@ -5789,6 +6322,21 @@ MD5Sum: 33919578a2c3265cc8a78a586badd854
 SHA256sum: 303fcd524ca82ab0b6eae646608982bfa676fe47967e3e9de0ec88e504b8c9f4
 Description:  contains: script, scriptreplay
 
+Package: serialoverip
+Version: 1.0-1
+Depends: libc
+Source: package/system/serialoverip
+Section: net
+Maintainer: Gateworks Corporation <support@gateworks.com>
+Architecture: brcm63xx-tch
+Installed-Size: 8510
+Filename: serialoverip_1.0-1_brcm63xx-tch.ipk
+Size: 9278
+MD5Sum: a1e0b8af29aba130e3aed5c97b207f21
+SHA256sum: f02b6e0a1e93b2eaaf61637f03418f4702ba3e82c641a79aff720e2022a79ff7
+Description:  Tool for transport of serial interfaces over UDP/IP and supporting Multicast.
+ Usefull for accessing a distant serial device by a local program.
+
 Package: setterm
 Version: 2.25.2-4
 Depends: libc, libncurses
@@ -5848,11 +6396,11 @@ Source: package/utils/spidev_test
 Section: utils
 Maintainer: Florian Fainelli <florian@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 2367
+Installed-Size: 2370
 Filename: spidev-test_3.4.11-3.4.11_brcm63xx-tch.ipk
-Size: 3098
-MD5Sum: a52f5a3c9289f6c51604accb09a9bce2
-SHA256sum: fb49beaf825ec3d3ef1bf53de649315889a150ddbe3dcff30d01720f3385f82f
+Size: 3108
+MD5Sum: 42a8b31d28c76e2172373cd2bc6a763a
+SHA256sum: afb440d0078b981b6383130307e08ed0565e3a3b773a4743cadfa46770b354e1
 Description:  SPI testing utility.
 
 Package: strace
@@ -5864,11 +6412,11 @@ LicenseFiles: COPYRIGHT
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 104269
+Installed-Size: 105072
 Filename: strace_4.8-1_brcm63xx-tch.ipk
-Size: 103679
-MD5Sum: 5f12b9cf058081547c844fd97421eb73
-SHA256sum: eb0f0a76cb25d96d56d6893a42cf161a475a600c661b9b8bbd7f119db47f66fa
+Size: 104467
+MD5Sum: 1d2d9bbe9effb297d01a6c3b7a66f2ea
+SHA256sum: 84b8ed195ff64d0d140b9a4562979907b9e439952f208f92a5e783a35c0d830c
 Description:  A useful diagnostic, instructional, and debugging tool. Allows you to track what
  system calls a program makes while it is running.
 
@@ -7065,11 +7613,11 @@ Depends: libc
 Source: package/network/utils/utelnetd
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 4929
+Installed-Size: 4930
 Filename: utelnetd_0.1.9-1_brcm63xx-tch.ipk
-Size: 5540
-MD5Sum: 87b2c3077f6fd4f23e0b1fb139471950
-SHA256sum: 37bba9c5f9fb2a9b6328e3741cf4cd7e5a715b25543062cca0120feb1440c170
+Size: 5584
+MD5Sum: 854bd2cb26050cf2256853bdd49d1f5c
+SHA256sum: d2cc40da15006815ecd9f9ecad8d84d2bb032057e4ca0e3f0eaed6a991c5bc79
 Description:  utelnetd for CLI
 
 Package: uuidd
@@ -7225,11 +7773,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 522716
+Installed-Size: 522717
 Filename: wpad_2016-06-15-2_brcm63xx-tch.ipk
-Size: 523151
-MD5Sum: d599d155b70f2f1b0c50a134c810d75a
-SHA256sum: 6b05616c6b693ccacc08e5974093c18cf863ca4cee8e5feb7a683ddb6e9b316e
+Size: 523018
+MD5Sum: 0365650c51644b4119335ba3796f45fc
+SHA256sum: a3fcec3cde13a508a4053d17759cbc2898f182d74bec424c594f93463ac3feaa
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 

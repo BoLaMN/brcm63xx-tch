@@ -743,11 +743,11 @@ License: GPL-2.0+
 LicenseFiles: COPYING
 Section: net
 Architecture: brcm63xx-tch
-Installed-Size: 10075
+Installed-Size: 10076
 Filename: bridge_1.5-3_brcm63xx-tch.ipk
-Size: 10812
-MD5Sum: 95ef2785dd1021149845224a403a1472
-SHA256sum: 325e6bf1617c053ab91a902dec5201989b3a36868f0359debfe1459f77ce88f3
+Size: 10823
+MD5Sum: c120c701df042df54dc7235c4fc96fcc
+SHA256sum: 8dc5ebce2dba2c04a7ccd5160103d9751f5a7bd533de1c15e24a6091e543cade
 Description:  Manage ethernet bridging: a way to connect networks together to
  form a larger network.
 
@@ -3651,11 +3651,11 @@ LicenseFiles: LICENSE
 Section: kernel
 Maintainer: Bruno Randolf <br1@einfach.org>
 Architecture: brcm63xx-tch
-Installed-Size: 47094
+Installed-Size: 47097
 Filename: kmod-fs-exfat_3.4.11+git-20150301-1_brcm63xx-tch.ipk
-Size: 47675
-MD5Sum: 66e21ce3bae1ad8c9261b5d49306007d
-SHA256sum: ba4b1086c4b7550d0e462433d50674816531c23d06e8589546a29115dc5c72ef
+Size: 47670
+MD5Sum: 98ef5c3ae63d0854a814046b5a6b06eb
+SHA256sum: e39548e2248bb1a44ff994cb41e237c769b341c8986e69a85a68e7e72631439c
 Description:  Kernel module for ExFAT Filesytems
 
 Package: kmod-siit
@@ -3666,11 +3666,11 @@ License: GPLv2+
 Section: kernel
 Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: brcm63xx-tch
-Installed-Size: 5216
+Installed-Size: 5222
 Filename: kmod-siit_3.4.11+1.2-1_brcm63xx-tch.ipk
-Size: 6028
-MD5Sum: 714011802e673428d87fd632dc81b548
-SHA256sum: 8608e51d1ac64039980eba33da72e021242fb4dfe1cd72fba2dcacb6a775a4f1
+Size: 6030
+MD5Sum: 23c3ecfa98fb4af697ffe2f5e0e2a148
+SHA256sum: b04a285c0485883573cc12d850a4b4a9ca9bc9050151b6df9a9e1192d3be054a
 Description:  Stateless IP ICMP Translation Algorithm
 
 Package: kmod
@@ -4201,9 +4201,9 @@ Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 141064
 Filename: libdevmapper_2.02.119-2_brcm63xx-tch.ipk
-Size: 141703
-MD5Sum: 54c178d6cca316569cf9e547465c5309
-SHA256sum: c71d4d23b0c9c5c880c860cc7dc207877a7be7bf32323e7131167bbebd51d14d
+Size: 141698
+MD5Sum: d8b329d4bf4a58ce65507216d2f804a8
+SHA256sum: b17bb4fe8140f143446288de0563078a481530d1d99e88076c21e3b98322c60f
 Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
  volume management. It is required by LVM2 and EVMS.
 
@@ -4732,11 +4732,11 @@ License: LGPL-2.1+ BSD-2-Clause GPL-2.0
 Section: libs
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 180422
+Installed-Size: 180420
 Filename: liblxc_1.1.3-1_brcm63xx-tch.ipk
-Size: 177925
-MD5Sum: 65750e06226d0127f3535991e674e9f0
-SHA256sum: 3d3670f8c06f3e5c8444bc13ebc2bf44ef875056ad77b93ca385ec36aaafccdb
+Size: 177984
+MD5Sum: f2c56eae91db6da02343d6e755bba6e2
+SHA256sum: ec69be5f5ed6318169cf618106ef180dbcf25d3714c8eacb2d00688d728755ac
 Description:  LXC userspace library
 
 Package: liblzma
@@ -8209,11 +8209,11 @@ License: GPL-2.0 LGPL-2.1
 Section: utils
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
-Installed-Size: 594921
+Installed-Size: 594877
 Filename: lvm2_2.02.119-2_brcm63xx-tch.ipk
-Size: 594333
-MD5Sum: 210864ad72e84d0e71e333f663f5ecd9
-SHA256sum: 3bafdcf34046fc59aeb27221c2b886b4079ebc6f03e2bb10ddde481f28b49766
+Size: 594271
+MD5Sum: 647d743d0c2d8871de36ab3aeb5788ea
+SHA256sum: a4519196f7e11a46d95043d453acc9b6f741137aba0d8b5fe466536a0648fc31
 Description:  LVM2 refers to a new userspace toolset that provide logical volume management
  facilities on linux. It is reasonably backwards-compatible with the original
  LVM toolset.
@@ -8226,11 +8226,11 @@ License: LGPL-2.1+ BSD-2-Clause GPL-2.0
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 1156
+Installed-Size: 1154
 Filename: lxc-common_1.1.3-1_brcm63xx-tch.ipk
-Size: 1927
-MD5Sum: 4e0236f6294f5429d7603bd765ef98e6
-SHA256sum: 3a4cb73435a144ffa393085b88c71c1861ea8359cce14390571fba581d418e11
+Size: 1934
+MD5Sum: f6dbd833df47ca1908e9eb3ea949fb22
+SHA256sum: 4a4be0e4c64fbb4aeb2120e86316eb8a178e59754e64e40e3577a2022a48afbe
 Description:  LXC common files
 
 Package: lxc-configs
@@ -8241,11 +8241,11 @@ License: LGPL-2.1+ BSD-2-Clause GPL-2.0
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 4176
+Installed-Size: 4168
 Filename: lxc-configs_1.1.3-1_brcm63xx-tch.ipk
-Size: 4923
-MD5Sum: e7c16365c8e466a2a7e706bd43500d12
-SHA256sum: d0efa49560dd36af5c177a6363351e771dd3773bf33cfdca0ad73f40f9196cca
+Size: 4909
+MD5Sum: 5a95ff03b428f4669173891cfe3cdd29
+SHA256sum: 46fcff973eb1f4620e954a4a8ec8f1118640f597f280bcd04cc05e7257fe6a27
 Description:  LXC virtual machine common config files
 
 Package: lxc-create
@@ -8256,11 +8256,11 @@ License: LGPL-2.1+ BSD-2-Clause GPL-2.0
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 4063
+Installed-Size: 4064
 Filename: lxc-create_1.1.3-1_brcm63xx-tch.ipk
-Size: 4837
-MD5Sum: ff7eaa60095cce8aed0a4d239121e2f1
-SHA256sum: 3ed7fd3184dd950447645b1ed35bfa35b1a0867e90006d9505ea67bf6039d71a
+Size: 4836
+MD5Sum: 5349e3720678c8e251739de5ed8127d3
+SHA256sum: bc013dd26fc09c4435721365802a7222950aa18d184ab3f1ba8330ad96e1ab03
 Description:  Utility lxc-create from the LXC userspace tools
 
 Package: lxc-hooks
@@ -8271,11 +8271,11 @@ License: LGPL-2.1+ BSD-2-Clause GPL-2.0
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 4224
+Installed-Size: 4219
 Filename: lxc-hooks_1.1.3-1_brcm63xx-tch.ipk
-Size: 4976
-MD5Sum: 0691feca7411dc095b868cfda2926e4c
-SHA256sum: 41c0fc7f852d1f188ecf60bb4ea726c6c15206a0974799c28f1bf6392789aa08
+Size: 4968
+MD5Sum: ec21904daac741499a99e7c342f0545e
+SHA256sum: 67d3e60f5b14f875dca5bdf8492f53d77b92c8fee926c5da62934df3a99215ba
 Description:  LXC virtual machine hooks
 
 Package: lxc-templates
@@ -8288,9 +8288,9 @@ Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 81318
 Filename: lxc-templates_1.1.3-1_brcm63xx-tch.ipk
-Size: 82176
-MD5Sum: 5bfca45ec549ad83ecb5977e81948f78
-SHA256sum: 90e8516a91420c8e07e6c0765b4e89e09f27217ed75fd2fc14f51c99bf017003
+Size: 82099
+MD5Sum: 8caccd817b2731951ee75d07b149b542
+SHA256sum: 137162c73541eab7efca89eb44a4fcb2855de8fb1527593376be5d1b0c5669f7
 Description:  LXC virtual machine templates
 
 Package: lxc
@@ -8301,11 +8301,11 @@ License: LGPL-2.1+ BSD-2-Clause GPL-2.0
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 106
+Installed-Size: 105
 Filename: lxc_1.1.3-1_brcm63xx-tch.ipk
-Size: 903
-MD5Sum: a8ae6d762d11f0536c922ce1666a9714
-SHA256sum: 8d8e6e1802fc728edf61430715e7eca37644bc5485ebb9bdbdee4c6313f118c7
+Size: 899
+MD5Sum: 4820a10128e5f4c00b1df89823566c9e
+SHA256sum: e5dd9b23eb8aff3ee4511d876d63e238378fd5e42c8e331fce09194ef5d2fc88
 Description:  LXC is the userspace control package for Linux Containers, a lightweight
  virtual system mechanism sometimes described as "chroot on steroids".
 
@@ -12385,9 +12385,9 @@ Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
 Architecture: brcm63xx-tch
 Installed-Size: 25395
 Filename: squid-mod-cachemgr_3.5.27-1_brcm63xx-tch.ipk
-Size: 26106
-MD5Sum: 96c5c4025504ad8c24a649d1cb2b5b94
-SHA256sum: 5026e0f058ffffb7e497e767f0676ff5600ce3ba407db4895e639c2683e1736f
+Size: 26105
+MD5Sum: b258cae25b0936fb1fe75f4e231ad5c2
+SHA256sum: d78699f5339dc9d5742a3246c9568b69ceaf403c9752f87c6f11719396244443
 Description:  Web based proxy manager and reporting tool
 
 Package: squid
@@ -12398,11 +12398,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
 Architecture: brcm63xx-tch
-Installed-Size: 2107323
+Installed-Size: 2107311
 Filename: squid_3.5.27-1_brcm63xx-tch.ipk
-Size: 2105055
-MD5Sum: 49d47876124e49b2c1f521f93a3ff2be
-SHA256sum: 36490d64692ac91c3c4cb0f632c125020a521b40317663d0d2186d7c606de5a6
+Size: 2105050
+MD5Sum: 38e911bee583b366c33e166ebaa7e0e7
+SHA256sum: d3280cd0bbc9dad58a3040f4536da2251f67ef97787e9af5e6e6598e2527ad12
 Description:  Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more.
  It reduces bandwidth and improves response times by caching and reusing
  frequently-requested web pages.
