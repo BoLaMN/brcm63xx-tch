@@ -3651,11 +3651,11 @@ LicenseFiles: LICENSE
 Section: kernel
 Maintainer: Bruno Randolf <br1@einfach.org>
 Architecture: brcm63xx-tch
-Installed-Size: 47097
+Installed-Size: 47093
 Filename: kmod-fs-exfat_3.4.11+git-20150301-1_brcm63xx-tch.ipk
-Size: 47670
-MD5Sum: 98ef5c3ae63d0854a814046b5a6b06eb
-SHA256sum: e39548e2248bb1a44ff994cb41e237c769b341c8986e69a85a68e7e72631439c
+Size: 47671
+MD5Sum: 0583f41198cbdfd5f407890e1e5964b1
+SHA256sum: 36aaa183dd53a68361bb90b6b5f4540bad6350e9443e0a0cfcc8407abc186feb
 Description:  Kernel module for ExFAT Filesytems
 
 Package: kmod-siit
@@ -3666,11 +3666,11 @@ License: GPLv2+
 Section: kernel
 Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: brcm63xx-tch
-Installed-Size: 5222
+Installed-Size: 5217
 Filename: kmod-siit_3.4.11+1.2-1_brcm63xx-tch.ipk
-Size: 6030
-MD5Sum: 23c3ecfa98fb4af697ffe2f5e0e2a148
-SHA256sum: b04a285c0485883573cc12d850a4b4a9ca9bc9050151b6df9a9e1192d3be054a
+Size: 6008
+MD5Sum: be32b207c4550c0f81285f5ac1bbd426
+SHA256sum: 553452b289cce923a41cf011646b6912c95f77822e4e186aa9fc07d80d4fcf13
 Description:  Stateless IP ICMP Translation Algorithm
 
 Package: kmod
@@ -4199,11 +4199,11 @@ License: GPL-2.0 LGPL-2.1
 Section: libs
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
-Installed-Size: 141064
+Installed-Size: 141062
 Filename: libdevmapper_2.02.119-2_brcm63xx-tch.ipk
-Size: 141698
-MD5Sum: d8b329d4bf4a58ce65507216d2f804a8
-SHA256sum: b17bb4fe8140f143446288de0563078a481530d1d99e88076c21e3b98322c60f
+Size: 141688
+MD5Sum: c02cc82330bb6233c9e2eb6c7464e8f8
+SHA256sum: 80ff495994b3f7e38cc64d1b98a4b1b9bc0ca55612962dd0a6c79fc9ad2df1a6
 Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
  volume management. It is required by LVM2 and EVMS.
 
@@ -8209,11 +8209,11 @@ License: GPL-2.0 LGPL-2.1
 Section: utils
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
-Installed-Size: 594877
+Installed-Size: 594875
 Filename: lvm2_2.02.119-2_brcm63xx-tch.ipk
-Size: 594271
-MD5Sum: 647d743d0c2d8871de36ab3aeb5788ea
-SHA256sum: a4519196f7e11a46d95043d453acc9b6f741137aba0d8b5fe466536a0648fc31
+Size: 594270
+MD5Sum: 67c0aa53bdcb0d1ab8e270238e016c78
+SHA256sum: 6faae77ffd052237c5f5b43e62defabc85e4532a5e784f9e3e080e393ab733d4
 Description:  LVM2 refers to a new userspace toolset that provide logical volume management
  facilities on linux. It is reasonably backwards-compatible with the original
  LVM toolset.
