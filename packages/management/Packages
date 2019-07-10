@@ -6,11 +6,11 @@ License: GPL-2.0+
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 28692
+Installed-Size: 28694
 Filename: freecwmp_2014-06-12-8f3c163fc85337e63bfa64da3c02f10d1fe3b169_brcm63xx-tch.ipk
-Size: 29567
-MD5Sum: 650243ed13109c02e4189759953de1ac
-SHA256sum: 952ec8b47c35117ad1d72f61b8c7e7ca774eb7675c6bfc6b328cec893206ece2
+Size: 29561
+MD5Sum: da66816e5e7991bd699f96fffb534a84
+SHA256sum: 331fda45968bbcf1408535fc5ab0d5229db2afcbfb671e01a3849336b9528446
 Description:  A free client implementation of CWMP (TR-069) protocol
 
 Package: freenetconfd
@@ -21,11 +21,11 @@ License: GPL-2.0+
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 13600
+Installed-Size: 13602
 Filename: freenetconfd_2015-11-12-9b4dc3f45982ac9ede2db2218f5578f7268528ba_brcm63xx-tch.ipk
-Size: 14300
-MD5Sum: 9240e75adb335df8946a125d5d244207
-SHA256sum: 05dbee5706167b8b47a6452993af4bbb0c287c62bef8e4fcc660afad7aea99ea
+Size: 14392
+MD5Sum: 852f88e0a53f7022a70438082a8c79f5
+SHA256sum: a1c2ae01fbe43ab08e66db84660ddfef3fe2320ac84a4d675c68a61da8e18f7c
 Description:  netconf server
 
 Package: freesub
@@ -36,11 +36,11 @@ License: GPL-2.0+
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 2249
+Installed-Size: 2248
 Filename: freesub_2014-12-03-a1a38e80c6642af723d6aa65f64910dcf27cb3da_brcm63xx-tch.ipk
-Size: 3037
-MD5Sum: 01fef40ff20c69db11f91c9cbf4a765e
-SHA256sum: a2c9d03b1855674b36ebd59fedba62c40cae3ed13ae0471124b50266297f8efe
+Size: 3032
+MD5Sum: f00cbcecf191ce501a2baa5005722723
+SHA256sum: f30203a1d5cbf12eb40c6489264babee2032129b2389c9e79484ea0473d4db84
 Description:  SSH subsystem helper
 
 Package: libfreecwmp
@@ -53,9 +53,9 @@ Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
 Installed-Size: 2125
 Filename: libfreecwmp_2014-06-12-d2fdd97d66fde14859c06228a922066d9e8b669b_brcm63xx-tch.ipk
-Size: 2887
-MD5Sum: 03bae57c3bdde9045544322484fa2497
-SHA256sum: 4da08129e3c78eb0b1a46544215fcfa37e9be61773ce1f29cccb1cb9ae73c266
+Size: 2885
+MD5Sum: 13d821dfecb61aa19e4ad3b020a96fb6
+SHA256sum: 1cd552fc4c872625150364b3b980fb0a5f5a54e939fa24feab728d93d507f174
 Description:  CWMP library
 
 Package: libmicroxml
@@ -67,11 +67,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 27279
+Installed-Size: 27281
 Filename: libmicroxml_2012-06-11-72965423184f24cc0b963d91c2d1863cdb01b6aa_brcm63xx-tch.ipk
-Size: 27916
-MD5Sum: ba1cd917cc0fb573178f2fa4eb14df28
-SHA256sum: 20bb5d90cd0e934cb6e5c23df447a1e4b441decbd80ea9e45ef61e274b06efe8
+Size: 27918
+MD5Sum: f12e5472dbf274816152ae908072b21b
+SHA256sum: e9c116c9ff5c1a948417e70bafca8fa685a8e3d9bde53b3dfa4d14f5ebd97ab3
 Description:  A micro sized XML library
 
 Package: shflags
@@ -82,11 +82,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 4296
+Installed-Size: 4294
 Filename: shflags_2012-06-11-c12b30cebb92b49c5edb6df255c0952c65b4ddc6_brcm63xx-tch.ipk
 Size: 5064
-MD5Sum: 46c9a0a46e666efd103197928c212edd
-SHA256sum: c857ecc60635820203c5ce019a5543cf8f41278948c584916f6b3acca18998da
+MD5Sum: 297ef5cae149238b30bf795240e95601
+SHA256sum: ded6a9ee848d080867ef6ade0bc78e59074a44b99a5eb1dddf10a2e857ee8736
 Description:  command-line flags module for Unix shell scripts
 
 Package: shtool
@@ -96,11 +96,11 @@ Source: feeds/management/shtool
 License: GPL-2.0+
 Section: utils
 Architecture: brcm63xx-tch
-Installed-Size: 32128
+Installed-Size: 32130
 Filename: shtool_2.0.8-1_brcm63xx-tch.ipk
-Size: 32937
-MD5Sum: d45dae0dbfcd673e186f4c290ad465b2
-SHA256sum: cad92df7acc2c9b1f7efae30abf6b88e32761074a2b348accbcc85ddd1627f8f
+Size: 32940
+MD5Sum: 382a5a5904309ebf201ce0bcb82101eb
+SHA256sum: 1e777eb6cdd7b803613476b209c9d51af7982bdf93be24cf5034cde46b302580
 Description:  GNU shtool is a compilation of small but very stable and portable shell
  scripts into a single shell tool.
 
