@@ -574,6 +574,37 @@ Description:  FUSE (Filesystem in UserSpacE)
  - fusermount
  - ulockmgr_server
 
+Package: gdb
+Version: 7.8-2
+Depends: libc, libthread-db, zlib, libreadline, libncurses, zlib
+Source: package/devel/gdb
+License: GPL-3.0+
+Section: devel
+Architecture: brcm63xx-tch
+Installed-Size: 1921724
+Filename: gdb_7.8-2_brcm63xx-tch.ipk
+Size: 1917160
+MD5Sum: 12d1087a6f57d6f3b0638fc1a0bd0e2b
+SHA256sum: cd2af3f2cfbce271c6de241d1115b3020a8b5832d54d960ba345089392e5f35e
+Description:  GDB, the GNU Project debugger, allows you to see what is going on `inside'
+ another program while it executes -- or what another program was doing at the
+ moment it crashed.
+
+Package: gdbserver
+Version: 7.8-2
+Depends: libc, libthread-db, zlib
+Source: package/devel/gdb
+License: GPL-3.0+
+Section: devel
+Architecture: brcm63xx-tch
+Installed-Size: 125282
+Filename: gdbserver_7.8-2_brcm63xx-tch.ipk
+Size: 125665
+MD5Sum: 58ada39f26cba1c5ea3f95b6aa7ee764
+SHA256sum: 898b06310e06996878324eeef618dcf4635c09cd3380c0914705978b04de6610
+Description:  GDBSERVER is a program that allows you to run GDB on a different machine than the
+ one which is running the program being debugged.
+
 Package: getopt
 Version: 2.25.2-4
 Depends: libc
@@ -1201,11 +1232,11 @@ Source: package/kernel/bankmgr
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 10558
+Installed-Size: 10557
 Filename: kmod-bankmgr_3.4.11+1.0-rt19_brcm63xx-tch.ipk
-Size: 11400
-MD5Sum: 8cf689d333fa6ba6b47f5fd4b95fc63a
-SHA256sum: 04d3630f7201e273af60226c4c622041e6ededae5f5d46020c1b872c1a9f8bcd
+Size: 11393
+MD5Sum: 6d73ae6d36f71c26070a3c133d1f3aa6
+SHA256sum: ca5ef825d556cea62cdcdbab4be027aad90ca18cbf24dfa06a643651c51427c7
 Description:  Kernel module that provides access to the banktable via a proc interface.
 
 Package: kmod-bcm63xx-tch-adsl
@@ -3100,6 +3131,20 @@ MD5Sum: 72c2ddc6586c45f6f84a836422e231da
 SHA256sum: 40b7d7aceddc075b5a44d997043ec039cdedbafa6b82fe51cc5ef0dba857d094
 Description:  Kernel module for NLS UTF-8
 
+Package: kmod-platform-gpl
+Version: 3.4.11+1.0-rt19
+Depends: kernel
+Source: package/kernel/platform-gpl
+Section: kernel
+Maintainer: Technicolor <linuxgw@technicolor.com>
+Architecture: brcm63xx-tch
+Installed-Size: 1628
+Filename: kmod-platform-gpl_3.4.11+1.0-rt19_brcm63xx-tch.ipk
+Size: 2484
+MD5Sum: 2500f5e07469ca679c330836c443dce4
+SHA256sum: a212bdffa7a4e3b128fcbcff2e51259540b04ce058219b45c2f766eca92ddf0e
+Description:  Kernel module to provide platform specifics like bootloader version (which needs to be GPLv2 licensed).
+
 Package: kmod-ppp
 Version: 3.4.11-rt19
 Depends: kernel, kmod-lib-crc-ccitt, kmod-slhc
@@ -3230,11 +3275,11 @@ Source: package/kernel/ripdrv
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 19854
+Installed-Size: 19845
 Filename: kmod-ripdrv_3.4.11+2014.01-rt19_brcm63xx-tch.ipk
-Size: 20648
-MD5Sum: d8d77e6a672bb4ad1963061af45b92fa
-SHA256sum: edf75dab9092a92b1b3639fde814da085b1287e1f870e28d8e2fbed884e3bd92
+Size: 20634
+MD5Sum: 4903d4f1176171ef59656a13da5cc357
+SHA256sum: 3e6ecfdbeaa1dc6fe6fbedcc2415dd3f1adab3e29bd5140de899a3e36fda2f3f
 Description:  Kernel module that provides access to the eRIPv2 on Technicolor gateways.
 
 Package: kmod-sched-core
@@ -3378,11 +3423,11 @@ Depends: kernel, kmod-spi-bitbang, kmod-spi-gpio, kmod-spi-dev
 Source: package/kernel/spi-gpio-custom
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 2595
+Installed-Size: 2596
 Filename: kmod-spi-gpio-custom_3.4.11-1_brcm63xx-tch.ipk
-Size: 3330
-MD5Sum: 15b82ca841ac835d60e9c9df49d95098
-SHA256sum: 82463ae987349c85305e56620450ad415554033c2f747917b7dae24a6967b808
+Size: 3339
+MD5Sum: f1ad9ad9a28283840dcc000700f20127
+SHA256sum: 9898f3a5a08e2a3f149ae6c60a4bae820de456278b45e1c6822668b31828be7e
 Description:  Kernel module for register a custom spi-gpio platform device.
 
 Package: kmod-spi-gpio-old
@@ -3437,11 +3482,11 @@ Source: package/kernel/tomcrypt
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 40359
+Installed-Size: 40356
 Filename: kmod-tomcrypt_3.4.11+1.17-rt19_brcm63xx-tch.ipk
-Size: 41137
-MD5Sum: 496cbc02768c54f69e4784877fe9ef58
-SHA256sum: 7755d19fda56a4de8a19a725db8f0017d26e57e0df474ff2c5efdc2120daa976
+Size: 41150
+MD5Sum: 0ec96e4add9113e6a38c237ad44c89ab
+SHA256sum: fb0992fae867cd30cbba2916c7321468db3aab42a531648045aa3119974bff62
 Description:  Kernel module to provide tomcrypt crypto functions
 
 Package: kmod-tommath
@@ -3451,11 +3496,11 @@ Source: package/kernel/tommath
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 23357
+Installed-Size: 23359
 Filename: kmod-tommath_3.4.11+0.42.0-rt19_brcm63xx-tch.ipk
-Size: 23955
-MD5Sum: 68de33c60036ad3923e9b16411e20542
-SHA256sum: a2a0b988869f1853773b424690a99238c322d1842b1b072f08ef9a1104d75ee6
+Size: 23974
+MD5Sum: a83ac7dfcc6d772692a1488c345df697
+SHA256sum: 06b8f363bbba92950e82a36de9f6735ef2ca981b225119e467dfcf126a4cc2af
 Description:  Kernel module to provide tommath math functions
 
 Package: kmod-tun
@@ -5638,11 +5683,11 @@ License: GPL-2.0
 Section: base
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: brcm63xx-tch
-Installed-Size: 38569
+Installed-Size: 38564
 Filename: procd_2017-07-20-1_brcm63xx-tch.ipk
-Size: 39245
-MD5Sum: e16ee9463332f843fda7fb764fd09ebf
-SHA256sum: 70738a5896f49ed3f3986da86ce9df2bb3e6f92fa259923a5e5632b6a841ce03
+Size: 39212
+MD5Sum: 5a03d092364ecac3f0c7c9f4d5cfa1cb
+SHA256sum: 5be82aa70b758ef961c28d1a60feee314bd7766d8f6ed9134b36951147f78ac6
 Description:  OpenWrt system process manager
 
 Package: px5g
