@@ -659,11 +659,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 196563
+Installed-Size: 196564
 Filename: hostapd-mini_2016-06-15-2_brcm63xx-tch.ipk
-Size: 197279
-MD5Sum: 736474cb51e59b2399c88f82fe14076a
-SHA256sum: 95dd9893c7ac9303bcc895940abf2150429600ad2ad392a5ae2d9b91a7b9fe1e
+Size: 197309
+MD5Sum: bff8818ee41f8ec9850e84357aaa61d9
+SHA256sum: d399c92353bd2c3a7679a6cfdecc302346e09f61451e1f68f2b142745a2b2ec1
 Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator (WPA-PSK only).
 
 Package: hostapd-utils
@@ -691,11 +691,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 346058
+Installed-Size: 346062
 Filename: hostapd_2016-06-15-2_brcm63xx-tch.ipk
-Size: 346550
-MD5Sum: 5e37b472f68cd9256e0ab01e863e4691
-SHA256sum: ebfebdda1f3ace1400193822aecf2abc4f76ecdfa34ae257982cebc639310320
+Size: 346498
+MD5Sum: cd9da843e5cbfc846fa46e31b2fa1e17
+SHA256sum: d02345db31feea038186a63fcba8463667bb5736290cbf5174c4ac2d52b406ac
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator.
 
@@ -1193,6 +1193,20 @@ Size: 5056
 MD5Sum: b261ec116223f7b477aec4d01b38761d
 SHA256sum: 0e637248c61ada1ff174b43a29935d802b76e196962cb38236ec94f7be9a37ce
 Description:  Kernel module for ATM over TCP support
+
+Package: kmod-bankmgr
+Version: 3.4.11+1.0-rt19
+Depends: kernel
+Source: package/kernel/bankmgr
+Section: kernel
+Maintainer: Technicolor <linuxgw@technicolor.com>
+Architecture: brcm63xx-tch
+Installed-Size: 10558
+Filename: kmod-bankmgr_3.4.11+1.0-rt19_brcm63xx-tch.ipk
+Size: 11400
+MD5Sum: 8cf689d333fa6ba6b47f5fd4b95fc63a
+SHA256sum: 04d3630f7201e273af60226c4c622041e6ededae5f5d46020c1b872c1a9f8bcd
+Description:  Kernel module that provides access to the banktable via a proc interface.
 
 Package: kmod-bcm63xx-tch-adsl
 Version: 3.4.11-rt19
@@ -3216,11 +3230,11 @@ Source: package/kernel/ripdrv
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 19848
+Installed-Size: 19854
 Filename: kmod-ripdrv_3.4.11+2014.01-rt19_brcm63xx-tch.ipk
-Size: 20638
-MD5Sum: 28e1fb2a17688dc59e9fac2933e2dbd0
-SHA256sum: bb72eebb1ff4ebde5fbbced60a0c2550df56906ecc6cf2c3a44c0a96ba8e8055
+Size: 20648
+MD5Sum: d8d77e6a672bb4ad1963061af45b92fa
+SHA256sum: edf75dab9092a92b1b3639fde814da085b1287e1f870e28d8e2fbed884e3bd92
 Description:  Kernel module that provides access to the eRIPv2 on Technicolor gateways.
 
 Package: kmod-sched-core
@@ -3366,9 +3380,9 @@ Section: kernel
 Architecture: brcm63xx-tch
 Installed-Size: 2595
 Filename: kmod-spi-gpio-custom_3.4.11-1_brcm63xx-tch.ipk
-Size: 3339
-MD5Sum: 1e6fd4520e117fb31fe30819ce3b8b84
-SHA256sum: 8f82fe22c87ad5fb9f966b00cde7edbdb4023416ebf913792cca601635a27b0b
+Size: 3330
+MD5Sum: 15b82ca841ac835d60e9c9df49d95098
+SHA256sum: 82463ae987349c85305e56620450ad415554033c2f747917b7dae24a6967b808
 Description:  Kernel module for register a custom spi-gpio platform device.
 
 Package: kmod-spi-gpio-old
@@ -3423,11 +3437,11 @@ Source: package/kernel/tomcrypt
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 40356
+Installed-Size: 40359
 Filename: kmod-tomcrypt_3.4.11+1.17-rt19_brcm63xx-tch.ipk
-Size: 41142
-MD5Sum: 659c551b25b6a704c41aa9985b0db51f
-SHA256sum: 7fa9cde24488e4367fdd0572a6f742ffe18426af55673c994ddc904e6adb32b8
+Size: 41137
+MD5Sum: 496cbc02768c54f69e4784877fe9ef58
+SHA256sum: 7755d19fda56a4de8a19a725db8f0017d26e57e0df474ff2c5efdc2120daa976
 Description:  Kernel module to provide tomcrypt crypto functions
 
 Package: kmod-tommath
@@ -3437,11 +3451,11 @@ Source: package/kernel/tommath
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 23356
+Installed-Size: 23357
 Filename: kmod-tommath_3.4.11+0.42.0-rt19_brcm63xx-tch.ipk
-Size: 23957
-MD5Sum: 723290d0541ca2b864f61c834495f6a7
-SHA256sum: 1b2dcc651f2610a5419c7548c79a27eeb1a99007071b0aa79c6812bebf6b0ac3
+Size: 23955
+MD5Sum: 68de33c60036ad3923e9b16411e20542
+SHA256sum: a2a0b988869f1853773b424690a99238c322d1842b1b072f08ef9a1104d75ee6
 Description:  Kernel module to provide tommath math functions
 
 Package: kmod-tun
@@ -5624,11 +5638,11 @@ License: GPL-2.0
 Section: base
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: brcm63xx-tch
-Installed-Size: 38573
+Installed-Size: 38569
 Filename: procd_2017-07-20-1_brcm63xx-tch.ipk
-Size: 39177
-MD5Sum: 144d9747a72d740a5961664b1dc8df50
-SHA256sum: 6b472d294565e4a086726e2ab34e74cfef34612119256d8b298732c0a3f4c7be
+Size: 39245
+MD5Sum: e16ee9463332f843fda7fb764fd09ebf
+SHA256sum: 70738a5896f49ed3f3986da86ce9df2bb3e6f92fa259923a5e5632b6a841ce03
 Description:  OpenWrt system process manager
 
 Package: px5g
@@ -7226,11 +7240,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 522718
+Installed-Size: 522723
 Filename: wpad_2016-06-15-2_brcm63xx-tch.ipk
-Size: 523098
-MD5Sum: c1191f4051e79ed9227b04b5bf39c61a
-SHA256sum: b4fadc2f3e58ac0a5b2555baf7dc0922abcba31165f2df8d09ea26768d0577d4
+Size: 522997
+MD5Sum: a2fda968125505aa78561ca39630cc56
+SHA256sum: d283a2d7edd6e35cb5d7f7b8d3b6dd8414d1cad10a5ff0fc15c6133fb89bb164
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 

@@ -9781,11 +9781,11 @@ Depends: libc, liblua, libnl-tiny
 Source: feeds/luci/libs/luci-lib-ip
 Section: luci
 Architecture: brcm63xx-tch
-Installed-Size: 13890
+Installed-Size: 13901
 Filename: luci-lib-ip_git-18.097.75958-5537d68-1_brcm63xx-tch.ipk
-Size: 14605
-MD5Sum: 20a74b00328ba1f69d8a0bbe71b7cf83
-SHA256sum: 705f0b84035ac6abf4e2050c1db99e1857c5d21d5dac8477efd385135178afd8
+Size: 14590
+MD5Sum: d0685107f9e87da8d970fdf4814d1fa2
+SHA256sum: 04b8f112dc76d602b36ca6542826290ae0ee7fdcd4947d09401eac7f1b854054
 Description:  Lua library for IP calculation and routing information
 
 Package: luci-lib-json
@@ -9807,11 +9807,11 @@ Depends: libc, liblua, libjson-c
 Source: feeds/luci/libs/luci-lib-jsonc
 Section: luci
 Architecture: brcm63xx-tch
-Installed-Size: 3351
+Installed-Size: 3357
 Filename: luci-lib-jsonc_git-18.097.75958-5537d68-1_brcm63xx-tch.ipk
-Size: 4037
-MD5Sum: e485a6f4ac7391c7a0044886dd3cef25
-SHA256sum: ed854badff276092f8adec4acdf97788e2d9f631086e69e8082f97311de2b96c
+Size: 4050
+MD5Sum: ff70d66b027aba1831eacbf5dfd69229
+SHA256sum: a5c555a4b1c705a0b3be909ef85fbc63c8368eba4f3be0ea809d4ea656a8b9bb
 Description:  Lua binding for JSON-C
 
 Package: luci-lib-luaneightbl
@@ -9820,11 +9820,11 @@ Depends: libc, liblua
 Source: feeds/luci/libs/luci-lib-luaneightbl
 Section: luci
 Architecture: brcm63xx-tch
-Installed-Size: 2240
+Installed-Size: 2249
 Filename: luci-lib-luaneightbl_git-18.097.75958-5537d68-1_brcm63xx-tch.ipk
-Size: 2965
-MD5Sum: d0c02ffd7ac7f9f030b60dff880be46b
-SHA256sum: e8614a4ae8ba6a86cf3a9ba69b718d6fb9a64380123b12886e0f8f42114669d9
+Size: 2976
+MD5Sum: 1169b1cf09dd1139e3a37808b6434d01
+SHA256sum: 49c9573b1635ae5527ecc7bd7780f492b42dfc60c82c7f4d5e0be67650fb2813
 Description:  neightbl - Lua lib for IPv6 neighbors
 
 Package: luci-lib-nixio
@@ -9833,11 +9833,11 @@ Depends: libc, liblua
 Source: feeds/luci/libs/luci-lib-nixio
 Section: luci
 Architecture: brcm63xx-tch
-Installed-Size: 30856
+Installed-Size: 30862
 Filename: luci-lib-nixio_git-18.097.75958-5537d68-1_brcm63xx-tch.ipk
-Size: 31314
-MD5Sum: a6d28b568b944487d8f8cc8f6859858c
-SHA256sum: 9f2103c80ed2efb3c52148600a985df77ad66106dd1d8c26567410ead8946594
+Size: 31370
+MD5Sum: afe571ecfa705f40746d4a99b307a5d7
+SHA256sum: 8355b1033a7e6c0d9d2db394afc0a9f3c81f8b3e0deac7285ad31c4da1841482
 Description:  NIXIO POSIX library
 
 Package: luci-lib-px5g
@@ -9846,11 +9846,11 @@ Depends: libc, liblua
 Source: feeds/luci/libs/luci-lib-px5g
 Section: luci
 Architecture: brcm63xx-tch
-Installed-Size: 35347
+Installed-Size: 35355
 Filename: luci-lib-px5g_git-18.097.75958-5537d68-1_brcm63xx-tch.ipk
-Size: 35981
-MD5Sum: 3e6ce0d759147f6701608de1ba9bd9d6
-SHA256sum: 14a9e0b3b7900e216e9f7c2c87683064029ceec833f86bc15d4e7c525eb29ea4
+Size: 35986
+MD5Sum: cea56e44ce858c6e66462839f9c7eb67
+SHA256sum: ead3ae39fedd997da0cfef3455f32161aca464a29098fd2a3a56d7ca560114d7
 Description:  RSA/X.509 Key Generator (required for LuCId SSL support)
 
 Package: luci-mod-admin-full
