@@ -6,11 +6,11 @@ License: GPL-2.0+
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 28694
+Installed-Size: 28693
 Filename: freecwmp_2014-06-12-8f3c163fc85337e63bfa64da3c02f10d1fe3b169_brcm63xx-tch.ipk
-Size: 29561
-MD5Sum: da66816e5e7991bd699f96fffb534a84
-SHA256sum: 331fda45968bbcf1408535fc5ab0d5229db2afcbfb671e01a3849336b9528446
+Size: 29566
+MD5Sum: f60e69a023e7167a9c543bd24f62aa50
+SHA256sum: 499b71c9d1600dc29ba0bc3fb3037407aba35d5cbac584b2293d7de00baf6275
 Description:  A free client implementation of CWMP (TR-069) protocol
 
 Package: freenetconfd
@@ -21,11 +21,11 @@ License: GPL-2.0+
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 13602
+Installed-Size: 13599
 Filename: freenetconfd_2015-11-12-9b4dc3f45982ac9ede2db2218f5578f7268528ba_brcm63xx-tch.ipk
-Size: 14392
-MD5Sum: 852f88e0a53f7022a70438082a8c79f5
-SHA256sum: a1c2ae01fbe43ab08e66db84660ddfef3fe2320ac84a4d675c68a61da8e18f7c
+Size: 14394
+MD5Sum: c0cdde2daac822a6305edc91e2767aae
+SHA256sum: ddd4835f6d6f137622527bf2b89ee72a66d0caaf23b08c780670ba93c918f0d2
 Description:  netconf server
 
 Package: freesub
@@ -36,11 +36,11 @@ License: GPL-2.0+
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 2248
+Installed-Size: 2250
 Filename: freesub_2014-12-03-a1a38e80c6642af723d6aa65f64910dcf27cb3da_brcm63xx-tch.ipk
-Size: 3032
-MD5Sum: f00cbcecf191ce501a2baa5005722723
-SHA256sum: f30203a1d5cbf12eb40c6489264babee2032129b2389c9e79484ea0473d4db84
+Size: 3037
+MD5Sum: f5a287b79be8077f41490acf4392da8d
+SHA256sum: 918277bcdbc24b0595b4be69c22f00f6d640a801fda7850761a93e8b23eca2fb
 Description:  SSH subsystem helper
 
 Package: libfreecwmp
@@ -51,11 +51,11 @@ License: GPL-2.0+
 Section: libs
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 2125
+Installed-Size: 2128
 Filename: libfreecwmp_2014-06-12-d2fdd97d66fde14859c06228a922066d9e8b669b_brcm63xx-tch.ipk
-Size: 2885
-MD5Sum: 13d821dfecb61aa19e4ad3b020a96fb6
-SHA256sum: 1cd552fc4c872625150364b3b980fb0a5f5a54e939fa24feab728d93d507f174
+Size: 2901
+MD5Sum: eed1b04ccb8432a2b3aaf049e89b7b6f
+SHA256sum: b86e823b4baccb8e85292ea3f9d6bdbb62b9ae409ee60e11b7895b405700bd9d
 Description:  CWMP library
 
 Package: libmicroxml
@@ -67,11 +67,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 27281
+Installed-Size: 27280
 Filename: libmicroxml_2012-06-11-72965423184f24cc0b963d91c2d1863cdb01b6aa_brcm63xx-tch.ipk
-Size: 27918
-MD5Sum: f12e5472dbf274816152ae908072b21b
-SHA256sum: e9c116c9ff5c1a948417e70bafca8fa685a8e3d9bde53b3dfa4d14f5ebd97ab3
+Size: 27902
+MD5Sum: 411db9592f36a35dd84c0e96baf48fba
+SHA256sum: ab8aab041b616b110a96e663d7e2b3a5c1cc01960747556ee897e78de700b404
 Description:  A micro sized XML library
 
 Package: shflags
@@ -82,11 +82,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 4294
+Installed-Size: 4296
 Filename: shflags_2012-06-11-c12b30cebb92b49c5edb6df255c0952c65b4ddc6_brcm63xx-tch.ipk
-Size: 5064
-MD5Sum: 297ef5cae149238b30bf795240e95601
-SHA256sum: ded6a9ee848d080867ef6ade0bc78e59074a44b99a5eb1dddf10a2e857ee8736
+Size: 5054
+MD5Sum: 4d80da69572a08076daf643158582366
+SHA256sum: ca02f1961d3e75a98f548343953bdcd3e0e6ce3554c0d3c3bc3e006bbc826f45
 Description:  command-line flags module for Unix shell scripts
 
 Package: shtool
@@ -96,11 +96,11 @@ Source: feeds/management/shtool
 License: GPL-2.0+
 Section: utils
 Architecture: brcm63xx-tch
-Installed-Size: 32130
+Installed-Size: 32129
 Filename: shtool_2.0.8-1_brcm63xx-tch.ipk
-Size: 32940
-MD5Sum: 382a5a5904309ebf201ce0bcb82101eb
-SHA256sum: 1e777eb6cdd7b803613476b209c9d51af7982bdf93be24cf5034cde46b302580
+Size: 32944
+MD5Sum: fa3f181a0da34f5fe6e799bbffbc8f16
+SHA256sum: ae0211df220796137afbd2138c62648392b977c9b7c6b62043bc82ab647d05c5
 Description:  GNU shtool is a compilation of small but very stable and portable shell
  scripts into a single shell tool.
 
