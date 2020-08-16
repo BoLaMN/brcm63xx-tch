@@ -1593,11 +1593,11 @@ Source: package/kernel/bankmgr
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 10559
+Installed-Size: 10557
 Filename: kmod-bankmgr_3.4.11+1.0-rt19_brcm63xx-tch.ipk
-Size: 11403
-MD5Sum: b0a576702fb8c27729273f918e0e29b5
-SHA256sum: 44ee6a28fcdeefb6b715474978dd4e818bf70aeb56a9a3a650cd17457c24b78b
+Size: 11395
+MD5Sum: 6db619b1d3334836e605b2729c1eeb26
+SHA256sum: a10c81625dc2ab64e058f98f7284dfc9c0dc2c5f05b4fb095f5d17dbfc72d5cf
 Description:  Kernel module that provides access to the banktable via a proc interface.
 
 Package: kmod-bcm63xx-tch-adsl
@@ -3499,11 +3499,11 @@ Source: package/kernel/platform-gpl
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 1633
+Installed-Size: 1627
 Filename: kmod-platform-gpl_3.4.11+1.0-rt19_brcm63xx-tch.ipk
-Size: 2489
-MD5Sum: ff6fdddc28001cb95a167d36897745a4
-SHA256sum: 7773db3f428526a915db45cbe39dc4188f846dd4bbe4d1a32a3e50878ad08ad9
+Size: 2480
+MD5Sum: dd45dcdc54d5ed31c441a0400f762de7
+SHA256sum: 4fc5de979c90f7c33dc08d0dd77d9312b6be2383cd454dd35c1d633522189ab6
 Description:  Kernel module to provide platform specifics like bootloader version (which needs to be GPLv2 licensed).
 
 Package: kmod-ppp
@@ -3636,11 +3636,11 @@ Source: package/kernel/ripdrv
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 19852
+Installed-Size: 19856
 Filename: kmod-ripdrv_3.4.11+2014.01-rt19_brcm63xx-tch.ipk
-Size: 20640
-MD5Sum: 99fbff277daab735f725dd32a3f10db5
-SHA256sum: fa1d1a0913c0f238fe6ef9c8fdd520a26f65cacbb9fe01802d3b1e61ebdeb6f3
+Size: 20646
+MD5Sum: f03dc93e2b1df693b3e8801581476993
+SHA256sum: 417803a3c0f62c65b4a97ae2f5733b9598c4fe28613e56d6ad1891a5776f674a
 Description:  Kernel module that provides access to the eRIPv2 on Technicolor gateways.
 
 Package: kmod-sched-core
@@ -3784,11 +3784,11 @@ Depends: kernel, kmod-spi-bitbang, kmod-spi-gpio, kmod-spi-dev
 Source: package/kernel/spi-gpio-custom
 Section: kernel
 Architecture: brcm63xx-tch
-Installed-Size: 2598
+Installed-Size: 2597
 Filename: kmod-spi-gpio-custom_3.4.11-1_brcm63xx-tch.ipk
-Size: 3334
-MD5Sum: b1cb3fee2be98d042b2800364cdbd9e4
-SHA256sum: 31d5f1979ffc602da9105cc3e64fd35fa76613937c70705044701b5b47b8e04d
+Size: 3331
+MD5Sum: 8468cd6de1d89113bd61817cec1b2d2e
+SHA256sum: d2098ad91fa55c87919d77555207f9338825839e77478574127746338d000495
 Description:  Kernel module for register a custom spi-gpio platform device.
 
 Package: kmod-spi-gpio-old
@@ -3843,11 +3843,11 @@ Source: package/kernel/tomcrypt
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 40354
+Installed-Size: 40353
 Filename: kmod-tomcrypt_3.4.11+1.17-rt19_brcm63xx-tch.ipk
-Size: 41159
-MD5Sum: 756c0760bc2feea3229f97e5c447cd59
-SHA256sum: 61d2beb3e089ab710df3587b91fdfa71a1684adee14f24f178000b6fb0579998
+Size: 41155
+MD5Sum: a9f1c423c44ce649b968fe54749e53ae
+SHA256sum: be4e31695982956d95e44ae76973cac51abac7267bc004fb41d5aa1d80799ddf
 Description:  Kernel module to provide tomcrypt crypto functions
 
 Package: kmod-tommath
@@ -3857,11 +3857,11 @@ Source: package/kernel/tommath
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: brcm63xx-tch
-Installed-Size: 23360
+Installed-Size: 23359
 Filename: kmod-tommath_3.4.11+0.42.0-rt19_brcm63xx-tch.ipk
-Size: 23974
-MD5Sum: b48fed42a850c692be9ae8b47dbfbc99
-SHA256sum: 46e6cef5a780bc36062d029d035935ec35ab66c90ae0c38aae7fae3775300658
+Size: 23966
+MD5Sum: efbb9cc4d7aed0c41a6106856246f7aa
+SHA256sum: 56295f29762e241690763896cddc3983e8efa9735c5f0430de15980f111704ec
 Description:  Kernel module to provide tommath math functions
 
 Package: kmod-tun
@@ -5882,6 +5882,36 @@ Description:  The owipcalc utility supports a number of calculations and tests t
  partition ipv6-prefixes into small subnets or to calculate address ranges
  for dhcp pools.
 
+Package: owsd-testdata
+Version: 1.1.2-1
+Depends: libc, owsd, rpcd-mod-file
+Source: package/utils/owsd
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+Architecture: brcm63xx-tch
+Installed-Size: 4352
+Filename: owsd-testdata_1.1.2-1_brcm63xx-tch.ipk
+Size: 5240
+MD5Sum: d34daf0717366daa56fa6d4a75b9e8aa
+SHA256sum: 787fd8914ccd7b1883d41419f04267db44a62542bd5b54df9af39698165a92c4
+Description:  owsd daemon (Test certs and rpcd ACLs for running automated tests)
+
+Package: owsd
+Version: 1.1.2-1
+Depends: libc, libjson-c, libblobmsg-json, libwebsockets, ubox, ubus
+Source: package/utils/owsd
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+Architecture: brcm63xx-tch
+Installed-Size: 37538
+Filename: owsd_1.1.2-1_brcm63xx-tch.ipk
+Size: 38241
+MD5Sum: 0f694d5b408f016a73dfddbddb2261f3
+SHA256sum: 324dc41cb75b460a58814e50fc409fdebc5c54bdcec8adca7f2f5133fcc03894
+Description:  Web socket ubus daemon
+
 Package: partx-utils
 Version: 2.25.2-4
 Depends: libc, libblkid, libsmartcols
@@ -6044,11 +6074,11 @@ License: GPL-2.0
 Section: base
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: brcm63xx-tch
-Installed-Size: 38569
+Installed-Size: 38578
 Filename: procd_2017-07-20-1_brcm63xx-tch.ipk
-Size: 39261
-MD5Sum: e511617a8f14d286c0488775fd92febd
-SHA256sum: 77f666f5a985253bbb91d32be3a7bd2a753efe00d02b762cf1029b732730c61b
+Size: 39293
+MD5Sum: b58bce9fa965c00b643116619a7c8a84
+SHA256sum: 23c38ebfda92395e006a2bffff6438eedb9e6e84fa2ce6a6f2a8a703625fff92
 Description:  OpenWrt system process manager
 
 Package: px5g
@@ -6075,11 +6105,11 @@ License: GPL-2.0-only
 LicenseFiles: LICENSE
 Section: opt
 Architecture: brcm63xx-tch
-Installed-Size: 15345
+Installed-Size: 15344
 Filename: questd_5.1.11_brcm63xx-tch.ipk
-Size: 16063
-MD5Sum: 1f667c27b1a4877464151123ff034bfc
-SHA256sum: 460ecc292df80f0b004541a879bdfaa33af26e9d7bcf3e96a22e43567d4f9bde
+Size: 16061
+MD5Sum: 4c520bc4b1c8a0fb1019d7226c921f9a
+SHA256sum: 4239426e8ffa5bb99f547a6d23631f756d80f385897ba8f72250ef33aa2dff50
 Description:  questd collects system and network information and presents
  this information via ubus
 

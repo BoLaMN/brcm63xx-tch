@@ -3653,9 +3653,9 @@ Maintainer: Bruno Randolf <br1@einfach.org>
 Architecture: brcm63xx-tch
 Installed-Size: 47095
 Filename: kmod-fs-exfat_3.4.11+git-20150301-1_brcm63xx-tch.ipk
-Size: 47681
-MD5Sum: d79a66a0d017a2ee63a32e5fca55faa2
-SHA256sum: bf31b2574eb8323fef28b5564a40bc1f78c03d5eabea36d9d6d837cdb27543af
+Size: 47675
+MD5Sum: cff06a2212c2cbd6ab5f434f124d3b6d
+SHA256sum: 550dde4976a2000a7342ccf52663e3ab85dbb9758cb94ddc7adf7756fbe7188d
 Description:  Kernel module for ExFAT Filesytems
 
 Package: kmod-siit
@@ -3666,11 +3666,11 @@ License: GPLv2+
 Section: kernel
 Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: brcm63xx-tch
-Installed-Size: 5223
+Installed-Size: 5219
 Filename: kmod-siit_3.4.11+1.2-1_brcm63xx-tch.ipk
-Size: 6039
-MD5Sum: 412b97ab712649944bf8ffd6ee4e9cce
-SHA256sum: fbcf2ebcbd54046cd33e8d8e0119710e18c4af225e61f5e1089e1efe356a24bb
+Size: 6009
+MD5Sum: f6bcc4a4da8959a119c81ca08e12b81c
+SHA256sum: 7f8ef6642fc0a92c5ba217b5354591b989d790b0f2773e298df97f066f6bef8d
 Description:  Stateless IP ICMP Translation Algorithm
 
 Package: kmod
@@ -4046,11 +4046,11 @@ Source: feeds/packages/libs/libcap
 Section: libs
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: brcm63xx-tch
-Installed-Size: 5756
+Installed-Size: 5759
 Filename: libcap_2.24-1_brcm63xx-tch.ipk
-Size: 6467
-MD5Sum: 2aafefbbd7e4ba06efe98173383236e9
-SHA256sum: 312e2bd4f8f451681073564f58751f7769d1861abb68fcd2d07fbf9f419f5c62
+Size: 6465
+MD5Sum: 22dd3b7fde03cd943281834a041326b0
+SHA256sum: b7e98e979b86a467785a93453ced6c245a025b83e70aae1f5871ec272081f2bc
 Description:  Linux capabilities library
 
 Package: libcares
@@ -4201,9 +4201,9 @@ Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
 Installed-Size: 141068
 Filename: libdevmapper_2.02.119-2_brcm63xx-tch.ipk
-Size: 141615
-MD5Sum: 7ac542bed5aa956c8e236b2b8a38e2dc
-SHA256sum: 5748c8f3a302b51ba530b2ffcd905e1ac86686476245d01c338212d93d5d2d77
+Size: 141776
+MD5Sum: bbcfbc9e6490adb73eaff31567fcd9c0
+SHA256sum: 08822d9c0a9d329eda105aad3420c2d059eb7878a9f5885371cbcb9c54efcdb9
 Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
  volume management. It is required by LVM2 and EVMS.
 
@@ -5362,19 +5362,38 @@ Description:  Vorbis is a general purpose audio and music encoding format
  software entity may make full use of the format without license
  fee, royalty or patent concerns.
 
-Package: libwebsockets-openssl
-Version: 1.3-chrome37-firefox30-1
-Depends: libc, zlib, libopenssl
+Package: libwebsockets-full
+Version: 3.2.1-2
+Depends: libc, zlib, libcap, libopenssl, libuv
+Provides: libwebsockets
 Source: feeds/packages/libs/libwebsockets
 License: LGPL-2.1+exception
 LicenseFiles: LICENSE
 Section: libs
+Maintainer: Karl Palsson <karlp@etactica.com>
 Architecture: brcm63xx-tch
-Installed-Size: 35963
-Filename: libwebsockets-openssl_1.3-chrome37-firefox30-1_brcm63xx-tch.ipk
-Size: 36671
-MD5Sum: 240544d20c5e222be83e9a5a23f19f9c
-SHA256sum: 66d4fa06acaac17457aaee256efb30eb7d984a22ca385063fd8436e83cc8f31c
+Installed-Size: 147638
+Filename: libwebsockets-full_3.2.1-2_brcm63xx-tch.ipk
+Size: 147560
+MD5Sum: 408b3bb06e8ea5c68ba7d077dbd3900b
+SHA256sum: 335d76c9d94316e7c176148ab5c2a081f283eeeeb7eaae5c9cb6a00694c17fe6
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
+
+Package: libwebsockets-openssl
+Version: 3.2.1-2
+Depends: libc, zlib, libcap, libopenssl
+Provides: libwebsockets
+Source: feeds/packages/libs/libwebsockets
+License: LGPL-2.1+exception
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: brcm63xx-tch
+Installed-Size: 122605
+Filename: libwebsockets-openssl_3.2.1-2_brcm63xx-tch.ipk
+Size: 123071
+MD5Sum: c29357ff0174c197aea1c5983de52099
+SHA256sum: 9fdc25b1e123cf372585bff3231a14ef788da9b1622daa19e1a3e320bde92b54
 Description:  libwebsockets (OpenSSL)
 
 Package: libwrap
@@ -6542,11 +6561,11 @@ License: GPL-2.0 LGPL-2.1
 Section: utils
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: brcm63xx-tch
-Installed-Size: 594927
+Installed-Size: 594878
 Filename: lvm2_2.02.119-2_brcm63xx-tch.ipk
-Size: 594388
-MD5Sum: e68ba141bec7e041a0b7de261e7da5ff
-SHA256sum: 312268577712444ed78cbe94301367c02bc841b5857f1e40f0d02284a1eb8854
+Size: 594327
+MD5Sum: 67992745ada991e0aa9e56d3a357be2c
+SHA256sum: 4ef765fa17437bef6bb46a41d91c1b23392abd0c6e5b3f52df8c87cc7a8ba2e8
 Description:  LVM2 refers to a new userspace toolset that provide logical volume management
  facilities on linux. It is reasonably backwards-compatible with the original
  LVM toolset.
